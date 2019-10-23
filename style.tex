@@ -1,0 +1,46 @@
+\documentclass[11pt,oneside]{amsbook}
+\usepackage[backend=biber, citestyle=authoryear]{biblatex}
+\usepackage{mathpazo}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{tikz}
+\usetikzlibrary{arrows}
+%\usepackage{titlesec}
+\addbibresource{bibliography.bib}
+\newcommand\posscite[1]{\citeauthor{#1}'s (\citeyear{#1})}
+\newcommand\plural[1]{#1\mathrm{s}}
+%\def\posscitewithextra[#1]#2{\citename{#2}'s (\citeyear{#2}, #1)}
+
+%\newcounter{subsubsubsection}[subsubsection]
+%\renewcommand\thesubsubsubsection{\thesubsubsection.\arabic{subsubsubsection}}
+%\titleformat{\subsubsubsection}
+%  {\normalfont\normalsize\bfseries}{\thesubsubsubsection}{1em}{}
+%\titlespacing*{\subsubsubsection}
+%{0pt}{3.25ex plus 1ex minus .2ex}{1.5ex plus .2ex}
+
+\ifdefined\book
+\renewcommand{\thechapter}{\Roman{chapter}}
+\else
+\renewcommand{\thechapter}{\mychapter}
+\fi
+
+\linespread{1.7}
+\usepackage[margin=1.25in]{geometry}
+\sloppy
+\makeatletter
+%% TODO: This is a cheat. It's supposed to be {paragraph}{4}, and that's 
+%% what it is in amsbook.cls, but then it fails.
+\def\paragraph{\@startsection{paragraph}{3}%
+  \normalparindent\z@{-\fontdimen2\font}%
+  \normalfont}
+\def\subsubsubsection{\paragraph}
+\makeatother
+
+\def\smalltick{0.15cm}
+\def\bigtick{0.3cm}
+\def\pointcircle{0.08cm}
+\def\causalnode{0.35cm}
+
+\hyphenation{dia-chro-nic}
+
+\input{macros} 

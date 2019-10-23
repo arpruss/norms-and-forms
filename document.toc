@@ -1,0 +1,433 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\tocchapter {Chapter}{}{Acknowledgments}}{12}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\tocchapter {Chapter}{I}{Infinity, paradox and mathematics}}{13}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\tocsection {}{1}{Paradox and causal finitism}}{13}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\tocsection {}{2}{Some mathematical and logical notes}}{18}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\tocsection {}{3}{Modality}}{21}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\tocsubsection {}{3.1}{Metaphysical possibility and necessity}}{21}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\tocsubsection {}{3.2}{Rearrangement principles}}{22}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\tocsubsubsection {}{3.2.1}{Defeasibility}}{22}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\tocsubsubsection {}{3.2.2}{Causal powers}}{24}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\tocsection {}{4}{Finitism: An alternate hypothesis}}{25}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\tocsubsection {}{4.1}{Time and finitism}}{25}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\tocsubsection {}{4.2}{Non-causal paradoxes: An advantage?}}{28}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\tocsubsection {}{4.3}{Mathematics: A disadvantage}}{30}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\tocsubsubsection {}{4.3.1}{Infinitely many primes}}{30}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\tocsubsubsection {}{4.3.2}{Potential infinity}}{32}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\tocsubsubsection {}{4.3.3}{${}^*${}If-thenism}}{33}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\tocsubsection {}{4.4}{Future infinities}}{35}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\tocsection {}{5}{${}^*${}Defining the finite and the countable}}{37}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\tocsubsection {}{5.1}{The finite}}{37}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\tocsubsection {}{5.2}{Acceptable models for the axioms of arithmetic}}{39}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\tocsection {}{6}{Evaluation}}{43}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\tocsection {}{}{Appendix: ${}^*${}Counting future things}}{44}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\tocchapter {Chapter}{II}{Infinite regresses}}{47}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\tocsection {}{1}{How to violate causal finitism}}{47}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\tocsection {}{2}{Infinite causal regresses}}{48}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\tocsection {}{3}{Type (i): uncaused regresses}}{49}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\tocsubsection {}{3.1}{Viciousness}}{49}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\tocsubsection {}{3.2}{Vicious regresses and the Hume-Edwards Principle}}{52}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\tocsubsection {}{3.3}{Regresses and explanatory loops}}{53}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\tocsection {}{4}{Type (ii): Causation passing through infinitely many steps}}{56}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\tocsection {}{5}{Type (iii): Regresses with an outside cause directly causing each item}}{58}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\tocsubsection {}{5.1}{Options}}{58}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\tocsubsection {}{5.2}{Regresses with outside overdetermination}}{60}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\tocsection {}{6}{${}^*${}Analogy with Axiom of Regularity}}{61}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\tocsection {}{7}{Evaluation}}{63}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\tocsection {}{}{${}^*${}Appendix: Two kinds of violations of causal finitism}}{63}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\tocchapter {Chapter}{III}{Supertasks and deterministic paradoxes}}{67}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\tocsection {}{1}{Introduction}}{67}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\tocsection {}{2}{Thomson's Lamp revisited}}{67}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\tocsubsection {}{2.1}{Introduction}}{67}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\tocsubsection {}{2.2}{Causal finitism}}{68}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\tocsubsection {}{2.3}{Non-standard analysis}}{68}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\tocsubsection {}{2.4}{Special Relativity}}{70}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\tocsubsection {}{2.5}{Benacerraf's solution and the Principle of Sufficient Reason}}{71}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\tocsubsection {}{2.6}{Two counterfactuals}}{73}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\tocsubsection {}{2.7}{Evaluation}}{75}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\tocsection {}{3}{Grim Reapers}}{75}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\tocsubsection {}{3.1}{Introduction}}{75}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\tocsubsection {}{3.2}{Causal finitism}}{77}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\tocsubsection {}{3.3}{The absurd conclusion objection}}{77}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\tocsubsection {}{3.4}{A rearrangement objection}}{79}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\tocsubsection {}{3.5}{The mereological objection}}{81}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\tocsubsubsection {}{3.5.1}{Fusion}}{81}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\tocsubsubsection {}{3.5.2}{Necessary emergence of organic wholes}}{83}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\tocsubsection {}{3.6}{Uncaused lighting}}{83}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\tocsubsubsection {}{3.6.1}{Objection}}{84}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\tocsubsubsection {}{3.6.2}{The Causal Principle is true}}{84}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\tocsubsubsection {}{3.6.3}{Is the lamp lighting really uncaused?}}{86}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\tocsubsubsection {}{3.6.4}{A mysterious correlation}}{87}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\tocsubsection {}{3.7}{Discrete time}}{87}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\tocsubsection {}{3.8}{Evaluation}}{89}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\tocsection {}{4}{Infinite Newtonian universes}}{89}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\tocsubsection {}{4.1}{An argument against causal finitism and a riposte}}{89}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\tocsubsection {}{4.2}{A Smullyan's rod}}{91}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\tocsubsection {}{4.3}{The conditional}}{94}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\tocsection {}{5}{Another eternal life}}{95}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\tocsection {}{6}{Time travel and causal loops}}{96}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\tocsubsection {}{6.1}{Grandfathers and togglers}}{96}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\tocsubsection {}{6.2}{Time travel and backwards causation without causal loops}}{98}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\tocsection {}{7}{Evaluation}}{99}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\tocchapter {Chapter}{IV}{Paradoxical lotteries}}{100}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\tocsection {}{1}{Introduction}}{100}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\tocsection {}{2}{Countably infinite fair lotteries}}{100}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\tocsubsection {}{2.1}{Background}}{100}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\tocsubsection {}{2.2}{Expected surprise}}{102}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\tocsubsection {}{2.3}{A guessing game}}{103}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\tocsubsection {}{2.4}{Symmetry}}{103}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\tocsubsubsection {}{2.4.1}{Symmetry and lotteries}}{103}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\tocsubsubsection {}{2.4.2}{${}^*${}Symmetry and expected utility}}{105}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\tocsubsection {}{2.5}{Bayesian manipulation}}{109}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\tocsubsubsection {}{2.5.1}{The paradox}}{109}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\tocsubsubsection {}{2.5.2}{${}^*${}A switchover point?}}{113}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\tocsubsubsection {}{2.5.3}{${}^*${}Countable additivity and conglomerability}}{116}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\tocsubsection {}{2.6}{Improving everyone's chances}}{119}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\tocsection {}{3}{Constructing paradoxical lotteries}}{120}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\tocsubsection {}{3.1}{Fairness and paradoxicality}}{120}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\tocsubsection {}{3.2}{Lucky coin-flip sequences}}{121}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\tocsubsection {}{3.3}{What it is to construct a countably infinite fair lottery}}{124}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\tocsubsection {}{3.4}{${}^*${}Coin-flips and the Axiom of Choice}}{127}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\tocsubsection {}{3.5}{Random walks}}{129}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\tocsection {}{4}{Objections}}{131}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\tocsubsection {}{4.1}{Infinite lotteries and uniform distributions}}{131}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\tocsubsubsection {}{4.1.1}{The problem}}{131}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\tocsubsubsection {}{4.1.2}{Response I: No continuous distributions}}{131}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\tocsubsubsection {}{4.1.3}{Response II: Measurement of infinite precision data}}{133}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\tocsubsubsection {}{4.1.4}{Response III: The use of the Axiom of Choice}}{134}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\tocsubsection {}{4.2}{${}^*${}A non-normalizable quantum state}}{134}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\tocsubsection {}{4.3}{Limitations on our reasoning}}{137}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\tocsection {}{5}{Evaluation}}{138}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\tocchapter {Chapter}{V}{Probability and decision theory}}{140}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\tocsection {}{1}{Introduction}}{140}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\tocsection {}{2}{Guessing with finitely many errors}}{140}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\tocsubsection {}{2.1}{Doing a little better than one can}}{140}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\tocsubsection {}{2.2}{A contradiction}}{143}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\tocsubsection {}{2.3}{Doing much better than one can}}{144}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\tocsubsection {}{2.4}{${}^*${}Construction of strategy guaranteeing at most finitely many errors}}{147}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\tocsubsection {}{2.5}{A multipersonal synchronic version}}{147}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\tocsubsubsection {}{2.5.1}{An angelic announcement}}{147}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\tocsubsubsection {}{2.5.2}{An objection and a tweak}}{150}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\tocsubsubsection {}{2.5.3}{${}^*${}Making the paradox robust}}{152}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\tocsubsection {}{2.6}{A parody?}}{153}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\tocsubsubsection {}{2.6.1}{The story}}{153}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\tocsubsubsection {}{2.6.2}{Evaluating the parody}}{154}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\tocsection {}{3}{Satan's Apple}}{158}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\tocsubsection {}{3.1}{The story}}{158}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\tocsubsection {}{3.2}{Synchronic version}}{159}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\tocsubsection {}{3.3}{Diachronic version}}{161}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\tocsubsection {}{3.4}{Objection: Scores, desires and promises}}{161}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\tocsubsection {}{3.5}{Evaluation}}{164}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\tocsection {}{4}{Beam's paradox}}{165}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\tocsubsection {}{4.1}{${}^*${}The mathematical formulation}}{165}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\tocsubsection {}{4.2}{${}^*${}Synchronic version}}{167}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\tocsubsection {}{4.3}{${}^*${}Diachronic infinite future version}}{167}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\tocsubsection {}{4.4}{${}^*${}Diachronic supertask version}}{169}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\tocsubsection {}{4.5}{Evaluation of Beam's paradox}}{169}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\tocsection {}{5}{Evaluation of decision-theoretic paradoxes}}{169}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\tocsection {}{}{${}^*${}Appendix A: Proof of the Theorem from Section\nonbreakingspace \G@refundefinedtrue \text {\normalfont \bfseries ??}\GenericWarning { }{LaTeX Warning: Reference `ch:v' on page 170 undefined}.\G@refundefinedtrue \text {\normalfont \bfseries ??}\GenericWarning { }{LaTeX Warning: Reference `V:a-little-better' on page 170 undefined}{}}}{170}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\tocchapter {Chapter}{VI}{The Axiom of Choice Machine}}{172}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\tocsection {}{1}{Less technical introduction}}{172}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\tocsection {}{2}{${}^*${}The Axiom of Choice for Countable Collections of Reals}}{175}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\tocsection {}{3}{${}^*${}Paradoxes of ACCR}}{176}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\tocsubsection {}{3.1}{Die roll guessing games}}{176}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\tocsubsection {}{3.2}{Nonmeasurable sets}}{177}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\tocsubsection {}{3.3}{Banach-Tarski Paradox}}{178}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\tocsection {}{4}{${}^*${}An argument for ACCR}}{178}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\tocsection {}{5}{${}^*${}A Choice Machine}}{183}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\tocsubsection {}{5.1}{Strange mathematics and paradox}}{183}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\tocsubsection {}{5.2}{Coin flips and Dutch Books}}{188}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\tocsubsection {}{5.3}{How to construct a Choice Machine}}{190}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\tocsubsubsection {}{5.3.1}{Angels}}{190}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\tocsubsubsection {}{5.3.2}{A four-dimensional machine}}{191}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\tocparagraph {}{5.3.2.1}{Making the machine}}{191}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\tocparagraph {}{5.3.2.2}{Using the machine}}{194}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\tocparagraph {}{5.3.2.3}{Causal infinitism and verifying the machine's match}}{195}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\tocsubsubsection {}{5.3.3}{A three-dimensional machine}}{197}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\tocsubsubsection {}{5.3.4}{${}^*{}^*${}Is AC needed?}}{198}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\tocsubsubsection {}{5.3.5}{Luck}}{199}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\tocsection {}{6}{Evaluation}}{200}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\tocsection {}{}{${}^*{}^*${}Appendix: Details of coin-toss rearrangement}}{200}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\tocchapter {Chapter}{VII}{Refinement, alternatives and extensions}}{204}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\tocsection {}{1}{Introduction}}{204}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\tocsection {}{2}{Refinement}}{204}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\tocsubsection {}{2.1}{Event and trope individuation}}{204}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\tocsubsection {}{2.2}{Histories generated by partial causal relations}}{207}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\tocsubsection {}{2.3}{A closer look at Grim Reapers}}{209}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\tocsubsection {}{2.4}{Objections to causal finitism involving partial causation}}{214}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\tocsubsection {}{2.5}{Absences and omissions}}{216}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\tocsection {}{3}{Some competitors to causal finitism}}{217}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\tocsubsection {}{3.1}{Finitism}}{217}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\tocsubsection {}{3.2}{No infinite regresses}}{219}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\tocsubsection {}{3.3}{No past infinities}}{219}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\tocsubsection {}{3.4}{No infinite intensive magnitudes}}{221}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\tocsubsubsection {}{3.4.1}{The basic theory}}{221}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\tocsubsubsection {}{3.4.2}{Some infinite intensive magnitudes}}{223}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\tocparagraph {}{3.4.2.1}{Center of mass and moments of inertia}}{223}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\tocparagraph {}{3.4.2.2}{Mental life}}{223}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\tocparagraph {}{3.4.2.3}{Black holes}}{224}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\tocparagraph {}{3.4.2.4}{Particles}}{224}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\tocsubsubsection {}{3.4.3}{Huemer's intensive magnitudes}}{226}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\tocparagraph {}{3.4.3.1}{Speed, Thomson's lamp and Hilbert's hotel}}{226}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\tocparagraph {}{3.4.3.2}{${}^*${}Smullyan's rod}}{227}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\tocparagraph {}{3.4.3.3}{Immaterial minds}}{229}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\tocsubsubsection {}{3.4.4}{Evaluation}}{230}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\tocsubsection {}{3.5}{No room}}{230}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\tocsection {}{4}{Why is causal finitism true?}}{232}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\tocsubsection {}{4.1}{The question}}{232}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\tocsubsection {}{4.2}{Some explanatory suggestions}}{233}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\tocsection {}{5}{Further extensions}}{234}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\tocsubsection {}{5.1}{Causal loops}}{234}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\tocsubsection {}{5.2}{Explanatory relations}}{236}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\tocsection {}{6}{Overall evaluation}}{238}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\tocchapter {Chapter}{VIII}{Discrete time and space}}{241}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\tocsection {}{1}{Introduction}}{241}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\tocsection {}{2}{Causal finitism and discreteness}}{241}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\tocsubsection {}{2.1}{The basic argument}}{241}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\tocsubsection {}{2.2}{From discrete time to discrete space?}}{242}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\tocsection {}{3}{Two kinds of discreteness}}{242}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\tocsubsection {}{3.1}{Subdivisibility and fixeity}}{242}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\tocsubsection {}{3.2}{Refining the Aristotelian picture}}{244}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\tocsubsubsection {}{3.2.1}{An objection to Aristotelian discreteness}}{244}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\tocsubsubsection {}{3.2.2}{Internal and external discreteness}}{245}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\tocsection {}{4}{Physics}}{247}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\tocsubsection {}{4.1}{An objection to causal finitism}}{247}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\tocsubsection {}{4.2}{Causation and physics}}{248}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\tocsubsection {}{4.3}{Quantum collapse}}{251}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\tocsubsubsection {}{4.3.1}{Some background}}{251}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\tocsubsubsection {}{4.3.2}{Causation}}{254}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\tocsubsubsection {}{4.3.3}{Back to discrete time}}{255}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\tocsection {}{5}{Fields and discrete space}}{256}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\tocsection {}{6}{Evaluation}}{258}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\tocchapter {Chapter}{IX}{A first cause}}{260}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\tocsection {}{1}{Introduction}}{260}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\tocsection {}{2}{An uncaused cause}}{261}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\tocsubsection {}{2.1}{The quick argument}}{261}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\tocsubsection {}{2.2}{Towards a necessary being}}{262}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\tocsubsection {}{2.3}{Support for the Causal Principle}}{262}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\tocsubsection {}{2.4}{The kalaam argument}}{264}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\tocsection {}{3}{Compatibility with theism?}}{264}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\tocsubsection {}{3.1}{Theism}}{264}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\tocsubsection {}{3.2}{Divine motivation}}{265}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\tocsubsection {}{3.3}{Divine knowledge}}{266}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\tocsubsection {}{3.4}{Divine action}}{269}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\tocsubsection {}{3.5}{Limits on metaphysical possibility}}{273}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\tocsection {}{4}{Evaluation}}{275}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\tocchapter {Chapter}{X}{Conclusions}}{277}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\tocchapter {Chapter}{}{Bibliography}}{279}

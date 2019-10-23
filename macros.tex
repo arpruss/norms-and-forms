@@ -1,0 +1,81 @@
+%\usepackage[utf8]{inputenc} % set input encoding (not needed with XeLaTeX)
+\usepackage{amssymb}
+\usepackage{mathtools}
+\usepackage{enumitem}
+\usepackage{amsthm}
+\usepackage{physics}
+%\usepackage{ntheorem}
+
+\makeatletter
+% \def\@endtheorem{\endtrivlist\@endpefalse }% OLD
+\def\@endtheorem{\endtrivlist}%
+
+\catcode`\|=\active\def|{\mid}
+\DeclarePairedDelimiter{\ceil}{\lceil}{\rceil}
+\DeclarePairedDelimiter{\floor}{\lfloor}{\rfloor}
+\newcommand{\Subj}{\mathbin{\raisebox{.15ex}{$\scriptscriptstyle{\Box}$}\kern-.425em\rightarrow}}
+\def\Existence{E!}
+\def\Believes{\operatorname{Believes}}
+\def\True{\operatorname{True}}
+\def\Perfection{\operatorname{Perfection}}
+\def\ext{\operatorname{Ext}}
+\def\Iff{\leftrightarrow}
+\def\Implies{\rightarrow}
+\def\Entails{\Rightarrow}
+\def\Equiv{\Leftrightarrow}
+\def\technical{$\star$}
+\def\vtechnical{$\star\star$}
+\def\power{\wp}
+\def\Nec{\Box}
+\def\Poss{\Diamond}
+\def\Prop#1{$\langle$#1$\rangle$}
+\def\R{\mathbb R}
+\def\N{\mathbb N}
+\makeatletter
+\newtheoremstyle{indented}{3pt}{3pt}{\addtolength{\leftskip}{4.5em}}{-2.5em}{\sc}{.}{.5em}{}
+\def\Principle#1#2#3{\theoremstyle{indented}\newtheorem*{principle}{#2}\begin{principle}\def\@currentlabel{#2}\label{#1}#3\end{principle}\let\principle\undefined}
+\makeatother
+\def\pref#1{{\sc\ref{#1}}}
+\def\enum#1{\resume{enumerate}\item #1\end{enumerate}}
+\def\ditem#1#2{\begin{enumerate}[resume]\item \label{\mychapter:#1} #2\end{enumerate}}
+\def\dref#1{(\ref{\mychapter:#1})}
+\def\drefglobal#1{(\ref{#1})}
+\usepackage{graphicx} % support the \includegraphics command and options
+\usepackage{array} % for better arrays (eg matrices) in maths
+\def\Not{\operatorname{\sim}}
+\def\St{\operatorname{St}}
+\def\num{\operatorname{num}}
+\def\And{\mathrel{\&}}
+\def\Or{\vee}
+\def\BigOr{\bigvee}
+\def\<{\langle}
+\def\>{\rangle}
+\def\union{\cup}
+\def\nleq{\not\le}
+\def\N{\mathbb N}
+\def\R{\mathbb R}
+\def\C{\mathbb C}
+\def\Powerset{\mathcal P}
+\def\star#1{{}^*#1}
+\def\hN{\star{\N}}
+\def\hR{\star{\R}}
+\def\Z{\mathbb Z}
+\def\Power{\mathcal P}
+\def\Implies{\rightarrow}
+\def\True{\operatorname{True}}
+\def\Socrates{\mathrm{Socrates}}
+\def\actual{@}
+
+\def\H2O{H${}_2$O}
+
+\def\scr{\mathcal}
+\def\e{\varepsilon}
+\def\eps{\varepsilon}
+\newtheorem{lem}{Lemma}
+\newtheorem*{theorem}{Theorem}
+\newtheorem{corollary}{Corollary}
+\newtheorem{cond}{Condition}
+
+\renewcommand\thechapter{\Roman{chapter}}
+
+\def\chaptertail{\ifdefined\book\else\end{document}\fi}
