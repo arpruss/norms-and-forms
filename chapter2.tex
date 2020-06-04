@@ -44,9 +44,9 @@ mere permission when $a=b$ and prohibition when $a<b$. But this utilitarian sugg
 the degrees of relation $r$ and $s$, much less the kinds of benefit and relation, are relevant to the moral evaluation.???refs
 
 Indeed, the function is apt to look arbitrary. Fix the degrees of relationship to be one's parent and a total stranger,
-and fix a specific and certain financial benefit of \$100 to one's parent, and fix the circumstances. Then as we vary the 
+and fix a specific and certain financial benefit of \$1000 to one's parent, and fix the circumstances. Then as we vary the 
 financial benefit to the stranger from zero to infinity, we will presumably initially have a requirement of benefiting the parent
-(it would be wrong to give \$1 to a stranger instead of \$100 to a parent in ordinary circumstances), 
+(it would be wrong to give \$1 to a stranger instead of \$1000 to a parent in ordinary circumstances), 
 then a permission either way, and then a requirement to benefit the second party. There will be boundaries between these regions
 of logical space, and these boundaries will look as arbitrary and contingent as the boundaries between different tax brackets.
 Like the tax brackets, some proposals for boundaries will be \textit{clearly} unreasonable, but there will be many proposals
@@ -571,7 +571,8 @@ is when it is relevant to life. There surely are cases where we have tried reall
 to do and we didn't succeed. Perhaps it could be argued that we didn't try ``hard enough'', but now we are the true
 Scotsman territory.??more?
 
-\section{Particularism}
+\section{Other attempts at escape}
+\subsection{Particularism}
 One might try to escape the Mersenne questions by opting for particularism. On particularism, while there may be general rules
 like ``Other things being equal, don't torture people'', the application of these general rules to specific situations is not
 rule-governed. Hence, there won't be a rule specifying when one, say, favors a sibling over a cousin. Instead, there are 
@@ -604,28 +605,54 @@ pleasures of chocolate. The second variant of the concern involves cases where w
 that there is an answer to a moral problem, albeit one we cannot discern. While we may not be seeking for absolute precision, and may be willing
 to accept some level of vagueness, in a number of cases we seek for more precision than the various alternatives to the form-based theory can ground. 
 
-A more radical problem with the two-step strategy is a general problem for non-epistemic views of vagueness: the problem of the apparent violation
+A more radical problem with the two-step strategy is a general problem for non-epistemic views of vagueness: the violation
 of logical principles.??ref:Sorensen Fix circumstances $C$ and observe that:
 \begin{itemize}
-\item[($A_0$)] Giving $ \$100$ to a stranger is better than giving $ \$1$ to one's parent.
+\item[($A_0$)] Giving $ \$1000$ to a stranger is better than giving $ \$0$ to one's parent.
 \end{itemize}
 
 Now for each positive integer $n$, consider the statement:
 \begin{itemize}
-\item[($A_n$)] Giving $ \$100$ to a stranger is not better than giving $ \$n$ to one's parent, or giving  $ \$100$ to a stranger is better than giving
+\item[($A_n$)] Giving $ \$1000$ to a stranger is not better than giving $ \$n$ to one's parent, or giving  $ \$1000$ to a stranger is better than giving
     $ \$(n+1)$ to one's parent.
 \end{itemize}
 
-From $A_0$ and $A_1$, one concludes by the disjunctive syllogism that giving $ \$100$ to a stranger is better than giving $ \$2$ to one's parent.
-From this and $A_2$, by the disjunctive syllogism one concludes that this is true even if what one gives one's parent is $ \$3$. Continuing onward,
-once we get to $A_{199}$, we conclude that it's better to give $ \$100$ to a stranger than $ \$200$ to one's parent, which is false. The argument
+From $A_0$ and $A_1$, one concludes by the disjunctive syllogism that giving $ \$1000$ to a stranger is better than giving $ \$1$ to one's parent.
+From this and $A_2$, by the disjunctive syllogism one concludes that this is true even if what one gives one's parent is $ \$2$. Continuing onward,
+once we get to $A_{2000}$, we conclude that it's better to give $ \$1000$ to a stranger than $ \$2000$ to one's parent, which is false. The argument
 is valid: the conclusion follows from the premises by repeated use of the disjunctive syllogism. When we have a valid argument for a false 
 conclusion, one or more of the premises has to be true. Since $A_0$ is true, it must be that $A_n$ is false for some $n>0$. Thus, by De~Morgan,
 there is an $n$ such that:
-\ditem{2-trans}{Giving $ \$100$ to a stranger is better than giving $ \$n$ to one's parent and giving $ \$100$ to a stranger is not better than giving
+\ditem{2-trans}{Giving $ \$1000$ to a stranger is better than giving $ \$n$ to one's parent and giving $ \$1000$ to a stranger is not better than giving
     $ \$(n+1)$ to one's parent.}
-In other words, classical logic guarantees that there is a transition point between where it's better to give to the stranger and where it's not better to give the stranger.
+In other words, classical logic guarantees that there is a transition point between where it's better to give to the stranger and where it's not better to give to the stranger.
 ??add-stuff-on-intuitionism-and-check-literature
+
+There are two standard ways out of such anti-vagueness arguments. The first is a logic with more than two truth values. Intuitively, the statement 
+\begin{itemize}
+\item[($B_n$)] Giving $ \$1000$ to a stranger is better than giving $ \$n$ to one's parent 
+\end{itemize}
+is true for $n=0$ (note that $B_0$ is just $A_0$), but becomes less and less true as $n$ increases. 
+But, surely, $B_1$ and $B_2$ are simply true, too. On the other hand, $B_{999}$ and $B_{1000}$ are simply false. So it does not seem to be the case
+that we always have \textit{strict} decrease of truth value with increasing $n$. And hence whereas in the
+classical logic reading we had one transition to be explained, from true to false, now we have at least two: from truth to truth values intermediate
+between true and false, and from intermediate truth values to falsity. And the transitions appear to be just as arbitrary as before. Thus we have doubled 
+the number of Mersenne questions.
+
+Perhaps, though, one can dig in one's heels and insist on strict decrease of truth value. But the precise assignment of 
+intermediate truth values---say, $B_{505}$ getting a truth value of $T_{0.51}$---also calls for an explanation. Thus it seems we have a vast multiplication
+of Mersenne questions. But there is a response to this argument: ??refs argues that 
+the exact truth values are a mere feature of the logical model and all that has reality is their ordering. And
+the ordering of the truth values is, perhaps, quite non-arbitrary in that $B_{m}$ is truer than $B_n$ precisely when $m<n$. But the insistence that the ordinal
+properties of truth values is what has reality still does not escape the multiplication of Mersenne questions. For consider a different set of ethical
+questions involving a threshold. For instance, let $C_x$ say that one has a duty to obey the orders of a government that cares to degree $x$ about the common
+good, for some method of $x$ of quantifying care about the common good, where, say, $x=-1$ corresponds to the Nazi German state and $x=1$ corresponds to modern
+Finland. Then $C_{-1}$ is pretty false $C_1$ is pretty true. But even if all we insist on is the ordering of truth values, then we will still have a vast,
+perhaps infinite, number of Mersenne  questions like: 
+\ditem{2-Mers-BC}{At what value $n$ does $B_n$ become less true than $C_{0.24}$?}
+For clearly $B_0$ is truer than $C_{0.24}$ while $B_{2000}$ is falser.
+
+?? higher levels of multivalued logic
 
 ??... multiple truth values
 
