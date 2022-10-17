@@ -699,9 +699,8 @@ an approximate and vague determination of the parameters involved. Thus, while i
 will generate a precise answer to the preferential treatment question, it is reasonable to think it will generate claims like: ``Benefits to 
 siblings are to be \textit{somewhat} preferred to benefits to cousins.'' And, then, we simply note that the Mersenne question as to the grounds
 of the exact dividing line has the false presupposition that there is an exact dividing line---instead, we have insuperable vagueness.
-This is probably the best alternative to the form-based approach I am defending.
 
-A first concern with the two-step strategy is to worry whether other ethical theories can actually generate sufficient non-arbitrary grounds
+An initial concern with the two-step strategy is to worry whether other ethical theories can actually generate sufficient non-arbitrary grounds
 that have the degree of precision that we think really is there. 
 This concern has two variants. One involves cases where we know what the facts generating the Mersenne questions are.
 Kantianism, for instance, is unlikely to generate even a vague morally-relevant 
@@ -711,34 +710,41 @@ pleasures of chocolate. The second variant of the concern involves cases where w
 that there is an answer to a moral problem, albeit one we cannot discern. While we may not be seeking for absolute precision, and may be willing
 to accept some level of vagueness, in a number of cases we seek for more precision than the various alternatives to the form-based theory can ground. 
 
-A more radical problem with the two-step strategy is a general problem for non-epistemic views of vagueness: the violation
-of logical principles.??ref:Sorensen Fix circumstances $C$ and observe that:
+Suppose the initial concern can be allayed in both of its forms, perhaps by clever development of a theory that does generate
+the vague moral claims and by biting the bullet and admitting that moral agonizing is out of place in these vagueness cases. 
+There is still another question: how do we account for the vagueness here. There are three main contemporary accounts of vagueness:
+(a)~non-classical logic, (b)~supervaluationism and (c)~epistemicism. 
+
+On non-classical logic approaches to vagueness, one typically increases the number of truth values beyond two. 
+Consider an ethical Sorites
+series, where we fix some circumstances $C$ and then say:
 \begin{itemize}
 \item[($A_0$)] Giving $ \$1000$ to a stranger is better than giving $ \$0$ to one's parent.
 \end{itemize}
 
-Now for each positive integer $n$, consider the statement:
+Now for each positive integer $n$, the following material conditional sounds plausible:
 \begin{itemize}
-\item[($A_n$)] Giving $ \$1000$ to a stranger is not better than giving $ \$n$ to one's parent, or giving  $ \$1000$ to a stranger is better than giving
-    $ \$(n+1)$ to one's parent.
+\item[($A_n$)] If giving $ \$1000$ to a stranger is better than giving $ \$n$ to one's parent, then giving  $ \$1000$ to a stranger is 
+    better than giving $ \$(n+1)$ to one's parent.
 \end{itemize}
 
-From $A_0$ and $A_1$, one concludes by the disjunctive syllogism that giving $ \$1000$ to a stranger is better than giving $ \$1$ to one's parent.
-From this and $A_2$, by the disjunctive syllogism one concludes that this is true even if what one gives one's parent is $ \$2$. Continuing onward,
-once we get to $A_{2000}$, we conclude that it's better to give $ \$1000$ to a stranger than $ \$2000$ to one's parent, which is false. The argument
-is valid: the conclusion follows from the premises by repeated use of the disjunctive syllogism. When we have a valid argument for a false 
-conclusion, one or more of the premises has to be true. Since $A_0$ is true, it must be that $A_n$ is false for some $n>0$. Thus, by De~Morgan,
-there is an $n$ such that:
+From $A_0$ and $A_1$, one concludes by \textit{modus ponens} that giving $ \$1000$ to a stranger is better than giving $ \$1$ to one's parent.
+From this and $A_2$, by \textit{modus ponens} one concludes that this is true even if what one gives one's parent is $ \$2$. Continuing onward,
+once we get to $A_{2000}$, we conclude that it's better to give $ \$1000$ to a stranger than $ \$2000$ to one's parent, which is false. Thus,
+we need to reject one of the premises $A_n$. Presumably it's one with $n>0$, since $A_0$ is clearly true. But a material conditional
+$p\rightarrow q$ is false just in case $p$ is true and $q$ is false. Hence, if $A_n$ is false for $n>0$, we have:
 \ditem{2-trans}{Giving $ \$1000$ to a stranger is better than giving $ \$n$ to one's parent and giving $ \$1000$ to a stranger is not better than giving
     $ \$(n+1)$ to one's parent.}
-In other words, classical logic guarantees that there is a transition point between where it's better to give to the stranger and where it's not better to give to the stranger.
-??add-stuff-on-intuitionism-and-check-literature
+And that is exactly the kind of sharp transition that the vagueness theorist wishes to deny.
 
-There are two standard ways out of such anti-vagueness arguments. The first is a logic with more than two truth values. Intuitively, the statement 
+The non-classical approach to vagueness typically involves a logic with many truth values, e.g., a truth value for every number between
+$0$ (fully false) and $1$ (fully true). Then the statement:
 \begin{itemize}
 \item[($B_n$)] Giving $ \$1000$ to a stranger is better than giving $ \$n$ to one's parent 
 \end{itemize}
-is true for $n=0$ (note that $B_0$ is just $A_0$), but becomes less and less true as $n$ increases. 
+is true for $n=0$ (note that $B_0$ is just $A_0$), but becomes less and less true as $n$ increases. If we have a large enough number of
+truth values, we can accept this at face value.
+
 But, surely, $B_1$ and $B_2$ are simply true, too. On the other hand, $B_{999}$ and $B_{1000}$ are simply false. So it does not seem to be the case
 that we always have \textit{strict} decrease of truth value with increasing $n$. And hence whereas in the
 classical logic reading we had one transition to be explained, from true to false, now we have at least two: from truth to truth values intermediate
@@ -761,7 +767,7 @@ For clearly $B_0$ is truer than $C_{0.24}$ while $B_{2000}$ is falser.
 
 ?? higher levels of multivalued logic
 
-The most common response to vagueness these days is supervaluation. A the terms of a sentence can have multiple precisifications,
+The most common response to vagueness these days is supervaluation. The terms of a sentence can have multiple precisifications,
 with a different truth value corresponding to a different choice of precisifications. ``Bob is bald'' may be
 true if we precisify ``bald'' as having less than half a cubic centimeter of scalp hair and false if we precisify it as
 having fewer than a meter of hair. Then we have vagueness. When, on the other hand, a sentence is true (respectively, false) under all precisifications,
@@ -783,8 +789,8 @@ But there are some additional problems for the supervaluationist response. A sta
 super-true that there is a sharp boundary of ``bald'': for, given any precisification ``bald$_i$'', there is a sharp boundary for it. In doing this, supervaluationism
 explicitly forces the denial of its governing intuition that there are no sharp boundaries. 
 
-On the ethical side, there is another serious problem. 
-It is truism that we have reason to do what is better. Truisms had better be super-true. 
+Finally, the application of supervaluationism to ethics is itself deeply problematic. It is truism that we have reason to do what is better. Truisms had better be 
+super-true. 
 This implies two possibilities with regard to the truism.
 Either for every precisification ``better$_i$'' we have reason to do what is better$_i$, or else we need to precisify ``reason'' and ``better'' in lockstep
 when we precisify the truism, so that for every $i$ it will be true that we have reason$_i$ to do what is better$_i$. Neither option is satisfactory.
@@ -798,25 +804,30 @@ as soon as one can see that one is in the vague region, one could just conclude 
 But if there are infinitely many ways to precisify ``reason'', none of them privileged, then this undercuts the very idea of our life being governed in
 a non-arbitrary way by rationality. It seems entirely arbitrary whether we follow reasons$_{17}$ or reasons$_{40}$ in our lives. Many questions of rationality
 turn into purely verbal questions as to how ``reason'' is to be precisified. And the same goes for related terms like ``morality'' and ``virtue''. This 
-does not seem to do justice to the non-arbitrariness that is central to our conception of reason, morality and virtue. The point here is similar to the
-one raised in ??backref regarding $\pi$-metaethics: it would be arbitrary to require obedience to the commands that are found starting with the billionth digit of $\pi$.
+does not seem to do justice to the non-arbitrariness that is central to a realist conception of reason, morality and virtue. The point here is similar to the
+one raised in ??backref regarding $\pi$-metaethics: it would be arbitrary to require obedience to the commands that are found starting with the billionth digit of $\pi$,
+rather than the commands found in some other location. 
 
 Finally, consider an epistemicist theory of vagueness according to which there is a true semantic theory that assigns to each term the precise meaning it has in the
-light of the patterns of our use of that term, but that theory is not epistemically accessible to us. Thus, there is a precise fact as to how much hair one can have
+light of the patterns of our use of that term, but neither that theory nor the empirical data on the patterns of language use are available
+to us in sufficient detail to settle the meaning of vague terms.  Thus, there is a precise fact as to how much hair one can have
 and yet have ``bald'' apply to us, a fact grounded in the patterns of our use of the word ``bald'', but it is a fact that is not accessible to us. Similarly, there is
 a precise meaning of ``right'', ``better'' and similar ethical terms, a fact grounded in the patterns of our linguistic usage. If the transition between bald and non-bald occurs
 between 98 and 99 hairs, there is nothing mysterious about the fact that someone with 98 hairs is bald and someone with 99 is not, just as there is nothing mysterious
 about the fact that a backless chair is a stool. 
 
-We will evaluate epistemicism in greater detail in ??forward, and defend a non-standard version of it (??not dependent on semantic theory!!). However, ``better'' and ``bald'' are disanalogous. For there is no
-problem if the question whether the person with 99 hairs is bald turns out to be a merely verbal question, with the true semantic theory simply settling whether
-``bald'', given our usage, means one precise property or some other precise property. But an analogous claim in ethics is implausible. For it suggests an
-unacceptable arbitrariness on which if our linguistic practices were somewhat different, we would be using the word ``better'' differently, and there would be
-nothing less natural about that usage. If so, then our actions' being governed by the better or the right, rather than by some variant property, would be entirely arbitrary.
-And that is not plausible, for the same reasons that we discussed in the case of supervaluationism.??expand
+But the problem here is exactly the same as the last problem with supervaluationism. Ethical questions are turned into purely verbal questions.
+Just as on supervaluationism, there is a multiplicity of concepts closely corresponding to our words ``right'', ``better'' and ``reason''.
+On supervaluationism, none of these concepts was privileged, which turned ethical questions into purely verbal questions, undercutting the idea
+that our lives are to be governed by reasons and morals. On epistemicism, there \textit{are} privileged concepts that exactly correspond to the
+words, but they are privileged purely linguistically---it just so happens that these privileged concepts better fit with our usage under the
+correct semantic theory. We get an unacceptable arbitrariness on which if our linguistic practices were somewhat different, we would be using the 
+word ``better'' differently, and there would be nothing less natural about that usage. If so, then our actions' being governed by the better 
+or the right, rather than by some variant property, would be entirely arbitrary.
 
-\subsection{Overridingness and vagueness about moral obligation}
-????
+In summary, non-classical logic violates classical logic, which should only be a last resort, and further multiplies rather than resolving 
+Mersenne questions. Supervaluationism likewise multiplies Mersenne questions. And, perhaps most seriously, both supervaluationism and 
+epistemicism as applied to ethics turn ethical questions into purely verbal ones, undercutting a robust realism.
 
 \subsection{Anti-realism}
 Retreating from realism in ethics to error theory does, of course, remove all the Mersenne problems in ethics. But the
