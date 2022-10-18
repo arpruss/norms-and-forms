@@ -161,7 +161,7 @@ non-negative real number $x$ such that $x \le 2^{-n}$ for every $n$ is zero. So 
 so that almost surely you win only finitely many times.} In other words, almost surely, there will come a day after which you will win no more. At that point, you may well be ahead,
 having won more than you paid. But the sum of what you won is finite, and from then on you will just lose half a unit of utility every 
 day. Eventually, there will come a day when your losses will overtake your winnings, and from then on, you will just fall further and further
-behind every day. 
+behind every day.
 
 The very unhappy situation of playing infinitely many times and eventually starting to lose every time is the almost 
 sure result of following expected utility maximization on each day. We can compare this to the neutral situation of 
@@ -181,6 +181,16 @@ almost surely, only finitely many people will win. Thus, almost surely, we will 
 pay a cost of half a unit each, and finitely many people win some finite amount. This is a disastrous situation, with a negative infinite
 overall utility. Almost surely, it would be much better if everyone refused to play, or only those who had a ``non-negligible'' chance 
 at winning played.
+
+Note that our arguments are compatible with the observation??refs:PrussBlog2011,Zhou that, under some technical assumptions, if we make 
+many decisions that are probabilistically similar to each other,\footnote{There is a large mathematical literature on how to spell that out.}
+by the Weak Law of Large Numbers, it becomes more and more likely that the expected utility maximizer will beat a competitor who utilizes a 
+different decision strategy. It is natural to interpret the KGB example as involving an exceptional one-time case: few people are offered
+tiny chances at very, very large prizes at the price of a decade of torture! And the dwindling probability case involves probabilities that
+decrease significantly from day to day, so that the content of the wagers changes significantly over time.\footnote{In my example, the 
+probability of winning decreases exponentially. It need not be that extreme: any sequence of probabilities with finite sum will work with
+the Borel-Cantelli Lemma. For instance, we might suppose that on day $n$ the probability of winning $n^2$ units is $1/n^2$.} See also 
+Wilkinson??ref:https://philpapers.org/rec/WILRAA-16
 
 It appears that expected utility maximization cannot be rationally required. But it is the only clearly non-arbitrary solution
 to the problem of deciding under uncertainty.
