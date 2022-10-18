@@ -144,6 +144,47 @@ tenth of the marginal disvalue of the pinprick, at least given expected  utility
 clearly does not tend to zero with forgotten repetition. Hence, the value of the desserts does not tend to zero. And hence for any
 finite utility bound, enough such desserts will exceed the bound.
 
+We can also argue against expected utility maximization by considering the following case. Suppose that on every day $n$ of
+eternity, with $n\ge 1$, you are offered the opportunity to pay half a unit of utility in exchange for playing a game with a 
+$1/2^n$ chance of winning $2^n$ units of utility. By expected utility maximization, you would value the value of the game at
+$(1/2^n)\cdot (2^n)=1$ units of utility, and at a price of $1/2$ units, it would be worth playing. 
+
+But consider what will almost surely happen if you adopt the policy of following expected utility maximization and playing the game, where ``almost sure'' is 
+the technical term that probabilists use to describe an event that happens with probability one (such as getting heads at least 
+once if you toss a fair coin infinitely many times). The sum of the probabilities of winning on the different days is finite: 
+$1/2+1/4+1/8+\dots=1<\infty$. The Borel-Cantelli Lemma??ref then says that almost surely you will win only a finite number of times.\footnote{We 
+can give an elementary proof of this fact in the case at hand (the proof generalizes to the general case). Let $W_n$ be the event that you will win at least once after day $n$. 
+Then $P(W_n)\le 2^{-(n+1)}+2^{-(n+2)}+\dots = 2^{-n}$. Let $W$ be the event that you win infinitely many times. Then $P(W)\le P(W_n)$ for
+every $n$, since if you win infinitely many times, you must win on infinitely many days after day $n$, and so you must win on at least one
+day after day $n$. Since $P(W_n) \le 2^{-n}$, we have $P(W) \le 2^{-n}$ for every $n$. But probabilities cannot be negative, and the only 
+non-negative real number $x$ such that $x \le 2^{-n}$ for every $n$ is zero. So $P(W)=0$, and hence almost surely $W$ does not happen,
+so that almost surely you win only finitely many times.} In other words, almost surely, there will come a day after which you will win no more. At that point, you may well be ahead,
+having won more than you paid. But the sum of what you won is finite, and from then on you will just lose half a unit of utility every 
+day. Eventually, there will come a day when your losses will overtake your winnings, and from then on, you will just fall further and further
+behind every day. 
+
+The very unhappy situation of playing infinitely many times and eventually starting to lose every time is the almost 
+sure result of following expected utility maximization on each day. We can compare this to the neutral situation of 
+refusing ever to play, and getting zero each day, or the situation of accepting the expected utility maximizing gamble
+for a number of days, until the probability of winning becomes really small, and refusing from then on.
+
+It is worth noting that this is not just a paradox involving the aggregation of infinitely many utilities, except in the trivial
+case where infinitely many zeroes make a zero. Almost surely, after a finite number of days, the expected utility maximizer
+falls behind the consistent refuser, and every day after that, the expected utility maximizer is further and further behind,
+like someone who got a subscription to a streaming service and forgot to either use or cancel it. And all these amounts are 
+finite, and a finite, albeit unknown, distance into the future.
+
+We can also consider an interpersonal version of the story. Suppose we have (countably) infinitely many people, numbered $1,2,...$, and person $n$ 
+is offered the chance to pay half a unit of utility in exchange for a chance $1/2^n$ of winning $2^n$ units. As before, by expected utility
+considerations it's worth it. So, if everyone is an expected utility maximizer, everyone will pay. But by the Borel-Cantelli Lemma, 
+almost surely, only finitely many people will win. Thus, almost surely, we will have infinitely many people
+pay a cost of half a unit each, and finitely many people win some finite amount. This is a disastrous situation, with a negative infinite
+overall utility. Almost surely, it would be much better if everyone refused to play, or only those who had a ``non-negligible'' chance 
+at winning played.
+
+It appears that expected utility maximization cannot be rationally required. But it is the only clearly non-arbitrary solution
+to the problem of deciding under uncertainty.
+
 In addition to Mersenne questions about risk and prudential rationality, there will be Mersenne questions about risk and morality.
 For instance, what risks we may morally impose on others in exchange for a good to ourselves depends in a complex way 
 on one's relationship to these others, the probability of the risk, the degree to which these others accept the risk, the 
