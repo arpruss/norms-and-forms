@@ -161,7 +161,9 @@ non-negative real number $x$ such that $x \le 2^{-n}$ for every $n$ is zero. So 
 so that almost surely you win only finitely many times.} In other words, almost surely, there will come a day after which you will win no more. At that point, you may well be ahead,
 having won more than you paid. But the sum of what you won is finite, and from then on you will just lose half a unit of utility every 
 day. Eventually, there will come a day when your losses will overtake your winnings, and from then on, you will just fall further and further
-behind every day.
+behind every day.\footnote{The example above uses exponential growth. More moderate growth will work, as long as the sum of the probabilities
+is finite. Thus, we could say that on day $n$ the prize is $n (\log (n+2))^2$ and the probability of winning the prize is the reciprocal
+of that, since $\sum_{n=1}^\infty 1/(n (\log (n+2))^2)<\infty$.}
 
 The very unhappy situation of playing infinitely many times and eventually starting to lose every time is the almost 
 sure result of following expected utility maximization on each day. We can compare this to the neutral situation of 
