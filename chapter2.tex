@@ -144,6 +144,18 @@ tenth of the marginal disvalue of the pinprick, at least given expected  utility
 clearly does not tend to zero with forgotten repetition. Hence, the value of the desserts does not tend to zero. And hence for any
 finite utility bound, enough such desserts will exceed the bound.
 
+For a different example, not involving radically large utilities, imagine this Star Trek plot. Captain Kirk visits a planet inhabited
+by two intelligent alien species, all on par with respect to moral value: there are $1,000,000$ oligons and 
+$2,000,000,000$ pollakons. Unfortunately, an asteroid is heading for the planet. If nothing is done, it will hit the planet in such
+a way as to wipe out all the pollakons. The only thing Kirk can do is to fire phasers at the asteroid. Spock has calculated that if this
+is done, the asteroid's track will be redirected in such a way that it will wipe out all the oligons. Kirk asks whether that will help 
+the pollakons? Spock's answer is that probably not: there is a $999/1000$ chance that all the pollakons will still die, but there is
+a $1/1000$ chance that they will all survive. 
+
+It seems very plausible that Kirk should not fire phasers. And it is even more plausible that Kirk is not required to fire phasers.
+He should not sacrifice the oligons for a small chance of saving the pollakons. 
+But the expected utility of firing phasers is $-1,000,000+(1/1000)(2,000,000,000)=+2,000,000$ lives.
+
 We can also argue against expected utility maximization by considering the following case. Suppose that on every day $n$ of
 eternity, with $n\ge 1$, you are offered the opportunity to pay half a unit of utility in exchange for playing a game with a 
 $1/2^n$ chance of winning $2^n$ units of utility. By expected utility maximization, you would value the value of the game at
@@ -171,7 +183,8 @@ refusing ever to play, and getting zero each day, or the situation of accepting 
 for a number of days, until the probability of winning becomes really small, and refusing from then on.
 
 It is worth noting that this is not just a paradox involving the aggregation of infinitely many utilities, except in the trivial
-case where infinitely many zeroes make a zero. Almost surely, after a finite number of days, the expected utility maximizer
+sense that infinitely many zeroes make a zero (i.e., there is overall no benefit from playing the game once you stop winning). 
+Almost surely, after a finite number of days, the expected utility maximizer
 falls behind the consistent refuser, and every day after that, the expected utility maximizer is further and further behind,
 like someone who got a subscription to a streaming service and forgot to either use or cancel it. And all these amounts are 
 finite, and a finite, albeit unknown, distance into the future.
@@ -182,16 +195,11 @@ considerations it's worth it. So, if everyone is an expected utility maximizer, 
 almost surely, only finitely many people will win. Thus, almost surely, we will have infinitely many people
 pay a cost of half a unit each, and finitely many people win some finite amount. This is a disastrous situation, with a negative infinite
 overall utility. Almost surely, it would be much better if everyone refused to play, or only those who had a ``non-negligible'' chance 
-at winning played.
+at winning played.\footnote{It is worth noting that exponential growth is not necessary for the examples to work. All we need is that
+there is a chance $p_n$ of winning a prize of $1/p_n$, and that $\sum_{n=1}^\infty p_n < \infty$. While for ease of calculation above
+I let $p_n=1/2^n$, one can have much more moderate shrinkage, such as $p_n=1/n^2$ or even $p_n=1/(n(\log (n+2))^2$.}
 
-Note that our arguments are compatible with the observation??refs:PrussBlog2011,Zhou that, under some technical assumptions, if we make 
-many decisions that are probabilistically similar to each other,\footnote{There is a large mathematical literature on how to spell that out.}
-by the Weak Law of Large Numbers, it becomes more and more likely that the expected utility maximizer will beat a competitor who utilizes a 
-different decision strategy. It is natural to interpret the KGB example as involving an exceptional one-time case: few people are offered
-tiny chances at very, very large prizes at the price of a decade of torture! And the dwindling probability case involves probabilities that
-decrease significantly from day to day, so that the content of the wagers changes significantly over time.\footnote{In my example, the 
-probability of winning decreases exponentially. It need not be that extreme: any sequence of probabilities with finite sum will work with
-the Borel-Cantelli Lemma. For instance, we might suppose that on day $n$ the probability of winning $n^2$ units is $1/n^2$.} See also 
+??refs:PrussBlog2011,Zhao, 
 Wilkinson??ref:https://philpapers.org/rec/WILRAA-16
 
 It appears that expected utility maximization cannot be rationally required. But it is the only clearly non-arbitrary solution
