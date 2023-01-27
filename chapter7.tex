@@ -1,7 +1,61 @@
 \def\mychapter{VII}
 \input{chapterhead}
 \chapter{Semantics}\label{ch:semantics}
-\section{The origins of language}
+\section{Communication and norms}
+\subsection{A problem about cooperation}
+There are scenarios, such as the Prisoner's Dilemma or the Tragedy of the Commons??Refs, where it is difficult 
+to see how to rationally secure cooperation between agents. The following should not be one of these. You have
+two agents who will each in a separate booth choose whether to press a red button or a blue button. If they both
+press the same button, they each get a reward, say a chocolate bar. If they press different buttons, they 
+each get a penalty, say a nasty electric shock, with the penalty outweighing the award by a significant factor, so it's better 
+to get neither than to get both. If either player omits to press a button, neither gets anything, and the buttons are so 
+set up that one cannot press both. Moreover, the players are allowed to confer ahead of time.
+
+Obviously, when conferring ahead of time, they will need to decide which button to press, by rolling a fair die or
+flipping a fair coin if
+necessary, and then they need to go into their booths and press that button. Neither has any incentive to defect
+to pressing the other button, and there is no risk in pressing a button should the other defect fail to press
+anything. This is a really easy win-win game. 
+
+But now suppose our two players, Alice and Bob, are perfect expected utility maximizers who break ties with fair coinflips, 
+and the only relevant utilities are the  rewards and penalties of the game. There are no further games that 
+will be played. Nobody outside the game is in any way affected by the results (e.g., nobody will be disappointed 
+if one of them breaks a promise). And because each player gets the same payoff, it won't matter whether Alice and Bob
+maximize collective utility or their own personal utility. Finally, the above information is completely luminous to 
+both players. I claim that at this point the obvious strategy---to decide on a button and then both press it---is no 
+longer rationally available.
+
+For concreteness, let's suppose that Alice and Bob have agreed to press the red button. They go into their booths. 
+What will Alice do? She is a perfect expected  utility maximizer. She will only press the red button if the expected
+utility of doing so is at least as big as that of all the alternatives (these being being pressing the blue button or 
+pressing no button). Now the expected utility of pressing the red button is only going to be at least as big as the
+expected utility of pressing neither button if Alice takes it to be significantly more likely that Bob will press red
+the button than that Bob will press the blue button.\footnote{Suppose Alice maximizes only her own utility (if she
+maximizes collective utility, just double all the utilities). Suppose $x>0$ is the reward and $-y<0$ is the penalty with
+$y$  bigger than $x$ by a significant factor. Then the expected utility in pressing the red button will be $\alpha x-\beta y$.
+Alice will only press the button if $\alpha x-\beta y\ge 0$, i.e., if $\alpha/\beta \ge y/x$. Since $y$ is bigger
+than $x$ by a significant factor, this requires $\alpha$ to be bigger than $\beta$ by a significant factor.} 
+
+But why should Alice take it to be significantly more likes that Bob presses the red button than the blue button? 
+Ordinary human beings take themselves to be beholden to norms of promise-keeping, and tend to abide by those norms,
+especially when there is no obvious benefit to failing to do so. But Bob is a pure expected utility maximizer. Whatever
+normative force he takes promises to have has to be derivable from the norm of expected utility maximization. In ordinary
+contexts, dealing with ordinary human beings, keeping promises certainly does maximize utility, because ordinary human beings
+believe in norms of promise-keeping and punish those who break those norms (if only by castigating or refusing to enter on
+joint projects with promise-breakers). But Bob is not dealing with an ordinary human being. He is dealing with an expected 
+utility maximizer. 
+
+Here is one way to see the difficulty. Imagine that Alice and Bob are perfect utility maximizers with a perverse value theory
+that in addition to common-sensical value assignments to chocolate bars and electric shocks assigns non-instrumental negative value to keeping 
+promises and non-instrumental positive value to doing the very opposite of what one has promised. I will stipulate that pressing the button of 
+the other color counts as the ``very opposite''. In this case, if there is joint knowledge of the perverse value theory, it 
+is more reasonable to expect Alice and Bob to press the button other than the one they promised. And now imagine that they are 
+perfect utility maximizers with a value theory that assigns positive value to keeping promises and non-instrumental negative value
+to doing the opposite. In this case, it will be more reasonable to expect Alice and Bob to press the button they promised. But 
+now the in-between case, where Alice and Bob are perfect utility maximizers and assign zero value to promise-keeping and
+promise-breaking, should be one where the probabilities of pressing the promised button and pressing the opposite button are
+equal. 
+
 \subsection{Content}
 \subsection{Illocutionary force and moral norms}
 %% blog post on requests??
