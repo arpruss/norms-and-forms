@@ -172,7 +172,23 @@ $$
     p T(p) + (1-p) F(p) \ge
     p T(p') + (1-p) F(p').
 $$
-If $T$ and $F$ satisfy this inequality for all $p$ and $p'$, we say that $T$ and $F$ are a \textit{proper} scoring rule.
+If $T$ and $F$ satisfy this inequality for all $p$ and $p'$, we say that the pair $T$ and $F$ is a \textit{proper} scoring rule.
+And if by the lights of the assignment of $p$ to $H$, that assignment has better expectation than any other, i.e., if the
+inequality above is strict whenever $p\ne p'$, we say that the rule is \textit{strictly proper}.
+
+Propriety reduces the degrees of freedom in the choice of scoring rule. Given any non-decreasing function $T$, there is a
+function $F$ that is unique up to an additive constant such that the parir $T$ and $F$ is a proper scoring rule, and conversely given
+any non-increasing function $F$, there is a $T$ unique up to an additive constant such that $T$ and $F$ is a proper scoring rule.???
+Hence, once we have one of the two functions, the other is almost determined. However, at the same time, this result shows what
+a profusion of proper scoring rules there is: for every non-decreasing function, there is a proper scoring rule that has that as 
+its $T$ component.
+
+The question of epistemic value assignment may seem purely theoretical. However, it can have real-world ramifications. 
+
+There are a number of mathematically elegant strictly proper scoring rules, such as the Brier quadratic score, the spherical score 
+and the logarithmic score. Of these, the logarithmic score is the only that that 
+
+But we should not think that any of these is \textit{the} correct epistemic value assignment. 
     
 
 
