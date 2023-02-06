@@ -183,12 +183,37 @@ Hence, once we have one of the two functions, the other is almost determined. Ho
 a profusion of proper scoring rules there is: for every non-decreasing function, there is a proper scoring rule that has that as 
 its $T$ component.
 
-The question of epistemic value assignment may seem purely theoretical. However, it can have real-world ramifications. 
+The question of epistemic value assignment may seem purely theoretical. However, it can have real-world ramifications. ????fill in
 
 There are a number of mathematically elegant strictly proper scoring rules, such as the Brier quadratic score, the spherical score 
-and the logarithmic score. Of these, the logarithmic score is the only that that 
+and the logarithmic score. Of these, the logarithmic score is the only that is a serious candidate for being \textit{the} correct
+scoring rule, in the light of information-theoretic and other arguments (??ref:phil of sci paper). In our setting where we are
+evaluating the value of a credence in a single proposition $H$, the logarithmic score is $T(r) = \log r$ and $F(r) = \log (1-r)$. 
 
-But we should not think that any of these is \textit{the} correct epistemic value assignment. 
+However, there are also reasons to doubt that the logarithmic score is the One True Score. 
+First, there is an immediate intuitive problem. If you are certain of a falsehood, your logarithmic score is $\log 0 = -\infty$, while
+if you are certain of a truth, your score is $\log 1 = 0$. Now, while there is good reason to think that the disvalue of being
+sure of a falsehood exceeds the value of being sure of a truth, it is somewhat implausible that it infinitely exceeds it. 
+
+For the next two problems, note that logarithmic scores and the arguments for them only really come into their own when we are 
+dealing with more than two propositions (in our above setting, we had $H$ and $\sim H$ are the only relevant possibilities). Suppose 
+we are dealing with $n$ primitive possibilities or ``cells'', $\omega_1,\dots,\omega_n$ (say, the sides of an $n$-sided die), and that our agent 
+has assigned credence $p_i$ to $\omega_i$. If in fact $\omega_i$ eventuates, the logarithmic score yields epistemic value 
+$\log p_i$. 
+
+One of the merits touted for the logarithmic score is that ???for how many cells??? (up to multiplicative and additive constants) it is 
+the only proper score where the epistemic value depends only on the credence assigned to the cell that eventuates.  But this is also
+a serious demerit. Suppose that you and I are trying to figure out how many jelly beans there are in a jar. Let's say that our range of
+possibilities is between 1 and 1000. I look very quickly and assign equal probability $1/1000$ to each number. You count very carefully
+and arrive at 390. But then you think that although you are really good at counting, you might be off by one. So you assign $998/1000$
+to 390, and $1/1000$ to each of 389 and 391. It turns out that the number is 391. We both have the same logarithmic score, $\log (1/1000)$,
+since we both assigned the same probability $1/1000$ to cell 391. But intuitively your assignment is much better than mine: you are better
+off epistemically than I.
+
+Finally, observe that in real life, credences are not consistent---do not satisfy the axioms of probability. And the logarithmic score
+allows one to have extremely inconsistent credences and still do well. If I assign credence $1$ to \textit{every} possible outcome, I am
+guaranteed to max out the logarithmic score no matter what. Thus one of the least rational credence assignments results in the best
+possible score.
     
 
 
