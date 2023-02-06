@@ -139,12 +139,41 @@ is that now we need a function from predicates to degrees of projectibility, and
 many degrees of freedom.
 
 \section{Epistemic value}
-Descartes thought that knowing a truth for certain was far more valuable than an uncertain belief. And while we may not
-agree with him about how much more valuable certainty in a truth was, it is very plausible that there is such a thing as
-epistemic value, and when one's credences or degrees of belief are based on evidence, the higher one's credence in a truth,
-the more epistemic value one possesses. And, similarly, the higher one's credence in a falsehood, the less epistemic value one 
-possesses.
+Plausibly, the more sure you are of a truth, the better off epistemically you are, and similarly the more sure you are
+of a falsehood, the worse off you are. 
 
+But what exactly is the dependence of value on the degree of certainty? Fix some hypothesis $H$ and let $T(p)$ be the epistemic value of 
+having degree of belief or credence $p$ (where $0\le p\le 1$) in $H$ if $H$ is in fact true and let $F(p)$ be the value of credence
+$p$ in $H$ if $H$ is in fact false. The pair $T$ and $F$ is called an accuracy scoring rule in the literature.??ref 
+
+We can put some plausible constraints on $T$ and $F$. First, $T(p)$ cannot decrease if $p$ increases,
+and $F(p)$ cannot increase if $p$ decreases.\footnote{We might more strongly specify that $T(p)$ always strictly increases with $p$, and $T(p)$
+strictly decreases. That is
+plausible, but one might also have a view on which there is a finite number of discrete thresholds at which increase/decrease happens.}
+But that still leaves infinitely many degrees of freedom for the selection of $T$ and $F$.
+
+We can, however, make some progress if we reflect on expected values. If your current credence in $H$ is $p$, then by your lights
+there is a probability $p$ of your having epistemic score $T(p)$ and a probability $1-p$ of your epistemic score being $F(p)$, so
+your expected score is:
+$$
+    p T(p) + (1-p) F(p).
+$$
+Suppose now you consider doing something odd: without any evidence, brainwashing yourself to switch your credence from $p$ to some 
+other value $p'$. By your current lights, the expected epistemic value of this switch is:
+$$
+    p T(p') + (1-p) F(p').
+$$
+And this shouldn't be higher that the expected epistemic value of your actual credence $p$. For surely by the lights of your
+assignment of $p$ to $H$, no other credence assignment should be expected to do better. Indeed, if another credence assignment
+$p'$ were expected to do better by the lights of $p$, then $p$ would be some kind of a ``cursed probability'', one such that
+if you assign it to $H$, then immediately expected value reasoning pushes you to replace it with $p'$. This is not rational.
+So, it is very plausible indeed that:
+$$
+    p T(p) + (1-p) F(p) \ge
+    p T(p') + (1-p) F(p').
+$$
+If $T$ and $F$ satisfy this inequality for all $p$ and $p'$, we say that $T$ and $F$ are a \textit{proper} scoring rule.
+    
 
 
 \section{Priors}
