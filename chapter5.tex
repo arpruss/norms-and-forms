@@ -138,7 +138,7 @@ pogative-charge-hypothesis can be given in terms of the relationship between the
 is that now we need a function from predicates to degrees of projectibility, and the choice of that function will have infinitely
 many degrees of freedom.
 
-\section{Epistemic value}
+\section{$^*$Epistemic value}??hard
 Plausibly, the more sure you are of a truth, the better off epistemically you are, and similarly the more sure you are
 of a falsehood, the worse off you are. 
 
@@ -183,7 +183,22 @@ Hence, once we have one of the two functions, the other is almost determined. Ho
 a profusion of proper scoring rules there is: for every non-decreasing function, there is a proper scoring rule that has that as 
 its $T$ component.
 
-The question of epistemic value assignment may seem purely theoretical. However, it can have real-world ramifications. ????fill in
+The question of epistemic value assignment may seem purely theoretical. However, it has real-world ramifications. 
+Suppose a scientist has attained a credence $p$ in a hypothesis $H$, and is considering which of two experiments to
+perform. One experiment will very likely have a minor but real effect on the credence in $H$ (think here of a case
+where you've gathered $1000$ data points, and you now have a chance of gathering $100$ more). The other will most
+likely be turn out to be irrelevant to $H$, but there is a small chance that it will nearly conclusively establish
+$H$ or its negation. For each experiment, the scientist can use their present credence assignments to estimate the
+probabilities of the various epistemic outcomes, and can then estimate expected epistemic values of the outcomes.
+
+It is well-known??ref that if the scoring rule is strictly proper, for each experiment that has potential relevance 
+to $H$ (i.e., there is at least one outcome that has non-zero probability by the scientist's current lights and
+learning which would affect the credence in $H$), the expected epistemic value of performing the experiment is
+higher than the expected epistemic value of the \textit{status quo}. Thus if the experiments are cost-free, it is
+always worth performing more experiments, as long as we agree that the appropriate scoring rule is strictly proper,
+and it does not matter which strictly proper scoring rule we choose. But if in addition to deciding whether to perform
+another experiment, the decision to be made is \textit{which} experiment to perform, then the choice of scoring rule
+will indeed be important, with different strictly proper scoring rules yielding different decisions.??ref:fill-in
 
 There are a number of mathematically elegant strictly proper scoring rules, such as the Brier quadratic score, the spherical score 
 and the logarithmic score. Of these, the logarithmic score is the only that is a serious candidate for being \textit{the} correct
@@ -214,7 +229,59 @@ Finally, observe that in real life, credences are not consistent---do not satisf
 allows one to have extremely inconsistent credences and still do well. If I assign credence $1$ to \textit{every} possible outcome, I am
 guaranteed to max out the logarithmic score no matter what. Thus one of the least rational credence assignments results in the best
 possible score.
-    
+
+We now have two different approaches to the Mersenne questions about epistemic value and scoring rules. First, we could suppose that there
+is such a thing as \textit{the} One True Score. Since only the logarithmic score seems significantly mathematically privileged over all
+the other scores, and the logarithmic score is not the One True Score, there will be an appearance of contingency about the
+One True Score even if there is one.
+
+Second, we might suppose that just as rational people can differ in prudential preferences, they can differ in epistemic preferences.
+Some may, for instance, have a strong sharpish preference for gaining near-certainty in truths, while being fairly indifferent whether their
+credence in a truth is $0.6$ or $0.8$, as neither is that close to certainty. Others, on the other hand, may value increased certainty in
+a gradual way, like the logarithmic rule does.
+
+However, it is important to note that while there may be room for rational people to differ in epistemic preferences, there is reason to
+think that there are rational constraints on epistemic preferences that go beyond formal conditions such as strict propriety, continuity
+or symmetry---where the last is the condition that $T(p)=F(1-p)$. One way to see this is to give an example of a scoring rule that is
+strictly proper, continuous and symmetrical, but nonetheless we would judge someone who adopted it as not rational. For concreteness,
+let $n$ be a positive even integer. Let:
+$$
+    T_n(p) = (2p-1)^n + 2n (1-p) (2p-1)^{n-1} = (2p-1)^{n-1}(2n-1+2(1-n)p)
+$$
+and
+$$  
+    F_n(p) = T(1-p).
+$$
+This is a strictly proper, continuous and symmetrical scoring rule.\footnote{This scoring rule
+is derived using a standard method from the strictly convex function $(x-y)^n$??ref and hence is strictly convex.}
+Now suppose that $n$ is large, say $1000$. The function $T_n$ is increasing (this follows from strict propriety??ref). 
+We can calculate some values:
+$$
+    T_{1000}(0) = -1999 = F_{1000}(1)
+$$
+$$
+    T_{1000}(0.001) \approx -270 \approx F_{1000}(0.999)
+$$    
+$$
+    T_{1000}(0.01) \approx -0.000003 \approx F_{1000}(0.99)
+$$
+$$
+    T_{1000}(0.5) = 0 = F_{1000}(0.5)
+$$
+$$    
+    T_{1000}(1) = 1 = F_{1000}(1).
+$$
+This is a very implausible set of numbers. For instance, according to this scoring rule, being $0.99$ sure of a falsehood 
+is barely worse than assigning a credence of $1/2$ to something (whether true or false), and relative to the disvalue of 
+certainty in a falsehood there is hardly any value in certainty in a truth. Such a scoring rule makes one not care much 
+whether one suspends judgment about a proposition or assigns a credence of $0.001$ or a credence of $0.999$, and that does
+not appear to be a rational set of epistemic preferences.
+
+But if some but not all epistemic valuations that satisfy the plausible formal axioms are rationally acceptable, then we 
+will have Mersenne questions about what grounds the further constraints on the epistemic valuations.
+
+Furthermore, things become more complicated when we consider that the epistemic value of a credence in a truth
+
 
 
 \section{Priors}
