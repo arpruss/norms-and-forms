@@ -242,48 +242,65 @@ a gradual way, like the logarithmic rule does.
 
 However, it is important to note that while there may be room for rational people to differ in epistemic preferences, there is reason to
 think that there are rational constraints on epistemic preferences that go beyond formal conditions such as strict propriety, continuity
-or symmetry---where the last is the condition that $T(p)=F(1-p)$. One way to see this is to give an example of a scoring rule that is
-strictly proper, continuous and symmetrical, but nonetheless we would judge someone who adopted it as not rational. For concreteness,
-let $n$ be a positive even integer. Let:
-$$
-    T_n(p) = (2p-1)^n + 2n (1-p) (2p-1)^{n-1} = (2p-1)^{n-1}(2n-1+2(1-n)p)
-$$
-and
-$$  
-    F_n(p) = T(1-p).
-$$
-This is a strictly proper, continuous and symmetrical scoring rule.\footnote{This scoring rule
-is derived using a standard method from the strictly convex function $(x-y)^n$??ref and hence is strictly convex.}
-Now suppose that $n$ is large, say $1000$. The function $T_n$ is increasing (this follows from strict propriety??ref). 
-We can calculate some values:
-$$
-    T_{1000}(0) = -1999 = F_{1000}(1)
-$$
-$$
-    T_{1000}(0.001) \approx -270 \approx F_{1000}(0.999)
-$$    
-$$
-    T_{1000}(0.01) \approx -0.000003 \approx F_{1000}(0.99)
-$$
-$$
-    T_{1000}(0.5) = 0 = F_{1000}(0.5)
-$$
-$$    
-    T_{1000}(1) = 1 = F_{1000}(1).
-$$
-This is a very implausible set of numbers. For instance, according to this scoring rule, being $0.99$ sure of a falsehood 
-is barely worse than assigning a credence of $1/2$ to something (whether true or false), and relative to the disvalue of 
-certainty in a falsehood there is hardly any value in certainty in a truth. Such a scoring rule makes one not care much 
-whether one suspends judgment about a proposition or assigns a credence of $0.001$ or a credence of $0.999$, and that does
-not appear to be a rational set of epistemic preferences.\footnote{Note that one might argue that when one has credence $p$
-in $H$, and $H$ is true, then the value of one's relevant epistemic state is not just $T_{1000}(p)$ but $T_{1000}(p)+F_{1000}(1-p)$,
-since one at the same time has a credence $1-p$ in the falsehood $\sim H$, and similarly when $H$ is false, then the
-value of one's relevant state is $F_{1000}(p)+T_{1000}(1-p)$. However, this does not change anything, since by symmetry
-$T_{1000}(p)+F_{1000}(1-p)=2T_{1000}(p)$ and $F_{1000}(p)+T_{1000}(1-p)=2F_{1000}(p)$, so this consideration simply
-doubles every value.}
+or symmetry---where the last is the condition that $T(p)=F(1-p)$. 
 
-But if some but not all epistemic valuations that satisfy the plausible formal axioms are rationally acceptable, then we 
-will have Mersenne questions about what grounds the further constraints on the epistemic valuations.
+Let $T_0(x)=1000$ if $x\ge 0.999$, $T_0(x)=-1000000$ if $x \le 0.001$, and $T_0(x)=0$ otherwise. Let $F_0(x)=T_0(1-x)$.
+Then the pair $T_0$ and $F_0$ is a symmetric and proper scoring rule.??ref
+
+Consider now a scientist who adopts this scoring rule for some hypothesis $H$ of minor importance about some chemicals in 
+her lab that she initially assigns credence $1/2$ to. She has a choice between two methods. She can use clunky machine $A$
+that she has in her lab, which is guaranteed to give an answer to the question of whether $H$ is true, but for either
+answer there is a $0.11\%$ chance that the answer is wrong. Or she can use spiffy new machine $B$ which has the slightly lower $0.09\%$ chance 
+of error either way. The only problem is that her lab doesn't own machine $B$ and her grant can't offer the price. Her only 
+hope for using machine $B$ is to go and buy a scratch-off lottery ticket which has a one in a million chance of yielding a prize exactly
+sufficient to purchase machine $B$. However, because some chemicals involved in the experiment are expiring exactly in a week, and 
+machine $A$ is slower than machine $B$ and takes exactly a week to run, if she is to use machine $A$, she needs to start right now
+and doesn't have time to buy the lottery ticket. And once she starts up machine $A$, she can't transfer the experiment to
+machine $B$. 
+
+In other words, her choice is between using machine $A$, and then learning whether $H$ is true with a credence of
+$0.9989$, or buying a lottery ticket, which gives her a one in a million chance of learning whether $H$ is true with
+a credence of $0.9991$ and a $999,999$ out of a million chance of being no further ahead. Going for the second option
+seems irrational if all that is at stake is epistemic value: the difference between $0.9989$ and $0.9991$ is just not
+worth the fact that most likely going with the lottery route one won't learn anything about $H$. (If what was at stake
+wasn't epistemic value but something pragmatic, then things could be different. We could imagine a law where some 
+life-saving medication can be administered to a patient only if we have $0.9991$ confidence that it'll work, and then
+there will be no practical difference between $1/2$ and $0.9989$, but a big one between $0.9989$ and $0.9991$.) 
+
+But a scoring rule like the one described above prefers the lottery option. For the epistemic value of using 
+machine $A$ is guaranteed to be zero since after using machine $A$, the scientist will have credence $0.9989$ or $0.0011$, 
+depending on whether the result favors $H$ or not.
+
+On the lottery option, however, conditionally on winning the lottery, the expected epistemic value will be:
+$$
+    (1/2)(0.9991 \cdot T(0.9991)+0.0009\cdot F(0.9991))+(1/2)(0.9991 \cdot F(0.0009) + 0.0009\cdot T(0.0009))=
+$$
+since it is equally likely given the scientist's priors that the machine will return a verdict for or against $H$,
+which will result in a credence of $0.9991$ or $0.0009$, respectively, and in either case there will be a $0.0009$
+chance that the verdict is erroneous. Since $F(0.0009)=T(0.9991)=1000$ and $T(0.0009)=F(0.9991)=-1000000$, it follows 
+that the expected epistemic value, conditionally on winning the lottery, will be:
+$$
+    (1/2)(0.9991 \cdot 1000+0.0009\cdot (-1000000)+0.9991 \cdot 1000+0.0009\cdot (-1000000)) = 99.1 > 0.
+$$
+And if we multiply this by the $1/1000000$ chance of winning the lottery, we still have something positive, so
+the expected epistemic value of playing the lottery with the plan of using machine $B$ is positive, while that of
+using machine $A$ is zero. 
+
+Thus, by considerations of epistemic value, the scientist with this scoring rule will prefer a $1/1000000$ chance of 
+gaining credence $0.9991$ as to whether $H$ is true to a certainty of gaining the slightly lower credence $0.9989$.
+This is not rational. 
+
+Now, in the above example, our scoring rule while proper, symmetric and finite, was neither continuous nor strictly proper. 
+However, we will show in the Appendix??ref that there is a sequence of continuous, strictly proper, finite and symmetric
+scoring rules $T_n$ and $F_n$ such that $T(x)=\lim_{n\to\infty} T_n(x)$ and $F(x)=\lim_{n\to\infty} F_n(x)$ for all $x$.
+If $n$ is large enough, then the pair $T_n$ and $F_n$ will require exactly the same decision from our scientist as 
+$T$ and $F$ did, since the expected value of the expected $(T_n,F_n)$-scores of the two courses of action will converge
+to the expected vlue of the expected $(T,F)$-scores.
+
+Hence not all epistemic valuations that satisfy the plausible formal axioms are rationally acceptable, then we 
+will have Mersenne questions about what grounds the further constraints on the epistemic valuations. These constraints
+are likely to include messy prohibitions, with multiple degrees of freedom, on the kinds of sharp jumps that our
+pathological scoring rule above exhibited.
 
 Furthermore, things become more complicated when we consider that the epistemic value of a credence in a truth will
 differ depending on the importance of that truth. Getting right whether mathematical entities exist or whether we are 
@@ -302,6 +319,43 @@ We thus have multiple indicators of a contingency about epistemic value assignme
 
 \section{Testimony}
 \section{Infinity, self-indication and other limitations of Bayesianism}
+
+\section*{Appendix: $^*$Approximating the pathological scoring rule with continuous ones}
+We need to show that the stepwise scoring rule $(T,F)$ from ??backref can be written as a limit of
+symmetric, strictly proper, finite and continuous scoring rules. 
+
+First note that any symmetric continuous proper scoring rule $(t,f)$ can be written as the limit of symmetric continuous
+strictly proper scoring rules by letting $t_n(x)=t(x)-(1-x)^2/n$ and $f_n(x)=f(x)-x^2/n$, since the Brier scoring rule defined
+by the functions $-(1-x)^2$ an $-x^2$ is strictly proper, and the sum of a proper and a strictly proper scoring rules is
+strictly proper. 
+
+Thus, all we need to show is that is that we can approximate $(T,F)$ with symmetric, finite and continuous scoring rules.
+Furthermore, we can drop the symmetry requirement. For write $f^*(x)=f(1-x)$. Then $(t,f)$ is a proper scoring rule if and
+only if $(f^*,t^*)$ is a proper scoring rule. Now if $T(x)=\lim_n t_n(x)$ for all $x$ and $F(x)=\lim_n f_n(x)$, then
+$$
+    (T(x)+F^*(x))/2 = \lim_n (t_n(x)+f_n^*(x))/2
+$$    
+    and
+$$    
+    (F(x)+T^*(x))/2 = \lim_n (f_n(x)+t_n^*(x))/2. 
+$$    
+But $T=F^*$ and $F=T^*$, so the left-hand sides are just $T(x)$ and $F(x)$, respectively. Moreover, $(t_n+f_n^*,f_n+t_n^*)$ is 
+will be a continuous symmetric finite proper scoring rule if $(t_n,f_n)$ is a continuous finite proper scoring rule.
+
+Fix $\e>0$. Let $\phi_\e$ be a continuous non-negative finite function that is zero except on the set $U_\e=[0.999-\e,0.999)\cup (0.001,0.001+\e]$, 
+and is such that $\int_{0.999-\e}^{0.999} (1-x) \phi_\e(x) = 1000$ and $\int_{0.001}^{0.001+\e} x \phi_\e(x) = 1000000$. 
+Define 
+$$
+    T_n(x) = \int_{1/2}^x \, (1-u)phi_{1/n}(u) \, du
+$$24
+and 
+$$
+    F_n(x) = \int_{1/2}^x \, u \phi_{1/n}(u) \, du.
+$$
+By ??SchervishThm4.2, $(T_n,F_n)$ is proper. It is clearly continuous and finite. It is, further, easy to calculate that 
+$T_n(x)$ and $F_n(x)$ equal $T(x)$ and $F(x)$ except perhaps on $U_{1/n}$.??check For any $x$ in $[0,1]$, there is an $N$
+such that $x$ is not in $U_{1/n}$ for any $n\ge N$. It follows that $T(x)=T_n(x)$ and $F(x)=F_n(x)$ if $n\ge N$, and we have
+the limiting condition we wanted.
 
 \chaptertail 
 
