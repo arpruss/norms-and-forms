@@ -320,10 +320,38 @@ value assigned to practical matters, while agents that have few natural enemies 
 have a greater epistemic value assigned to theoretical matters. One imagines here that intelligent antelope might be
 properly expected to be less philosophical than intelligent elephants.
 
-\section{Priors}
-\subsection{Indifference}
-%% ref: https://link.springer.com/article/10.1007/s11098-019-01367-0?utm_source=toc
-%% indifference
+\section{Bayesianism}
+\subsection{Priors}
+From a Bayesian point of view, how induction works is determined by the probabilities prior to all evidence, the ur-priors.
+Suppose, for instance, that I assign equal prior probability to every logically possible color sequence of observed ravens. 
+For simplicity, suppose that there are only two colors, white and black.  I find out that there are a million ravens, and 
+I observe a thousand of them, and find them all black. I am about to observe another raven. The probability that the next 
+raven will be black will be $1/2$. For the sequence $B,...,B,W$ (with $1000$ $B$s) is just as likely as the sequence
+$B,...,B,B$ (with $1001$ $B$s), and both sequences fit equally well with our observations. 
+
+On the other hand, suppose I assigned probability $1/3$ to the hypothesis that all ravens are white, $1/3$ to all black,
+and split the remaining $1/3$ equally among the $2^{1000000}-2$ multicolor sequences. My observation of the first $1000$
+ravens then rules out the all-white  hypothesis. And it rules out most of the multicolor sequences: there are $2^{999000}-1$
+multicolor sequences that start with $2^{1000000}$, which is a tiny fraction of the original $2^{1000000}-2$. Since as a 
+good Bayesian I keep the ratios between the probabilities unchanged, each of the remaining multicolor sequences has 
+$1/(2^{1000000}-2)$ of the probability of the all-black sequence, and since there are only $2^{999000}-1$ multicolor
+sequences remaining compatible with the evidence, the ratio between the multicolor probability and the all-black probability
+is $(2^{999000}-1)/(2^{1000000}-2)$ to $1$, or approximately $1$ to $2^{1000}$. Thus, we have overwhelming confirmation of 
+the all-black probability, and hence an even more overwhelming confirmation of the hypothesis that the next raven will be black.
+
+Other ways of dividing the probabilities between the hypotheses yield other results. Carnap??ref, for instance, had a division
+that worked as follows. For each number $n$ between zero and a million we have the hypothesis $H_n$ that there are exactly 
+$n$ black ravens, and Carnap proposed that all million-and-one of these hypotheses should have equal probability, and then 
+each hypothesis $H_n$ is divided into equally likely subhypotheses specifying all the subhypotheses that make there be $n$
+ravens. Thus, $H_0$ and $H_{1000000}$ have only one subhypothesis: there is only one way to have no-black or all-black. But
+$H_1$ and $H_{999999}$ have a million subhypotheses each: there are a million options for which is the raven with the outlying
+color. Using the same constant-ratio technique as before, after observing $1000$ black ravens, the chance that the next one is black 
+will turn out to be about ???, and the chance that all million are black will be about ???.
+
+%% ?? ref: https://link.springer.com/article/10.1007/s11098-019-01367-0?utm_source=toc
+%% ?? indifference
+
+\subsection{Solomonoff-style priors}
 
 
 \section{Testimony}
