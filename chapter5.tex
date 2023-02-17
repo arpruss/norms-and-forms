@@ -332,7 +332,7 @@ $B,...,B,B$ (with $1001$ $B$s), and both sequences fit equally well with our obs
 On the other hand, suppose I assigned probability $1/3$ to the hypothesis that all ravens are white, $1/3$ to all black,
 and split the remaining $1/3$ equally among the $2^{1000000}-2$ multicolor sequences. My observation of the first $1000$
 ravens then rules out the all-white  hypothesis. And it rules out most of the multicolor sequences: there are $2^{999000}-1$
-multicolor sequences that start with $2^{1000000}$, which is a tiny fraction of the original $2^{1000000}-2$. Since as a 
+multicolor sequences that start with $1000$ black ravens, which is a tiny fraction of the original $2^{1000000}-2$. Since as a 
 good Bayesian I keep the ratios between the probabilities unchanged, each of the remaining multicolor sequences has 
 $1/(2^{1000000}-2)$ of the probability of the all-black sequence, and since there are only $2^{999000}-1$ multicolor
 sequences remaining compatible with the evidence, the ratio between the multicolor probability and the all-black probability
@@ -346,7 +346,47 @@ each hypothesis $H_n$ is divided into equally likely subhypotheses specifying al
 ravens. Thus, $H_0$ and $H_{1000000}$ have only one subhypothesis: there is only one way to have no-black or all-black. But
 $H_1$ and $H_{999999}$ have a million subhypotheses each: there are a million options for which is the raven with the outlying
 color. Using the same constant-ratio technique as before, after observing $1000$ black ravens, the chance that the next one is black 
-will turn out to be about ???, and the chance that all million are black will be about ???.
+will turn out to be approximately $0.999$, but the chance that all million are black will only be $0.001$. More generally, if there
+are $N$ ravens, and the first $m$ of them have been observed to be black, and $n\ge m$, then the probability that the first $n$
+will be black will be $(1+m)/(1+n)$.\footnote{Let $B_m$ be the claim that the first $m$ ravens are black. Then
+$P(B_m)=\sum_{n=0}^{N-m} {{N-m \choose n}}/((N+1){N\choose m+n}) = \frac{1}{1+m}$.??why:Mathematica The probability that the first
+$n$ are black given that the first $m$ are black where $n\ge m$ will then $P(B_n\mid B_m)=(1+m)/(1+n)$.} 
+  Hence we have very reason to think that the \textit{next} raven is black,
+but unless we have observed the bulk of the ravens, we won't have reason to think that all the ravens are black. 
+
+Intuitively, while Carnapian probabilities support induction, they result in induction being too slow---it is only when we have observed the bulk of the cases
+being a certain way that we get to conclude that they are all like that. My $1/3$--$1/3$--$1/3$ division is too fast. Even with
+$1000$ black ravens having been observed, the probability of a white raven shouldn't be \textit{astronomically} small in the way
+that $1/2^{1000}$ is. Reasonable priors, thus, yield a speed of induction somewhere between these. 
+
+We can presumably come up with a formula for the priors which will fit with our intuitions of how fast induction should work.
+For instance, we could take Carnap's setup, but increase the prior probability of the all-white and all-black raven hypotheses. 
+But such an increase would be apt to involve one or more parameters. If the specific assignment of priors were rationally
+required of us, then we would have the Mersenne question of why it is these and not some other very similar priors that are required.
+And if there is a range of priors rationally permitted to us, then we would have Mersenne questions about the boundaries of
+this range. 
+
+Further, imagine beings other than us that inhabit a more Carnapian world than we do. While in our world, we have a significant number of natural kinds
+that exhibit or fail to exhibit some basic property exceptionlessly---for instance, every electron is charged, and no photon 
+has mass--in that world there are few such natural kinds. Instead, if we were to tabulate the frequencies of basic binary properties
+in various natural populations---say, tabulating the frequency of blackness among ravens, charge among electrons, mass among photons---we 
+would find the frequencies to be distributed uniformly between $0$ and $1$. In that world, Carnapian priors would lead to the truth faster
+than the more induction-friendly priors that we have. And let us imagine that in that world we have intelligent beings who reason according
+to Carnapian priors. Even if we happily grant that Carnapian priors are irrational for us, it seems plausible to think that they could be
+rational for those beings. To insist that these Carnapians are irrational, because it would be irrational for us to have these priors,
+seems akin to saying that bigamy would immoral for aliens who need three individuals to reproduce, or that there is something wrong with fish
+because they lack lungs. 
+
+Consideration of the rationality of induction thus once again reveals an appearance of contingency in the normative realm, which
+once again yield an argument for an Aristotelian picture of human nature, where the rationally required priors or ranges of priors
+are those that we are impelled to by our human nature.
+
+But before we embrace this conclusion fully, we should consider two Bayesian challenges, from two opposed points of view.
+The subjective Bayesian says that there are no constraints on the priors, and the information-theoretist Bayesian thinks
+that considerations of coding can yield a reasonable set of priors.
+
+\subsection{Subjective Bayesianism}
+
 
 %% ?? ref: https://link.springer.com/article/10.1007/s11098-019-01367-0?utm_source=toc
 %% ?? indifference
