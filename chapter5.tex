@@ -382,16 +382,79 @@ once again yield an argument for an Aristotelian picture of human nature, where 
 are those that we are impelled to by our human nature.
 
 But before we embrace this conclusion fully, we should consider two Bayesian challenges, from two opposed points of view.
-The subjective Bayesian says that there are no constraints on the priors, and the information-theoretist Bayesian thinks
-that considerations of coding can yield a reasonable set of priors.
+The algorithmic Bayesian thinks that considerations of coding can yield a reasonable set of priors, while the 
+the subjective Bayesian says that there are no constraints on the priors, and 
+
+\subsection{Algorithmic priors}
+Suppose, first, we have a language $L$ of finite sequences of symbols chosen from some finite alphabet of basic symbols, 
+with some of the sequences representing a member of some set $S$ of situations. 
+
+For instance, $S$ could be arrangements of chess pieces on a board\footnote{The arrangements contain less information
+than chess positions, since a chess position includes other information, such as whether a given king or rook has already
+moved, whose turn it is, as well as historical information needed for adjudicating draws.}, and $L$ could be a declarative 
+first-order language with no quantifiers, twelve piece predicates (specifying both the color and piece type) and sixty-four names of squares.
+We could then say that a symbol sequence represents an arrangement $a$ provided that the sequence is a 
+syntactically valid sentence that is true of $a$ and of no other arrangement. However, in general $L$ need not be a declarative
+language. It could, for instance, be an imperative computer language for an abstract Turing machine or a physical computer,
+and the situations could be possible outputs of that machine. Then we might say that a symbol sequence $s$ represents
+a possible output $a$ just in case $s$ is a program that, when run, halts with the output being $a$. Or if we like we might 
+add an additional layer of representation between the outputs of the machine and the situations---for instance, the outputs
+of an abstract Turing machine might represent the physical arrangement of particles in a universe.  
+We can even chain languages. For instance, we could have a computer language $L_1$, with the outputs being sequences of
+symbols in some declarative language $L_2$, whose sentences in turn represent members of a set $S$ of situations.
+
+Next, consider a natural way of choosing at random a finite sequence of symbols of $L$. Here is one. Add to $L$'s finite alphabet 
+a new ``end'' symbol. Then randomly and independently, with each symbol being equally likely (i.e., having probability
+$1/(n+1)$, where $n$ is the number of non-end symbols), choose a sequence of
+symbols until you hit the end symbol. The sequence preceding the ``end'' symbol will then count as the randomly
+selected sequence in $L$. Every sequence of length $k$ has probability $1/(n+1)^k$, so the probabilities decrease 
+exponentially with the length of the sqeuence. We repeat the random selection process until we get a sequence that is both syntactically correct
+and represents a situation in $S$.\footnote{If at least one finite sequence is syntactically correct and represents a 
+situation in $S$, then with probability one, we will eventually get to a sequence that syntactically correctly represents some 
+sequence.}  We now stipulate that the prior probability of a situation $s$ is equal to the probability that the
+above process will generate a sequence that represents $s$.
+
+Alternately, we can formulate this as follows. If $a$ is a sequence of symbols of $L$ and $s$ is a situation in $S$, write
+$R(a,s)$ if $a$ is syntactically correct and represents $s$, and let $R(a)$ be shorthand for the claim that $a$ syntactically
+correctly represents $S$, i.e., $\exists s(s\in a\And R(a,s))$. Then if $A$ is a randomly chosen sequence of symbols of $L$,
+we can define the prior probability $Q(s)$ of $s$ as the conditional probability that $A$ syntactically correct represents $s$ on the supposition
+it syntactically correctly represents something, i.e.,
+$$
+    Q(s) = P(R(A,s)\mid R(A)) = \frac{P(R(A,s))}{P(R(A))}.
+$$    
+
+These priors favor situations that can be can be more briefly represented in $L$ over ones whose representations are long.
+The effect of these priors depends heavily on the choice of language $L$ and how well it can compress some situations over
+others. For instance, in our chess case, if we have no quantifiers, it is easy to see that any two piece arrangements with 
+the same number of pieces will have equal prior probability, because each square's contents have to be separately specified. 
+Thus, if we know that every square contains a pawn, and we have observed the first $63$ of these pawns and found them all to be black, the 
+probability that the $64$th square will be black is still $1/2$. On the other hand, if quantifiers and identity are allowed into our
+language, then the all-black-pawn situation can be briefly represented by
+$$
+    \forall x(\operatorname{BlackPawn}(x))
+$$
+(where the domain is
+squares on the board), while the situation where squares $1,...,63$ have black pawns and square $64$ has a white pawn is harder
+to represent. We might, for instance, use a sentence like:
+$$
+    \forall x(\Not (x=64)\rightarrow \operatorname{BlackPawn}(x))\And \operatorname{WhitePawn}(x).
+$$
+Since the probability of generating a given sequence of symbols decreases exponentially with the number of symbols, the second
+sentence is much less likely to be randomly generated than the first, and it is intuitively very likely (though proving this rigorously would
+be quite difficult???refs) that in general the probability of generating a sentence representing 64 black pawns is higher than that of 
+generating a sentence representing 63 black pawns followed by one white pawn. We can thus expect that the conditional probability of
+the 64th pawn being black on the first 63 being black to be very high. (Maybe even too high? It is very difficult to get good
+estimates here, because there are many ways that a given situation can be represented.)
+    
+??Variations in ending method
 
 \subsection{Subjective Bayesianism}
+
 
 
 %% ?? ref: https://link.springer.com/article/10.1007/s11098-019-01367-0?utm_source=toc
 %% ?? indifference
 
-\subsection{Solomonoff-style priors}
 
 
 \section{Testimony}
