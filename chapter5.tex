@@ -422,31 +422,53 @@ it syntactically correctly represents something, i.e.,
 $$
     Q(s) = P(R(A,s)\mid R(A)) = \frac{P(R(A,s))}{P(R(A))}.
 $$    
+We can call these $L$-Solomonoff priors.
 
 These priors favor situations that can be can be more briefly represented in $L$ over ones whose representations are long.
 The effect of these priors depends heavily on the choice of language $L$ and how well it can compress some situations over
 others. For instance, in our chess case, if we have no quantifiers, it is easy to see that any two piece arrangements with 
 the same number of pieces will have equal prior probability, because each square's contents have to be separately specified. 
-Thus, if we know that every square contains a pawn, and we have observed the first $63$ of these pawns and found them all to be black, the 
-probability that the $64$th square will be black is still $1/2$. On the other hand, if quantifiers and identity are allowed into our
+Thus, if we know that every square contains a pawn, and we have observed the first 63 of these pawns and found them all to be black, the 
+probability that the 64th square will be black is still $1/2$. On the other hand, if quantifiers and identity are allowed into our
 language, then the all-black-pawn situation can be briefly represented by
-$$
-    \forall x(\operatorname{BlackPawn}(x))
-$$
+\ditem{all-black}{$\forall x(\operatorname{BlackPawn}(x))$}
 (where the domain is
-squares on the board), while the situation where squares $1,...,63$ have black pawns and square $64$ has a white pawn is harder
+squares on the board), while the situation where squares $1,...,63$ have black pawns and square 64 has a white pawn is harder
 to represent. We might, for instance, use a sentence like:
-$$
-    \forall x(\Not (x=64)\rightarrow \operatorname{BlackPawn}(x))\And \operatorname{WhitePawn}(x).
-$$
-Since the probability of generating a given sequence of symbols decreases exponentially with the number of symbols, the second
-sentence is much less likely to be randomly generated than the first, and it is intuitively very likely (though proving this rigorously would
+\ditem{63-black}{$\forall x(\Not (x=64)\rightarrow \operatorname{BlackPawn}(x))\And \operatorname{WhitePawn}(x)$.}
+
+Since the probability of generating a given sequence of symbols decreases exponentially with the number of symbols, \ditem{63-black}
+is much less likely to be randomly generated than \ditem{all-black}, and it is intuitively very likely (though proving this rigorously would
 be quite difficult???refs) that in general the probability of generating a sentence representing 64 black pawns is higher than that of 
 generating a sentence representing 63 black pawns followed by one white pawn. We can thus expect that the conditional probability of
 the 64th pawn being black on the first 63 being black to be very high. (Maybe even too high? It is very difficult to get good
-estimates here, because there are many ways that a given situation can be represented.)
-    
-??Variations in ending method
+estimates here, because there are many ways that a single situation can be represented. ??refs)
+
+Just as in the case of using linguistic complexity to quantify projectibility, the choice of language here provides many Mersenne
+questions. If we opt for the algorithmic version of the theory, we need to choose some computer language for a real or abstract
+computer, and then we need to choose a representation map between outputs and situations in the external world, with infinitely
+many possible candidates. And on the more
+descriptive versions, we still need to choose a language, with many decision points as to syntax and vocabulary. It is very unlikely 
+that there is a privileged language. And not
+every will fit with our intuitions about induction. For instance, we can easily create a language, whether algorithmic or descriptive,
+where 63 squares of black pawns followed by one square with a white pawn are much more briefly describable than 64 squares with
+black pawns. For instance, on the descriptive side, we might use a $\operatorname{BlitePawn}(x)$ predicate, where something is a blite pawn 
+provided it is a black pawn and on one of the first 63 squares or a white pawn and on the 64th, and an analogous $\operatorname{WhackPawn}(x)$.
+
+In the unlikely case that there is a privileged language $L$ such that $L$-Solomonoff priors are rationally required for us,
+we will have a vast number of Mersenne questions about the various parameters of the language and its representation relation.
+In the more plausible case that there is a set of languages such that we are required to have $L$-Solomonoff priors for some $L$
+in the set, we will have a vast number of Mersenne questions about the parameters that control the range of languages. All of this
+gives rise to a significant degree of appearance of contingency.
+
+Consider, too, the following observation. It is implausible that the languages defining rational priors for us
+should be ones that are completely beyond our ken. But, on the other hand, it is plausible that there are possible
+languages that to the smartest human are as incomprehensible as one of the less intuitive computer languages like
+Haskell or Verilog or one of the creations of logicians further from natural language like lambda-calculus is to a typical
+six-year-old. Imagine now beings to whom such these languages beyond human ken are easy. It \textit{could} be the case that
+the norms for rational priors for them are formulated in terms of $L$-Solomonoff priors for one of the ``baby languages''
+that humans can understand, but this does not seem a particularly plausible thesis. It seems more likely that for those
+beings, the rational priors would be different than for us. 
 
 \subsection{Subjective Bayesianism}
 
