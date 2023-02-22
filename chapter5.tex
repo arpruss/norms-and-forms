@@ -468,7 +468,40 @@ Haskell or Verilog or one of the creations of logicians further from natural lan
 six-year-old. Imagine now beings to whom such these languages beyond human ken are easy. It \textit{could} be the case that
 the norms for rational priors for them are formulated in terms of $L$-Solomonoff priors for one of the ``baby languages''
 that humans can understand, but this does not seem a particularly plausible thesis. It seems more likely that for those
-beings, the rational priors would be different than for us. 
+beings, the algorithmic rational priors would be different than for us. 
+
+The standard way??ref to defend algorithmic measures of complexity from the problems presented by a plurality of languages
+is to observe that sufficiently sophisticated languages have translational resources. Thus, one can write a Haskell interpreter
+in Javascript, and so anything that can be expressed in Haskell can be expressed in Javascript by including the code for a Haskell interpreter, 
+and then using a string constant that contains the Haskell code. The result is that the difference in the length of code needed to
+generate a given output in different computer language will typically not be more than an additive constant: if one can
+produce the output with Haskell code in $n$ bytes, then one can produce it in approximately\footnote{The approximation is due
+to complications due to having to embed code in a string constant, which may involve various escape characters.} $n+k_{H,J}$ 
+bytes in Javascript, where $k_{H,J}$ is the length of the Haskell interpreter in Javascript. For large enough $n$, the additive constant will be
+unimportant. If we are to measure the complexity of a one-hour broadcast-quality video by the length of code needed to compress 
+the  video, the addition of $k_{H,J}$ will likely be negligible: a Haskell interpreter is about half a megabyte, while 
+an hour of video compressed losslessly can be reasonably expected to be in the gigabytes.
+
+However, two points need to be made in our epistemological context. First, even if two different languages give very similar sets of priors, 
+if they give even slightly different priors, we either have the Mersenne question of what makes one of these sets of priors be the 
+objectively correct one, or we have the Mersenne question about the boundaries of the range of permissible languages. Second,
+unlike in the case where we are measuring the complexity of a large set of data, such as a video file, in the inductive cases we 
+need to look at ways of expressing relatively simple statements, such as ``All electrons are negatively charged'' or 
+Schr\"odinger's equation. But for such statements, a translation manual is apt to dwarf the length of the translated text.
+To say ``All electrons are negatively charged'' in French by first describing how English works, and then saying that this
+description should be applied to the English sentence, will produce a French sentence that is many orders of magnitude longer
+than the English one, and hence not a sentence that is relevant to measuring the prior probability that all electrons are negatively
+charged.
+
+Finally, while there is something elegant and natural about randomly choosing items in $L$ by randomly choosing within the
+set of symbols with an end marker added, there are other ways to proceed. For instance, instead of making the end marker
+equally likely as each of the ordinary symbols, one could at each step of generation flip a fair coin. On heads, one is done
+generating. On tails, one then uniformly randomly chooses one of the $n$ symbols.\footnote{This will actually not make a 
+difference in those languages where the syntax already determines where a syntactically valid sequence ends. This will be the
+case with some Polish notation languages, where a valid sequence ends when the main operator is filled out with arguments.}
+Or one might first randomly choose a positive integer specifying the length of the sequence of symbols, and then make all the
+sequences of that specified length be equally likely. The particular method of random choice then yields more Mersenne questions,
+though perhaps the reader will be convinced that the earlier given method is somehow natural and privileged.
 
 \subsection{Subjective Bayesianism}
 
