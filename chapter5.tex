@@ -487,8 +487,8 @@ if they give even slightly different priors, we either have the Mersenne questio
 objectively correct one, or we have the Mersenne question about the boundaries of the range of permissible languages. Second,
 unlike in the case where we are measuring the complexity of a large set of data, such as a video file, in the inductive cases we 
 need to look at ways of expressing relatively simple statements, such as ``All electrons are negatively charged'' or 
-Schr\"odinger's equation. But for such statements, a translation manual is apt to dwarf the length of the translated text.
-To say ``All electrons are negatively charged'' in French by first describing how English works, and then saying that this
+Schr\"odinger's equation or ``The first 63 squares have a black pawn and the last square has a white pawn.'' But for such statements, 
+a translation manual will dwarf the length of the translated text. To say ``All electrons are negatively charged'' in French by first describing how English works, and then saying that this
 description should be applied to the English sentence, will produce a French sentence that is many orders of magnitude longer
 than the English one, and hence not a sentence that is relevant to measuring the prior probability that all electrons are negatively
 charged.
@@ -499,13 +499,52 @@ equally likely as each of the ordinary symbols, one could at each step of genera
 generating. On tails, one then uniformly randomly chooses one of the $n$ symbols.\footnote{This will actually not make a 
 difference in those languages where the syntax already determines where a syntactically valid sequence ends. This will be the
 case with some Polish notation languages, where a valid sequence ends when the main operator is filled out with arguments.}
-Or one might first randomly choose a positive integer specifying the length of the sequence of symbols, and then make all the
-sequences of that specified length be equally likely. The particular method of random choice then yields more Mersenne questions,
-though perhaps the reader will be convinced that the earlier given method is somehow natural and privileged.
+Or one might first randomly choose a positive integer specifying the length of the sequence of symbols according to some
+probability distribution on the positive integers, and then make all the sequences of that specified length be equally likely. 
+Or one might randomly choose a positive integer, and then choose the $n$th sequence of symbols in some ordering (e.g., alphabetical).
+While the initial symbol-by-symbol method with an end-symbol may seem more elegant, it is hard to say that it is rationally
+privileged to the point that the priors generated with it are rationally required. But if it's not thus privileged, then the
+range of random choice methods will provide more Mersenne questions. For not every random choice method yields priors that
+are plausible candidates for rational permissibility. There will be random choice methods where the sentence ``Birds are a government-run 
+drones'' is many orders of magnitude more likely than all other sentences taken together, and so a boundary would need to be
+posited between the admissible and inadmissible random choice methods.
 
 \subsection{Subjective Bayesianism}
+Subjective Bayesians avoid all the difficulties of specifying permissible priors by merely
+requiring the priors to satisfy some formal properties. These are taken to include the
+axioms of probability and, sometimes, the regularity constraint that all contingent 
+propositions have non-zero probability. Rationality then constrains transitions from one
+set of probabilities to another: these must follow the Bayesian update rule that upon
+receiving evidence $E$, one's probability in a hypothesis $H$ goes from $P(H)$ to 
+$P(H\mid E)$. But the initial choice of priors is up to the individual, subject to the
+formal constraints.
 
+The resulting picture of rationality does not match common sense. Take the most
+ridiculous set of conspiracy theories that we would all agree is unsupported by our evidence, 
+but where nonetheless the conjunction of the theories is logically consistent with the evidence.
+Then there is a possible assignment of priors such that updating in the Bayesian way on our actual 
+evidence strongly confirms the conjunction of these theories, both in the incremental sense of 
+greatly increasing that probability and in the absolute sense of making that probability high. (All 
+we need is that the prior probability of the conjunction of theories be low, but the conditional
+probability of that conjunction on the conjunction of our evidence be high.) Yet to reason that
+our evidence strongly supports these theories will, according to common sense, be paradigmatic of 
+irrationality.
 
+Or consider the implausible asymmetry between the freedom in choosing initial priors and the
+rigid constraint in updating. Suppose I don't like my current set $C$ of posteriors, and I would 
+feel better if  I had some cheerier alternative set $A$ of posteriors. There is some set of priors $Q$ that, 
+given the evidence $E$ that I had received over my lifetime, would have yielded $A$. According to 
+the subjective Bayesian there would have been nothing irrational in having adopted those priors in 
+the first place, and thus having ended up at the cheerier posteriors. Why should I be tied to the
+priors that I actually had? 
+
+The picture of priors here is like a rationally unbreakable vow to live one's life as an evolution
+of these priors under Bayesian application of evidence. But it is a vow made without any rational 
+ground, indeed without any choice, and likely in childhood. We would think it unsupportable that
+someone be held committed for life to a promise made early in childhood. Why should we be bound to
+our priors and the posteriors coming from them?
+
+??forgetting and finding notes?
 
 %% ?? ref: https://link.springer.com/article/10.1007/s11098-019-01367-0?utm_source=toc
 %% ?? indifference
