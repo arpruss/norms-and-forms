@@ -509,6 +509,37 @@ are plausible candidates for rational permissibility. There will be random choic
 drones'' is many orders of magnitude more likely than all other sentences taken together, and so a boundary would need to be
 posited between the admissible and inadmissible random choice methods.
 
+On a final note, ne might think that the intuitively most natural way of choosing a linguistic item at random is to make them
+all be equally likely. Unfortunately, this presents serious mathematical and philosophical difficulties. For a language
+based on finite sequences taken from a finite (or countable) alphabet, there are countably infinitely many sentences:
+we can enumerate them $s_1,s_2,s_3,...$ in some arbitrary way. But if each one is equally likely, with probability some
+real number $\alpha$, then we have a problem. In classical probability, we will have to have:
+$$
+    1=P(\{s_1\})+P(\{s_2\})+P(\{s_3\})\dots = \alpha+\alpha+\alpha+\dots.
+$$
+But if $\alpha>0$, then the right-hand-side is infinite, while if $\alpha=0$, it is zero, and in neither case is it $1$.
+There are technical ways of escaping this by departing from classical probability. They all require restricting the 
+additivity axiom of probability that says that if $A_1,A_2,\dots$ are countably many disjoint events then the probability 
+of the union of the events is equal to the sum of the probabilities of the events to the case where there are only finitely
+many events. After that, one either takes $\alpha=0$ or takes $\alpha$ to be a positive infinitesimal---something that is bigger 
+than zero and smaller than any positive real number. 
+
+But whatever one does on the technical side, there will be philosophical
+difficulties. Emblematic of them is this paradox. Suppose you and I play a game where we each randomly pick a sentence with
+all sentences equally likely, and without seeing the other's sentence. When I see my sentence, whatever it turns out to be, I inevitably become nearly sure that your 
+sentence comes after mine in the sequence, because there are only finitely many sentences that come before mine and infinitely
+many that come after. And you come to be convinced of the same thing. This leads to paradoxical decision-theoretic conclusions.
+For instance if we are playing a game where one wins if one has a sentence further down in the sequence, you will then be willing to pay
+me any amount short of the prize to swap sentences with me, no matter what sentence you got. ?????
+
+In any case, the equal probability approach itself does not appear to be a good way to generate induction-friendly priors, 
+because it lacks the preference for shorter descriptions that is central to the functioning of algorithmic or linguistic
+priors. 
+
+Once we abandon, as we should, the equal probability approach to choosing a linguistic item, anything else is a matter 
+of choosing from among infinitely many ways to be biased in favor of shorter expressions. Some of these are mathematically
+more elegant than others, but none is decisively so.
+
 \subsection{Subjective Bayesianism}
 Subjective Bayesians avoid all the difficulties of specifying permissible priors by merely
 requiring the priors to satisfy some formal properties. These are taken to include the
