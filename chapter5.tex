@@ -138,7 +138,8 @@ pogative-charge-hypothesis can be given in terms of the relationship between the
 is that now we need a function from predicates to degrees of projectibility, and the choice of that function will have infinitely
 many degrees of freedom.
 
-\section{$^*$Epistemic value}??hard
+\section{Epistemic value}
+\subsection{Epistemic value on its own}
 Plausibly, the more sure you are of a truth, the better off epistemically you are, and similarly the more sure you are
 of a falsehood, the worse off you are. 
 
@@ -320,6 +321,9 @@ value assigned to practical matters, while agents that have few natural enemies 
 have a greater epistemic value assigned to theoretical matters. One imagines here that intelligent antelope might be
 properly expected to be less philosophical than intelligent elephants.
 
+\subsection{Connection with other values}
+????????????
+
 \section{Bayesianism}
 \subsection{Introduction}
 Bayesianism is the best developed picture of what a precise and rigorous account of epistemic rationality would be like.
@@ -389,7 +393,7 @@ are those that we are impelled to by our human nature.
 
 But before we embrace this conclusion fully, we should consider two Bayesian challenges, from two opposed points of view.
 The algorithmic Bayesian thinks that considerations of coding can yield a reasonable set of priors, while the 
-the subjective Bayesian says that there are no constraints on the priors, and 
+the subjective Bayesian says that there are no constraints on the priors.
 
 \subsection{Algorithmic priors}
 Suppose, first, we have a language $L$ of finite sequences of symbols chosen from some finite alphabet of basic symbols, 
@@ -564,8 +568,9 @@ evidence strongly confirms the conjunction of these theories, both in the increm
 greatly increasing that probability and in the absolute sense of making that probability high. (All 
 we need is that the prior probability of the conjunction of theories be low, but the conditional
 probability of that conjunction on the conjunction of our evidence be high.) Yet to reason that
-our evidence strongly supports these theories will, according to common sense, be paradigmatic of 
-irrationality.
+our evidence strongly supports these theories is paradigmatic of irrationality. It shouldn't be the
+case that a rational person could come to exactly the same conclusions on exactly the same evidence
+as are paradigmatic of irrationality.
 
 Or consider the implausible asymmetry between the freedom in choosing initial priors and the
 rigid constraint in updating. Suppose I don't like my current set $C$ of posteriors, and I would 
@@ -593,8 +598,8 @@ of course modulo the above-discussed issues about the choice of the priors $P(H)
 But as is the case for many other formally simple philosophical theories, this is too
 simple. Consider several cases. 
 
-\textsc{Pill:} A trustworthy oracle offers you a pill which will shift all your credences closer to truth in a way that
-increases the epistemic value of your credences and does not introduce any incoherence. 
+\textsc{Pill:} A trustworthy oracle offers you a pill which will shift your credences closer to truth and does not introduce 
+any incoherence. 
 
 \textsc{Mistake:} An hour ago, I made an arithmetical evidence when updating on evidence. I moved from credence $0.4$ in $H$ to
 credence $0.6$, even though in fact $P(H\And E)/P(E)$ equalled $0.7$. I have just discovered my mistake. Surely it would be good
@@ -611,11 +616,75 @@ to match the evidence I recall having had.
 In all three cases, my update of credences seems quite rational, but is not a case of conditionalization. We should thus
 suppose that while it may be a good general rule that we should update by conditionalization, we should at times depart from it.
 But the question of how we should depart from conditionalization now introduces complexity in the theory that raises significant
-Mersenne questions. To see this, let's discuss each case in more detail.
+Mersenne questions. We need more than just simple exceptions for each case: there will be parameters to set.
 
-???discuss each case.
+The pill case as given is straightforward. We can say that you should depart from Bayesian update when doing so would move
+some of your credences closer to truth and none further away from it, where a credence's ``distance from truth'' is the 
+distance of the credence from $0$ or $1$ depending respectively on whether the proposition the credence is in is false or
+true. However, there are variants of the pill case. Suppose that the pill has a $0.9$ chance of moving you significantly
+closer to truth and a $0.1$ chance of moving you slightly away from truth. It seems like it could be worth it. Or suppose
+that the pill moves your credences in important propositions closer to truth at the expense of moving your credences in some
+unimportant propositions further from the truth.
+
+This suggests that we will need to quantify epistemic value, much as we did in Section??backref, and then say
+something like this: You are epistemically required (respectively, permitted) to opt for a pragmatically costless change of 
+credence when doing so increases (does not decrease) expected epistemic value. If we quantify epistemic value in terms of
+strictly proper scoring rules, a delightful result of this move is that we do not need to handle the ordinary case of 
+Bayesian update any differently. For it can be proved that in the kinds of cases where one simply receives
+evidence and sets one's credences according to it, conditionalization is the unique best policy for maximizing expected
+epistemic value.??ref:(Also Isaacs and Russell??) 
+
+However, as we also saw in Section??backref, the choice of a scoring rule or measure of epistemic value involves infinitely
+many free parameters, and at the same time not every scoring rule that satisfies the formal constraints is rationally
+plausible. In our present context of evaluating non-conditionalizing updates the point is particularly clear. For when
+evaluating credence-changing pills, we need to take into account the \textit{importance} of the affected credences, and
+that is not a formal criterion. 
+
+Note that pill-type cases are not as outlandish as they may initially seem. We do in fact modify people's thinking with
+psychiatric medication as well as with psychotherapy.
+
+Next, consider the case of the mistake in updating. We don't in fact remember all our evidence:
+we update our credences on the more important things and forget the less important, which often includes some or
+all of the evidence. I know that Beijing is the capital of China, but I don't know where I learned it from. I know that 
+there was a cat in the yard earlier this morning, but much of the rich sensory evidence is now gone from my mind. 
+An attempt to go back and correct a past update error is bound to be a messy affair. Sometimes when the mistake is minor
+it might be better to let it go rather than miss out on some of the evidence gathered since. And the situation is often
+too messy and too complex for any sort of an expected epistemic utility calculation. 
+
+Yet the fact that a situation is messy does not get us off the hook. There will still
+be a distinction between right and wrong ways to proceed, even if they cannot be formalized. We have here something very
+similar to the kinds of messy everyday ethics cases that are grist for the situationist's mill.??backref-or-add 
+It is unlikely that the answer is given by any elegant principle without the kinds of parameters that raise Mersenne
+questions, but at the same time there is an answer, and there
+must be something to ground it.
+
+And what goes for the messiness in correcting a calculational mistake applies even more to the messiness involved in
+the kind of intellectual conversion that occurs when one realizes that all of one's thinking for years has been based
+on irrational prejudice, and one attempts to dig oneself out of the resulting heap of epistemic defects. Again, there
+are right and wrong ways to proceed, but the likelihood of a clear and elegant principle that solves the problem is
+nearly nil. 
+
+There is a final set of issues with update. Presumably, there is something to the maxim that ought implies can. And typically 
+we can't do Bayesian update. We don't have the time, don't have the mathematical skills, or perhaps most importantly aren't 
+able to quantify our priors in such a way as to make them amenable to precise mathematics. We need an epistemology that 
+works in this all too human predicament, a \textit{human} epistemology, and we need an account of what grounds that 
+epistemology. 
+
+One may insist that under these imperfect conditions, we should simply say that we are stuck with irrationality.
+But nonetheless there are cases where it is clear that something should be done under the unhappy circumstances.
+Suppose that the completely right credence on my priors in some proposition $p$ is $0.9874$, 
+but I can only calculate to two significant figures. Then I should take the credence to be $0.99$, not $0.98$ or 
+$0.01$. But things will be less clear if I need to form credences in both $p$ and $q$, which a perfect Bayesian
+with my priors and evidence would take to be $0.9874$ and $0.0332$, but due to limitations of
+time or energy level, I can only get a total of four significant figures. Are the right credences for me $0.99$
+and $0.03$, or $0.987$ and $0.0$, or $1$ and $0.033$? It depends, surely, on the relative epistemic importance of $p$ and
+$q$. And once importance needs to be taken into account, it is very unlikely that we will have a precise and elegant
+account with no free parameters. Instead, we have human messiness.
+
 
 \section{Testimony}
+??
+
 \section{Infinity, self-indication and other limitations of Bayesianism}
 
 \section*{Appendix: $^*$Approximating the pathological scoring rule with continuous ones}
