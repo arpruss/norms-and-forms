@@ -138,18 +138,32 @@ not only think, but think like we do. A technical version for this argument will
 \subsection{Cerebra}
 \section{Soul and body ethics}
 \section*{Appendix: Functionalism gone too far}
-Consider a simple Newtonian particle $P$ moving through space in a straight line. Now consider a determinisitic functional system $Q$ consisting of a 
-finite number of possible subsystems $S_1,...,S_N$, where $S_k$ is always in exactly one state from the set $\scr A_k = \{A_{k,1},...,A_{k,n_k} \}$
-at each of the discrete ``significant'' moments of time $t_1,t_2,...$.\footnote{A standard modern digital computer only has defined 
+Consider a deterministic functional system $Q$ consisting of a 
+finite number of possible computational subsystems $S_1,...,S_N$, where $S_k$ is always in exactly one state from the finite set $\scr A_k$
+of possible states at each of the discrete ``significant'' moments of time $t_1,...,t_m$ over its finite lifetime\footnote{A standard modern digital computer only has defined 
 computational states at ticks of its internal clock. Between ticks of the internal clocks, it is in an analogue state that is not
-computationally defined. A lot of careful engineering goes into ensuring that the states become properly ``digital'' at the clock ticks.}
- We can think of $Q$ as a finite digital computer. The total state of the system at any given time can be represented as the
-$N$-tuple $(a_1,...,a_N)$ where $A_k$ is a state in $\scr A_k$. Furthermore, we suppose there are functional laws which provide a 
-mapping $f$ from the state of the system at time $t_i$ to the state at time $t_{i+1}$. Thus, $f(a_1,...,a_N)= (b_1,...,b_N)$ provided
-that the system would transition from state $(a_1,...,a_N)$ to state $(b_1,...,b_N)$.\footnote{The mapping is independent of time. But we can
-always suppose there is a finite clock, given by a subsystem $S_k$ such that the set of states $\scr A_k$ is
-the set of times during the system's lifetime. Then the total system state at time $t_{i+1}$ can depend on the state of the clock subsystem,
-which allows the system to handle time-dependent transitions.}
+computationally defined. A lot of careful engineering goes into ensuring that the states become properly ``digital'' at the clock ticks.}, and 
+a finite number $I_1,...,I_M$ of sensors, where $I_k$ is always in exactly one state from the finite set $\scr I_k$ of possible input
+states.  We can think of $Q$ as a finite digital computer. The total state of the system at any given time can be represented as the
+$(N+M)$-tuple $(a_1,...,a_N,b_1,...,b_M)$ where $a_k$ is a state in $\scr A_k$ and $b_k$ is a state in $\scr I_k$. We can designate some of
+the subsystems as outputs, connected to external effectors (muscles, motors, lights, etc.)  Furthermore, we suppose there are functional laws which provide a 
+mapping $f$ from the state of the system at time $t_i$ to the state at time $t_{i+1}$. Thus, $f(a_1,...,a_N,b_1,...,B_M)= (a_1,...,a_N,b_1,...,b_M)$ 
+provided that the system would transition from state $(a_1,...,a_N)$ to state $(b_1,...,b_N)$.\footnote{The mapping is independent of time. But we 
+can always suppose there is a finite clock, e.g., given by a subsystem $S_k$ such that the set of states $\scr A_k$ is
+the set of times during the system's lifetime, and with the transition rule that the time always gets incremented. Or we can suppose an input
+from an external clock.} Presumably any deterministic analog system can be approximated by such a system $Q$ to aribitrarily high precision.
+We suppose for convenience that there is some fixed initial state of $Q$, with fixed initial input and computational states.
+
+Now consider a different system $P$ consisting of a single particle moving through space parallel to the $x$-axis, with a constant $x$-velocity,
+at the same discrete sequence of significant times $t_1,...,t_m$. The system $Q$ has a finite number $J$ of possible input state 
+combinations $(b_1,...,b_M)$
+where $b_k \in\scr I_k$ for each $k$: the number $J$ is at most the product of the cardinalities of the sets $\scr I_1,...,\scr I_M$ (some
+combinations might be impossible).
+Let $y_1,...,y_J$ be distinct possible $y$-coordinates. Let $\phi$ be a one-to-one function from all possible input states of $Q$ 
+to the set $\{ y_1,...,y_J \}$. We can then encode an input state $(b_1,...,b_M)$ of $Q$ in the $y$-coordinate $\phi(b_1,...,b_M)$ of $P$.
+Inputs of $Q$ are then mapped to pushing the particle from one $y$-coordinate to another, sufficiently quickly to do so between 
+significant times.\footnote{Not to exceed the speed of light, we may need to make the $y_i$ be fairly close together spatially.}
+We still need to define the computational states of $P$ and the state transitions. ???
 
 ??
 
