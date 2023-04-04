@@ -138,7 +138,32 @@ a reliable addition system than an extremely unreliable multiplication system. B
 and products 49.9\% of the time. What then? 
 
 There are two natural cut-offs. We could require that a system is defined by how it behaves 100\% of the time or by how it behaves
-more than half of the time.??
+more than half of the time. Requiring perfect functioning would have the empirically false consequence that humans don't think. 
+A 50\% cut-off, however, may be problematically low. If every subsystem of a complex functional system had a 49\% failure rate, then 
+the typical outputs of the system would be largely random, because any output of the system is the result of a causal chain of many 
+subsystem states, and any such chain would likely contain multiple failures. Moreover, while 50\% reliability seems to be a natural
+and well-defined cut-off, the actual reliability of a system cannot be captured by a single number, if only because reliability
+depends on environmental conditions. If we say that a system is an adder provided that the output is the sum of the inputs more
+than half of the time, we have to specify the temperature, background radiation, and other conditions under which that reliability
+is to be defined. And now we lose the neat elegance of specifying the reliability with the single number $1/2$.\footnote{We might try
+to define the reliability with respect to the actual environmental conditions the system was in. But suppose that
+Alice finds herself in extremely harmful conditions---say, great heat or toxic fumes---but by a fluke survives with what is intuitively
+full brain function for a few seconds longer than we would expect, screaming seemingly in pain. Given that under those extreme conditions
+the functioning is extremely unreliable, we would have to say that Alice is in fact a mindless zombie and feels no pain. This is
+implausible.}
+
+Additionally, note that the reliability of a system varies over time, perhaps increasing over an initial burn-in period,
+and then eventually decreasing. We can then define the reliability of a system instantaneously or via a time-average.
+If we proceed via a time-average, then we will have the highly counterintuitive consequence that an individual who died
+at a hundred was actually conscious through their life, but had they lived a decade longer, they would \textit{never even have been} 
+conscious, because some crucial subsystem's reliability average over a 110-year lifespan would have been below the cut-off, but over
+the hundred-year lifespan was above the cut-off. So we should define the reliability instantaneously. 
+
+In any case, the very idea of a sharp cut-off in reliability for mindedness seems counterintuitive. Imagine two humanoids whose 
+brains are nearly identical, with the exception that one brain structure crucial for consciousness in one of the humanoids has 
+50.000001\% reliability and the other has merely 49.999999\% reliability. Suppose that both brains \textit{in fact}
+function exactly the same way, so that the sequences of internal states are exactly the same---it's just that one is slightly
+more likely to fail than the other. It does not seem very plausible to think that one would be conscious and the other not.
 
 \section{Vague minds}
 ??
