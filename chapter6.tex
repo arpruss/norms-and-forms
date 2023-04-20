@@ -283,7 +283,9 @@ of possible states at each of the discrete ``significant'' moments of time $t_1,
 computational states at ticks of its internal clock. Between ticks of the internal clocks, it is in an analogue state that is not
 computationally defined. A lot of careful engineering goes into ensuring that the states become properly ``digital'' at the clock ticks.}, and 
 a finite number $I_1,...,I_M$ of sensors, where $I_k$ is always in exactly one state from the finite set $\scr I_k$ of possible input
-states.  We can think of $Q$ as a finite digital computer. The total state of the system at any given time can be represented as the
+states. 
+
+We can think of $Q$ as a finite digital computer. The total state of the system at any given time can be represented as the
 $(N+M)$-tuple $(a_1,...,a_N,b_1,...,b_M)$ where $a_k$ is a state in $\scr A_k$ and $b_k$ is a state in $\scr I_k$. We can designate some of
 the subsystems as outputs, connected to external effectors (muscles, motors, lights, etc.)  Furthermore, we suppose there are functional laws which provide a 
 mapping $f$ from the state of the system at time $t_i$ to the state at time $t_{i+1}$. Thus, $f(a_1,...,a_N,b_1,...,B_M)= (a_1,...,a_N,b_1,...,b_M)$ 
@@ -293,18 +295,40 @@ the set of times during the system's lifetime, and with the transition rule that
 from an external clock.} Presumably any deterministic analog system can be approximated by such a system $Q$ to aribitrarily high precision.
 We suppose for convenience that there is some fixed initial state of $Q$, with fixed initial input and computational states.
 
-Now consider a different system $P$ consisting of a single particle moving through space parallel to the $x$-axis, with a constant $x$-velocity,
-at the same discrete sequence of significant times $t_1,...,t_m$. The system $Q$ has a finite number $J$ of possible input state 
-combinations $(b_1,...,b_M)$
-where $b_k \in\scr I_k$ for each $k$: the number $J$ is at most the product of the cardinalities of the sets $\scr I_1,...,\scr I_M$ (some
-combinations might be impossible).
-Let $y_1,...,y_J$ be distinct possible $y$-coordinates. Let $\phi$ be a one-to-one function from all possible input states of $Q$ 
-to the set $\{ y_1,...,y_J \}$. We can then encode an input state $(b_1,...,b_M)$ of $Q$ in the $y$-coordinate $\phi(b_1,...,b_M)$ of $P$.
-Inputs of $Q$ are then mapped to pushing the particle from one $y$-coordinate to another, sufficiently quickly to do so between 
-significant times.\footnote{Not to exceed the speed of light, we may need to make the $y_i$ be fairly close together spatially.}
-We still need to define the computational states of $P$ and the state transitions. ???
+Now consider a different system $P$ consisting of a single particle moving in the $xy$-plane in space, with a constant 
+(sublight) non-zero $x$-velocity $v$, starting at $x$-coordinate $0$ at time $t_1$. For ease of visualization, suppose the $x$-axis
+runs left to right, and the $y$-axis runs down to up.
+Let $\scr J$ be the set of all possible
+single-time input state vectors $(b_1,...,b_M)$ where $b_k \in\scr I_k$ for each $k$, and let $K$ be a positive integer such
+that $\scr J$ has at most $10^K$ members. 
 
-??????????????????
+We now recode $Q$'s inputs into $P$'s inputs as follows. Suppose our particle is at $y$-coordinate $0$ at a time $t_0<t_1$. 
+For $1\le n\le N$, let $\psi_n$ be a one-to-one function from $\scr J$ to integers between $0$ and $10^K-1$, both inclusive. The analogue 
+to inputting the sensor state vector $(b_1,...,b_M)$ into $Q$ at significant time $t_n$ will now be this. We take
+the $y$-coordinate value $y_{n-1}$ at $t_{n-1}$, and add to it the value $10^{-Kn} \psi_n(b_1,...,b_M)$, shifting the particle
+upward along the $y$-axis as needed to ensure it reaches that by time $t_n$.\footnote{We may need to ensure the units in which
+these are measured are such that the particle can be shifted in the requisite time without exceeding the speed of light.} Thus, 
+the first set of inputs of $Q$ will be encoded in the first $K$ digits after the decimal point, the second set of inputs
+will be encoded in the second $K$ digits, and so on.
+
+Next, suppose $Q$'s computational states begin with the fixed initial state vector $(a_{1,1},...,a_{1,N})$ at time $t_1$. Given 
+the determinism of the system, there is a mathematical function $f$ that takes a sequence $s$ of length $n$ of members of $\scr I$ 
+and returns the computational state $f(s)$ that $Q$ would be in at time $t_n$ if it were to have received the sequence of inputs $s$ 
+at the times $t_1,...,t_n$. Let $n(x)$ be the integer $n$ such that $x=v t_n$, if there such an integer, where we recall that
+$v$ is the velocity of our particle along the $x$-axis. Let $s(x,y)$ be the sequence of $n(x)$ sensor state vectors encoded 
+by the $y$-coordinate value $y$, assuming $n(x)$ is defined. Thus, the first member of $s(x,y)$ will be the sensor state vector
+$s_1$ such that $\psi_1(s_1)$ is equal to the decimal number given by the first $K$ digits after the decimal point in $y$, and so on.
+We now deem $P$ to be in a computational state corresponding to $f(s(x,y))$ when $P$ is at $(x,y)$. This is defined at all the
+significant times $t_1,...,t_n$. We have, thus, an isomorphism between the computational states and sensor inputs of $Q$ and $P$.
+
+We now go for one final twist. Suppose that in the actual world, the
+system $Q$ gets the sensor input vectors $s_1,...,s_N$ at times $t_1,...,t_N$, respectively. We can now choose the 
+function $\psi_n$ such that $\psi_n(s_n)=0$ for all $i$. Then a single particle moving with constant velocity 
+$v$ along the $x$-axis, with $y$-coordinate always equal to $0$ is an isomorph to the actual functioning of $Q$.
+But the very same particle will be an isomorph of any other system $Q'$ with the same significant times. Thus,
+the particle will think your thoughts \textit{and} my thoughts!
+
+??do we need a clock?
 
 \chaptertail 
 
