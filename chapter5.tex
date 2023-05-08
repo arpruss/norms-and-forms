@@ -771,18 +771,101 @@ where the Bayesian way of looking at update may not be correct.
 ???fill out
 
 \subsection{$^*$Imprecision}
-Suppose that a spinner is randomly spun, and it comes to a stop at some angle between $0^\circ$, inclusive, and $360^\circ$,
-exclusive. Call that angle $X$. Independently of the spinner, a fair coin is tossed. If the coin is tails, the spinner is left
-unchanged. If the coin is tails, the spinner is adjusted so that it now points to half of the angle it started with. Call the 
+Suppose that a spinner is randomly spun, and it comes to a stop at some angle between $0^\circ$ and $360^\circ$, inclusive,
+though of course $0^\circ$ and $360^\circ$ label the same outcome. To make the logic of the situation a little simpler, 
+let's label that outcome ``$360^\circ$'', and call the spinner angle $X$. Thus $0^\circ < X \le 360^\circ$.
+Independently of the spinner, a fair coin is tossed. If the coin is tails, the spinner is left
+unchanged. If the coin is heads, the spinner is adjusted so that it now points to half of the angle it started with. Call the 
 final angle $Y$. All of the above happens out of your sight.
 
-Note that if the coin lands heads, then we are guaranteed to have the final spinner angle $Y < 180^\circ$. Thus, if you were
-to learn that $Y\ge 180^\circ$, you would thereby have learned that the coin landed tails. It is a standard result in Bayesian
+Note that if the coin lands heads, then we are guaranteed to have the final spinner angle $Y \le 180^\circ$. Thus, if you were
+to learn that $Y>180^\circ$, you would thereby have learned that the coin landed tails. It is a standard result in Bayesian
 epistemology that if something is evidence for a hypothesis, then its negation is evidence against the hypothesis. Hence, if
-you were to learn that $Y<180^\circ$, that would be evidence against the tails hypothesis, and hence in favor of the heads
-one.
+you were to learn that $Y \le 180^\circ$, that would be evidence against the tails hypothesis, and hence in favor of the heads
+one. More specifically, the probability of heads given that $Y\le 180^\circ$ will be $2/3$. For there are initially four equally
+likely options given your evidence: 
+\begin{enumerate}
+\item[(i)] heads and $X\le 180^\circ$
+\item[(ii)] heads and $X> 180^\circ$
+\item[(iii)] tails and $X\le 180^\circ$
+\item[(iv)] tails and $X> 180^\circ$.
+\end{enumerate}
+Learning that $Y\le 180^\circ$ rules out (iv), since on tails no adjustment is made and so $X=Y$. However, learning that
+$Y\le 180^\circ$ does not rule out any of the ways of getting any of the options (i)--(iii). Thus, (i)--(iii) remain equally
+likely. Since heads occurs on two of these three options, thus the probability of heads is $2/3$ after learning that $Y\le 180^\circ$.
 
-?????
+Suppose, now, that we have a three-step process. At $t_0$, the spin, toss and any adjustment is done out of your sight, but you
+know the process that was followed and will be followed. At $t_1$, you will be informed whether $Y \le 180^\circ$. At $t_2$, you will 
+be informed of the exact value of $Y$.
+
+Imagine that at $t_1$ you learn that indeed $Y \le 180^\circ$ and at $t_2$ you learn that $Y$ is exactly $22.44^\circ$. 
+At $t_0$, your credence in heads was $1/2$. At $t_1$, it went to $2/3$. What about at $t_2$? Well, here is the problem.
+At $t_2$, the total information gained since $t_0$ can be summed up as $Y=22.44^\circ$ (this logically entails the
+information from the $t_1$ stage that $Y\le 180^\circ$). But the information that $Y=22.44^\circ$ is equivalent to:
+\begin{enumerate} 
+\item[(v)] Either tails and $X=22.44^\circ$, or heads and $X=44.88^\circ$.
+\end{enumerate}
+But note that (v) tells you nothing about whether you got heads or tails, in light of the fact that all the spinner angles are
+equally likely, the coin is fair, and the spinner and the coin are independent. Both paired coin-and-spinner outcomes are equally
+likely, and when we learn that exactly one of them happened, they remain equally likely.
+
+In light of the fact that your total information at $t_2$ is that given in $t_0$ plus (v), at $t_2$ your
+probability for heads seems to be $1/2$. 
+
+But now observe that this argument would work no matter what angle you learned $Y$ to have at $t_2$. Thus at $t_1$, you would
+already know for sure that given the additional information you will receive at $t_2$, your final credence in heads will be
+$1/2$. 
+
+Famously, Bas van Fraassen has posited the plausible reflection principle that if a rational agent knows for sure that their future credence
+will be some value, then that should \textit{already} be their credence. This principle needs some qualifications to avoid
+easy counterexamples. The agent needs to know for sure that they are will maintain rationality, and that they will 
+not lose any information.??refs We can suppose that all of these qualifications are met in our case, and given these qualifications,
+the reflection principle is very plausible. Yet our case appears to be a counterexample to the principle.
+
+It is worth noting the pragmatic effect of this failure: you are subject to a Dutch Book, a sequence of bets with a guaranteed
+loss. At $t_1$, you will be willing to accept a wager where you get $\$45$ on heads and pay $\$55$ on tails, since
+$(2/3)\cdot \$45 - (1/3)\cdot \$55 = \$11.67$. But at $t_2$, you will be regretting this wager and expecting an outcome of
+$(1/2)\cdot \$45 - (1/2)\cdot \$55 = \$(-5)$. Given your expectation at $t_2$ of a five dollar loss, you will be willing to pay the 
+bookie four dollars if they offer to let you change your mind. As a result, you have a guaranteed loss of four dollars.  
+Nor is this some kind of a rare situation: there is nothing that special about the case where $Y=22.44^\circ$: any angle
+less than or equal to $180^circ$ has the same property. Thus half of the time that the whole game is played you will end up
+Dutch-Bookable at $t_1$ and $t_2$.
+
+Note that there is a technical problem in the above reasoning. I argued that updating on the information in (v) yields equal probability
+of heads and tails. However, the information in (v) has probability \textit{zero}. To see this, note that for any small positive
+number $\e$, the probability that $X$, when measured in degrees, is between $22.44-\e$ and $22.44+\e$ is $2\e / 360$. Thus the 
+probability that $X$ is \textit{exactly} $22.44^\circ$ is no bigger than $2\e / 360$ for \textit{any} positive real number $\e$.
+But the only way a non-negative number $p$ (and probabilities are non-negative) can be less than or equal to $2\e / 360$ for any positive
+number $\e$ is if $p$ is zero.\footnote{Suppose that $p\ge 0$ and $p\le 2\e/360$ for 
+every $\e>0$. For a \textit{reductio ad absurdum} suppose $p>0$. Then let $\e = p$. This is a positive number, so $p \le 2\e/360 = p/180$.
+But we cannot have $p \le p/180$ for a positive $p$.} Standard Bayesian reasoning updates the probability of a hypothesis $H$ on evience $E$
+to $P(H\mid E)=P(H\And E)/P(E)$. But if $P(E)=0$, then this formula yields $0/0$, which is undefined. 
+
+The literature contains various ways out of the difficulty of updating our information on an event that seems to have zero probability.
+We might say that it's not zero but an infinitesimal, or we might have a mathematical framework like Popper functions that allows
+for such conditionalization, or we might work with probability densities. Whatever we do, a criterion of adequacy on the method will be that we 
+preserve the symmetries in the situation by taking the two disjuncts in (v) to be probabilistically on par, and hence making the 
+update yield equal probabilities for heads and tails.\footnote{There are technical problems with maintaining symmetry in general in contexts with
+infinitesimal probabilities. But the amount of symmetry needed for the above argument---namely, equal probability of $22.44^\circ$ and
+$11.22^\circ$---can indeed be maintained. ??ref} And that will lead to our paradox.
+
+The solution I want to propose instead is this. Stop the search for general ways of updating on zero probability events. Except in special
+cases (more on that soon???), such updates should not be done.  Instead, embrace imprecision. In practice, we never exactly measure the
+position of a spinner. Suppose that instead of measuring the spinner position at $22.44^\circ$ at $t_2$, we measure it to be $22.44\pm 0.01$
+degrees. Let $E$ be the evidence, then, that the spinner ended between $22.43$ and $22.45$. Then $P(E)=0.02/360$ and there is no special 
+difficulty in calculating via Bayes' theorem that 
+$$
+    P(\text{heads} \mid E) = \frac{P(E \mid \text{heads})}{P(E)} P(\text{heads}) = 2/3.\footnote{??fill in details}
+$$    
+
+Now, if we were to measure things will full precision, we would indeed have to update on zero-probability events, and we would sometimes
+end up in a bind. But our rationality, I propose, is not made for full-precision measurements. Our rationality is made for imprecisionand is 
+kind-relative. Beings who made full-precision measurements of real numbered quantities would 
+have to reason differently from how we do. Maybe they would have some other method than conditionalization for dealing with these cases.
+Maybe violating the reflection principle and being Dutch-Booked would be rationally acceptable for them. This all fits very well with 
+our Aristotelian picture. We have our nature and the rationality that our nature requires of us.
+
+??what is rationality?
 
 \section{Going beyond the applicability of human epistemology}
 Suppose that you are certain you are one of infinitely many people have each rolled a fair die, none of whom have seen the 
