@@ -13,3 +13,5 @@ forms of life boundaries: https://www.repository.cam.ac.uk/bitstream/handle/1810
 Is our normative messiness contrary to the simplicity we seek? No: simplicity is different in different areas, and biology has more of hierarchical
 beauty than great simplicity. It is unsurprising that a good solution to the normative engineering project is messy, just as a good solution to
 other engineering problems is messy. Elegant physical games, like badminton, have lots of rules. (But abstract games. Go.)
+
+normative accidents
