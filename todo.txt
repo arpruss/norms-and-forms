@@ -15,3 +15,5 @@ beauty than great simplicity. It is unsurprising that a good solution to the nor
 other engineering problems is messy. Elegant physical games, like badminton, have lots of rules. (But abstract games. Go.)
 
 normative accidents
+
+set theory, Mersenne, free params
