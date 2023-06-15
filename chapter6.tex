@@ -335,8 +335,36 @@ Here we \textit{can} give an Aristotelian account:
 \ditem{identity-Arist}{There is a form $F$ such that at $t_1$, $F$ unites the $x$s,
     and at $t_2$, $F$ unites the $y$s.}
 Here we might stipulate that a form $F$ unites the $z$s just in case $F$ is one of 
-the $z$s, $F$ informs each one of the $z$s other than $F$, and anything informed 
-by $F$ overlaps at least one of the $z$s.
+the $z$s, $F$ informs each non-form among the $z$s, and anything informed 
+by $F$ overlaps at least one of the $z$s.\footnote{I.e., 
+$F\in zz\And \forall x((x \in zz \And\Not operatorname{Form}(x)) \rightarrow 
+\operatorname{Informs}(F,x))\And\forall x(\operatorname{Informs}(F,x)\rightarrow
+\exists y(y\in zz \rightarrow O(y,z)))$. Here $O(y,z)$ says that $y$ overlaps $z$,
+or, equivalently, $\exists w(w\le y\And w\le z)$, where $\le$ is the parhood
+relation. No identity anywhere here. I am assuming that the form predicate
+only applies to substantial forms, not accidental ones.}
+
+It may appear that \dref{identity-Arist} uses the concept of identity in claiming 
+that the \textit{same} $F$ unites the $x$s as unites the $y$s. However, notice that
+we can rewrite \dref{identity-Arist} in first order logic without any equal signs:
+\ditem{identity-Arist-FOL}{$\exists F(\operatorname{Form}(F)\And\operatorname{Unites}(F,xx,t_1)
+    \And\operatorname{Unites}(F,yy,t_2))$.}
+Granted, \dref{identity-Arist-FOL} is logically equivalent to:
+\ditem{identity-Arist-FOL}{$\exists F\exists G(\operatorname{Form}(F)\And\operatorname{Form}(G)\operatorname{Unites}(F,xx,t_1)
+    \And\operatorname{Unites}(G,yy,t_2)\And F=G)$,}
+but this only show that the identity is eliminable from \dref{identity-Arist-FOL2},
+just as the identity can be eliminated from
+\ditem{tallgreen2}{$\exists x\exists y (\operatorname{Tall}(x)\And \operatorname{Green}(y)\And x=y)$}
+(``There is a tall object which is identical to a green object'') to yield:
+\ditem{tallgreen}{$\exists x(\operatorname{Tall}(x)\And \operatorname{Green}(x)$}
+(``There is a tall green object'').
+
+Thus, \dref{identity-Arist} gives us an account of the identity of complex objects
+that does not presuppose identity.\footnote{One might also worry that complexity
+presupposes identity: an object is complex provided it has two distinct parts.
+But the Aristotelian can make sense of complexity of objects by saying that an
+object is complex provided that it has a part that is a form and a part that is not
+a form.}
 
 \section{Teleological animalism and cerebra}
 Each premise of the following argument is very plausible.
