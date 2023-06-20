@@ -311,7 +311,19 @@ while the scattered atoms contain at most the forms of particles or atoms. Addin
 substracting or moving particles is not enough: one needs to add a human form
 somewhere in the sequence.
 
-??why add it THERE: Mersenne
+We can, further, give an account of when a plurality of objects, the $x$s, compose a 
+substantial whole: namely, there is a form among the $x$s which informs all the other $x$s, 
+and everything informed by that form overlaps with at least one of the $x$s:
+\ditem{compose}{$\exists F[F\in xx\And \Form(F)\And \forall y((y\in xx \And \Not y=F) \rightarrow 
+    \Informs(F,y))]$,}
+assuming that the $\Form(x)$ predicate only applies to substantial forms.
+Here, the informing relation is one where the form gives identity to the thing it informs.
+\footnote{Understood this way, informing is a relation that holds both between an a substantial 
+form and the material parts of the substance and between a substantial form and the accidents or 
+accidental forms of the substance. One may, however, object that these are two different relations.
+If so, take my $\Informs(x,y)$ relation to be a disjunction of the two.}
+
+??why is the transition where it is?: Mersenne
 
 \section{Identity over time}
 One of the classic questions of metaphysics is about the grounds of identity over time. 
@@ -356,14 +368,32 @@ Here we \textit{can} give an Aristotelian account:
 \ditem{identity-Arist}{There is a form $F$ such that at $t_1$, $F$ unites the $x$s,
     and at $t_2$, $F$ unites the $y$s.}
 Here we might stipulate that a form $F$ unites the $z$s just in case $F$ is one of 
-the $z$s, $F$ informs each non-form among the $z$s, and anything informed 
-by $F$ overlaps at least one of the $z$s.\footnote{I.e., 
-$F\in zz\And \forall x((x \in zz \And\Not operatorname{Form}(x)) \rightarrow 
-\operatorname{Informs}(F,x))\And\forall x(\operatorname{Informs}(F,x)\rightarrow
-\exists y(y\in zz \rightarrow O(y,z)))$. Here $O(y,z)$ says that $y$ overlaps $z$,
-or, equivalently, $\exists w(w\le y\And w\le z)$, where $\le$ is the parhood
-relation. No identity anywhere here. I am assuming that the form predicate
-only applies to substantial forms, not accidental ones.}
+the $z$s, at least one of the $z$s is a non-form, every form among the $z$s informs 
+each non-form among the $z$s, anything informed  by $F$ overlaps at least one of the $z$s:
+\ditem{Unites}{$\operatorname{Unites}(F,zz) \equiv
+[F\in zz\And \Form(F)\and\exists x(x\in zz\And \Not\Form(x))\And \forall G\forall x((\Form(G)\And\Not\Form(x)\And G\in zz\And x\in zz)
+\rightarrow \operatorname{Informs}(G,x))\And \forall x(\operatorname{Informs}(F,x)\rightarrow 
+\exists y(y\in zz \And O(y,x)))]$.}
+Here $O(y,z)$ says that $y$ overlaps $z$,
+i.e., $\exists w(w\le y\And w\le z)$, where $\le$ is the parhood
+relation. There is no identity anywhere in \dref{Unites}.\footnote{Note that the right hand side of 
+\dref{Unites} is much more complex than \dref{composes}, even though we are giving an account of a 
+very similar phenomenon. A simpler formulation than \dref{Unites}, and more in line with \dref{composes}, 
+would say that $F$ unites the $z$s just in case it is one of them and informs every one of the $z$s other 
+than itself and everything informed by overlaps at least one of the $z$s. However, this formulation 
+makes use of identity in talking of $z$ \textit{other than} $F$. To avoid the identity operator, we 
+quantify over all the substantial forms among the $z$s and say that they inform all the non-forms. 
+For the present account to work, we cannot have a case where all the things informed by a substantial
+form $F$ are also informed by another substantial form $G$, i.e., it cannot be that all the non-substantial-form 
+constituents of one substance $a$ are parts of another substance $b$. For if we had that, then the 
+\dref{Unites} would make $F$ unite all the constituents of $a$ together with the form of $b$, which does not
+seem right. On a natural interpretation of the metaphysics of conjoint twins (??cross-ref,??ref), there are common
+parts that informed by two forms. Our assumption is compatible with that interpretation, but rejects the odd
+possibility of conjoint twins where the common parts include \textit{all} the non-substantial-form constituents
+of one of them. If our assumption is rejected, then we may need to make use of the identity operator in \dref{Unites}.
+However, the identity operator would only need to be used in the case of where one of the relata is a form, and so 
+we could still have an explanation of identity of substances in terms of identity of form, and metaphysical
+progress will have been made.}
 
 It may appear that \dref{identity-Arist} uses the concept of identity in claiming 
 that the \textit{same} $F$ unites the $x$s as unites the $y$s. However, notice that
