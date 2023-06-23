@@ -17,3 +17,5 @@ other engineering problems is messy. Elegant physical games, like badminton, hav
 normative accidents
 
 set theory, Mersenne, free params
+
+level of specification of environment -- flourishing on alien planets

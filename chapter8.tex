@@ -2,8 +2,294 @@
 \input{chapterhead}
 \chapter{Metaphysics}\label{ch:metaphysics}
 \section{Composition}
+Intuitively, your parts compose a whole, namely you. On the other hand,
+if you choose exactly one atom from every star in every galaxy in the universe,
+intuitively these scattered atoms do not make up any whole.
+
+Yet it seems that one could produce a continuous series of worlds, adding, subtracting or moving 
+one particle at a time, where the first item in the series consists of the scattered
+atoms in different stars and the last item consists of you. Somehow, as one moves
+along the sequence, at some point a new macroscopic object pops in (maybe it's 
+you, or maybe it's something else), despite the variation between successive terms
+in the sequence being extremely slight. What makes for the transition? ??ref:Sider
+
+???vagueness, nihilism, Sider, etc.
+
+As Tomaszewski has noted??ref, the Aristotelian, however, has a solution, namely
+the invocation of form. After all, it is not possible to have a sequence where at
+one end you have one atom from every star and at the other have all of your parts,
+and the transition is particle-by-particle. For your parts include a human form,
+while the scattered atoms contain at most the forms of particles or atoms. Adding,
+substracting or moving particles is not enough: one needs to add a human form
+somewhere in the sequence.
+
+We can, further, give an account of when a plurality of objects, the $x$s, compose a 
+substantial whole: namely, there is a form among the $x$s which informs all the other $x$s, 
+and everything informed by that form overlaps with at least one of the $x$s:
+\ditem{compose}{$\exists F[F\in xx\And \Form(F)\And \forall y((y\in xx \And \Not y=F) \rightarrow 
+    \Informs(F,y))]$,}
+assuming that the $\Form(x)$ predicate only applies to substantial forms.
+Here, the informing relation is one where the form gives identity to the thing it informs.
+\footnote{Understood this way, informing is a relation that holds both between an a substantial 
+form and the material parts of the substance and between a substantial form and the accidents or 
+accidental forms of the substance. One may, however, object that these are two different relations.
+If so, take my $\Informs(x,y)$ relation to be a disjunction of the two.}
+
+??why is the transition where it is?: Mersenne
+
+\section{Identity over time}
+One of the classic questions of metaphysics is about the grounds of identity over time. 
+A very general way of posing the question is to ask for an explanation or ground of claims
+of the form:
+\ditem{identity-ground}{Object $x_1$ is identical to object $x_2$,}
+where $x_1$ and $x_2$ respectively exist at times $t_1$ and $t_2$, which are presupposed to be different\footnote{One may worry that this
+presupposition cannot be stated without using identity, i.e., without denying that
+$t_1=t_2$. However, it is not clear that even if this is true, it affects the
+significance of the question. Moreover, if time turns out to be linearly ordered,
+then we can state the presupposition disjunctively: $t_1$ is earlier than $t_2$ 
+or $t_2$ is earlier than $t_1$.} and where we require the explanation not to
+involve identity and to involve only purely qualitative properties and 
+relations.\footnote{If we allow the account to involve non-qualitative properties 
+like Socrateity (the property of being Socrates), then we can offer a infinite 
+account: $x_1$ is identical to $x_2$ provided that any property had by $x_1$ is 
+had by $x_2$.}
+
+Put in that very general way, it seems unlikely that we will have a solution, 
+absent some extremely controversial metaphysical assumptions, such as 
+Leibniz's Principle of Identity of Indiscernibles (PII).\footnote{The PII says
+that two things are identical just in case they have the same purely qualitative
+properties. If the PII holds, then we can say that $x_1=x_2$ if and only if 
+for every purely qualitative property we have $Q(x_1)$ iff $Q(x_2)$.} 
+
+But there is a somewhat less general way of putting the diachronic identity question.
+Suppose that at time $t_1$, some proper plurality of items, the $x$s, compose an 
+object and at time $t_2$ the $y$s compose an object. Then we ask for the grounds of:
+\ditem{identity-comp-ground}{An object composed of the $x$s at $t_1$ is identical 
+    with an object composed of the $y$s at $t_2$.\footnote{The reason for the
+    indefinite pronoun is that, first, there might be more than one object composed
+    of the same parts and, second, using the definite pronoun introduces another 
+    instance of the identity relation given the Russellian analysis of ``The $F$ is
+    $G$'' as saying that some $F$ is $G$ and has the property of being
+    \textit{identical} with every $F$ that is $G$, whereas we only want an account
+    of a single identity relation.}}
+This is not asking for an account of diachronic identity in general, but of diachronic
+identity of complex objects (note that we only require the $x$s to be a proper
+plurality, i.e., for there to be more than one of them).
+    
+Here we \textit{can} give an Aristotelian account:
+\ditem{identity-Arist}{There is a form $F$ such that at $t_1$, $F$ unites the $x$s,
+    and at $t_2$, $F$ unites the $y$s.}
+Here we might stipulate that a form $F$ unites the $z$s just in case $F$ is one of 
+the $z$s, at least one of the $z$s is a non-form, every form among the $z$s informs 
+each non-form among the $z$s, anything informed  by $F$ overlaps at least one of the $z$s:
+\ditem{Unites}{$\operatorname{Unites}(F,zz) \equiv
+[F\in zz\And \Form(F)\and\exists x(x\in zz\And \Not\Form(x))\And \forall G\forall x((\Form(G)\And\Not\Form(x)\And G\in zz\And x\in zz)
+\rightarrow \operatorname{Informs}(G,x))\And \forall x(\operatorname{Informs}(F,x)\rightarrow 
+\exists y(y\in zz \And O(y,x)))]$.}
+Here $O(y,z)$ says that $y$ overlaps $z$,
+i.e., $\exists w(w\le y\And w\le z)$, where $\le$ is the parhood
+relation. There is no identity anywhere in \dref{Unites}.\footnote{Note that the right hand side of 
+\dref{Unites} is much more complex than \dref{composes}, even though we are giving an account of a 
+very similar phenomenon. A simpler formulation than \dref{Unites}, and more in line with \dref{composes}, 
+would say that $F$ unites the $z$s just in case it is one of them and informs every one of the $z$s other 
+than itself and everything informed by overlaps at least one of the $z$s. However, this formulation 
+makes use of identity in talking of $z$ \textit{other than} $F$. To avoid the identity operator, we 
+quantify over all the substantial forms among the $z$s and say that they inform all the non-forms. 
+For the present account to work, we cannot have a case where all the things informed by a substantial
+form $F$ are also informed by another substantial form $G$, i.e., it cannot be that all the non-substantial-form 
+constituents of one substance $a$ are parts of another substance $b$. For if we had that, then the 
+\dref{Unites} would make $F$ unite all the constituents of $a$ together with the form of $b$, which does not
+seem right. On a natural interpretation of the metaphysics of conjoint twins (??cross-ref,??ref), there are common
+parts that informed by two forms. Our assumption is compatible with that interpretation, but rejects the odd
+possibility of conjoint twins where the common parts include \textit{all} the non-substantial-form constituents
+of one of them. If our assumption is rejected, then we may need to make use of the identity operator in \dref{Unites}.
+However, the identity operator would only need to be used in the case of where one of the relata is a form, and so 
+we could still have an explanation of identity of substances in terms of identity of form, and metaphysical
+progress will have been made.}
+
+It may appear that \dref{identity-Arist} uses the concept of identity in claiming 
+that the \textit{same} $F$ unites the $x$s as unites the $y$s. Even if that were so,
+progress would have been made: an account of identity for complex would be given things 
+in terms of identity for simple things. But in any case, we need not concede the point
+as we can rewrite \dref{identity-Arist} in first order logic without any equal signs:
+\ditem{identity-Arist-FOL}{$\exists F(\operatorname{Form}(F)\And\operatorname{Unites}(F,xx,t_1)
+    \And\operatorname{Unites}(F,yy,t_2))$.}
+Granted, \dref{identity-Arist-FOL} is logically equivalent to:
+\ditem{identity-Arist-FOL}{$\exists F\exists G(\operatorname{Form}(F)\And\operatorname{Form}(G)\operatorname{Unites}(F,xx,t_1)
+    \And\operatorname{Unites}(G,yy,t_2)\And F=G)$,}
+but this only show that the identity is eliminable from \dref{identity-Arist-FOL2},
+just as the identity can be eliminated from
+\ditem{tallgreen2}{$\exists x\exists y (\operatorname{Tall}(x)\And \operatorname{Green}(y)\And x=y)$}
+(``There is a tall object which is identical to a green object'') to yield:
+\ditem{tallgreen}{$\exists x(\operatorname{Tall}(x)\And \operatorname{Green}(x)$}
+(``There is a tall green object'').
+
+Thus, \dref{identity-Arist} gives us an account of the identity of complex objects
+that does not presuppose identity.\footnote{One might also worry that complexity
+presupposes identity: an object is complex provided it has two distinct parts.
+But the Aristotelian can make sense of complexity of objects by saying that an
+object is complex provided that it has a part that is a form and a part that is not
+a form.}
+
+\section{Teleological animalism and cerebra}
+Each premise of the following argument is very plausible.
+\ditem{human}{We are humans.} 
+\ditem{human-mammal}{Humans are mammals.} 
+\ditem{mammal}{So, we are mammals.}
+\ditem{mammal-animal}{Mammals are animals.}
+\ditem{animalism}{So, we are animals.}
+
+Nonetheless, the conclusion---labaled as ``animalism''---is denied by many philosophers. One traditional path to 
+this denial is a Cartesian dualism on which we are immaterial souls that inhabit human animals. The other path 
+is modern colocationist views on which we are a special kind of material object---a person---constituted by a human 
+animal. The third path is brain views on which we are brains, or parts of brains (namely cerebra), which in turn are a 
+proper part of a human animal. 
+
+On all three paths, one will want to deny \dref{mammal}. Perhaps the best way to do so would be to distinguish ``humans'' 
+in \dref{human} and \dref{human-mammal} into  human animals and human persons, and insist that premise \dref{human} is true 
+only of human persons, while \dref{human} is true only of human animals. Thus the argument is unsound if ``humans'' is used 
+consistently and otherwise invalid. 
+
+In any case, the intermediate step \dref{mammal} gets denied. Instead, we are 
+\textit{associated} with mammals, by ensoulment, constitution or parthood.   Yet \dref{mammal} is by itself extremely plausible. 
+To deny that we are mammals seems akin to denying that earth
+is round. Further, both the Cartesian and brain views imply that we
+rarely if ever see or touch another person. One needs extremely good arguments for such counterintuitive theses. 
+
+Probably the main candidate here is a family of arguments about the difficulties of accounting for cerebrum transplants
+on animalism.??refs The simplest version is that if your cerebrum is removed from your skull and placed in a vat in such a way
+that it can continue functioning, then intuitively you continue to think and come along with the cerebrum. But a cerebrum
+is not an animal. On the contrary, the cerebrumless body appears to be an animal. After all, some animals (e.g., fish??) lack
+cerebra, and it seems that the destruction of a cerebrum in an animal that normally has one would result in the animal 
+becoming severely disabled rather than ceasing to exist. Thus, animalism points to the cerebrumless body as you---the cerebrumless
+body is the same animal as you---and the cerebrum in the vat as something  or someone else, contrary to our intuitions.
+
+Cartesians, colocationists and brain theorists who identify with the cerebrum have no such problem. They can all say that
+the cerebrumless body is not you, and instead you inhabit or are colocated with or are just plain identical with the cerebrum
+in the vat. 
+
+Here I want to argue that an Aristotelian about humans can embrace a teleological variety of animalism on which it is natural to say that 
+we go along with our cerebra. Now animalism is highly plausible as 
+a view of the human person that does justice to the intuitions that humans are mammals, weigh about 80~kg and can be seen 
+without surgery, but faces a serious cerebrum transplant problem. If Aristotelianism can help animalists overcome that problem,
+that is some further evidence for Aristotelianism about humans.
+
+There are two teleological features in the animalism I will sketch. The first teleological feature is the thesis 
+that what defines somethingas an animal (and indeed an animal of a particular type) is its teleology. While it is usual to 
+think of animals as things that nourish themselves, grow, reproduce, and have a certain level of autonomy from the enviroment, 
+the teleological animalist instead insists that animals need not engage in these activities, but need only have a teleological
+orientation towards them, need to be the sorts of things that \textit{should} engage in these activities. 
+
+The second teleological feature is to see organisms, including humans, as having a teleological \textit{hierarchy}, with some
+\tele{} subordinated to others. Sometimes the subordination is instrumental: our teeth rend food in order to nourish us. 
+But there can also be a value-based subordination, where an activity, while not merely instrumental towards another activity, 
+is less central to the flourishing of the organism and to the organism's identity. On the teleological animalism I am sketching,
+it is postulated that in humans, activities common to all animals are subordinated to specifically personal activities, namely 
+rational and moral behavior. ???can we have this in non-theistic versions??? wouldn't we have subordination to reproductive
+activity???
+
+When there is a hierarchical subordination, it is plausible to think that in cases of splitting, an organism is more apt
+to come along with the organs supporting the higher-level features. If in humans it is moral and intellectual capacity 
+that is at the top of the teoleological hierarchy, and the cerebrum is much more directly supportive of these capacities
+than the lower brain, heart, lungs, etc., then we would expect the human organism to come along with the cerebrum. If you
+cut a worm in such a way that one end contains just the head and the other contains the rest of the body, and both parts
+behave as if they were alive, it is reasonable to suppose that the form of the original individual may go with the larger
+piece which contains more in the way of life-supporting organs, rather than with the head, because the head is less 
+teleologically central to the worm than to us. But given human teleology, we would expect us to go along with the head,
+if the head were given life support, or even with the brain or cerebrum.
+
+What about the remaining cerebrumless human body, which maintains its vital functions? If the original individual goes along
+with the cerebrum, and if we take the idea of one human form in two bodies to be absurd, there are three possibilities 
+for the cerebrumless body:
+\begin{itemize}
+\item[(a)] the cerebrumless body gains a new human form, or 
+\item[(b)] it gains some non-human form, or 
+\item[(c)] it becomes a non-living substance or a formless heap of matter. 
+\end{itemize}
+
+If the cerebrumless body gains a new human form, then we have the counterintuitive consequence that a temporary removal
+of a cerebrum followed by reimplantation would either result in conjoined twins---two human beings joined at the edges
+of the cerebrum---or would result in the death of one or more of the two human beings. None of these options seems very
+plausible, but at the same time, we should not be too surprised if strange things happen when you move cerebra around!
+
+If the cerebrumless body gains a non-human form, this is presumably an organismic form, since the entity is capable of
+nourishment, reproduction, etc. But we have something moderately puzzling: a non-human organism
+that would produce a human being if it were to mate with a human or with another organism of the same sort but of the
+opposite sex. Moreover, it seems plausible that if the cerebrumless body has a teleology at all, that teleology impels
+it to try to support the cerebrum: oxygen would be directed by the body towards the missing cerebrum, presumably. This
+suggests that the being is incomplete without the cerebrum. But a being that ought to have a human cerebrum seems to be 
+a human being. 
+
+The last option is a formless heap of matter or a non-living substance (such as a body of water might be on some 
+Aristotelian theories??refs). This does not 
+seem particularly puzzling in the transfer case. 
+If the form departs, by going along with the cerebrum, then formlessness would seem to be the obviously expected result, 
+barring some special reason to the contrary.
+
+What if instead of the cerebrum being removed and put on life-support, the cerebrum is simply destroyed? This corresponds
+to a tragic real-life scenario: upper brain death. Bioethicists disagree on whether upper brain death is death.??refs
+We have four moderately plausible options for cerebral destruction:
+\begin{itemize}
+\item[(i)] the original individual continues to live, i.e., the cerebrumless body retains the original human form??backref-to-identity, or
+\item[(ii)] the original individual dies and the cerebrumless body gains a new human form, or
+\item[(iii)] the original individual dies and the cerebrumless body gains a non-human form, or
+\item[(iv)] the original individual dies and the cerebrumless body has no organismic form, and is either a non-living substance or a heap.
+\end{itemize}
+
+Between (a)--(c) and (i)--(iv), there are twelve combinations with various intuitive connections between them. 
+However, we can intuitively reduce the number of options quite significantly. I have assumed that in the transfer
+case, the original form goes along with the cerebrum in the transfer case, departing from the cerebrum. Suppose that
+(i) is false. Then the original individual dies and the cerebrumless body is deprived of its original form. It seems
+very plausible that what happens to the cerebrumless body upon deprivation of its original human form should not depend
+on what that form does after departing the cerebrumless body---whether it continues to inform a reduced body (the cerebrum), 
+or survives disembodied as many religious people think, or perishes. Thus, if (i) is false, then (a), (b) or (c) holds
+respectively if and only if (ii), (iii) or (iv) holds. 
+
+We thus have three plausible options with (i) false:
+\begin{itemize}
+\item[($\alpha$)] (a) and (ii)
+\item[($\beta$)] (b) and (iii)
+\item[($\gamma$)] (c) and (iv)
+\end{itemize}
+
+What if (i) is true, so that in the case of cerebral destruction, the original form continues to inform the cerebrumless body? 
+Does this  tell us anything about what happens in the transfer case? One might initially think that the falsity of (i) fits
+poorly with any of (a), (b) and (c). After all, if destruction of the cerebrum results in the form staying with the cerebrumless
+body, shouldn't we expect the form remain with the cerebrumless body when the cerebrum is transfered?
+
+But this is not clear on teleological animalism. For we might think that in division or partial destruction of the body, the form 
+goes along with the part that is the best candidate for being informed by it, at least when there is a unique best candidate and that best 
+candidate is ``good enough''. On the teleological account, the quality of candidacy for being informed is measured by how high in the teleological hierarchy are
+the goals directly promoted by the part. If the part promotes goals at the top of the hierarchy, then the candidate is automatically
+good enough. Thus, when the cerebrum survives, it is reasonable to think the form goes along with the cerebrum, because the cerebrum
+is good enough as a candidate, and higher in the hierarchy than the cerebrumless body. But if the cerebrum is destroyed, the cerebrumless
+body is the unique best candidate, because it is the only candidate. Whether the cerebrumless body is good enough as a candidate is not clear, but neither is it
+clear that it is not good enough. It is, after all, on the next step down in the hierarchy after the cerebrum, having among its tasks the full
+support of the cerebrum's functioning, as well as many important purely animal functions. Thus, all of the following are at least somewhat reasonable 
+epistemic possibilities:
+\begin{itemize}
+\item[($\delta$)] (a) and (i)
+\item[($\e$)] (b) and (i)
+\item[($\zeta$)] (c) and (i)
+\end{itemize}
+
+On teleological animalism we thus have six combinations for making sense of what happens to the form and cerebrum, namely ($\alpha$)--($\zeta$), 
+and none of them appear immensely problematic, though (a) and (b) have some moderately counterintuitive consequences. But even if we feel
+the need to reject these, that still leaves us with ($\gamma$) and ($\zeta$): in cerebral transfer cases, the cerebrumless body is not a living
+thing, while in cerebral destruction cases, the cerebrumless body may (if we have (i)) or may not (if we have (iv)) continue to be a living
+human being. 
+
+One may think ($\zeta$) is implausible, because it implies that whether the body-minus-cerebrum continues to have the original human
+form depends on what happens to the cerebrum---whether it is merely removed or actually destroyed. But such dependence is, as already
+noted, to be reasonably expected. For if we think of the cerebrum as a magnet for the original human form, then transfer of that ``magnet''
+might be reasonably be thought to pull the form along, hence depriving the cerebrumless body of it, while destruction of the ``magnet'' might
+well leave the form in place. 
+
+Teleological animalism, thus, has multiple ways of making sense of what happens in cerebral transfer and destruction cases, while these cases
+are highly problematic to other types of animalism. Given the plausibility of animalism as such, this gives us another reason to accept
+teleological animalism.
+
 \section{Ill-matched matter, rearrangement, the power to continue existing and immortality}
-\section{Diachronic identity}
 \section{Naturalism}
 Is the Aristotelian hylomorphic account of humans compatible with naturalism? This depends on how naturalism
 is defined and whether we take the theistic version of the account or not.
