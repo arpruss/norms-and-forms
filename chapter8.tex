@@ -385,13 +385,44 @@ would be in examining human free will, but that goes beyond the scope of this bo
 \input{chapterhead}
 \chapter{Laws of nature and causal powers}\label{ch:laws}
 \section{Humean and pushy laws}
+\subsection{Introduction}
 There are two main views of laws of nature. On Humean views, we have laws simply in virtue of non-causal 
 regularities of the behavior of objects in nature, and causation is then grounded in the laws. On pushy views, 
 we have laws in virtue of metaphysical components of reality that affect or constrain the behavior of objects. 
 In this section, I will argue that pushiness is the right view. 
 
-Introduce Lewis??
+Introduce Lewis??, including probabilistic version. ??BSA, PBSA
 
+\subsection{Probabilities}
+Suppose the world consists of some large number $N$ of independent fair indeterministic coin tosses, where $N$ is large
+and easily mathematically expressible, e.g., $N=2^{256}$. As we would expect, very close to half of the coin tosses are heads, and 
+we suppose that a probabilistic best systems view will have laws that correctly assign an independent chance of $1/2$ (or, if 
+one wishes,  something close to $1/2$, a complication I will ignore) to each toss. Moreover, because $N$ is easily expressible,
+and expressing it conveys a significant amount of information about the world, the laws also state that the number of tosses is
+$N$. 
+
+Now, the following version of van~Fraassen's Principal Principle is very plausible:
+\ditem{LPP}{If from a law $U$ it can be proved that the chance of $E$ is $p$, then $P(E\mid \Law(U)) = p$,}
+where $\Law(U)$ says that $U$ is a law.
+Here is another very plausible thesis:
+\ditem{INC}{If $E$ and $F$ are logically incompatible and $F$ is logically possible, then $P(E\mid F) = 0$.}
+(The restriction to the case where $F$ is logically possible is to handle the intuition that perhaps $P(F \mid F)=1$
+even if $F$ is logically impossible.)
+
+Now, let $U$ be our law that says that the world consists of $N$ independent fair indeterministic coin tosses. Let $E$ be the event
+of not getting any heads. Then it can be proved from $U$ that the chance of $E$ is $1/2^N$, so by \dref{LPP} we have:
+\ditem{non-zero-prob}{$P(E\mid\Law(U))=1/2^N$.}
+But on our probabilistic best systems analysis, it is logically impossible to have $U$ be a law when no heads have ever occurred.
+Thus, $\Law(U)$ and $E$ are logically incompatible, and so by \dref{INC} we have:
+\ditem{non-zero-prob}{$P(E\mid\Law(U))=0$,}
+a contradiction.
+
+The point here is quite simple. Orthodox probability reasoning shows that it is possible but unlikely that we will have no heads given
+a large number of independent fair coin tosses, but our probabilistic best-systems analysis must reject such a possibility.
+
+??refs
+
+\subsection{Too much power}
 Now imagine a universe consisting of a single quantum ``coin toss'' performed a very large number of times. Observing some 
 infinite sequences of these coin tosses, such as $HHH...H$, $TTT...T$, $HTHT...HT$ or $THTH...TH$, would make us confident 
 that the coin tosses are deterministic. But even though this would make us confident of determinism (e.g., $HTHT...HT$
