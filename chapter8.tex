@@ -394,6 +394,9 @@ In this section, I will argue that pushiness is the right view.
 Introduce Lewis??, including probabilistic version. ??BSA, PBSA
 
 \subsection{Probabilities}
+\subsubsection{Violations of the Principal Principle}
+??chances vs probabilities
+
 Suppose the world consists of some large number $N$ of independent fair indeterministic coin tosses, where $N$ is large
 and easily mathematically expressible, e.g., $N=2^{256}$. As we would expect, very close to half of the coin tosses are heads, and 
 we suppose that a probabilistic best systems view will have laws that correctly assign an independent chance of $1/2$ (or, if 
@@ -409,16 +412,55 @@ Here is another very plausible thesis:
 (The restriction to the case where $F$ is logically possible is to handle the intuition that perhaps $P(F \mid F)=1$
 even if $F$ is logically impossible.)
 
-Now, let $U$ be our law that says that the world consists of $N$ independent fair indeterministic coin tosses. Let $E$ be the event
+Now, let $U$ be our law that says that the world consists of $N$ independent fair indeterministic coin tosses. Let $E_0$ be the event
 of not getting any heads. Then it can be proved from $U$ that the chance of $E$ is $1/2^N$, so by \dref{LPP} we have:
-\ditem{non-zero-prob}{$P(E\mid\Law(U))=1/2^N$.}
+\ditem{non-zero-prob}{$P(E_0\mid\Law(U))=1/2^N$.}
 But on our probabilistic best systems analysis, it is logically impossible to have $U$ be a law when no heads have ever occurred.
-Thus, $\Law(U)$ and $E$ are logically incompatible, and so by \dref{INC} we have:
-\ditem{non-zero-prob}{$P(E\mid\Law(U))=0$,}
+Thus, $\Law(U)$ and $E_0$ are logically incompatible, and so by \dref{INC} we have:
+\ditem{non-zero-prob}{$P(E_0\mid\Law(U))=0$,}
 a contradiction.
 
 The point here is quite simple. Orthodox probability reasoning shows that it is possible but unlikely that we will have no heads given
-a large number of independent fair coin tosses, but our probabilistic best-systems analysis must reject such a possibility.
+a large number of independent fair coin tosses, but our probabilistic best-systems analysis must categorically reject such a possibility.
+
+One might think that assigning zero probability to things so incredibly unlikely is unproblematic. But we also have some other strange
+probabilistic results. In defining the laws, we are maximizing a balance of fit and brevity. If in our world half of the coin tosses 
+are heads, then a law assiging chance $1/2$ to heads is likely the best balance. But suppose that the frequency of heads isn't $1/2$
+but something very close to $1/2$. Then the law may still be that the chance is $1/2$, because a slight decrease in fit due to having
+a chance not quite matching the exact frequency might be more than offset by the gain brevity if chance $1/2$ is significantly more
+briefly expressible than the actual frequency, say ``$1/2-3\cdot 2^{-254}$''. 
+
+Let $F_N$ be the set of all fractions between $0$ and $1$ with denominator $N$. Each member of $F_N$ could be the exact frequency
+of head  in our world with $N$ tosses. Let $A_{N,1/2}$ be the subset of frequencies in $F_N$ that are compatible with a law specifying
+the chance to be $1/2$. For simplicity, suppose $N$ is even, so $1/2$ is a member of $F_N$. For $N$ sufficiently large, we can then 
+expect $1/2$ to be a member of $A_{N,1/2}$. But for the reasons given above, we would expect some frequencies in $F_N$ that are very
+close to $1/2$ to be in $A_{N,1/2}$ as well. If $E_\alpha$ is the event of the actual frequency being $\alpha$, then on our Humean
+view we have:
+\ditem{PP-zero}{If $\alpha$ is not in $A_{N,1/2}$, we have $P(E_\alpha\mid\Law(U))=0$.}
+On the other hand, very plausibly, if $\alpha$ is in $A_{N,1/2}$, then we have a real possibility of having frequency $\alpha$
+on the assumption that the law is $U$, and so we would expect:
+\ditem{PP-non-zero}{If $\alpha$ is not in $A_{N,1/2}$, we have $P(E_\alpha\mid\Law(U))>0$.}
+Frequencies that are sufficiently far from $1/2$ (such as the $0$ in our previous example) are not going to be in $A_{N,1/2}$: the fit 
+of these frequencies is too bad. The case of $\alpha=0$ has already been discussed.
+
+What is surprising, however, is that likely  there are some members $\alpha$ and $\beta$ in $F_N$ such that $\alpha<\beta<1/2$
+and yet $\alpha$ is a member of $A_{N,1/2}$ but $\beta$ is not a member of $A_{N,1/2}$. For we can suppose that both $\alpha$ and $\beta$
+are \textit{extremely} close to each other, and very close to $1/2$, but $\alpha$ is much more briefly expressible than $\beta$, so that 
+although the fit of a chance $1/2$ law is slightly poorer for worlds with frequency $\alpha$ than for worlds with frequency $\beta$,
+the greater brevity of an expression fo $\alpha$ makes a law giving the chance of heads as $\alpha$ have a better balance of fit and
+brevity in a world with frequency $\alpha$ than a law giving the chance as $1/2$, while $1/2$ has a better balance of fit and brevity in 
+a world with frequency $\beta$ than a law giving the chance as $1/2$.\footnote{I am assuming that the sequences of heads and tails in 
+the two worlds have equally good fit with the hypothesis of the independence of the coin tosses.} 
+
+I cannot give precise examples here, because
+we do not actually have the measures of fit in hand and estimating the brevity of the shortest expression of some number is often a very
+difficult task. But suppose I am right. Then by \dref{PP-zero} and \dref{PP-non-zero}, some frequencies in $F_N$ that are further from
+$1/2$, such as $\alpha$, will have a higher conditional probability on $U$ than some frequencies that are closer to $1/2$, such as
+$\beta$. I imagined that the counterintuitive result that $E_0$ has zero conditional probability on $U$ fails might be given the ``excuse''
+that $U$ entails a chance that is so tiny that we might as well take the probability to be zero. But that excuse won't work for $E_\beta$
+getting zero conditional probability on $U$. For if we say that $U$ entails such a low chance for $E_\beta$ that $E_\beta$ deserves
+conditional probability zero, then $E_\alpha$ should get conditional probability zero as well, since $E_\alpha$ has an even lower chance
+on $U$ (since the chances of a frequency of heads drop off as we get further away from $1/2$ if the true chance of each independent toss is $1/2$).
 
 ??refs
 
