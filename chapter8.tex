@@ -515,7 +515,8 @@ $\beta$. I imagined that the counterintuitive result that $E_0$ has zero conditi
 that $U$ entails a chance that is so tiny that we might as well take the probability to be zero. But that excuse won't work for $E_\beta$
 getting zero conditional probability on $U$. For if we say that $U$ entails such a low chance for $E_\beta$ that $E_\beta$ deserves
 conditional probability zero, then $E_\alpha$ should get conditional probability zero as well, since $E_\alpha$ has an even lower chance
-on $U$ (since the chances of a frequency of heads drop off as we get further away from $1/2$ if the true chance of each independent toss is $1/2$).
+on $U$.\footnote{For a large number of tosses, the chance of getting a particular frequency $x$ of heads has an approximately normal distribution 
+centered on $1/2$ if the true chance of each independent toss is $1/2$, and hence drops off as $x$ moves away from $1/2$.}
 
 ??refs
 
@@ -534,11 +535,34 @@ is attempting to define a chance (conditional or not) by a definition that itsel
 There is a way out of this difficulty, but it involves dropping the idea that laws are propositions. And there is some independent reason
 to do this. For if the law that the chance of heads is $1/2$ expresses a proposition, we would expect this to be a proposition that is
 logically compatible with the hypothesis that the frequency of heads is $0$. But on PBSA, if the frequence of heads is $0$, there is no
-way to get a chance of heads of $1/2$. 
+way for the chance of heads to be $1/2$. 
 
-Here is the suggestion. Suppose that we have a language $\scr L$ whose vocabulary can express all the concepts acceptable to the Humean,
-plus which has one more function symbol, $\Chance(x)$ or $\Chance(x\mid y)$ (depending on whether we want fundamental chances to be 
-unconditional or conditional). 
+Here is one sketch of a suggestion. Suppose that we have a language $\scr L$ whose vocabulary can express all the fundamental physical concepts acceptable to 
+the Humean, plus which has one more function symbol, $\Chance(x)$. This new function symbol is uninterpreted, and I stipulate that sentences using that function symbol are 
+neither true nor false. Let $M$ be some appropriate set of mathematical axioms that include the correct axioms of set theory (perhaps indeed
+they include all truths of set theory) as well as the 
+right axioms of probability formulated using the chance symbol (so these will be axioms of unconditional or conditional probability, depending 
+on whether the chance symbol is unary or binary).  Say that a theory (a set of sentences) $T$ in $\scr L$ is \textit{non-false} provided that 
+no false sentence can be formally proved from $T\cup M$. This is equivalent to saying that all the provable consequences of $T\cup M$ that do 
+not use the chance symbol are true. We can now specify that the best system is the non-false theory $T$ that optimizes brevity, fit and 
+informativeness. 
+
+Defining informativeness is difficult, but we might define it by looking at two kinds of information conveyed by the 
+provable consequences of $T$. First, we have sentences that do not make use of the chance symbol. The informativeness
+of that part of the consequences will be measured much as in a non-stochastic BSA. The informativeness of a statement
+of form $\Chance(E)=r$, where $E$ does not make use of the chance symbol, will be null if $r=1/2$, and while if $r>1/2$, it will increase in proportion with both $r-1/2$ 
+and the informativeness of the non-probabilistic claim that $E$ occurs, and if $r<1/2$, it will increase in proportion 
+with $1/2-r$ and the informativeness of the non-probabilistic claim that $E$ does not occur if $r<1/2$. We might for
+simplicity ignore claims using the chance symbol not of the form $\Chance(E)=r$. Of course, we
+will have to beware of overlap in information between the chancy and non-chancy sentences, and so on. 
+
+Finally, we measure fit by looking at all the provable consequences of the form $\Chance(E)=r$ where $E$ does not contain another
+instance of the chance symbol, and saying the fit of each is a measure of closeness between $r$ and the numerical truth value of $E$ (falsehood
+being zero and truth being one)---perhaps a measure according to some standard scoring rule.??refs
+
+The details are doubtless very difficult. 
+
+???so?
 
 \subsubsection{Non-Humean chances}
 
