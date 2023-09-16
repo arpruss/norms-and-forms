@@ -444,12 +444,69 @@ the rod be a vastly informative dowsing rod that by law and not merely by coinci
 This is highly implausible magic!
 
 \subsubsection{A plurality of bestnesses}
+A problem that will be familiar from many of our earlier discussions is that there are many free parameters in the account of 
+the bestness of the best system. For instance, given a measure of informativeness $I(T)$ and length $L(T)$ of a system
+$T$, we will want to combine them into $f(I(T),L(T))$ with some sort of value function $f(x,y)$ such that $f(x,y)<f(x',y)$ 
+and $f(x,y)>f(x,y')$ when $x<x'$ and $y<y'$. But there are infinitely many functions satisfying these inequalities. Perhaps
+with some thought we can find some more reasonable constraints, but it is very implausible to think we can reduce the space
+of reasonable candidates to one.
 
+Moreover, neither $I(T)$ nor $L(T)$ has a unique privileged candidate. 
+
+If a world has a phase space---say, defined by values of various natural determinables like charge, position and momentum at various 
+times---it makes sense to think of the informativeness of a theory $T$ as inversely related to the size of the set of trajectories through 
+phase space (i.e., functions from time to phase space) compatible with $T$. If we could get the set of allowed trajectories down to one,
+that would be maximal informativeness. 
+
+But how do we measure the size of the set of trajectories compatible with the theory? The set-theoretic cardinality of the set of allowed
+trajectories for many theories that intuitively vary significantly in their informativeness will be the same. For suppose our determinables
+are position. Now consider theory $T_1$ according to which there is a single particle which for all time is found in the same position
+in three-dimensional Euclidean space, and $T_2$ according to which the the particle moves through three-dimensional Euclidean space over
+a continuous trajectory. Clearly, $T_1$ is much more informative than $T_2$. But the cardinality of the space of trajectories allowed by
+$T_1$ is \textit{the continuum}, the cardinality of the real numbers.\footnote{A position can be encoded as three real numbers. Any real
+number can be recoded to be between $0$ and $1$ (use the function $f(x)=(2/\pi)(\pi/2 + \arctan x)$. Any three numbers between $0$ and
+$1$ can be encoded in a single number. For instance, the decimal numbers with the digits $0.x_1x_2x_3...$, $0.y_1y_2y_3...$ and 
+$0.z_1z_2z_3...$ can be encoded as the single number $0.x_1y_1z_1x_2y_2z_2x_3y_3z_3...$. ??check infinite nines.} However, that is also
+the same as the cardinality of the space of all continuous trajectories, which is what $T_2$ allows.\footnote{To specify a continuous
+trajectory, one only needs to specify its values at a countable number of times---say, all times that are represented by rational 
+numbers. Thus one needs to specify a countable number of real numbers. But a somewhat more complicated interweaving allows that to be
+coded in a single real number.??ref and ??backref}
+
+We might, on the other hand, try to define the size of the set of trajectories as a volume rather than a cardinality. However, in some
+cases two theories that clearly vary in information content will both allow a set of trajectories with zero volume. For instance, 
+suppose a world with only one moment of time, and one determinable: three-dimensional position of a single
+particle. A theory that requires the particle to be at the coordinates $(0,0,0)$ reduces the space of trajectories to a subset of zero
+volume, as does a theory that mere constrains the particle to have the first coordinate zero. The first theory requires the particle to 
+be at the origin and the second to lie in the $yz$-plane. But a point and a plane both have zero volume. 
+
+We might find a way of comparing sets of zero volume. For instance, we might try to find the Hausdorff dimension (which may fractional)
+of the two sets, and deem the set with higher dimension to convey less information. And then we could use Hausdorff measure to compare
+sets of the same Hausdorff dimension. But what would we do about sets both of whose Hausdorff measures are infinite? And how would we
+encode these comparisons into something that we can combine naturally with the length of an expression. And Hausdorff dimension itself
+is not the only way to formalize the concept of dimension.???Refs Thus we should not expect a canonical comparison. Many decisions will
+need to be made to come up with a measure of informativeness.
+
+Now, length may seem more tractable. Indeed, given a fixed language whose sentences are
+finite strings of characters from a finite symbol set, there is no difficulty in making sense of the length of the briefest 
+expression of a system of propositions in that language. 
+
+But there are many languages. Just think of such decisions as the choice of grouping notation. In recent
+use in logic, for instance, we have parenthesis notation, Polish notation and dot notation. Surely there are many more
+reasonable grouping notation. Or think which logical primitives should be included. For truthfunctional connectives,
+nand is sufficient, as is nor, as is either of the pairs and-not and or-not, but why should we limit ourselves to a minimal 
+sufficient set. Perhaps we should allow all the binary connectives. Or perhaps some but not all. Or perhaps all the ternary
+ones. Or perhaps just one seven-place nor. It is reasonable to think there is a privileged set of predicates---the perfectly 
+natural ones. But is it reasonable to think there is a privileged set of logical operators? This is murky. Or a privileged
+grouping notation? That seems even more dubious.
+
+??multiple types of explanation??
+
+??refs
 
 \subsection{Indeterministic extensions}
 PBSA
 
-\subsubsection{Violations of the Principal Principle}
+\subsubsection{Violations of the Principal Principle}\label{sec:principal-principle}
 ??chances vs probabilities
 
 Suppose the world consists of some large number $N$ of independent fair indeterministic coin tosses, where $N$ is large
@@ -485,10 +542,16 @@ but something very close to $1/2$. Then the law may still be that the chance is 
 a chance not quite matching the exact frequency might be more than offset by the gain brevity if chance $1/2$ is significantly more
 briefly expressible than the actual frequency, say ``$1/2-3\cdot 2^{-254}$''. 
 
+Let's suppose $N$ is very large but easily expressible (e.g., $N=2^{2^{2^{2^{2^2}}}}=2^{2^{65536}}$), and let $\scr W_N$ be 
+the set of worlds with nothing but $N$ tosses where there are no briefly expressible and highly informative patterns other than 
+those conveyed by the independence of the coin tosses, the frequencies and the number of tosses.
+
 Let $F_N$ be the set of all fractions between $0$ and $1$ with denominator $N$. Each member of $F_N$ could be the exact frequency
-of head  in our world with $N$ tosses. Let $A_{N,1/2}$ be the subset of frequencies in $F_N$ that are compatible with a law specifying
-the chance to be $1/2$. For simplicity, suppose $N$ is even, so $1/2$ is a member of $F_N$. For $N$ sufficiently large, we can then 
-expect $1/2$ to be a member of $A_{N,1/2}$. But for the reasons given above, we would expect some frequencies in $F_N$ that are very
+of heads in some world in $\scr W_N$.
+
+Let $A_{N,1/2}$ be the subset of frequencies in $F_N$ such that there is a world $w$ in $\scr W_N$ in which there is a Humean
+law specifying the chance to be $1/2$. For simplicity, suppose $N$ is even, so $1/2$ is a member of $F_N$. For $N$ sufficiently large, we 
+should expect $1/2$ to be a member of $A_{N,1/2}$. But for the reasons given above, we would expect some frequencies in $F_N$ that are very
 close to $1/2$ to be in $A_{N,1/2}$ as well. If $E_\alpha$ is the event of the actual frequency being $\alpha$, then on our Humean
 view we have:
 \ditem{PP-zero}{If $\alpha$ is not in $A_{N,1/2}$, we have $P(E_\alpha\mid\Law(U))=0$.}
@@ -498,14 +561,13 @@ on the assumption that the law is $U$, and so we would expect:
 Frequencies that are sufficiently far from $1/2$ (such as the $0$ in our previous example) are not going to be in $A_{N,1/2}$: the fit 
 of these frequencies is too bad. The case of $\alpha=0$ has already been discussed.
 
-What is surprising, however, is that likely  there are some members $\alpha$ and $\beta$ in $F_N$ such that $\alpha<\beta<1/2$
+What is surprising, however, is that very likely there are some members $\alpha$ and $\beta$ in $F_N$ such that $\alpha<\beta<1/2$
 and yet $\alpha$ is a member of $A_{N,1/2}$ but $\beta$ is not a member of $A_{N,1/2}$. For we can suppose that both $\alpha$ and $\beta$
 are \textit{extremely} close to each other, and very close to $1/2$, but $\alpha$ is much more briefly expressible than $\beta$, so that 
 although the fit of a chance $1/2$ law is slightly poorer for worlds with frequency $\alpha$ than for worlds with frequency $\beta$,
-the greater brevity of an expression fo $\alpha$ makes a law giving the chance of heads as $\alpha$ have a better balance of fit and
+the greater brevity of an expression for $\alpha$ makes a law giving the chance of heads as $\alpha$ have a better balance of fit and
 brevity in a world with frequency $\alpha$ than a law giving the chance as $1/2$, while $1/2$ has a better balance of fit and brevity in 
-a world with frequency $\beta$ than a law giving the chance as $1/2$.\footnote{I am assuming that the sequences of heads and tails in 
-the two worlds have equally good fit with the hypothesis of the independence of the coin tosses.} 
+a world with frequency $\beta$ than a law giving the chance as $1/2$.
 
 I cannot give precise examples here, because
 we do not actually have the measures of fit in hand and estimating the brevity of the shortest expression of some number is often a very
@@ -520,7 +582,7 @@ centered on $1/2$ if the true chance of each independent toss is $1/2$, and henc
 
 ??refs
 
-\subsubsection{Chance and propositions}
+\subsubsection{$^*$Chance and propositions}
 There is a variety of slightly different accounts of chance that can be given on PBSA. Let ``the mosaic'' refer to the arrangement of
 properties that are systematized in the best system. Here are a few options, depending on whether one takes conditional or unconditional
 chances to be fundamental:
@@ -532,12 +594,9 @@ chances to be fundamental:
 There is room for much technical discussion of the details here, but notice that each of these three accounts is viciously circular: it
 is attempting to define a chance (conditional or not) by a definition that itself makes use of the concept of chance.
 
-There is a way out of this difficulty, but it involves dropping the idea that laws are propositions. And there is some independent reason
-to do this. For if the law that the chance of heads is $1/2$ expresses a proposition, we would expect this to be a proposition that is
-logically compatible with the hypothesis that the frequency of heads is $0$. But on PBSA, if the frequence of heads is $0$, there is no
-way for the chance of heads to be $1/2$. 
+There is a complicated way out of this difficulty that modifies the PBSA.
 
-Here is one sketch of a suggestion. Suppose that we have a language $\scr L$ whose vocabulary can express all the fundamental physical concepts acceptable to 
+Suppose that we have a language $\scr L$ whose vocabulary can express all the fundamental physical concepts acceptable to 
 the Humean, plus which has one more function symbol, $\Chance(x)$. This new function symbol is uninterpreted, and I stipulate that sentences using that function symbol are 
 neither true nor false. Let $M$ be some appropriate set of mathematical axioms that include the correct axioms of set theory (perhaps indeed
 they include all truths of set theory) as well as the 
@@ -560,12 +619,34 @@ Finally, we measure fit by looking at all the provable consequences of the form 
 instance of the chance symbol, and saying the fit of each is a measure of closeness between $r$ and the numerical truth value of $E$ (falsehood
 being zero and truth being one)---perhaps a measure according to some standard scoring rule.??refs
 
-The details are doubtless very difficult. 
+The details are doubtless very difficult, but that's to be expected.
 
-???so?
+Given all this, we get a best system $T$ consisting of sentences some of which fail to express a proposition. Given that laws of nature
+are not linguistic entities in a particular language, and that they are factual, and hence capable of being true, 
+we surely cannot take  a set of uninterpreted sentences like $T$ in $\scr L$ to be a system of laws. 
+
+But we can now make a further move.
+Let $B_T$ be the proposition that all the sentences in $T$ are provable consequences of the best system. Then $B_T$ is indeed a proposition
+and factual. We can then say that the laws of nature are all the logical consequences of $B_T$. The laws, then, are not the sentences derivable from the best system, 
+since these include uninterpreted sentences, but rather the laws are the consequences of the claim that these sentences are sentences of the 
+best system.\footnote{An alternative would be
+to consider the logical consequences of the proposition that $T$ \textit{is} the best system. But that would be less satisfactory. For it
+seems that one could have a world with all the laws we have \textit{and} more. But if it is a law that $T$ is the best system, then it seems
+there couldn't be a world with additional laws beyond those in $T$.???}
+
+One technical problem of this approach lies on the probability side. Suppose we are in a world with a fair coin sequentially tossed a large finite 
+number $N$ of times so set up that if $T$ is the best system then $T\cup M$ proves a sentence saying that the coin was indeed tossed 
+sequentially $N$ times and proves the $\Chance(H_1)=1/2$, where $H_1$ is the event of the first throw being heads.\footnote{This 
+will require $N$ to be a number that is sufficiently briefly expressible to make it into the best system.} Then $B_T$ will be a law of nature.
+In the notation of Section~\ref{sec:principal-principle}, it will be law that the frequency of heads is a member of the set $A_{1/2,N}$.
+This set contains $1/2$, and contains some frequencies in $F_N$ very close to $1/2$, but also excludes frequencies just as close to
+$1/2$ as some of the included ones, on the grounds of that some of the excluded ones are so briefly expressible (e.g., $1/2+1/2^{256}$
+in a world with $N=2^{256}$) that the brevity cost of the greater fit is worthwhile. This kind of law of nature looks little like the 
+kinds of laws scientists posit. We do not have laws of nature allowing and disallowing events based on the brevity of the expressibility 
+of facts about these events.
 
 \subsubsection{Non-Humean chances}
-
+??
 
 \section{Laws and causation}
 
