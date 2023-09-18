@@ -446,12 +446,12 @@ This is highly implausible magic!
 \subsubsection{A plurality of bestnesses}
 A problem that will be familiar from many of our earlier discussions is that there are many free parameters in the account of 
 the bestness of the best system. For instance, given a measure of informativeness $I(T)$ and length $L(T)$ of a system
-$T$, we will want to combine them into $f(I(T),L(T))$ with some sort of value function $f(x,y)$ such that $f(x,y)<f(x',y)$ 
+$T$, we will want to combine them into a measure of quality of theory $f(I(T),L(T))$ with some sort of value function $f(x,y)$ such that $f(x,y)<f(x',y)$ 
 and $f(x,y)>f(x,y')$ when $x<x'$ and $y<y'$. But there are infinitely many functions satisfying these inequalities. Perhaps
 with some thought we can find some more reasonable constraints, but it is very implausible to think we can reduce the space
 of reasonable candidates to one.
 
-Moreover, neither $I(T)$ nor $L(T)$ has a unique privileged candidate. 
+Moreover, neither $I(T)$ nor $L(T)$ has a unique privileged candidate.
 
 If a world has a phase space---say, defined by values of various natural determinables like charge, position and momentum at various 
 times---it makes sense to think of the informativeness of a theory $T$ as inversely related to the size of the set of trajectories through 
@@ -472,8 +472,18 @@ trajectory, one only needs to specify its values at a countable number of times-
 numbers. Thus one needs to specify a countable number of real numbers. But a somewhat more complicated interweaving allows that to be
 coded in a single real number.??ref and ??backref}
 
-We might, on the other hand, try to define the size of the set of trajectories as a volume rather than a cardinality. However, in some
-cases two theories that clearly vary in information content will both allow a set of trajectories with zero volume. For instance, 
+We might, on the other hand, try to define the size of the set of trajectories as a volume rather than a cardinality. 
+An immediate problem may seem to be that of the choice of units of volume. This is not a serious problem for comparing
+degrees of informativeness,  as long as we measure the volumes of the set of allowed trajectories using the 
+same units. Even completely arbitrary units like the length of Charles III's forearm and the time between his mother's
+and his own coronations can be used for comparative purposes. However, the scaling issue is relevant for the combination
+problem. For unless our combination function $f$ has some additional special properties, like being linear in the second variable
+(i.e., $f(x,\alpha y)=\alpha f(x,y)$), the choice of scaling may still be an issue, because it might be that $f(x,y)<f(x,y')$ but 
+$f(x,\alpha y')<f(x,\alpha y)$ for some choice of $x$, $y$, $y'$ and $\alpha$. On the other hand, we might use the scaling worry
+to justify a linearity constraint on the second variable in $f$, thereby reducing the arbitrariness of the choice of $f$.
+
+A more serious problem is 
+cases of two theories that clearly vary in information content will both allow a set of trajectories with zero volume. For instance, 
 suppose a world with only one moment of time, and one determinable: three-dimensional position of a single
 particle. A theory that requires the particle to be at the coordinates $(0,0,0)$ reduces the space of trajectories to a subset of zero
 volume, as does a theory that mere constrains the particle to have the first coordinate zero. The first theory requires the particle to 
@@ -481,10 +491,14 @@ be at the origin and the second to lie in the $yz$-plane. But a point and a plan
 
 We might find a way of comparing sets of zero volume. For instance, we might try to find the Hausdorff dimension (which may fractional)
 of the two sets, and deem the set with higher dimension to convey less information. And then we could use Hausdorff measure to compare
-sets of the same Hausdorff dimension. But what would we do about sets both of whose Hausdorff measures are infinite? And how would we
-encode these comparisons into something that we can combine naturally with the length of an expression. And Hausdorff dimension itself
-is not the only way to formalize the concept of dimension.???Refs Thus we should not expect a canonical comparison. Many decisions will
-need to be made to come up with a measure of informativeness.
+sets of the same Hausdorff dimension. But what would we do about sets both of whose Hausdorff measures are infinite? Moreover, the above
+approach leads to a pair of numbers, $(\alpha,\beta)$, where $\alpha$ is the Hausdorff dimension of the allowed subset of phase space
+and $\beta$ is the $\alpha$-dimensional Hausdorff measure. Thus, instead of combining length with a single number, we need to combine length
+with \textit{two} numbers. And what do we do in the case of sets whose Hausdorff measure is infinite with respect to the Hausdorff dimension---these
+may need to be compared as well. Furthermore, Hausdorff dimension itself
+is not the only way to formalize the concept of dimension.???
+
+Thus we should not expect a canonical measure of informativeness: there will be many free parameters.
 
 Now, length may seem more tractable. Indeed, given a fixed language whose sentences are
 finite strings of characters from a finite symbol set, there is no difficulty in making sense of the length of the briefest 
@@ -498,6 +512,18 @@ sufficient set. Perhaps we should allow all the binary connectives. Or perhaps s
 ones. Or perhaps just one seven-place nor. It is reasonable to think there is a privileged set of predicates---the perfectly 
 natural ones. But is it reasonable to think there is a privileged set of logical operators? This is murky. Or a privileged
 grouping notation? That seems even more dubious.
+
+We thus have little reason to hope in a single distinguished measure of bestness. Now, we might hope that for a wide range $R$ 
+of measures of the quality of a theory in a world, there is sufficient overlap between the best theories to ensure that
+the things our best science will converge on as the laws will in fact be entailed by the theories that are best according to the 
+measures in $R$. We could, then, define a law as a proposition $L$ such that for all quality measures $Q$ in $R$, the $Q$-best theory
+entails $L$. But specifying the boundaries of $R$ will be subject to difficulties very similar to those in defining a single canonical 
+measure $Q$.
+
+It seems we cannot escape the idea that there is significant vagueness in the concept of a law for the Humean.
+Is this a problem?
+
+
 
 ??multiple types of explanation??
 
