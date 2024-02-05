@@ -325,12 +325,12 @@ of possible states at each of the discrete ``significant'' moments of time $t_1,
 computational states at ticks of its internal clock. Between ticks of the internal clocks, it is in an analogue state that is not
 computationally defined. A lot of careful engineering goes into ensuring that the states become properly ``digital'' at the clock ticks.}, and 
 a finite number $I_1,...,I_M$ of sensors, where $I_k$ is always in exactly one state from the finite set $\scr I_k$ of possible input
-states. 
+states.
 
 We can think of $Q$ as a finite digital computer. The total state of the system at any given time can be represented as the
 $(N+M)$-tuple $(a_1,...,a_N,b_1,...,b_M)$ where $a_k$ is a state in $\scr A_k$ and $b_k$ is a state in $\scr I_k$. We can designate some of
 the subsystems as outputs, connected to external effectors (muscles, motors, lights, etc.)  Furthermore, we suppose there are functional laws which provide a 
-mapping $f$ from the state of the system at time $t_i$ to the state at time $t_{i+1}$. Thus, $f(a_1,...,a_N,b_1,...,B_M)= (a_1,...,a_N,b_1,...,b_M)$ 
+deterministic mapping $f$ from the total state of the system at time $t_i$ to the total state at time $t_{i+1}$. Thus, $f(a_1,...,a_N,b_1,...,B_M)= (a_1,...,a_N,b_1,...,b_M)$ 
 provided that the system would transition from state $(a_1,...,a_N)$ to state $(b_1,...,b_N)$.\footnote{The mapping is independent of time. But we 
 can always suppose there is a finite clock, e.g., given by a subsystem $S_k$ such that the set of states $\scr A_k$ is
 the set of times during the system's lifetime, and with the transition rule that the time always gets incremented. Or we can suppose an input
