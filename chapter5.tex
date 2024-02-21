@@ -359,7 +359,28 @@ for us the weighing goes as it does, rather than in some other way.
 Bayesianism is the best developed picture of what a precise and rigorous account of epistemic rationality would be like.
 It is thus worth looking carefully at what kind of answers the Bayesian could give to the questions we have been asking.
 
-??introduce Bayesianism
+On Bayesianism, the interest is not in beliefs as such but in the agent's credences, which come in degrees. The 
+most familiar model is of numerical credences ranging from $0$ to $1$, and this is the model that will be assumed
+here. Other models include qualitative probabilities where instead of a specific value being assigned, one has 
+comparisons between probabilities, and interval-valued probabilities where instead of a specific numerical
+probability, a range of numerical probabilities are assigned.??refs Most of the issues raised will apply 
+\textit{mutatis mutandis} to the other models.
+
+If a perfectly rational agent assigns credence $C(p)$ to a proposition $p$, then these credences will 
+satisfy plausible axioms for probabilities, such as:
+\begin{enumerate}
+\item[(i)] Non-negativity: $0 \le C(p)$
+\item[(ii)] Normalization: $C(p)=1$ if $p$ is necessarily true
+\item[(iii)] Finite Additivity: $C(p\Or q)=C(p)+C(q)$ if $p$ and $q$ are mutually exclusive.
+\end{enumerate}
+
+Furthermore, perfectly rational agents update their credences on receipt of evidence by conditionalization.
+In other words, upon receipt of evidence $E$, the ``prior'' credence of $p$ goes from $C(p)$ to the 
+``posterior'' conditional credence $C(p\mid E)$. If $C(E)>0$, then we define $C(p\mid E)=C(p\And E)/C(E)$.\footnote{There 
+are some technical issues with handling cases where $C(E)=0$, such as if one finds out that a spinner
+has landed in a precise location.????} Essentially, this conditionalization is designed to ensure the 
+plausible rule that if $p$ and $q$ each entail the evidence $E$, then the ratio of the credences of $p$ and $q$ 
+does not change upon learning $E$. 
 
 \subsection{Induction and priors}
 From a Bayesian point of view, how induction works is determined by the probabilities prior to all evidence, the ur-priors.
@@ -685,8 +706,101 @@ ground, indeed without any choice, and likely in childhood. We would think it un
 someone be held committed for life to a promise made early in childhood. Why then should we be bound to
 our priors and the posteriors coming from them?
 
-%% ?? ref: https://link.springer.com/article/10.1007/s11098-019-01367-0?utm_source=toc
-%% ?? indifference
+\subsection{Indifference}
+An intuitive way to solve the problem of priors is to place a constraint on one's priors that 
+epistemically equivalent situations get equal credences. This is essentially a version of the 
+principle of indifference: For each side of a perfect die, the proposition that the die will land 
+with that side up is epistemically equivalent, so our prior credences should be indifferent between
+the sides. Assuming that the logical features of the situation necessitate that exactly one of the six 
+sides eventuates, the finite additivity of probabilities ensures that each side has probability $1/6$.
+
+There are many well-known problems with this approach. Some of these are technical??refs, but I will
+focus here on two non-technical ones.
+
+First, in many cases it is
+difficult to see how we should carve up the space of possibilities into equivalent options. Should we,
+for instance, divide grand metaphysical views  into naturalism and non-naturalism, with the two getting
+equal probability $1/2$, or should we have a finer-grained division into naturalism, anti-naturalism
+(nothing is natural) and dualism (there are both natural and non-natural things), with each getting 
+probability $1/3$? Or should we have a longer list, with dualism being split into Platonism, monotheism,
+polytheism, etc., but naturalism left as one item, now of rather low prior probability? 
+
+Second, as we basically already saw in ??backref, if we are not careful, we will undercut induction.
+If every assignment of black and white coloration to a set of ravens has equal probability, then until
+they have observed \textit{all} the ravens, the Bayesian's credence that all the ravens are black will
+be no more than $1/2$.\footnote{Specifically, if there are $N$ ravens in total, and $n$ have been observed 
+to be black, there are $2^{N-n}$ sequences of raven coloration compatible with the observation, only
+one of which has all the ravens black, the probability that they are all black will be $1/2^{N-n}$, which
+is less than $1/2$ if $n<N$.} Now, perhaps we should not consider every sequence of ravens on par with 
+every other one. But now the question of which sequences are on par with which does not seem to have any
+canonical answer. As we discussed in ??backref, Carnap thought that lumping together sequences 
+according to the \textit{frequency} of blackness was the way to go. But if not all sequences are on par,
+why should we think all \textit{sequences} are on par? Intuitively having exactly one out of $N$ being black 
+is equivalent to having exactly one out of $N$ being white, but why should either of these be equivalent 
+to having exactly half of them be black, or all of them be white, say? But if we have no good way to 
+divide the raven color assignments into equivalent events, indifferentism does not help us.
+
+\subsection{Basic probabilities, norms and explanationism}
+Recently, Climenhaga??ref:\url{https://link.springer.com/article/10.1007/s11098-019-01367-0?utm_source=toc} introduced the 
+very helpful notion 
+of \textit{basic} epistemic probabilities, which determine other epistemic probabilities. For instance, the 
+algorithmic approach tends to take unconditional probabilities as the basic ones, and then conditional ones are 
+defined by the rule $P(A\mid B)=P(A\And B)/P(B)$. Or on an indifferentist approach to a die roll, the basic 
+probabilities are the equal probability $1/6$ of each of the six sides, and the other probabilities are determined
+by these and by logical relations. Thus, the probability of the die showing an even number will be $P(2)+P(4)+P(6)=3/6$,
+because the three options are logically mutually exclusive. 
+
+An Aristotelian meta-epistemology can accommodate a picture of the grounding of epistemic probabilities that 
+takes some of these probabilities to be more fundamental than others. For it is open to the Aristotelian to have
+a distinction between basic and derived norms. Thus, the prohibition of torturing blue-eyed persons is 
+derived from the prohibition of torturing persons. The latter norm might be basic, or might derive from 
+more basic ones. The question of the grounding structure of norms is a substantive question worthy of 
+investigation, and indeed comprises a significant amount of the work in normative ethics. 
+
+It is worth noting that the grounding structure of basic norms is not exhausted by norms of the form:
+``Assign $x$ as the epistemic probability of $A$ (or of $A$ given $B$)'', nor does Climenhaga claim it is.
+There surely are basic norms like: ``Make your epistemic probabilities satisfy the axioms of probability.''
+But there could also be substantive constraining norms, like: ``Make your epistemic probabilities for $A$-type 
+events independent of your epistemic probabilities for $B$-type events.'' Furthermore, it is quite possible
+that some of the basic norms will be range-based, such as ``Assign $A$ an epistemic probability between $x$ 
+and $y$'', or qualitatively or quantitatively comparative: ``Assign $A$ a higher epistemic probability than
+$B$'' or ``Assign $A$ half the epistemic probability of $B$.''
+
+Bracketing some important technical detail, Climenhaga's own approach is that the basic probabilities are conditional 
+ones like $P(A\mid H)$, where $H$ is a hypothesis putatively immediately explanatory of $A$, and the basic 
+probability values are determined by the explanatory relation between $H$ and $A$. We could, for instance, 
+suppose that $H$ is a thorough description of the chemistry and physics of a match being struck and $A$ 
+is the event of the match igniting. The probability value then would be determined by the chemical and physical facts 
+in $H$.
+
+There is reason to be pessimistic about this as a complete solution, however. One set of difficulties comes
+from the thought that such a system of basic probabilities might work for an ideal agent, but humans are not
+ideal. The explanatory hypotheses we formulate, especially in the pre-scientific era or in ordinary life, are not formulated
+with the kind of precision that allows for precise probabilities to be read off. If Alice feels grave resentment against
+Bob, that could explain her insulting Bob, but the hypothesis of grave resentment does not yield a specific 
+probability. We might think that the hypothesis of grave resentment is a disjunction of a large
+number of more scientifically precise hypotheses, ones that most people would not even be able to formulate. 
+But if our basic probabilities only involve conditioning on these hypotheses, we will need norms for what probabilities 
+a real human should assign in light of a very, very vague sense of what the range of the more precise hypotheses is,
+what their probabilities are, and so on. We will need norms, coming along with many seemingly arbitrary parameters
+and consequent Mersenne questions, on how a real human being needs to approximate the ideal agent.
+
+A second set of difficulties comes from the difficulty of applying the explanationist approach to explanatorily 
+fundamental hypotheses, such as that God exists, or that the beginning of the world is entirely a natural event 
+satisfying some precise unexplained physical theory. Here it seems we either need one fundamental hypothesis to be 
+\textit{a priori} certain or we need basic unconditional probabilities for the various fundamental hypotheses. 
+The option of basic unconditional probabilities raises Mersenne questions. As for the possibility of 
+an \textit{a priori} certain fundamental explanatory theory, there is perhaps only one candidate for such a 
+theory in the philosophical literature: theism, either as supported by classical deductive arguments from
+premises that are themselves certain (such as one's own existence, and various metaphysical principles), or 
+supported as a basic belief required of all human beings by their nature.??cf.Plantinga 
+
+Such an \textit{a 
+priori} theism is worth considering, but it raises its own difficulties for the explanationist project. For 
+while the hypothesis that God exists would yield immediate explanations for various claims about the world,
+it does not seem theologically plausible to think that God is bound by precise probabilities. Thus even with 
+an \textit{a priori} theism, we would have Mersenne questions about priors for conditional probabilities about
+what God would do if God existed.
 
 \subsection{Non-Bayesian update}
 Bayesianism is committed to updating by conditionalization being the only permissible way to update credences. 
