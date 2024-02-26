@@ -594,5 +594,95 @@ We thus have a qualitative hierarchy of being between the mere strivers, the mer
 the hierarchy may well correspond to that between the non-living and the living, and the second might---depending on speculative questions about
 infinity---align with the division between mere life and personhood. And it is very natural to see qualitative divisions of value here as well.
 
+\section{Infinity}
+We saw in ??backref that population ethics raises Mersenne questions. But \textit{infinite} population 
+ethics not only raises questions, but creates serious paradoxes. For instance, suppose there are infinitely
+many lottery tickets numbered $...,-3,-2,-1,0,1,2,3,...$ which are distributed one-each to an infinite number 
+of people. Suppose you now have two choices:
+\ditem{benefit-even}{Benefit the ones with ticket numbers $2,4,6,...$}
+\ditem{benefit-odd-1}{Benefit the ones with ticket numbers $1,3,5,...$}
+where all the beenfits are the same.
+
+Intuitively, we should be indifferent between these. It makes no difference whether we should benefit the 
+holders of the positive even or positive odd-numbered tickets. The options are on par. 
+
+But now add a new option:
+\ditem{benefit-odd-3}{Benefit the ones with ticket numbers $3,5,7,...$}
+with the very same benefits. 
+Observe now that \dref{benefit-odd-3} benefits people whose ticket numbers are one plus the ticket 
+numbers of the beneficiaries of \dref{benefit-even}, while \dref{benefit-even} benefits people whose 
+ticket numbers are one plus the ticket numbers of the beneficiaries of \dref{benefit-odd}. Thus,
+the moral relationship between \dref{benefit-odd-3} and \dref{benefit-even} should be the same as that
+between \dref{benefit-even} and \dref{benefit-odd}. 
+But the latter, as noted, are intuitively on par. 
+Thus, likewise, \dref{benefit-odd-3} and \dref{benefit-even} are on par. 
+
+We can argue for the parity of \dref{benefit-odd-3} and \dref{benefit-even} as follows. If we re-label 
+ticket number $n$ as $(n-1)^*$, then options \dref{benefit-even} and \dref{benefit-odd-3} are equivalent to:
+\begin{itemize}
+	\item[\ref{benefit-even}$^*$]{Benefit the ones with ticket numbers $1^*,3^*,5^*,...$.}
+	\item[\ref{benefit-odd-3}$^*$]{Benefit the ones with ticket numbers $2^*,4^*,6^*,...$.}
+\end{itemize}
+If benefiting the holders of positive odd-numbered tickets is on par with benefiting the holders of 
+positive even-numbered tickets, then surely this should not depend on whether we used the original or 
+the asterisked numbering. Thus (\ref{benefit-even}$^*$) and (\ref{benefit-odd-3}$^*$) are on par.
+But they are logically equivalent to \dref{benefit-even} and \dref{benefit-odd-3} respectively, so these
+are on par as well.
+
+But being on par morally is transitive. So, if \dref{benefit-odd-3} and \dref{benefit-even} are on par,
+and \dref{benefit-even} and \dref{benefit-odd} are on par, it follows that \dref{benefit-odd-3}
+and \dref{benefit-odd-1} are on par. But that conclusion is clearly false, since if we can benefit a 
+person without anybody else losing anything, we have moral reason to do so barring some deontological consideration,
+and if we are set to do \dref{benefit-odd-3} then switching to \dref{benefit-odd-1} benefits the holder of 
+ticket~$1$ without anybody losing anything.
+
+Perhaps, however, we should deny that \dref{benefit-even} and \dref{benefit-odd-1} are on par. There are two
+ways of doing that. One is to say that the two cases are incomparable. The other is to say that \dref{benefit-odd-1}
+is better than \dref{benefit-even}.\footnote{Saying that \dref{benefit-even} is superior to 
+\dref{benefit-odd-1} is not tenable. The relationship of \dref{benefit-even} to \dref{benefit-odd-1} is the 
+same as that of \dref{benefit-odd-3} to \dref{benefit-even}, and if we say that \dref{benefit-odd-3} is superior
+to \dref{benefit-even}, we will then by transitivity have to say that \dref{benefit-odd-3} is superior to 
+\dref{benefit-odd-1}, which is absurd.}
+
+Neither option is particularly appealing. Suppose that the benefit is the saving of a life. Then if
+\dref{benefit-odd-1} is better than \dref{benefit-even}, then by the above reasoning \dref{benefit-even}
+will be better than \dref{benefit-odd-3}. So we will have this preference ordering:
+\ditem{benefit-order}{\dref{benefit-odd-1} $>$ \dref{benefit-even} $>$ \dref{benefit-odd-3}.}
+Now \dref{benefit-odd-1} is better than \dref{benefit-odd-3} by exactly one life saved. So it seems that
+\dref{benefit-odd-1} will have to be better than \dref{benefit-even} by less than saving a life---presumably,
+by half a life-saving---and \dref{benefit-even} will have to be better than \dref{benefit-odd-3} by less than saving 
+a life---again, presumably by half a life-saving. But this is very implausible. When the scenarios differ in 
+whose lives are saved, and there are no probabilities involved, surely any two scenarios that differ must do 
+so by one or more lives. 
+
+On the other hand, suppose that we have incomparability between \dref{benefit-even} and \dref{benefit-odd-1}.
+Then it seems difficult to see how we will get moral guidance as to which we should perform when one of them
+is a little bit more costly than the other. 
+
+Here is another way to see the difficulties. Suppose a line stretches to infinitely in both directions,
+and has a tickmark at every meter. People who are all relevantly on par with one another stand with exactly 
+one on each tickmark. Now, let $S$ be a set of tickmarks, and let $x$ be a position on the line either at a 
+tickmark or exactly half-way between two tickmarks. Any tickmark $y$ on the line can reflected in the point 
+$x$ to get a tickmark $y_x$ (equal to $2x-y$) which has the same distance to $x$ as $y$ does, but is on the 
+opposite side of $x$. Given a set $S$ of tickmarks, let $S_x$ be the set of reflections of the tickmarks in 
+$S$ about $x$. Intuitively:
+\ditem{benefit-reflect}{Giving an equal benefit to the people standing at the points of a set $S$ of 
+tickmarks is on par with giving the same benefit to the people standing at the points of $S_x$, for any $x$.}
+Moral value should be invariant under mirroring.
+
+But just as intuitively intuitively:
+\ditem{benefit-subset}{If $S'$ is a proper subset of a set $S$ of tickmarks, then giving the same benefit 
+to the members of $S$ is better than giving it to the members of $S'$.}
+Benefiting some extra people is always good.
+
+Unfortunately, \dref{benefit-reflect} and \dref{benefit-subset} can be easily proved to be inconsistent with the 
+transitivity of moral comparison. The proof is easy. Let $S=\{1,2,3,...\}$. Then $S_0=\{...,-3,-2,-1\}$.
+And $(S_0)_1=\{3,4,5,...\}$ as can be easily verified (mirroring $-1$ about the point $1$ gives the point $3$,
+mirroring $-2$ about $1$ gives $4$, and so on). By \dref{benefit-reflect}, benefiting the people in $S$ is 
+on par with benefiting the people in $S_0$, which is then on par with benefiting the people in $(S_0)_1$.
+But because $(S_0)_1$ is a proper subset of $S$, by transitivity this contradicts \dref{benefit-subset}.
+
+
+
 \chaptertail
 
