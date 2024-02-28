@@ -670,7 +670,7 @@ moral preferability relation:
 \ditem{pref-trans}{Transitivity: If $A\le B$ and $B\le C$ then $A\le C$.}
 \ditem{pref-mono}{Strict monotonicity: For any $m$, we have $L_m < L_{m+1}$ and $R_m < R_{m-1}$.}
 \ditem{pref-inv}{Weak translation invariance: For any $m$ and $n$, we have $L_m \le R_n$ if 
-and only if $L_{m+k} \le R_{n+k}$, and $L_m \ge R_n$ if and only if $L_{m+1} \ge R_{n+1}$.}
+and only if $L_{m+1} \le R_{n+1}$, and $L_m \ge R_n$ if and only if $L_{m+1} \ge R_{n+1}$.}
 Transitivity is very plausible. Next, by switching from $L_m$ to $L_{m+1}$ or from $R_m$ to $R_{m-1}$, 
 one benefits the person at location $m$, without taking benefits away from anyone, and this is surely 
 better, thereby yielding strict monotonicity. Finally, weak translation invariance is based on the observation 
@@ -768,7 +768,61 @@ either there are no answers to such questions or the answers are strange.}
 It should be noted that the paradoxes of infinity here only scratch the surface of the range of 
 oddities imaginable.??refs
 
-\section*{Appendix: Skew in benefiting infinitely many people} 
+\section*{$^*$Appendix: Skew in benefiting infinitely many people} 
+In ??backref, it was claimed that a preference ordering on certain actions 
+that benefit an infinite number of people satisfying certain axioms either
+suffers from massive incomparability or has a massive left-right bias.
+That result follows from the following.
+
+\begin{theorem}\label{th:leftright} Let $L_n$ be the set of integers less than $n$
+and $R_n$ the set of integers greater than $n$. Let $\scr A$ be the set of all
+the $L_n$ and $R_n$. Suppose $\le$ is a transitive relation on $\scr A$ such that 
+$A<B$ whenever $A\subset B$ and $n+A\le n+B$ if and only if $A\le B$ for any integer
+$n$, for all $A$ and $B$ in $\scr A$. Then exactly one of the following holds:
+\begin{itemize}
+\item[{(i)}] for all $m$ and $n$, we have neither $L_m\le R_n$ nor $R_n\le L_m$,
+\item[{(ii)}] for all $m$ and $n$, we have $L_m<R_n$
+\item[{(iii)}] for all $m$ and $n$, we have $R_n<L_m$.
+\end{itemize}
+\end{theorem}
+Here, $A<B$ provided that $A\le B$ but not $B\le A$, and $n+A=\{n+m:m\in A\}$ is the 
+translation of $A$ by $n$.
+
+For we can identify the actions in ??backref with the sets of people benefited by them.
+Then note that if $\le$ is transitive, so is $<$.\footnote{\label{fn:trans}More generally, if $A\le B\le C$, and 
+at least  one of the inequalities is strict, it follows that $A<C$. For by transitivity of 
+$\le$ we have $A\le C$, and if we don't have $A<C$, then it must be because $C\le A$. Then
+$A\le B\le C\le A\le B$. Hence $B\le A$ and $C\le B$ by transitivity of $\le$, which contradicts
+the claim that $A<B$ or $B<C$.}
+The condition that $A<B$ whenever $A\subset B$ follows by induction and transitivity of $<$ 
+from \dref{pref-mono} since the only way
+$A\subset B$ can hold is if $A=L_m$ and $B=L_n$ with $m<n$ or $A=R_m$ and $B=L_n$ with $m>n$.
+The translation invariance condition then follows by induction from \dref{pref-inv} since $n+L_m=L_{m+n}$
+and $n+R_m=R_{m+n}$.
+
+\begin{proof}[Proof of Theorem~\ref{th:leftright}]
+Suppose (i) does not hold, so for some $m$ and $n$ we have $L_m\le R_n$ or $R_n\le L_m$.
+
+First suppose $L_m\ge R_n$. We will now prove (iii). 
+We have two cases. First suppose $m<n$. Then 
+$L_n>L_m\ge R_n$, so $L_n>R_n$.\footnote{See note~\ref{fn:trans}.}
+By our translation invariance condition, we have $L_k>R_k$ for all $k$.
+Now fix any $j$ and $k$. If $j\ge k$, then 
+$L_k>R_k\ge R_j$ by monotonicity so $L_k>R_j$. if 
+$j<k$, then $L_k>L_j>R_j$. So we have (iii).
+
+Next suppose $R_n\ge L_m$. Let $-A = \{ -x : x \in A \}$.
+Define $A \le^* B$ provided $-A \le -B$. It is easy 
+to see that $\le^*$ also satisfies all of the 
+assumptions of the Theorem. Moreover, since we have
+$R_n\ge L_m$, we have $-R_n\ge^* -L_m$. But 
+$-R_n = L_{-n}$ and $-L_m=L_{-m}$. Thus $L_{-n}\ge^* R_{-m}$.
+Applying the previous paragraph to $\le^*$ with 
+$-n$ and $-m$ in place of $m$ and $n$, we get, for 
+all $j$ and $k$, the inequality $L_k>^*R_j$.
+Hence $-L_k>-R_j$, and so $R_{-k}>R_{-j}$ for all
+$j$ and $k$, which implies (ii).
+\end{proof}
 
 \chaptertail
 
