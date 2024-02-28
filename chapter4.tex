@@ -596,35 +596,37 @@ infinity---align with the division between mere life and personhood. And it is v
 
 \section{Infinity}
 We saw in ??backref that population ethics raises Mersenne questions. But \textit{infinite} population 
-ethics not only raises questions, but creates serious paradoxes. For instance, suppose there are infinitely
-many lottery tickets numbered $...,-3,-2,-1,0,1,2,3,...$ which are distributed one-each to an infinite number 
-of people. Suppose you now have two choices:
-\ditem{benefit-even}{Benefit the ones with ticket numbers $2,4,6,...$}
-\ditem{benefit-odd-1}{Benefit the ones with ticket numbers $1,3,5,...$}
-where all the beenfits are the same.
+ethics not only raises questions, but creates serious paradoxes. For instance, suppose there is an 
+infinite line stretching to infinity both to the left and the right, with tickmarks every meter 
+labeled by an integer (bigger numbers being to the right), and one person standing at each tickmark. 
+All the people are on par. Suppose you now have two 
+choices:
+\ditem{benefit-even}{Benefit the people at $2,4,6,...$}
+\ditem{benefit-odd-1}{Benefit the people at $1,3,5,...$}
+where all the benefits are the same.
 
 Intuitively, we should be indifferent between these. It makes no difference whether we should benefit the 
-holders of the positive even or positive odd-numbered tickets. The options are on par. 
+people at the positive even- or positive odd-numbered locations. The options are on par. 
 
 But now add a new option:
-\ditem{benefit-odd-3}{Benefit the ones with ticket numbers $3,5,7,...$}
+\ditem{benefit-odd-3}{Benefit the people at $3,5,7,...$}
 with the very same benefits. 
-Observe now that \dref{benefit-odd-3} benefits people whose ticket numbers are one plus the ticket 
-numbers of the beneficiaries of \dref{benefit-even}, while \dref{benefit-even} benefits people whose 
-ticket numbers are one plus the ticket numbers of the beneficiaries of \dref{benefit-odd}. Thus,
+Observe now that \dref{benefit-odd-3} benefits the people standing immediately to the right of 
+the beneficiaries of \dref{benefit-even}, while \dref{benefit-even} benefits the people standing 
+immedaitely to the right of the beneficiaries of \dref{benefit-odd}. Thus,
 the moral relationship between \dref{benefit-odd-3} and \dref{benefit-even} should be the same as that
 between \dref{benefit-even} and \dref{benefit-odd}. 
-But the latter, as noted, are intuitively on par. 
+But the latter two, as already noted, are intuitively on par. 
 Thus, likewise, \dref{benefit-odd-3} and \dref{benefit-even} are on par. 
 
 We can argue for the parity of \dref{benefit-odd-3} and \dref{benefit-even} as follows. If we re-label 
-ticket number $n$ as $(n-1)^*$, then options \dref{benefit-even} and \dref{benefit-odd-3} are equivalent to:
+tickmark $n$ as $(n-1)^*$, then options \dref{benefit-even} and \dref{benefit-odd-3} are equivalent to:
 \begin{itemize}
-	\item[\ref{benefit-even}$^*$]{Benefit the ones with ticket numbers $1^*,3^*,5^*,...$.}
-	\item[\ref{benefit-odd-3}$^*$]{Benefit the ones with ticket numbers $2^*,4^*,6^*,...$.}
+	\item[\ref{benefit-even}$^*$]{Benefit the people at $1^*,3^*,5^*,...$.}
+	\item[\ref{benefit-odd-3}$^*$]{Benefit the people at $2^*,4^*,6^*,...$.}
 \end{itemize}
-If benefiting the holders of positive odd-numbered tickets is on par with benefiting the holders of 
-positive even-numbered tickets, then surely this should not depend on whether we used the original or 
+If benefiting those at positive odd-numbered locations is on par with benefiting those at positive 
+even-numbered locations, then surely this should not depend on whether we used the original or 
 the asterisked numbering. Thus (\ref{benefit-even}$^*$) and (\ref{benefit-odd-3}$^*$) are on par.
 But they are logically equivalent to \dref{benefit-even} and \dref{benefit-odd-3} respectively, so these
 are on par as well.
@@ -659,63 +661,71 @@ On the other hand, suppose that we have incomparability between \dref{benefit-ev
 Then it seems difficult to see how we will get moral guidance as to which we should perform when one of them
 is a little bit more costly than the other. 
 
-% Moreover, we would like to have a principled account of when 
-% incomparability occurs. And it is difficult indeed to find one. The most radical account is that giving an 
-% equal benefit to sets $S$ and $S'$ of people is comparable when and only when one of the sets is a subset 
-% of the other, with the obvious comparison (it is better to benefit the people in a strict superset). But this has the 
-% implausible consequence that if there are two people drowning to starboard and 
-% one to port, and you can launch a lifeboat on only one side, neither option is preferable---but surely saving
-% the two is better. 
+Here is another way to see the issue. Let $L_n$ be the action of benefiting all the people to the left of 
+position $n$, and let $R_n$ be the actions of benefiting all the people to the right of position $n$, and 
+for simplicitly consider only such left- and right-benefit actions. Write $A\le B$ to say that action $B$ 
+is at least as good morally as action $A$, and $A<B$ to say that $A\le B$ but not $B\le A$. Say that $A$ and 
+$B$ are comparable provided that $A\le B$ or $B\le A$. Here are some assumptions about the 
+moral preferability relation:
+\ditem{pref-trans}{Transitivity: If $A\le B$ and $B\le C$ then $A\le C$.}
+\ditem{pref-mono}{Strict monotonicity: For any $m$, we have $L_m < L_{m+1}$ and $R_m < R_{m-1}$.}
+\ditem{pref-inv}{Weak translation invariance: For any $m$ and $n$, we have $L_m \le R_n$ if 
+and only if $L_{m+k} \le R_{n+k}$, and $L_m \ge R_n$ if and only if $L_{m+1} \ge R_{n+1}$.}
+Transitivity is very plausible. Next, by switching from $L_m$ to $L_{m+1}$ or from $R_m$ to $R_{m-1}$, 
+one benefits the person at location $m$, without taking benefits away from anyone, and this is surely 
+better, thereby yielding strict monotonicity. Finally, weak translation invariance is based on the observation 
+that the relationship between $L_m$ and $R_n$ is exactly the same as that between $L_{m+1}$ and $R_{n+1}$.\footnote{Strong
+translation invariance would be the thesis that all the $L_m$ are morally equivalent and that all the $R_m$ are 
+morally equivalent, since the $L_m$ are all translations of one another and the $R_m$ are all translations of 
+one another. But strong translation invariance would be incompatible with strict monotonicity. For a discussion 
+of weak and strong invariance conditions, see ??Pruss:nonclassical.}
 
-% We can escape this problem by saying that giving an equal benefit to sets $S$ and $S'$ 
-% of people is comparable when one set is a subset of the other or when one set has a greater cardinality of 
-% members than the other, with the obvious comparisons in those cases. This has a counterintuitive consequence
-% for combinations of actions. Let $S$ be the set of people with tickets $1,2,3,...$, 
-% and let $S'$ be the set of people with tickets $0,4,8,12,...$. On the present benefiting the people in the two 
-% sets will be incomparable, since the two sets have the same infinite cardinality, and neither is a subset of the
-% other. But note that the decision between the two sets can be decomposed as follows. Let $T$ be the set of people
-% with tickets $4,8,12,...$. Let $U$ be the set of people with tickets in $S$ that are not in $T$ (i.e., positive 
-% numbers not divisible by four), and let $V$ be the set consisting of the person with ticket $0$. Then 
-% benefiting the people in $S$ is equivalent to benefiting both the people in $T$ as well as the people in 
-% $U$, while benefiting the people in $S'$ is equivalent to benefiting both the people in $T$ as well as the 
-% people in $V$. Since it is better to benefit the people in $U$ than those in $V$ on our current account (there 
-% are infinitely many in $U$ and only one in $V$), it seems like the decomposition should make benefiting the 
-% people in $S$ be better than benefiting those in $S'$, contrary to the account.
+In Appendix??forwardref, I prove that given \dref{pref-trans}, \dref{pref-mono} and \dref{pref-inv}, exactly
+one of the following conditions holds:
+\ditem{pref-incompar}{For all $n$ and $m$, actions $L_n$ and $R_m$ are incomparable with each other.}
+\ditem{pref-right}{For all $n$ and $m$, we have $L_n<R_m$.}
+\ditem{pref-left}{For all $n$ and $m$, we have $L_n>R_m$.}
+In other words, we either have complete incomparability between any left- and any right-benefit action, or else
+we have a radical skew where all the right-benefit actions beat all the left-benefit actions or all the 
+left-benefit actions beat all the right-benefit actions. 
 
-% We might try an even more complex account. Perhaps we prefer benefiting the people in $S$ to those in $S'$
-% provided there are more people in $S-S'$ than in $S'-S$, where $A-B$ is the set of entities in $A$ that are not
-% in $B$, we are indifferent if the cardinalities of the two sets are finite and the same, and otherwise we have 
-% incomparability. This nicely handles the problem in the previous paragraph: $S-S'$ in the previous paragraph's 
-% example has infinitely many members while $S'-S$ has only one. ??transitivity?? -- yes!!!! oops! Hmm, so maybe
-% this works?
+We could, perhaps, imagine a species whose morality exhibits the radical directional preference 
+of \dref{pref-right} or \dref{pref-left}. Perhaps this would be a species that lives in a spacetime 
+without the symmetries that our spacetime exhibits. But we are not that species. This kind of radical 
+skew seems deeply implausible, and so it seems we need to have the radical incomparability of 
+\dref{pref-incompar}. 
 
-% This has the somewhat counterintuitive consequence that benefiting the people 
-% with a positive odd-numbered ticket and benefiting the people with a prime-numbered ticket are incomparable
-% because although almost all of the people benefited in the second case are benefit in the first case,
-% and infinitely many more 
+But incomparability also yields a highly implausible conclusion. Imagine that the benefit in question
+is saving the person's life, and by pressing one of three buttons,
+respectively labeled $L_{-1000}$, $L_0$, and $R_0$, you confer the indicated benefit. 
+You can only press one of the four buttons. Let's add that the buttons have a satisfying tactile feel, 
+so you would want to press one of the buttons even if you didn't have any other reason for it. 
 
-Here is another way to see a problem. Suppose a line stretches to infinitely in both directions,
-and has a tickmark at every meter. People who are all relevantly on par with one another stand with exactly 
-one on each tickmark. Now, let $S$ be a set of tickmarks, and let $x$ be a position on the line either at a 
-tickmark or exactly half-way between two tickmarks. Any tickmark $y$ on the line can reflected in the point 
-$x$ to get a tickmark $y_x$ (equal to $2x-y$) which has the same distance to $x$ as $y$ does, but is on the 
-opposite side of $x$. Given a set $S$ of tickmarks, let $S_x$ be the set of reflections of the tickmarks in 
-$S$ about $x$. Intuitively:
-\ditem{benefit-reflect}{Giving an equal benefit to the people standing at the points of a set $S$ of 
-tickmarks is on par with giving the same benefit to the people standing at the points of $S_x$, for any $x$.}
-Moral value should be invariant under mirroring.
+It would be extremely wicked to refuse to press a button: an infinite number of additional people would die if you 
+did not press the button, and not only is pressing the button cost-free, it is itself a minor benefit to you.
+Next, note that it is quite wicked to press the $L_{-1000}$ button. For if you select $L_{-1000}$, you could 
+have with no additional effort selected $L_0$ instead and saved the people at locations $-1000$ through $-1$.
+In a selection between finitely many options, when you could have chosen an option which saved a thousand 
+additional lives at no cost and you didn't, you acted wickedly. The qualifier that there are only
+finitely many options rules out scenarios where for every option there is another one that saves a thousand 
+more lives. That would be the case if you were, say, given a choice between all the infinitely $L_n$, since
+for any $L_n$ you chose, $L_{n+1000}$ would save infinitely many lives.
 
-But just as intuitively intuitively:
-\ditem{benefit-subset}{If $S'$ is a proper subset of a set $S$ of tickmarks, then giving the same benefit 
-to the members of $S$ is better than giving it to the members of $S'$.}
-Benefiting some extra people is always good.
+Now, $L_0$ and $R_0$ each have the property that they are not beaten by any other option available to you.
+Indeed, intuitively, pressing the $L_0$ or $R_0$ button is a good action. But now we have the following 
+paradoxical conclusion:
+\ditem{pref-paradox}{Pressing the $L_{-1000}$ button is wicked, pressing the $R_0$ button is good, but pressing 
+	the $R_0$ button is not morally better than pressing the $L_{-1000}$ button.}
+In other words, the comparative and absolute moral evaluations come apart in a very odd way. It seems obvious
+that a good aciton is always better than a wicked one!
 
-Unfortunately, \dref{benefit-reflect} and \dref{benefit-subset} can be easily proved to be inconsistent with the 
-transitivity of moral comparison. The proof is easy. Let $S=\{1,2,3,...\}$. Then $S_0=\{...,-3,-2,-1\}$.
-And $(S_0)_1=\{3,4,5,...\}$ as can be easily verified (mirroring $-1$ about the point $1$ gives the point $3$,
-mirroring $-2$ about $1$ gives $4$, and so on). By \dref{benefit-reflect}, benefiting the people in $S$ is 
-on par with benefiting the people in $S_0$, which is then on par with benefiting the people in $(S_0)_1$.
-But because $(S_0)_1$ is a proper subset of $S$, by transitivity this contradicts \dref{benefit-subset}.
+One might object that pressing the $L_{-1000}$ button is not wicked but good since on the whole it saves 
+infinitely many people. But given that a person who chose $L_{-1000}$ would be subject to the devastating
+moral critique that among the finite number of options if they had picked $L_0$ instead they would 
+have saved a thousand lives at no cost to themselves, it is hard not to call the person wicked. 
+
+
+\section*{Appendix: Skew in benefiting infinitely many people} 
 
 \chaptertail
 
