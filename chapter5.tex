@@ -1162,10 +1162,12 @@ $11.22^\circ$---can indeed be maintained. ??ref} And that will lead to our parad
 The solution I want to propose instead is this. Stop the search for general ways of updating on zero probability events. Except in special
 cases (more on that soon???), such updates should not be done.  Instead, embrace imprecision. In practice, we never exactly measure the
 position of a spinner. Suppose that instead of measuring the spinner position at $22.44^\circ$ at $t_2$, we measure it to be $22.44\pm 0.01$
-degrees. Let $E$ be the evidence, then, that the spinner ended between $22.43$ and $22.45$. Then $P(E)=0.02/360$ and there is no special 
-difficulty in calculating via Bayes' theorem that 
+degrees. Let $E$ be the evidence, then, that the spinner finally ended between $22.43$ and $22.45$. Then $P(E)=(1/2)(0.02/360)+(1/2)(0.04/360)$
+(on tails, to get $E$ we need need the spinner to initially land between $22.43$ and $22.45$; on heads, we need it to 
+initially land between $44.86$ and $44.90$). Then by Bayes' theorem:
 $$
-    P(\text{heads} \mid E) = \frac{P(E \mid \text{heads})}{P(E)} P(\text{heads}) = 2/3.\footnote{??fill in details}
+    P(\text{heads} \mid E) = \frac{P(E \mid \text{heads})}{P(E)} P(\text{heads}) = \frac{ (1/2)(0.04/360) }{ (1/2)(0.02/360)+(1/2)(0.04/360) } = 
+	frac23.
 $$    
 
 Now, if we were to measure things will full precision, we would indeed have to update on zero-probability events, and we would sometimes
@@ -1351,7 +1353,7 @@ knowledge?  There is room for significant further exploration here, as well as r
 of knowledge that might end up being grounded in human nature. How such a search might go will depend on controversial questions about
 the role of knowledge in our rational life. 
 
-While my own view favors minimizing that role in favor of understanding and credence, 
+While my own view suggests we should minimize that role in favor of understanding and credence, 
 someone attracted to knowledge having a significant role might have room to give a normative-functional account of knowledge that
 has a significant role for human nature. Thus, if one thinks that the knowledge is the norm of assertion, then one might say that
 knowledge is that state which makes assertion non-defective, and the standards of defectiveness of assertion are given by our nature.
