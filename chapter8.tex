@@ -626,8 +626,10 @@ specified naturalism with respect to finite things.\footnote{I think the most pl
 would be in examining human free will, but that goes beyond the scope of this book.}
 
 \section*{$^*$Appendix: Making the geometric argument for SET more precise}
-Consider a non-empty region $D$ of an $n$-dimensional Euclidean space.\footnote{Technically, Special Relativity happens in a 
-Minkowskian space. But we can map a Minkowskian space to a Euclidean space coordinate-by-coordinate.}
+Consider a non-empty region $D$ of an $n$-dimensional Euclidean space. Technically, Special Relativity happens in a 
+Minkowskian space. But we can embed a Minkowskian space into Euclidean space coordinate-by-coordinate, and will do so 
+to make things easier to imagine.
+
 A \textit{hyperplane} is an $(n-1)$-dimensional linear substance of $D$. A \textit{supporting hyperplane} for $D$ is a hyperplane $K$ such that (a)~$K$ intersects the  boundary of $D$, and (b)~all the points of $D$ lie on $K$ and/or one side of $K$. Here, the boundary of a region $D$ is understood in the topological sense, as the set of points $z$ such that there are points of $D$ that are arbitrarily close to $z$ and there are points outside $D$ that are arbitrarily close to $z$. To make (b) more precise, note that $K$ cuts space into two halves, $H_1$ and $H_2$, known as “open half-spaces” such that no two of the three sets $K$, $H_1$ and $H_2$ have any points in common. Condition (b) says that $D$ is a subset of $K\cup H_1$ or a subset of $K\cup H_2$.
 Note that a supporting plane for $D$ can intersect $D$ only at a boundary point of $D$. 
 
@@ -635,23 +637,31 @@ Given a vector $v$ of length one (a ``unit vector'') and a plane $K$ perpendicul
 useful fact which will be proved later.
 
 \begin{lem}\label{lem:one-supp} Let $D$ be a bounded non-empty region of $n$-dimensional Euclidean space, and let $v$ be any vector. There is exactly one supporting plane $K=K(D,v)$ for $D$ such that (a)~$K$ is perpendicular to $v$ and (b)~no point of $D$ is found in the open half-space in the direction of $v$ from $K$.
+\end{lem}
 
-??
+(A region is bounded provided there is some finite $r$ such that every point of the region is within distance $r$ of the origin.) Moreover, \txtit{every} supporting plane is of the form $K(D,v)$ for some unit vector $v$: just choose $v$ to be one of the two unit vectors perpendicular to $K$, in such a way that $D$ is on the correct side of $K$ with respect to $v$. Now, the set of unit vectors forms the hypersphere $S^{n-1}$. Then we have (and again the proof will be given later):
 
-(A region is bounded provided there is some finite r such that every point of the region r is within distance r of the origin.) Moreover, every supporting plane is of the form K(D,v) for some unit vector v: just choose v to be one of the two unit vectors perpendicular to K, in such a way that D is on the correct side of K with respect to v. Now, the set of unit vectors forms the hypersphere Sn1. Then we have:
+\begin{prp}\label{prp:support-zero}
+Let $D$ be a bounded non-empty region of $n$-dimensional Euclidean space. Let $U$ be the set of points $v$ on the 
+$(n-1)$-dimensional unit hypersphere $S^{n-1}$ such that the supporting plane $K(D,v)$ meets the boundary of $D$ at two or more points. Then $U$ has zero $(n-1)$-dimensional Lebesgue measure as a subset of the hypersphere.
+\end{prp}
 
-Proposition 1: Let D be a bounded non-empty region of n-dimensional Euclidean space. Let U be the set of points v on the (n1)-dimensional unit hypersphere Sn1 such that the supporting plane K(D,v) meets the boundary of D at two or more points. Then U has zero (n1)-dimensional Lebesgue measure as a subset of the hypersphere.
+We are now ready to give a more precise version of the Rover argument. Consider Rover, a bounded material object with a finite lifetime, and let $D$ be the region of spacetime occupied by Rover during that lifetime.  For any reference frame $F$, there will be parallel bounding hyperplanes $K_1$ and $K_2$ of $D$ in $F$, with $K_2$ being temporally no earlier than $K_1$ with respect to $F$.  If in $F$ Rover does \textit{not} start off with diameter\footnote{The diameter of a non-spherical region is the smallest real number $\delta$ such that any two points in the region have distance less than or equal to $\delta$.} less than $\delta>0$ (say, some subatomic distance), then there will points of the boundary of $D$ lying on $K_1$ whose distance from one another is greater than $\delta$, where $\delta'>0$ is defined in terms of $\delta$ together with relativistic factors depending on how the reference frame $F$ is related to our Euclidean embedding of the Minkowskian spacetime.
 
-	We are now ready to give a more precise version of the Rover argument. Consider Rover, a bounded material object with a finite lifetime, and let D be the region of spacetime occupied by Rover during that lifetime.  For any reference frame F, there will be parallel bounding hyperplanes K1 and K2 of D in F, with K2 being temporally no earlier than K1 with respect to F.  If in F, Rover does not start at the subatomic scale, then there will points of the boundary of D lying on K1 whose distance from one another is greater than subatomic. We can think of the points of the boundary of D lying on K1 as the lower temporal boundary of Rover with respect to frame F.
-But by Proposition 1 almost all bounding hyperplanes of D contact the boundary of D at exactly one point. Thus for almost all reference frames F, Rover's lower temporal boundary is a single point, and hence for almost all reference frames F, Rover starts off subatomic in size—and indeed smaller than any specifiable size r>0. More precisely, we have:
+We can think of the points of the boundary of $D$ lying on $K_1$ as the lower temporal boundary of Rover with respect to frame $F$.
+But by Proposition~\ref{prp:support-zero} almost all bounding hyperplanes of $D$ contact the boundary of $D$ at exactly one point. Thus for almost all reference frames $F$, Rover's lower temporal boundary is a single point, and hence for almost all reference frames $F$, Rover starts off smaller than $\delta'$ in size. A more precise formulation of this point is the following fact, where we can set $r=\delta'$.
 
-Proposition 2: Let D be a bounded region of n-dimensional Euclidean space, and let K be a bounding hyperplane for D. Suppose the boundary of D intersects K in a single point. Then for any distance r>0, there is a u>0 such that for every hyperplane L parallel to K whose distance from K is at most u, the intersection of L with D is contained in some ball of radius r.
+\begin{prp}\label{prp:distance} Let $D$ be a bounded region of $n$-dimensional Euclidean space, and let $K$ be a bounding hyperplane for $D$. Suppose the boundary of $D$ intersects $K$ in a single point. Then for any distance $r>0$, there is a $u>0$ such that for every hyperplane $L$ parallel to $K$ whose distance from $K$ is at most $u$, the intersection of $L$ with $D$ is contained in some ball of radius $r$.
+\end{prp}
 
-Similarly, the points of contact between K2 and D can be characterized as Rover's upper temporal boundary with respect to F, and the exact same argument shows that for almost all frames F, Rover ends its life subatomic in size.
+Again, the proof will be given later.
+
+Similarly, the points of contact between $K_2$ and $D$ can be characterized as Rover's upper temporal boundary with respect to $F$, and the exact same argument shows that for almost all frames $F$, Rover ends its life smaller in size than any specifiable positive size, and hence it is subatomic.
 
 We can now prove our Lemma and Propositions.
 
-Proof of Lemma 1: Let c be the supremum of the dot product vx as x ranges over D. This is finite as D is bounded. Let K be the plane { z : vz = c }, which is perpendicular to v. Any point z in the open half-space H defined by K in the direction of v satisfies vz > c, and hence is not in D. Let (xi) be a sequence of points of D such that vxi converges to c. Let y be a limit point of the xi (this exists since D is bounded). Then y is in the topological closure of D. But vy = c by continuity of the dot product, and there are points arbitrarily close to y in the half-space H and hence not in D, so y is in the boundary of D. Since all points z in D satisfy vz ≤ c by choice of c, it follows that K is a supporting plane for D. 
+%\begin{proof}[Proof of Lemma~\ref{lem:one-supp}]
+Let c be the supremum of the dot product vx as x ranges over D. This is finite as D is bounded. Let K be the plane { z : vz = c }, which is perpendicular to v. Any point z in the open half-space H defined by K in the direction of v satisfies vz > c, and hence is not in D. Let (xi) be a sequence of points of D such that vxi converges to c. Let y be a limit point of the xi (this exists since D is bounded). Then y is in the topological closure of D. But vy = c by continuity of the dot product, and there are points arbitrarily close to y in the half-space H and hence not in D, so y is in the boundary of D. Since all points z in D satisfy vz ≤ c by choice of c, it follows that K is a supporting plane for D. 
 Now, let L be any supporting plane for D perpendicular to v such that no point of D is found in the open half-space in the direction of v from K. Then vz takes the same value for all z in L, since L is perpendicular to v. Let that value be d. We then have vz ≤ d for all z in D since no point of D is found in the open half-space in the direction of v from K. It follows by choice of c that c ≤ d. Now, since L is a supporting plane, it meets the boundary of D, and so there is a sequence (ui) of points of D converging to a point w of L. Thus, vui converges to vw = d, using the continuity of the dot product. We have vui ≤ c by choice of c, and so d = vw ≤ c also by the continuity of the dot product. Thus c = d, and so L = K.
 
 Proof of Proposition 1: A convex set is one that contains the line segment between every pair of points in it. The closed convex hull of D is the smallest topologically closed and convex set containing D, and it has the same supporting planes as the original set. Moreover, any points where a supporting plane meets the boundary of D are also points of the boundary of the closed convex hull (since there are arbitrarily close points of the complement of D on one side of the supporting plane). Thus, replacing D with its closed convex hull, we may assume D is closed and convex.
