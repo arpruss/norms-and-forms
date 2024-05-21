@@ -1,4 +1,4 @@
-.\def\mychapter{IX}
+\def\mychapter{IX}
 \input{chapterhead}
 \chapter{Laws of nature and causal powers}\label{ch:laws}
 \section{Humean and pushy laws}
@@ -8,11 +8,22 @@ regularities of the behavior of objects in nature, and causation is then grounde
 we have laws in virtue of metaphysical components of reality that affect or constrain the behavior of objects. 
 In this section, I will argue that pushiness is the right view. 
 
-Introduce Lewis??
+The most prominent Humean account of laws is David Lewis's Best System Analysis (BSA).??ref The non-probabilistic version of it says that laws are the 
+logical consequences of the ``best system''. The systems in question are collections of true sentences all of whose terms
+are ``perfectly natural''. Thus, a system can contain the statement that ``All electrons have charge'', but cannot contain
+the statement that ``All babies are cute''---even if we supposed for the sake of the argument that this is true---because
+neither the concept of a baby nor of cuteness is perfectly natural. (Here, a baby is an immature human, and even if 
+the concept of humanity is perfectly natural, immatureness is not.) We then compare systems along two dimensions:
+a briefer system is better and a system that conveys more information about reality is also better.
 
-??causation
+Brevity is straightforward, once we fix a language with perfectly natural terms. Informativeness is more difficult 
+to characterize, but there are obvious comparative judgments: that energy is conserved is more informative than that
+I am sitting now, since the energy claim tells us (a little) about each of the vast numbers of particles in the universe 
+over all of time, while the claim about my sitting tells us only about what is happening in a small region of spacetime. 
 
-??argument from ideological parsimony
+Modern Humeans then tend to define causation in terms of laws. For instance, the Lewisian approach is to define laws
+in terms of counterfactuals, and counterfactuals in terms of similarity of worlds, with similarity of laws prioritized.
+The resulting account has pleasing ideological parsimony: both laws and causation reduce to the arrangement of matter.
 
 \subsection{Problems with explanation}\label{sec:law-explanation}
 The most discussed problem with BSA is explanatory circularity. To introduce the problem, let us begin with an explanatory 
@@ -356,9 +367,40 @@ stipulate that a non-probabilistic statement has good fit when it is true but in
 non-probabilistic statements will win the crown of being the best system.}
 
 \subsubsection{Violations of the Principal Principle}\label{sec:principal-principle}
-??chances vs probabilities
+Let's make the standard distinction between chances and epistemic probabilities. Chances are objective mind-independent probabilities 
+grounded in the laws of nature or causal propensities. Epistemic probabilities, on the other hand, are the probabilities one 
+has given evidence. 
 
-Suppose the world consists of some large number $N$ of independent fair indeterministic coin tosses, where $N$ is large
+Van Fraassen's Principal Principle (PP) holds that there is a tight epistemic relationship between chances and epistemic 
+probabilities. Basically, if one's relevant evidence consists in the claim that the chance of some event is $p$, then $p$ should
+also be one's epistemic probability, though there are various technical developments that should not be relevant to my examples.
+I will now offer two examples that show a tension between the PP and PBSA.
+
+For our first example, imagine a world where all the coins have always lain scattered on a large flat surface. There is an 
+extremely large number of these coins. One of them is made of gold and all the others are made of copper. You have observed
+all the copper coins and found an extremely strong fit between their arrangement and the hypothesis that whether each coin 
+is heads or tails is independent across the coins and the probability of heads is always $63/64$. You have not yet seen whether
+the gold coin is heads or tails, though you know that it is one or the other.
+
+On PBSA, if the number of coins is sufficiently large, a hypothesis specifying that the chance of a coin being heads is $63/64$ will 
+be sufficiently informative to make it into the laws of nature.\footnote{The number of coins has to be sufficiently large to 
+offset the loss of brevity due to having to explain what a coin is and what counts as heads.} Thus, if you are sure of PBSA,
+given your observations you can be sure that this is a law. For if the number of copper coins is sufficiently large, and the
+statistical fit is good enough, you can be completely confident that the fit to the $63/64$ hypothesis will be sufficient for nomicity regardless of whether the gold coin is heads or tails. 
+
+But now if you are sure that the $63/64$ hypothesis a law, then by PP you will have an epistemic probability of $63/64$ for the gold coin being heads. 
+
+And this is wrong. An inductive inference is always weakened by differences of material: if our inductive data is the distribution
+of heads/tails across all the copper coins other than one, then it would indeed be reasonable to assign an epistemic probability
+around $63/64$ to the remaining copper coin being heads. But if the remaining coin is of a different material, we surely should 
+not have the same level of confidence in its being heads. Intuitively, we should shift our epistemic probability closer to $1/2$.
+
+One might object on behalf of PBSA that one should instead posit a law that says that a \textit{copper} coin has chance 
+$63/64$ of showing heads. But this is mistaken. The resulting hypothesis is not significantly more informative, but is significantly
+less brief since it must mention and define the material of the coin, and hence is not going to be a viable competitor for being 
+in the best system.
+
+For our second example, the world consists of some large number $N$ of independent fair indeterministic coin tosses, where $N$ is large
 and easily mathematically expressible, e.g., $N=2^{256}$. As we would expect, very close to half of the coin tosses are heads, and 
 we suppose that a probabilistic best systems view will have laws that correctly assign an independent chance of $1/2$ (or, if 
 one wishes,  something close to $1/2$, a complication I will ignore) to each toss. Moreover, because $N$ is easily expressible,
