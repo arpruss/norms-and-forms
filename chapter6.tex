@@ -327,6 +327,86 @@ freedom we have when we require the specification of detail.
 There is thus reason to prefer the highest levels of specification. And Neo-Aristotelianism can rise to that challenge, because 
 forms can specify proper function at an arbitrarily high level of abstraction. 
 
+\section{Integrated Information Theory}
+An up-and-coming alternative to functionalism as a theory of consciousness that has caught the attention of some 
+neuroscientists is Integrated Information Theory (IIT) by Tononi, ??ref. IIT is based on the core insight that some complex causal systems 
+can be physically separated into subsystems that interact only weakly or not at all with one another, in the sense that each 
+subsystem only makes a small contribution---measured in information-theoretic ways---to predicting the functioning 
+of the other subsystem. Such systems have little or no consciousness. For instance, a digital camera sensor contains a 
+light sensor for each pixel. If we partition these pixel sensors into those on the left and the right halves of the 
+full sensor, the data on each side makes relatively little contribution to the data on the other side (it makes \textit{some}
+contribution, in that sensors heat up, and their heat generates noise in the data of neighboring
+sensors). As a result the system has little consciousness.
+
+But when a complex causal system has no such decomposition, it has ``integrated information'',
+which typically constitutes consciousness. Given a mathematical model of the probabilistic functioning of the system, 
+there is a specific measure, $\Phi$, of the degree of integrated information in the system. There is also a specific
+proviso on which if two systems are nested---one is a part of the other---then only the one with the higher $\Phi$
+value gets to be conscious. 
+
+IIT has multiple realizability, but significantly less of it than functionalism does. Those isomorphisms 
+between systems $S_1$ and $S_2$ that preserve transition probabilities of states and map physically separate 
+components of each system to physically separate components of the other system will preserve $\Phi$. 
+Functionalism, on the other hand, allowed for functional isomorphisms that changed transition probabilities 
+(e.g., replacing a component with a more reliable one), as well as ones where multiple physically separate 
+components got mapped to one, or one physical component got implemented by several physically separate ones. 
+For instance, in a computer simulation of a brain system, an electrical potential in a single nerve may be 
+modeled by a 64-bit floating point number. Each of the 64 bits of the floating point number is stored in a
+separate tiny storage capacitor in a memory chip: thus one component is implemented in 64 physical components.
+The simulating system thus allows for decompositions (say, between the even- and odd-numbered bits) that the original
+physical system did not allow for. 
+
+We could in principle implement a consciousness in an electronic system by mimicking a human brain given IIT. However, we would 
+not only have to simulate the functioning of the brain, but we would have to implement this functioning with  
+physical components that have a one-to-one mapping with the physical components of the brain, e.g., neurons mapped to 
+computer chips, nerves to wires, etc.
+
+Thus, IIT avoids some of the difficulties facing functionalism. In particular, while I have argued that any 
+finite deterministic system can be mapped to the states of a single particle moving in a straight line, and 
+hence every particle has human-level consciousness on functionalism??backref/forwardref, no such conclusion 
+follows for IIT. For while the different states of a brain can all be encoded into, say, the position of one
+particle---the position can be specified as a number with infinitely many decimal places, and these suffice
+for encoding the states---the particle is not a complex system capable of physical subdivision, while the brain is. 
+
+Furthermore, the difficulties about specifying the degree of reliability needed for consciousness in a functional
+system disappears entirely: the $\Phi$ measure precisely takes into account the transition probabilities, and how
+they modify the amount of integrated information.
+
+Unfortunately, IIT is subject to fatal counterexamples.??Ref:Aaronson,Tononi For instance, consider a very large square grid.
+At each point of the grid is stored a zero or one. At each step of the evolution of the system, the value at 
+each grid point is replaced by the \textit{logical or} of the values of the two to four neighboring points (the 
+points in the middle of the grid have four neighbors; the points at the corners have two; the points at the 
+edges have three). Thus, if a point is surrounded by zeroes, it becomes zero; otherwise, it becomes one. If 
+there are any ones in the system, they spread all around until they fill the grid. If the system starts at zero, 
+it stays at zero. It turns out??cf:refs that even if the system is all at zero, it has a 
+degree of integrated information proportional to the number of points in the sides of the square grid. As a 
+result, a sufficiently and impractically large grid---say, one with something like $10^{15}$ points per side---will 
+have human-level consciousness, even when the grid is unchangingly fixed at zero. While Tononi embraces such 
+conclusions??ref, they seem highly counterintuitive.
+
+For a much simpler case, imagine a world with two eternally particles, each having an electric charge specifiable
+as any real number. Suppose, further, that the laws of nature specify that every second, the two particles swap their charges. This system has only one decomposition into two subsystems---the two particles. Each particle contains 
+an infinite amount of information for the prediction of the other particle's subsequent charge, since a real
+number contains infinitely many bits of information (it can be expressed by a sign, a binary integer, a ``binary 
+point'', and then infinitely many binary digits). The $\Phi$ measure of the system is infinity. Thus, the two 
+particles that eternally interchange their charges are infinitely conscious. While a panpsychist might be willing to 
+admit that two particles are collectively conscious, this would surely be a minimal level of consciousness, rather than 
+the god-like infinite consciousness that IIT predicts.
+
+IIT has a pleasing mathematical precision, and a tempered version of multiple realizability. However, it leads to 
+implausible consequences. Perhaps some future IIT-like theory will avoid the extravagancies of functionalist multiple
+realizability while avoiding the implausible consequences of IIT. But at this point we should not a particular 
+limitation of IIT. As it stands, IIT is a theory of the amount of consciousness in a system. But what we really 
+want in a theory of consciousness is an account of what constitutes particle phenomenal experiences: what makes 
+an entity feel pain, hear a middle C, see red, or experience a sense of awe at the mystery of existence. We can 
+sketch toy functionalist stories about some of these---say, pain being a state that mediates between damage detection
+and avoidance behavior---but IIT's information-theoretic character does not seem to lend itself well to analysis of 
+phenomenal experience. Moreover, ``information'' in information theory is binary bits, abstracted from their specific 
+meaning. But any reduction of phenomenal experience to information would, plausibly, have to focus on the specific 
+meanings (damage, say). 
+
+Functionalism, thus, still rules among naturalist theories that allow for significant multiple realizability.
+
 \section{Supervaluationism about minds}
 A tempting solution to the problem of the multiplicity of functionalist (or other) theories of mind differing with respect
 to fine details is to treat each theory as a precisification of concepts like \textit{mind} or \textit{pain}, none of which
