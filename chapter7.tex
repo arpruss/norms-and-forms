@@ -1,6 +1,6 @@
 \def\mychapter{VII}
 \input{chapterhead}
-\chapter{Semantics}\label{ch:semantics}
+\chapter{Language}\label{ch:semantics}
 \section{Communication and norms}
 \subsection{A problem about cooperation}
 ??cut:squeaking is better?
@@ -569,9 +569,6 @@ in a way that does violence to the overridingness of rationality, and besides we
 an account of the third-level sharpness, which is no easier to have than an account of second-level sharpness. And the intuitions
 supporting second-level vagueness are just not as robust as those supporting first-level vagueness.
 
-\subsection{A distinguished semantic theory}
-???????? Canonical choice of naturalness???
-
 \section{A neo-Aristotelian account}
 The neo-Aristotelian account allows us to have a completely sharp world with our language being completely sharp, with there being
 definite facts of the matter about significant and insignificant
@@ -601,6 +598,75 @@ semantic norms and yet genuine first-order vagueness.
 
 %https://johnmacfarlane.net/fuzzy-epistemicism.pdf
 ??backref to indeterminacy
+
+\section{Norms of assertion}
+Under what conditions may we assert a proposition $p$? The literature contains a number of answers, of which the main 
+three are that you believe, justifiably believe and know $p$.??ref\footnote{There may also be some edge cases where none 
+of these seem right. For instance, suppose that you are temporarily deafened after an accident and you do not even know whether 
+you still have the power of speech. You turn to a friend and try to say: ``At least I can still speak!'', and gauge from 
+their reaction whether what you said was true. In that case, you don't believe or know that what you are saying is true, but 
+if you do succeed in speaking, it \textit{is} guaranteed to be true, so you are not being dishonest. Handling such cases in 
+an account of the norm of assertion is difficult. It is tempting to modify suggested norms to say that you believe, 
+justifiably believe or know the conditional that if you succeed in asserting $p$ to your audience, then $p$ is true. But it is 
+not clear that in ordinary assertions you need to have any beliefs about such complex conditionals.??ref:Pruss These complications
+would only serve to strengthen my case for the presence of Mersenne problems, and so I will simplify the discussion by ignoring them.}
+
+To a Bayesian who thinks that belief and justification always come in degrees, all three norms come with an implicit or 
+explicit threshold of the credence and evidential levels at which assertion becomes appropriate. And then we have a 
+Mersenne problem: what explains or grounds why the threshold is where it is.
+
+A non-Bayesian might think that belief, justification and/or knowledge are binary distinctions that cut the epistemic 
+world at the joints. If so, then it may seem that we have no Mersenne problem for assertion, and indeed the lack of the 
+problem is an advantage over Bayesian approaches. However, the problem returns when we take into account the complexity
+in real-life assertions. For the level of belief and/or justification needed for an assertion does in fact vary from case to 
+case, depending on context and confidence markers. 
+
+Expert witnesses speaking under oath need to be more confident of what they are asserting than friends tossing around 
+ideas over a beer, with a vast amount of contextual variation in between. A realistic account of the norm of assertion 
+needs to take such context into account. Furthermore, even when we keep context fixed, our tone of voice, body language (including
+facial expression), and choice of wording communicates the level of confidence. While one might not be lying if one says something that one 
+just barely knows with a voice communicating the kind of justified confidence that a mathematician has in theorems verified
+by referees, one is violating the norms proper to asserting with that tone of voice. 
+
+It is clear, thus, that a realistic account of the norms of assertion will have to involve functions from pairs $(C,S)$ 
+where $C$ is the conversational context and $S$ is the speaker cues to the degrees of belief, confidence, justification 
+and/or knowledge relevant to assertion. These functions are unlikely to admit of any simple mathematical expressions.
+Even if we neglect the social complexities of context, speaker cues themselves involve at least the three dimensions of 
+tone, body and wording, weighed in a complex way. Yet it is clear that we have norms here---and indeed morally relevant norms---and we need an 
+answer to the question of what grounds the functions involved in the norms being as they are.
+
+It is plausible to say that the functions here are largely socially defined. The same tone of voice in one culture may 
+convey confidence and in another something quite different. However, that only shifts the Mersenne problem. If previously
+we were, say, trying to find a ground for a function $f$ from context-cue pairs to required degrees of belief, we now need
+a grounding for the (second-order) function $g$ that assigns to a set $R$ of relevant social regularities a ``threshold function'' $f=g(R)$ 
+from context-cue pairs to required degrees of belief. Slight reflection should show that our function $g$ can be expected to 
+be rather complex. 
+
+We cannot say, for instance, that the degree of confidence $f(C,S)$ required for a context-cue pair $(C,S)$ 
+is the average amount of confidence in fact occurring for $(C,S)$ in a culture with regularities $R$. Presumably,
+the majority of assertions in a culture are appropriate. And among the appropriate assertions, most not only meet
+the required threshold of confidence for their context-cue pair, but likely exceed it at least slightly. This 
+suggests that it should be at least possible in a culture that the average level of confidence for asserting in 
+the case of a given context-cue pair is higher than the minimum required level, and so we cannot define the 
+threshold as the average. 
+
+We would likely be closer to correctly predicting the mark of the threshold if we set the threshold some ways below
+the average, say specifying that we should be one standard deviation below the 
+average level of confidence. But that would likely lead to a Mersenne problem: Why is it one standard deviation below 
+the average, instead of some other statistically attractive measure, such as being at the 25th percentile level of 
+actual confidences for those context-cue pairs. Furthermore, such formulas are likely to fail in a hypothetical 
+society where everyone is perfectly honest, and hence always asserts at or above the required threshold of confidence.
+
+Further complexities arise from local (spatial, temporal and other) variation in cultures, even that between neighborhoods 
+in a single city. The 
+sample sizes for the local regularities $R$ are likely to be small, and the function $g$ from regularities to 
+threshold-functions will need to take into account both local and non-local regularities, with some sort of a weighting 
+in favor of the local ones. This is likely to be quite complex, and the Mersenne question of the explanation of 
+why this exactly function---doubtless with many apparently arbitrary parameters---is the one that governs our 
+assertive behavior is indeed a very pressing one. 
+
+The Aristotelian, however, can embrace the complexity, and say that the human form specifies the function from social 
+regularities to threshold-functions. 
 
 \chaptertail
 
