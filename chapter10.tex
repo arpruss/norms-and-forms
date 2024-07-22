@@ -992,7 +992,7 @@ both optimalism \textit{and} pessimalism hold, and it is quite unclear whether w
 Now, suppose that there are multiple worlds---likely infinitely many. Since on optimalism only the best world is 
 metaphysically possible, the other worlds must be metaphysically impossible. At this point we appear to have two 
 initially plausible options. First, we could have no logical restrictions on the worlds---thus, we will have worlds
-with square circles, and so on---and, second, we could require the worlds to be \textit{logically} coherent, even if 
+with square circles, and so on---and, second, we could require the worlds to be (narrowly) \textit{logically} coherent, even if 
 they are not metaphysically possible. In other words, they have no strictly logical contradictions in them, though they 
 may violate fundamental metaphysical principles, like the principle of optimalism. 
 
@@ -1018,7 +1018,48 @@ of being such as to be better than any world or any plurality of one or more ent
 since it implies that its possessor is better than itself). In any case, the point should be made. If our world is the best
 one from among all worlds, including the incoherent ones, then we should expect our world to be incoherent. But surely it's not.
 
-Now suppose we constrain worlds logically.??? what's that mean? my paper against Swinburne??
+Now suppose we constrain worlds to be logically, but perhaps not metaphysically, possible. A proposition is narrowly logically
+possible provided that no contradiction can be derived from it by the rules of the correct logic. A serious philosophical 
+difficulty here is specifying what one means by ``the correct logic''. An obvious necessary condition on the correct logic $L$
+is that if $q$ follows from $p$ according to $L$, then the material conditional ``if $p$, then $q$'' has to be metaphysically
+necessary. But if logical necessity is to be distinguished from metaphysical necessity, as the proposal under discussion requires,
+the converse cannot always be true. In other words, not everything that follows of metaphysical necessity can follow of logical
+necessity. But now it is not clear which metaphysically necessary conditions correspond to rules of ``the correct logic''.
+
+There is, further, a serious technical problem. First note that if logical necessity is distinguished from metaphysical necessity, it is presumably distinguished by the formality of logical necessity: the fact that logical necessity is expressed by means of 
+formal rules of derivation from formal axioms. Second note that the S5 axiom of modality is quite plausible for whatever
+modality governs the worlds the optimalist says the best one is chosen from. The S5 axiom says that if something is possible 
+in one possible world, it's possible in all of them. For if logical modality varies between the logically possible worlds that
+the best one is chosen from, then what logically possible worlds there are will vary between the logically possible worlds. Hence, explanatorily prior to the choice of the best logically possible world there is no fact about what worlds are in fact logically possible, and the idea of the underlying metaphysical principles ``choosing'' between these worlds seems to make sense, since 
+prior to the choice of one of them, there is no such thing as ``these worlds''. It turns out that there is a conflict between 
+the formality of logical necessity and S5, however.
+
+But before getting to the conflict, we should note that my argument does not need the full S5 axiom. It only needs 
+perhaps the weakest imaginable version of it:
+\ditem{weakBrouwer}{There is some statement $s$ such that it is logically necessary that is logically possible that $s$.}
+The S5 axiom says this is true whenever it is logically possible that $s$, but \dref{weakBrouwer} only says this is true 
+for at least one $s$. For instance, it is highly intuitive that it is logically necessary that it is logically possible 
+that evil is evil, or that $2+2=4$, and so on.
+
+But now for the conflict. It is very plausible that among the things that are logically necessary are the Peano axioms of 
+arithmetic. These are so intuitively implied by our concept of the natural numbers, that if we deny their logical necessity,
+we might as well deny the logical necessity of such claims as that genuine forgiveness requires a wrong or that courage 
+requires evil, claims that I have argued are likely to be needed for a defense of the optimality of our world. Moreover, for
+the sake of the \textit{formality} of logical necessity, the axioms need to be formally recursively specifiable, and similarly
+for the rules of inference. But now G\"odel's Second Incompleteness Theorem comes in and tells us that no formal system 
+that includes the Peano axioms can prove its own consistency. Suppose, however, that it is logically necessary that it is 
+logically possible that $s$. On the coherence account, that it is logically possible that $s$ means that a contradiction
+cannot be derived from $s$. And that it is logically necessary that it is logically possible that $s$ means that there is 
+a formal proof of the fact that no contradiction can be formally proved from $s$. But if we could prove that no 
+contradiction can be formally proved from $s$ in the formal system of true logic, we could also prove that no 
+contradiction can be formally proved in the formal system of true logic (since a proof of a contradiction in the system
+woudl yield a proof of a contradiction in the system from $s$ by simply sticking $s$ in as a premise)---in other words,
+we would have an in-system proof of the consistency of the system, contrary to G\"odel's Second Incompleteness Theorem.
+
+Now, maybe there is some notion of the formality of a system that escapes this argument, but in any case we have a 
+serious difficulty for an account that takes narrowly logical possibility to be essential to identifying the worlds 
+from among which the best is chosen. Thus, whether or not we constrain these worlds by logic, we have a serious problem
+for optimalism.
 
 ??harmony BETWEEN forms
 
