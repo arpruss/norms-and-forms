@@ -1371,6 +1371,66 @@ facts count justifying the belief and yielding what additional condition is need
 the third class of facts that seems to fall under metaepistemology, and it is plausible that facts from that category are normative 
 facts about the flourishing of the intellect. 
 
+\section{Bayesianism and natural law}
+Bayesian update says that upon learning a new piece of evidence $E$, you should replace all your credences with the 
+ones you get by conditionalizing on $E$. Typically, a Bayesian update gets you closer to truth about some 
+propositions and further from truth about others. For instance, if you pull a coin from your pocket and look at one
+side of it, and see heads, this confirms that the coin has at least one heads side, which is true. But it also 
+confirms the hypothesis that the coin is a rare defective double-heads one, which hypothesis is typically going to 
+be false. More generally, none of the evidence we ever learn logically excludes the existence of fairies, but I 
+assume there are no fairies. Suppose you learn some piece of evidence $E$. Then you trivially get closer to the truth
+about $E$, but you also confirm the conjunctive proposition $F$ that $E$ obtains and there are fairies, by confirming the 
+first conjunct (unless the prior for $F$ was zero or one).\footnote{We have $P(E\mid F)=1$. However, $P(E\mid \Not F)<1$,
+since if we had $P(E\mid \Not F)=1$, then we would have $P(E)=1$, and hence you wouldn't be \textit{learning} $E$, as your
+prior in $E$ would have been $1$. Thus, $P(E\mid F)>P(E\mid\Not F)$ and $E$ raises the credence of $F$ by Bayes' theorem
+given Bayesian update.} 
+
+Whether you are epistemically better off after a Bayesian update depends on a variety of factors, including the relative 
+importance of the propositions that you get closer to the truth on and those that you get further from the truth on. 
+If for some reason the above false proposition $F$ is extremely epistemically important (maybe aliens have announced they will 
+destroy the earth if and only if $F$ is true), getting spurious confirmation of $F$ could well be an overall epistemic harm. 
+Thus, Bayesian update doesn't always get the best results. And typically there is, abstractly speaking, 
+a rule that will get you better results than Bayesian update. Suppose your concern is with propositions $p_1,...,p_n$, and 
+imagine that a stranger comes up to you and tells you to always employ the following update strategy:
+\dref{update-1}{if you learn that $p_1$ is false, do Bayesian update}
+\dref{update-2}{if you learn that $p_1$ is true, change your credences to specific numbers $t_1,...,t_n$, respectively.}
+Suppose that the stranger happened, by chance or not, to pick the numbers $t_1,...,t_n$ in such a way that $t_i=0$ if 
+$p_i$ is false and $t_i=1$ if $p_i$ is true. As long as \dref{update-2} does not happen to coincide with Bayesian 
+update (typically it won't), and as long as there is any chance of learning that $p_1$ is true, the stranger's strategy 
+will beat Bayesian update. 
+
+Now, chances are, you won't be able to design a better update strategy than a Bayesian one \textit{for yourself}.
+It is a famous theorem??ref that your expected epistemic utility, defined using a proper scoring rule and calculated by your 
+own lights, will be maximized by Bayesian update over the space of all update strategies. But the crucial thing to 
+note in this result is the ``by your own lights''. Someone else who has information that is not available to you can 
+sometimes---as in the stranger example---design a better rule for you. 
+
+Imagine now that you are designing an intelligent robot. You have access to more types of information than the robot ever 
+will, and you use your superior knowledge to design a robot with an update rule that beats Bayesian update (with respect to 
+some or maybe even all ways of prioritizing the importance of propositions). The robot, however, is rather smart, 
+and observes that it is finding itself ``naturally'' or ``instinctively'' reasoning in ways that do not match Bayesian update. This makes the 
+robot worry: ``Should I keep on reasoning the way I `naturally' do, or should I reprogram myself for Bayesian update?''
+From your point of view as the robot's designer, you may well hope---and hope for the sake of the robot's doxastic
+flourishing---that the robot will stick to the rule you programmed in, as it is in fact superior with respect to getting
+to the truth (given the right prioritization). In fact, it seems plausible that the robot would be epistemically defective 
+if it switched to Bayesianism, and started engaging in less reliable reasoning.
+
+We are not robots. Whether we are designed by a person more intelligent than ourselves is highly controversial (I will 
+argue in the affirmative in Chapter~\ref{ch:XI}). However, evolution might be metaphorically said to have ``access'' to more 
+information than an individual human does: the selective pressures that made us what we are were responsive to a vast amount
+of data that we individually do not have, and perhaps that our ancestors did not even have in their minds. Some think 
+that with the advent of the large amount of data in modern science, we can do 
+better than our instinctive ways of reasoning, say by adopting Bayesianism as our update rule. For the argument I want 
+to press, I am willing to concede the point.??ref:fast-and-slow But it is not clear that the same would have been true at earlier points 
+in our species' intellectual development. And it \textit{is} clear that the same is not true for all possible species 
+of intelligent animals: there \textit{could} be intelligent animals whose instinctive reasoning would beat Bayesian
+reasoning. 
+
+The mere fact that their instinctive methods of reasoning would beat Bayesian update does not mean that they would be 
+rational to prefer the instinctive methods. But I think reflection on these possibilities should make one incline to 
+the hypothesis that Bayesianism does not have a hegemony on rationality. Even if Bayesianism is the right epistemology,
+it is not the right meta-epistemology: to reason rightly is not the same thing as to reason in a Bayesian way. ...????
+
 \section{Epistemic supererogation}
 In ??backref, we saw that a Natural Law ethic can easily accommodate the concept of supererogation by allowing for a case
 where one flourishes more in willing to $\phi$ than in willing to $\psi$, but nonetheless willing to $\psi$ would not be a case of languishing. This was
