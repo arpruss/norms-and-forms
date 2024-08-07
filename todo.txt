@@ -6,16 +6,6 @@ trust: https://link.springer.com/article/10.1007/s11229-022-03993-4?utm_source=t
 
 forms of life boundaries: https://www.repository.cam.ac.uk/bitstream/handle/1810/299079/Species%20Natures%204%20Nov%202019%20PQ%20final%20sub.pdf?sequence=1
 
-Is our normative messiness contrary to the simplicity we seek? No: simplicity is different in different areas, and biology has more of hierarchical
-beauty than great simplicity. It is unsurprising that a good solution to the normative engineering project is messy, just as a good solution to
-other engineering problems is messy. Elegant physical games, like badminton, have lots of rules. (But abstract games. Go.)
-
-normative accidents
-
-set theory, Mersenne, free params
-
-level of specification of environment -- flourishing on alien planets
-
 Cuneo on arche problem: https://academic.oup.com/mind/article/132/527/706/6974813
 Cuneo Socially Conscious Intuitionism
 
@@ -27,16 +17,9 @@ Theo Kuipers and Sandy Zabell: fix of Carnap’s inductive logic
 
 What has form?
 
-social norms
-
-three solutions to harmony: sparse forms (theistic imitation/nontheistic brute), forms' powers to control
-    self and others, creator
-	
 David Alexander metaethics. 
 
 https://alexanderpruss.blogspot.com/2024/02/teaching-virtue.html?showComment=1709778962470 
 Dispositions and norms are related. Alternative to Aristotelian optimism?
-
-Priors for economy should not be TOO high. Some room for diversity.
 
 Pain asymbolia?
