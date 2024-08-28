@@ -1,6 +1,6 @@
 \def\mychapter{VII}
 \input{chapterhead}
-\chapter{Language}\label{ch:semantics}
+\chapter{Language and semantics}\label{ch:semantics}
 \section{Communication and norms}
 \subsection{A problem about cooperation}
 ??cut:squeaking is better?
@@ -665,6 +665,57 @@ assertive behavior is indeed a very pressing one.
 
 The Aristotelian, however, can embrace the complexity, and say that the human form specifies the function from social 
 regularities to threshold-functions. 
+
+\section{$^*$Natural numbers}
+Very plausibly:
+\ditem{number-truth}{any first-order statement about natural numbers and their arithmetical operations is determinately true 
+or determinately false, whether or not we know its truth value.} 
+But what is true of the natural numbers and their arithmetical operations will frequently be false of other sets of mathematical
+entities with their operations. One may initially conclude from \dref{number-truth} that we are thus able to gain unambiguous
+reference to \textit{the} natural numbers and their operations in our language or thought, and then we will have a puzzle as 
+to how we manage to pick out the natural numbers from among the infinity of mathematical objects.
+
+But that's too quick. We learn from Benacerraf??ref that the concept of \textit{the} natural numbers is dubious. Set theorists
+frequently identify the sequence $0,1,2,...$ of natural numbers with the sequence of sets $\varnothing, \{\varnothing\},
+\{\varnothing, \{\varnothing\}\},...$ (i.e., identify $0$ with the empty set, and then identify each number with the 
+set of its predecessors). It is implausible to think that this strange set-theoretic construction captures 
+\textit{the} natural numbers, but it does capture a structure that for all practical purposes behaves (with appropriately
+defined operations) like them. But other sequences could be used equally well. For instance, we might 
+go for the sequence of sets $\varnothing, \{\varnothing\}, \{\{\varnothing\}\},...$. Or, following Frege??ref, we might 
+identify a number $n$ with the class of all sets with $n$ elements. 
+
+Suppose we take the lesson from this to be that there is no such thing as \textit{the} natural numbers. There will still be 
+``arithmetical truths'' and ``arithmetical falsehoods''. There is still no reasonable doubt about the truth of the magnificent ancient
+Greek discovery that for every prime number there is a larger prime number, or that Goldbach's Conjecture that every even
+number bigger than two is the sum of two primes is either true or false. It remains highly plausible that \dref{number-truth}
+is correct, even if there is no such thing as \textit{the} naturals. This requires that even if we do not pick out a 
+specific sequence of naturals with their arithmetical operations, our language or thought somehow manages to characterize
+a ``natural number structure''---an infinite plurality of objects with appropriate arithmetical operations---with sufficient
+determinacy to fix the truth value of any first-order statement about them.
+
+But how do we do that? Taking a cue from Euclid, one might say that we characterize natural number structures by a collection
+of axioms. For instance, we might think of natural numbers in terms of a ``successor'' operation, and begin by saying that every natural number has a successor and no two numbers have the same successor, and continue on through our favorite axioms, such as 
+the Peano ones. The problem with this is that G\"odel's first incompleteness theorem says that any consistent recursively expressible 
+axiomatic characterization that includes the obviously true Peano axioms is insufficient to determine all the truths about natural numbers, and hence will fail to yield \dref{number-truth}. For any such axiomatic characterization, there will be a pair of 
+mathematical structures, $N_1$ and $N_2$, each of which satisfies the characterization, and an arithmetical statement $p$ that 
+is true of $N_1$ but false of $N_2$. 
+
+There are several known solutions to this problem. The first is to simply deny \dref{number-truth}, and allow a genuine 
+indeterminacy to some arithmetic statements, which are neither true nor false. This is counterintuitive, but if we could 
+ensure that only very strange arithmetical statements have that indeterminacy, it could be acceptable. Unfortunately, we 
+cannot ensure this. 
+
+Consider statements of the form
+\ditem{provability}{$Q$ can be proved from $P_1,...,P_n$}
+where $P_1,...,P_N$ and $Q$ 
+are sentences of first order logic. Such ``provability'' statements are not particularly strange, and I think we find ourselves
+with strong intuitions that for any $P_1,...,P_n$ and $Q$, there has to be a determinate fact of the matter about whether 
+\dref{provability} holds. This seems close to the heart of the objectivity of logic. But as G\"odel famously noted, sentences
+can always be encoded as numbers, and the provability relation can be encoded using arithmetic operations and quantifiers. 
+As a result, \dref{provability} is equivalent to an arithmetical statement. 
+
+Suppose now that we restrict \dref{number-truth} to arithmetical statements that are translations of provability statements.
+?????
 
 \chaptertail
 
