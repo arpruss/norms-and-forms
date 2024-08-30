@@ -710,12 +710,48 @@ Consider statements of the form
 where $P_1,...,P_N$ and $Q$ 
 are sentences of first order logic. Such ``provability'' statements are not particularly strange, and I think we find ourselves
 with strong intuitions that for any $P_1,...,P_n$ and $Q$, there has to be a determinate fact of the matter about whether 
-\dref{provability} holds. This seems close to the heart of the objectivity of logic. But as G\"odel famously noted, sentences
+\dref{provability} holds. This claim seems close to the heart of the objectivity of logic. But as G\"odel famously noted, sentences
 can always be encoded as numbers, and the provability relation can be encoded using arithmetic operations and quantifiers. 
 As a result, \dref{provability} is equivalent to an arithmetical statement. 
 
 Suppose now that we restrict \dref{number-truth} to arithmetical statements that are translations of provability statements.
-?????
+Can we now characterize natural numbers in a finite first-order way that is sufficient to yield the truth values of these 
+(translations of) provability statements? Again, the answer is negative, but the issue is more complicated. Consider some 
+set $A$ of first-order recursively specifiable consistent axioms including enough axioms of arithmetic. Let $G$ be a Rosser-tweaked
+G\"odel sentence for these axioms, chosen so that $G$ is a $\Sigma_1$ sentence, i.e., has only one unbounded quantifier, 
+which quantifier is existential??refs. Thus, $G$ is of the form $\exists n F(n)$, where all the quantifiers in $F(n)$ are 
+bounded, i.e., of the form $\exists m (m<k \And ...)$ or $\forall m(m<k \rightarrow ...)$. We can now construct a Turing
+machine $M_G$ which iterates through all the natural numbers $n$, and halts as soon as it gets to $F(n)$. Thus, this Turing machine
+halts if and only if $G$ is true. But a statement that a specific Turing machine $M$ halts can be translated into a statement
+that a certain formula $\phi_M$ of first-order logic is valid, i.e., is provable from a tautology.??ref Putting all this together,
+and assuming our collection of axioms includes enough arithmetic to make the argument go, we will be able to prove from the 
+axioms in question that $\phi_M$ can be proved from one's favorite tautology if and only if $G$. Since $G$ is neither 
+provable nor disprovable from $A$, we thus have a provability statement that is neither provable nor disprovable
+from $A$.
+
+Thus, even if we restrict the arithmetical truths we want definite truth values of to the translations of provability
+statements, we won't be able to give a recursive characterization of first-order axioms that yield the truth values.
+
+There is, however, an Aristotelian solution to the problem. While a finite collection of first-order axioms is insufficient 
+to characterize all arithmetical truths, an infinite one can easily do so (if one is really profligate, one can just include all and only the arithmetical truths among the axioms!). We already saw in previous chapters that the human form likely has a vast
+dizzying collection of norms embedded in it. Why not an infinite collection? Thus, human nature could include infinitely many arithmetical norms, such as ``One should use arithmetical concepts in such a way that it is appropriate to think that $A_n$'' (or, alternately, one can have a linguistic version of this norm about what kinds of things it is appropriate to say), where $A_n$ is the $n$th of the axioms, and where the axioms $A_1,A_2,...$ are sufficient to determine the truth value of all arithmetical statements (or maybe just of all 
+provability statements---i.e., all of $\Sigma_1$).
+
+The Aristotelian solution is not the only one, of course. We might have a Platonic solution on which, \textit{pace} Benacerraf,
+there really is a privileged collection of \textit{the} naturals in the Platonic heaven, distinguished from alternatives by 
+something like greater ``naturalness'' in the Lewisian sense (??ref). Or we might accept causal finitism??ref,
+whcih builds the concept of the finite---and hence of a natural number---into the metaphysics underlying causation.(??ref) 
+Or we might simply suppose a ``magical'' theory of reference on which there is a special relation between the human 
+mind and a certain collection of mathematical entities.cf.??refs 
+
+Nonetheless, the present Aristotelian solution has a certain attractiveness. Unlike the magical theory of reference, we do not need 
+to posit anything new about us---just more in the way of norms. And unlike the Platonic or causal finitist solutions, the
+Aristotelian solution does some justice to the intuition that mathematical terminology is stipulated by our minds---except 
+that the stipulation of the axioms of natural numbers is built into the nature of the human mind, rather than merely contingent.
+Furthermore, the Aristotelian solution allows for an epistemology of mathematics that is closely akin to the epistemology 
+of ethics, where we know norms by having an intuitive though fallible tendency to follow them, and so a particular axiom of 
+arithmetic can be accessed by our finding ourselves inclined to use arithmetical concepts in accordance with the norm encoding
+the axiom.
 
 \chaptertail
 
