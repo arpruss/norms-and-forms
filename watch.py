@@ -2,12 +2,17 @@ from watchdog.observers import Observer
 from watchdog.events import FileSystemEventHandler
 import os
 import time
+import subprocess
+
+PDF_VIEWER = "C:/Users/alexander_pruss/AppData/Local/SumatraPDF/SumatraPDF.exe"
+EDITOR = "c:/program files/notepad++/notepad++.exe"
 
 class MyHandler(FileSystemEventHandler):
     def on_modified(self, event):
         if not event.is_directory and event.src_path.endswith(".tex"):
             print("touched "+event.src_path)
-            os.system("pdflatex document")
+            subprocess.Popen(["pdflatex", "-interaction=nonstopmode", "document"])
+            #os.system("pdflatex document")
 
 # Create observer and event handler
 observer = Observer()
@@ -20,14 +25,17 @@ observer.schedule(event_handler, directory_to_watch, recursive=True)
 # Start the observer
 observer.start()
 
+print("edit")
+subprocess.Popen([EDITOR,])
 print("pdf")
-os.system("start document.pdf")
-print("pdf started")
+subprocess.Popen([PDF_VIEWER, "document.pdf"])
 #observer.join() 
 
 while True:
     time.sleep(0.25)
     pass
+    
+print("Done!")
 
 
 # Keep the script running
