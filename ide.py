@@ -73,6 +73,5 @@ print("Press CTRL-c to terminate")
 
 while True:
     time.sleep(0.25)
-    pass
     
 

@@ -166,7 +166,22 @@ On the other hand, if the chance of saving the pollakons were high enough, say 9
 a plausible trolley case, and Kirk would be permitted and likely required to fire phasers. Where the switchover
 occurs is a Mersenne question.
 
-We can also argue against expected utility maximization by considering the following case. Suppose that on every day $n$ of
+Perhaps the most intuitive justification of expected utility maximization is that, under some technical assumptions,
+the Strong Law of Large Numbers guarantees that if in a sufficiently long sequence of independent wagers, you keep 
+on choosing a wager whose expected value is better by (at least) some fixed increment $\delta>0$ than the expected
+value of an alternate, with probability one your total revenue will eventually be higher than if you were always to take the
+lower expected-value wager.\footnote{$^*$Let $X_1,X_2,...$ be a sequence of independent random variables. The Strong 
+Law of Large Numbers says that, under some technical assumptions, if $X_1,X_2,...$ are independent random variables, 
+then with probability one we have $\lim_{n\to\infty} n^{-1} (X_1+\dots+X_n) = \lim_{n\to\infty} n^{-1} (E[X_1]+\dots+E[X_n])$, with both limits finite, where $E[X]$ is the expected value of $X$. Thus, if $X_1,X_2,...$ are independent random variabls satisfying the
+technical assumptions, and so are $Y_1,Y_2,...$, and the $X_i$ represent one set of wagers while the $Y_i$ represent
+the other set of wagers, so that $E[X_i] \ge \delta + E[Y_i]$, then the average revenue from selecting the $X_i$ will
+converge to at least $\delta$ plus the average revenue from selecting the $Y_i$. One set of
+technical assumptions that suffices is that $n^{-1}(E[X_1]+\dots+E[X_n])$ converges to a finite value and 
+$\sum_{n=1}^\infty n^{-2} \Var[X_n]$, where $\Var[X]=E[(X-E[X])^2]$ is the variance of $X$.cf.??ref:Kolmogorov}
+
+But the devil is in the details, and the technical assumptions are not always satisfied. One can construct an infinite
+sequence of wagers where going for the lower expected-value wager of each pair will, with probability one, eventually
+result in a higher total result. For suppose that on every day $n$ of
 eternity, with $n\ge 1$, you are offered the opportunity to pay half a unit of utility in exchange for playing a game with a 
 $1/2^n$ chance of winning $2^n$ units of utility. By expected utility maximization, you would value the $n$th game at
 $(1/2^n)\cdot (2^n)=1$ units of utility, and at a price of $1/2$ units, it would be worth playing. 
