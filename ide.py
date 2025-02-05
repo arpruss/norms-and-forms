@@ -11,6 +11,8 @@ EDITOR = os.getenv('ProgramFiles')+"/notepad++/notepad++.exe"
 DIRECTORY = "./"
 MAIN_FILE = "document"
 TEMP_PREFIX = "__watch_temp__"
+#MODE = "batchmode" 
+MODE = "nonstopmode"
 
 viewerStart = False
 
@@ -19,7 +21,7 @@ def viewer():
 
 def pdflatex():
     try:
-        subprocess.run([PDFLATEX, "-interaction=nonstopmode", "-jobname=" + TEMP_FILE, "-output-directory=" +DIRECTORY, MAIN_FILE])
+        subprocess.run([PDFLATEX, "-interaction=" + MODE, "-jobname=" + TEMP_FILE, "-output-directory=" +DIRECTORY, MAIN_FILE])
         try:
             os.unlink(os.path.join(DIRECTORY, MAIN_FILE + ".pdf"))
         except:
@@ -32,13 +34,33 @@ def pdflatex():
         return False
 
 class MyHandler(FileSystemEventHandler):
+    def __init__(self):
+        self.times = {}
+
     def on_modified(self, event):
         global viewerStart
         if not event.is_directory and event.src_path.lower().endswith(".tex"):
+            try:
+                t = os.path.getmtime(event.src_path)
+                if event.src_path in self.times and t == self.times[event.src_path]:
+                    print("duplicate event")
+                    return
+                print(event,t)
+                self.times[event.src_path] = t
+            except FileNotFoundError:
+                try:
+                    del self.times[event.src_path]
+                except KeyError:
+                    pass
+
             print("modified: "+event.src_path)
+            time.sleep(0.25) # let the write get finished
             if pdflatex() and not viewerStart:
                 viewerStart = True
                 viewer()
+                
+    def on_created(self,event):
+        self.on_modified(event)
 
 if len(sys.argv)>1:
     DIRECTORY,MAIN_FILE = os.path.split(sys.argv[1])
