@@ -42,22 +42,23 @@ class MyHandler(FileSystemEventHandler):
         if not event.is_directory and event.src_path.lower().endswith(".tex"):
             try:
                 t = os.path.getmtime(event.src_path)
+                print(event.src_path, t)
                 if event.src_path in self.times and t == self.times[event.src_path]:
                     print("duplicate event")
                     return
-                print(event,t)
                 self.times[event.src_path] = t
             except FileNotFoundError:
                 try:
                     del self.times[event.src_path]
+                    t = 0
                 except KeyError:
                     pass
 
-            print("modified: "+event.src_path)
             time.sleep(0.25) # let the write get finished
             if pdflatex() and not viewerStart:
                 viewerStart = True
                 viewer()
+            print("modified: "+event.src_path, t)
                 
     def on_created(self,event):
         self.on_modified(event)
