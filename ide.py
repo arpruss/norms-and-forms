@@ -11,8 +11,8 @@ EDITOR = os.getenv('ProgramFiles')+"/notepad++/notepad++.exe"
 DIRECTORY = "./"
 MAIN_FILE = "document"
 TEMP_PREFIX = "__watch_temp__"
-#MODE = "batchmode" 
-MODE = "nonstopmode"
+MODE = "batchmode" 
+#MODE = "nonstopmode"
 
 viewerStart = False
 
@@ -42,7 +42,10 @@ class MyHandler(FileSystemEventHandler):
         if not event.is_directory and event.src_path.lower().endswith(".tex"):
             try:
                 t = os.path.getmtime(event.src_path)
-                print(event.src_path, t)
+                print(event, t, time.time())
+                if t + 60 < time.time():
+                    print("oddly old mod time, ignoring")
+                    return
                 if event.src_path in self.times and t == self.times[event.src_path]:
                     print("duplicate event")
                     return
@@ -61,6 +64,7 @@ class MyHandler(FileSystemEventHandler):
             print("modified: "+event.src_path, t)
                 
     def on_created(self,event):
+        print("created")
         self.on_modified(event)
 
 if len(sys.argv)>1:
@@ -80,10 +84,9 @@ if not os.path.exists(pdf):
 print("Monitoring %s with main file %s.tex\n" % (DIRECTORY,MAIN_FILE))
 
 observer = Observer()
-event_handler = MyHandler()
+handler = MyHandler()
 
-directory_to_watch = DIRECTORY
-observer.schedule(event_handler, directory_to_watch, recursive=True)
+observer.schedule(handler, DIRECTORY, recursive=True)
 observer.start()
 
 if EDITOR:
