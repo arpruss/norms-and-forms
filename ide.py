@@ -42,8 +42,8 @@ class MyHandler(FileSystemEventHandler):
         if not event.is_directory and event.src_path.lower().endswith(".tex"):
             try:
                 t = os.path.getmtime(event.src_path)
-                print(event, t, time.time())
-                if t + 60 < time.time():
+                #print(event, t, time.time())
+                if t + 1 < startTime:
                     print("oddly old mod time, ignoring")
                     return
                 if event.src_path in self.times and t == self.times[event.src_path]:
@@ -61,7 +61,7 @@ class MyHandler(FileSystemEventHandler):
             if pdflatex() and not viewerStart:
                 viewerStart = True
                 viewer()
-            print("modified: "+event.src_path, t)
+            print("modified: "+event.src_path)
                 
     def on_created(self,event):
         print("created")
@@ -74,6 +74,7 @@ if len(DIRECTORY)==0:
 pdf = os.path.join(DIRECTORY,MAIN_FILE+".pdf")
 TEMP_FILE = TEMP_PREFIX + MAIN_FILE
 
+startTime = time.time()
 viewerStart = True
 if not os.path.exists(pdf):
     pdflatex()
