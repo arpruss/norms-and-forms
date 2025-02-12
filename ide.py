@@ -11,8 +11,8 @@ EDITOR = os.getenv('ProgramFiles')+"/notepad++/notepad++.exe"
 DIRECTORY = "./"
 MAIN_FILE = "document"
 TEMP_PREFIX = "__watch_temp__"
-MODE = "batchmode" 
-#MODE = "nonstopmode"
+#MODE = "batchmode" 
+MODE = "nonstopmode"
 
 viewerStart = False
 
@@ -64,7 +64,6 @@ class MyHandler(FileSystemEventHandler):
             print("modified: "+event.src_path)
                 
     def on_created(self,event):
-        print("created")
         self.on_modified(event)
 
 if len(sys.argv)>1:
