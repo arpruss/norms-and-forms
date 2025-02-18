@@ -69,7 +69,7 @@ class MyHandler(FileSystemEventHandler):
 if len(sys.argv)>1:
     DIRECTORY,MAIN_FILE = os.path.split(sys.argv[1])
 if len(DIRECTORY)==0:
-    DIRECTORY = "."
+    DIRECTORY = "./"
 pdf = os.path.join(DIRECTORY,MAIN_FILE+".pdf")
 TEMP_FILE = TEMP_PREFIX + MAIN_FILE
 
