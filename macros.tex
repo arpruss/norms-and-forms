@@ -10,6 +10,8 @@
 % \def\@endtheorem{\endtrivlist\@endpefalse }% OLD
 \def\@endtheorem{\endtrivlist}%
 
+\setlist[description]{font=\normalfont\scshape}
+
 \catcode`\|=\active\def|{\mid}
 \DeclarePairedDelimiter{\ceil}{\lceil}{\rceil}
 \DeclarePairedDelimiter{\floor}{\lfloor}{\rfloor}
@@ -42,6 +44,7 @@
 \def\pref#1{{\sc\ref{#1}}}
 \def\enum#1{\resume{enumerate}\item #1\end{enumerate}}
 \def\ditem#1#2{\begin{enumerate}[resume]\item \label{\mychapter:#1} #2\end{enumerate}}
+\def\nitem#1#2{\begin{description}\item[#1\label{\mychapter:#1}] #2\end{description}}
 \def\bref#1{\ref{\mychapter:#1}}
 \def\dref#1{(\ref{\mychapter:#1})}
 \def\drefglobal#1{(\ref{#1})}
