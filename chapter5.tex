@@ -331,10 +331,9 @@ value assigned to practical matters, while agents that have fewer natural enemie
 have a greater epistemic value assigned to theoretical matters. One imagines here that intelligent antelope might be
 properly expected to be less philosophical than intelligent elephants.
 
-%%revised
 \subsection{Connection with other values}
 Suppose a scientist is deciding whether to go home to be with family or perform another experiment at the end of a long day, an experiment that 
-cannot be done on another date (maybe the subjects will be unavailable or the chemicals will go bad). 
+cannot be done on another date. 
 The scientist is thus weighing the epistemic goods arising from the experiment with the value of interacting
 with family. What is the right thing to do depends here on many unspecified factors. How much of a delay
 in returning home would the experiment create? What is the current state of the scientist's relationship 
@@ -355,7 +354,7 @@ goods do not answer the question of what the scientist should do. In that case, 
 epistemic goods against the non-epistemic ones. There is no automatic priority of one over the other.
 Some purely epistemic goods are great enough that significant sacrifice of non-epistemic goods is worthwhile.
 Thus, much sacrifice would make sense if the outcome would be to know whether there is life in other galaxies,
-even though that knowledge seems to have no practical value to us. On the other hand, very little sacrifice
+even if that knowledge has no practical value to us. On the other hand, very little sacrifice
 would be worthwhile to find out whether the lab's largest rat has an even or odd number of freckles.
 
 If we could find the right scoring rule, that would let us compare different epistemic values. But we would
@@ -365,19 +364,21 @@ imagine beings slightly different from us for whom a different comparison is app
 to be more contemplative or more practical. And we have the familiar Mersenne question about why it is that 
 for us the weighing goes as it does, rather than in some other way.
 
+%%revised
 \section{Bayesianism}
 \subsection{Introduction}
 Bayesianism is the best developed picture of what a precise and rigorous account of epistemic rationality would be like.
-It is thus worth looking carefully at what kind of answers the Bayesian could give to the questions we have been asking.
+It is thus worth looking carefully at what kind of answers the Bayesian could give to the questions we have been asking
+as a model of the kind of answers we can hope for in a well-developed theory.
 
-On Bayesianism, the interest is not in beliefs as such but in the agent's credences, which come in degrees. The 
-most familiar model is of numerical credences ranging from $0$ to $1$, and this is the model that will be assumed
-here. Other models include qualitative probabilities where instead of a specific value being assigned, one has 
-comparisons between probabilities, and interval-valued probabilities where instead of a specific numerical
-probability, a range of numerical probabilities are assigned.??refs Most of the issues raised will apply 
+On Bayesianism, the main interest is not in beliefs as such but in the agent's credences, which come in degrees. 
+I will assume the most familiar model where credences are quantified by probabilities ranging from $0$ to $1$. Other models include qualitative probabilities where instead of a specific value being assigned one has fundamental
+comparisons between probabilities, interval-valued probabilities where instead of a specific numerical
+probability, a range of numerical probabilities are assigned, and accounts on which conditional probabilities
+are fundamental.??refs Most of the issues raised will apply 
 \textit{mutatis mutandis} to the other models.
 
-If a perfectly rational agent assigns credence $C(p)$ to a proposition $p$, then these credences will 
+On our model, if a perfectly rational agent assigns credence $C(p)$ to a proposition $p$, then these credences will 
 satisfy plausible axioms for probabilities, such as:
 \begin{enumerate}
 \item[(i)] Non-negativity: $0 \le C(p)$
@@ -388,11 +389,12 @@ satisfy plausible axioms for probabilities, such as:
 Furthermore, perfectly rational agents update their credences on receipt of evidence by conditionalization.
 In other words, upon receipt of evidence $E$, the ``prior'' credence of $p$ goes from $C(p)$ to the 
 ``posterior'' conditional credence $C(p\mid E)$. If $C(E)>0$, then we define $C(p\mid E)=C(p\And E)/C(E)$.\footnote{There 
-are some technical issues with handling cases where $C(E)=0$, such as if one finds out that a spinner
-has landed in a precise location.????} Essentially, this conditionalization is designed to ensure the 
-plausible rule that if $p$ and $q$ each entail the evidence $E$, then the ratio of the credences of $p$ and $q$ 
-does not change upon learning $E$. 
+are some technical issues with handling cases where $C(E)=0$, say if one could find out that a spinner
+has landed in a precise location. However, such cases may not occur in practice.} This conditionalization is 
+designed to ensure the plausible rule that if $p$ and $q$ each entail the evidence $E$, then the ratio of the 
+credences of $p$ and $q$ does not change upon learning $E$. 
 
+%%revised
 \subsection{Induction and priors}
 From a Bayesian point of view, how induction works is determined by the probabilities prior to all evidence, the ur-priors.
 Suppose, for instance, that I assign equal prior probability to every logically possible color sequence of observed ravens. 
