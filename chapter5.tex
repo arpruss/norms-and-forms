@@ -260,13 +260,12 @@ or symmetry---where the last is the condition that $T(p)=F(1-p)$.
 
 Let $T_0(x)=1000$ if $x\ge 0.999$, $T_0(x)=-1000000$ if $x \le 0.001$, and $T_0(x)=0$ otherwise. Let $F_0(x)=T_0(1-x)$.
 Then the pair $T_0$ and $F_0$ is a symmetric and proper scoring rule (see this chapter's Appendix).
-%%revised
 
 Consider now a scientist who adopts this scoring rule for some hypothesis $H$ of minor importance about some chemicals in 
-her lab that she initially assigns credence $1/2$ to. She has a choice between two methods. She can use clunky machine $A$
-that she has in her lab, which is guaranteed to give an answer to the question of whether $H$ is true, but for either
+her lab that she initially assigns credence $1/2$ to. She has a choice between two methods. She can use beat-up machine $A$
+that she has in her lab, which displays an answer to the question of whether $H$ is true, but for either
 answer there is a $0.11\%$ chance that the answer is wrong. Or she can use spiffy new machine $B$ which has the slightly lower $0.09\%$ chance 
-of error either way. The only problem is that her lab doesn't own machine $B$ and her grant can't offer the price. Her only 
+of error either way. The only problem is that her lab doesn't own machine $B$ and her grant can't afford the price. Her only 
 hope for using machine $B$ is to go and buy a scratch-off lottery ticket which has a one in a million chance of yielding a prize exactly
 sufficient to purchase machine $B$.
 
@@ -331,18 +330,62 @@ value assigned to practical matters, while agents that have fewer natural enemie
 have a greater epistemic value assigned to theoretical matters. One imagines here that intelligent antelope might be
 properly expected to be less philosophical than intelligent elephants.
 
+\subsection{Interpersonal questions of epistemic value}
+If there is such a thing as epistemic value, the most obviously right thing to do with regard to its possession
+by others is to maximize the expectation of it. Suppose now that you and I have differing prior opinions about the efficacy
+of a drug: you have a credence of $3/4$ that it is efficacious, while I have a credence of $1/2$ that it is efficacious.
+I perform some experiments and find evidence of the drug's efficacy that raises my credence from $1/2$ to $3/4$.
+Suppose I now consider whether to reveal the evidence to you. I know that if I reveal $E$, your own calculations
+(e.g., Bayesian update) will make your credence go from $3/4$ to $7/8$. But I think the best credence all things considered is $3/4$.
+So I withhold the evidence, thereby keeping your credence at the best credence. 
+
+The above argument seems pretty dubious. But we can make it rigorous. Suppose you have a strictly proper 
+scoring rule $(T,F)$. Then
+my expectation of your epistemic utility after revealing the evidence will be:
+$$
+	U_R = (3/4)T(7/8)+(1/4)F(7/8)
+$$
+since by my lights, there is a $3/4$ probability that the drug is efficacious, and your epistemic utility if I
+conceal the evidence will be
+$$
+	U_C = (3/4)T(3/4)+(1/4)F(3/4).
+$$
+It follows immediately from the definition of a strictly proper scoring rule that $U_R < U_C$, and so if I am trying
+to maximize your expected score, I should conceal the evidence.
+
+This seems to be unacceptable paternalism. But suppose that I am nearly certain of a quack remedy's
+efficacy due to my acceptance of a conspiracy theory to suppress evidence about it (think of various
+shenanigans during the pandemic here), and you are a scientist who just found a slight bit of evidence 
+in favor of the drug's efficacy. If we're having a conversation and I mention my conspiracy theory, surely
+you do not have on balance epistemic reason to tell me about your evidence and thereby confirm my conspiracy
+theory. There is thus \textit{some} acceptable minor paternalism---nobody thinks we should tell everyone everything
+we know! And, of course, some paternalism, whether epistemic or moral, is acceptable with respect to one's children.
+
+Where the line is to be drawn between acceptable and unacceptable epistemic paternalism seems to be very
+much a Mersenne question. It is quite implausible to think that there is a clearly privileged place to draw
+the line. cf.??ref:https://philpapers.org/archive/JACWEA.pdf
+
+More generally, the above line of thought shows that our behavior with respect to other people's epistemic
+value follows subtle and complex rules. We shouldn't simply always maximize their expected epistemic value, as that
+doesn't show respect for their autonomy. But obviously some attention needs to be paid to the epistemic value of
+others.
+Whatever the right rule here is, it likely has multiple parameters and an appearance of contingency. 
+Moreover, the observation that epistemic paternalism can be more acceptable with respect to one's children points
+to a species-relativity in the parameters, since it is likely that how one should relate to children is species
+relative (think of a species that has very little parent-child relationship after birth).
+
 \subsection{Connection with other values}
-Suppose a scientist is deciding whether to go home to be with family or perform another experiment at the end of a long day, an experiment that 
+Suppose a scientist is deciding whether to go home to be with family or perform an experiment at the end of a long day, an experiment that 
 cannot be done on another date. 
-The scientist is thus weighing the epistemic goods arising from the experiment with the value of interacting
+The scientist weighs the epistemic goods arising from the experiment against the value of interacting
 with family. What is the right thing to do depends here on many unspecified factors. How much of a delay
 in returning home would the experiment create? What is the current state of the scientist's relationship 
 with the family and what is their current level of need? What
-practical benefits, if any, would accrue to the scientist, the scientist's family, or humankind from the
+practical benefits, if any, could accrue to the scientist, the scientist's family, or humankind from the
 experiment? And, finally, how important is the hypothesis being tested and 
 how much can the experiment be expected to contribute to confirming or disconfirming the hypothesis? 
 
-Only the last question adverts to epistemic value. It could be that the answers to the preceding questions suffice
+Only the last question adverts directly to epistemic value. It could be that the answers to the preceding questions suffice
 to determine whether scientist should go home. Perhaps the scientist's progress towards tenure is crucial to the 
 family's livelihood. Or perhaps there is a sufficiently high chance that the experiment's answer will contribute
 to a cure for cancer that apart from any epistemic goods it is worth staying. Or, alternately, perhaps the scientist
@@ -364,14 +407,13 @@ imagine beings slightly different from us for whom a different comparison is app
 to be more contemplative or more practical. And we have the familiar Mersenne question about why it is that 
 for us the weighing goes as it does, rather than in some other way.
 
-%%revised
 \section{Bayesianism}
 \subsection{Introduction}
 Bayesianism is the best developed picture of what a precise and rigorous account of epistemic rationality would be like.
 It is thus worth looking carefully at what kind of answers the Bayesian could give to the questions we have been asking
 as a model of the kind of answers we can hope for in a well-developed theory.
 
-On Bayesianism, the main interest is not in beliefs as such but in the agent's credences, which come in degrees. 
+On Bayesianism, as was already the case for  scoring rules, the main interest is not in beliefs as such but in the agent's credences, which come in degrees. 
 I will assume the most familiar model where credences are quantified by probabilities ranging from $0$ to $1$. Other models include qualitative probabilities where instead of a specific value being assigned one has fundamental
 comparisons between probabilities, interval-valued probabilities where instead of a specific numerical
 probability, a range of numerical probabilities are assigned, and accounts on which conditional probabilities
@@ -394,46 +436,51 @@ has landed in a precise location. However, such cases may not occur in practice.
 designed to ensure the plausible rule that if $p$ and $q$ each entail the evidence $E$, then the ratio of the 
 credences of $p$ and $q$ does not change upon learning $E$. 
 
-%%revised
 \subsection{Induction and priors}
 From a Bayesian point of view, how induction works is determined by the probabilities prior to all evidence, the ur-priors.
 Suppose, for instance, that I assign equal prior probability to every logically possible color sequence of observed ravens. 
 For simplicity, suppose that there are only two colors, white and black.  I find out that there are a million ravens, and 
 I observe a thousand of them, and find them all black. I am about to observe another raven. The probability that the next 
 raven will be black will be $1/2$. For the sequence $B,...,B,W$ (with $1000$ $B$s) is just as likely as the sequence
-$B,...,B,B$ (with $1001$ $B$s), and both sequences fit equally well with our observations. 
+$B,...,B,B$ (with $1001$ $B$s), and both sequences fit equally well with the observations. 
 
 On the other hand, suppose I assigned probability $1/3$ to the hypothesis that all ravens are white, $1/3$ to all black,
 and split the remaining $1/3$ equally among the $2^{1000000}-2$ multicolor sequences. My observation of the first $1000$
 ravens then rules out the all-white  hypothesis. And it rules out most of the multicolor sequences: there are $2^{999000}-1$
-multicolor sequences that start with $1000$ black ravens, which is a tiny fraction of the original $2^{1000000}-2$. Since as a 
-good Bayesian I keep the ratios between the probabilities unchanged, each of the remaining multicolor sequences has 
-$1/(2^{1000000}-2)$ of the probability of the all-black sequence, and since there are only $2^{999000}-1$ multicolor
-sequences remaining compatible with the evidence, the ratio between the multicolor probability and the all-black probability
-is $(2^{999000}-1)/(2^{1000000}-2)$ to $1$, or approximately $1$ to $2^{1000}$. Thus, we have overwhelming confirmation of 
-the all-black probability, and hence an even more overwhelming confirmation of the hypothesis that the next raven will be black.
+remaining multicolor sequences that start with $1000$ black ravens, which is a tiny fraction of the original $2^{1000000}-2$. Since as a 
+good Bayesian I keep the ratios between the probabilities unchanged when the events entail the observations, each of the remaining multicolor sequences has 
+$1/(2^{1000000}-2)$ of the probability of the all-black sequence, and since there are $2^{999000}-1$ multicolor
+sequences remaining that yield the observation of the first thousand ravens being black, the ratio between the multicolor probability and the all-black probability
+is $(2^{999000}-1)/(2^{1000000}-2)$ to $1$, or approximately $1$ to $2^{1000}$, while the all-white hypothesis
+is completely ruled out. Thus, we have overwhelming confirmation of 
+the all-black probability, and hence an even more overwhelming probability of the hypothesis that the next raven will be black.
 
 Other ways of dividing the probabilities between the hypotheses yield other results. Carnap??ref, for instance, had a division
 that worked as follows. For each number $n$ between zero and a million we have the hypothesis $H_n$ that there are exactly 
-$n$ black ravens, and Carnap proposed that all million-and-one of these hypotheses should have equal probability, and then 
+$n$ black ravens, and Carnap proposed that the million-and-one such hypotheses should have equal probability, and then 
 each hypothesis $H_n$ is divided into equally likely subhypotheses specifying all the subhypotheses that make there be $n$
 ravens. Thus, $H_0$ and $H_{1000000}$ have only one subhypothesis: there is only one way to have no-black or all-black. But
-$H_1$ and $H_{999999}$ have a million subhypotheses each: there are a million options for which is the raven with the outlying
-color. Using the same constant-ratio technique as before, after observing $1000$ black ravens, the chance that the next one is black 
-will turn out to be approximately $0.999$, but the chance that all million are black will only be $0.001$. More generally, if there
+$H_1$ and $H_{999999}$ have a million subhypotheses each: there are a million options for which raven has the outlying
+color. 
+
+%%revised
+Using the same constant-ratio Bayesian technique as before, after observing $1000$ black ravens, the probability that the next one is black 
+turns out to be approximately $0.999$, but the probability that all million are black will only be about $0.001$. More generally, if there
 are $N$ ravens, and the first $m$ of them have been observed to be black, and $n\ge m$, then the probability that the first $n$
-will be black will be $(1+m)/(1+n)$.\footnote{Let $B_m$ be the claim that the first $m$ ravens are black. Then
-$P(B_m)=\sum_{n=0}^{N-m} {{N-m \choose n}}/((N+1){N\choose m+n}) = \frac{1}{1+m}$.??why:Mathematica The probability that the first
-$n$ are black given that the first $m$ are black where $n\ge m$ will then $P(B_n\mid B_m)=(1+m)/(1+n)$.} 
-  Hence we have very reason to think that the \textit{next} raven is black,
+will be black will be $(1+m)/(1+n)$.\footnote{$^*$Let $B_m$ be the claim that the first $m$ ravens are black. Then
+for $n\ge m$ we have $P(B_m\mid H_n)={N-m \choose n-m}/{N\choose n}$ since there are $N\choose n$ maximally specific subhypotheses of $H_n$, and there are ${N-m\choose n-m}$ of these that have the first $m$ ravens be black. 
+Thus $P(B_m)=(N+1)^{-1}\sum_{n=m}^{N} {N-m \choose n-m}/{N\choose n} = \frac{1}{1+m}$, where the sum was
+calculated with Mathematica software and is a sum of partial factorials. The probability that the first
+$n$ are black given that the first $m$ are black where $n\ge m$ will then be $P(B_n\mid B_m)=(1+m)/(1+n)$.} 
+  Hence we have very good reason to think that the \textit{next} raven is black,
 but unless we have observed the bulk of the ravens, we won't have reason to think that all the ravens are black. 
 
-Intuitively, while Carnapian probabilities support induction, they result in induction being too slow---it is only when we have observed the bulk of the cases
-being a certain way that we get to conclude that they are all like that. My $1/3$--$1/3$--$1/3$ division is too fast. Even with
+Intuitively, while Carnapian probabilities do support induction, they make induction too slow---it is only when we have observed the bulk of the cases
+being a certain way that we get to conclude that they are all like that. On the other hand, my $1/3$--$1/3$--$1/3$ division is too fast. Even with
 $1000$ black ravens having been observed, the probability of a white raven shouldn't be \textit{astronomically} small in the way
 that $1/2^{1000}$ is. Reasonable priors, thus, yield a speed of induction somewhere between these. 
 
-We can presumably come up with a formula for the priors which will fit with our intuitions of how fast induction should work.
+We can presumably gerrymander a formula for the priors which will fit with our intuitions of how fast induction should work.
 For instance, we could take Carnap's setup, but increase the prior probability of the all-white and all-black raven hypotheses. 
 But such an increase would be apt to involve one or more parameters. If the specific assignment of priors were rationally
 required of us, then we would have the Mersenne question of why it is these and not some other very similar priors that are required.
@@ -442,39 +489,41 @@ this range.
 
 Further, imagine beings other than us that inhabit a more Carnapian world than we do. While in our world, we have a significant number of natural kinds
 that exhibit or fail to exhibit some basic property exceptionlessly---for instance, every electron is charged, and no photon 
-has mass--in that world there are few such natural kinds. Instead, if we were to tabulate the frequencies of basic binary properties
+has mass---in that world there are few such natural kinds. Instead, if we were to tabulate the frequencies of basic binary properties
 in various natural populations---say, tabulating the frequency of blackness among ravens, charge among electrons, mass among photons---we 
-would find the frequencies to be distributed uniformly between $0$ and $1$. In that world, Carnapian priors would lead to the truth faster
+would find the frequencies to be spread out pretty uniformly between $0$ and $1$. In that world, Carnapian priors would lead to the truth faster
 than the more induction-friendly priors that we have. And let us imagine that in that world we have intelligent beings who reason according
 to Carnapian priors. Even if we happily grant that Carnapian priors are irrational for us, it seems plausible to think that they could be
 rational for those beings. To insist that these Carnapians are irrational, because it would be irrational for us to have these priors,
-seems akin to saying that bigamy would immoral for aliens who need three individuals to reproduce, or that there is something wrong with fish
+seems akin to saying that bigamy would immoral for aliens who need three individuals to reproduce, or that there is something wrong with sharks
 because they lack lungs. 
 
 Consideration of the rationality of induction thus once again reveals an appearance of contingency in the normative realm, which
-once again yield an argument for an Aristotelian picture of human nature, where the rationally required priors or ranges of priors
+once again yields an argument for an Aristotelian picture of human nature, where the rationally required priors or ranges of priors
 are those that we are impelled to by our human nature.
 
 But before we embrace this conclusion fully, we should consider two Bayesian challenges, from two opposed points of view.
 The algorithmic Bayesian thinks that considerations of coding can yield a reasonable set of priors, while the 
 the subjective Bayesian says that there are no constraints on the priors.
 
+%%revised
 \subsection{Algorithmic priors}
-Suppose, first, we have a language $L$ of finite sequences of symbols chosen from some finite alphabet of basic symbols, 
+Suppose we have a language $L$ of finite sequences of symbols chosen from some finite alphabet of basic symbols, 
 with some of the sequences representing a member of some set $S$ of situations. 
 
 For instance, $S$ could be arrangements of chess pieces on a board\footnote{The arrangements contain less information
 than chess positions, since a chess position includes other information, such as whether a given king or rook has already
 moved, whose turn it is, as well as historical information needed for adjudicating draws.}, and $L$ could be a declarative 
 first-order language with no quantifiers, twelve piece predicates (specifying both the color and piece type) and sixty-four names of squares.
-We could then say that a symbol sequence represents an arrangement $a$ provided that the sequence is a 
-syntactically valid sentence that is true of $a$ and of no other arrangement. However, in general $L$ need not be a declarative
+We could then say that a symbol sequence $\phi$ represents an arrangement $s$ provided that $\phi$ is a 
+syntactically valid sentence that is true of $s$ and of no other arrangement. However, in general $L$ need not be a declarative
 language. It could, for instance, be an imperative computer language for an abstract Turing machine or a physical computer,
-and the situations could be possible outputs of that machine. Then we might say that a symbol sequence $s$ represents
-a possible output $a$ just in case $s$ is a program that, when run, halts with the output being $a$. Or if we like we might 
+and the situations could be possible outputs of that machine. Then we might say that a symbol sequence $\phi$ represents
+a situation $s$ just in case $\phi$ is a program that, when run, halts with the output being $s$. Or if we like we might 
 add an additional layer of representation between the outputs of the machine and the situations---for instance, the outputs
-of an abstract Turing machine might represent the physical arrangement of particles in a universe.  
-We can even chain languages. For instance, we could have a computer language $L_1$, with the outputs being sequences of
+of an abstract Turing machine might represent the physical arrangement of particles in a universe, with the chess 
+piece arrangements supervening on these.  
+We can even chain languages. For instance, we could have a hardware  computer language $L_1$, with the outputs being sequences of
 symbols in some declarative language $L_2$, whose sentences in turn represent members of a set $S$ of situations.
 
 Next, consider a natural way of choosing at random a finite sequence of symbols of $L$. Here is one. Add to $L$'s finite alphabet 
@@ -482,23 +531,24 @@ a new ``end'' symbol. Then randomly and independently, with each symbol being eq
 $1/(n+1)$, where $n$ is the number of non-end symbols), choose a sequence of
 symbols until you hit the end symbol. The sequence preceding the ``end'' symbol will then count as the randomly
 selected sequence in $L$. Every sequence of length $k$ has probability $1/(n+1)^k$, so the probabilities decrease 
-exponentially with the length of the sqeuence. We repeat the random selection process until we get a sequence that is both syntactically correct
+exponentially with the length of the sequence. We repeat the random selection process until we get a sequence that is both syntactically correct
 and represents a situation in $S$.\footnote{If at least one finite sequence is syntactically correct and represents a 
 situation in $S$, then with probability one, we will eventually get to a sequence that syntactically correctly represents some 
 sequence.}  We now stipulate that the prior probability of a situation $s$ is equal to the probability that the
-above process will generate a sequence that represents $s$.
+above process will generate a sequence $\phi$ that represents $s$.
 
-Alternately, we can formulate this as follows. If $a$ is a sequence of symbols of $L$ and $s$ is a situation in $S$, write
-$R(a,s)$ if $a$ is syntactically correct and represents $s$, and let $R(a)$ be shorthand for the claim that $a$ syntactically
-correctly represents $S$, i.e., $\exists s(s\in a\And R(a,s))$. Then if $A$ is a randomly chosen sequence of symbols of $L$,
-we can define the prior probability $Q(s)$ of $s$ as the conditional probability that $A$ syntactically correct represents $s$ on the supposition
+We can be a little bit more precise. If $\phi$ is a sequence of symbols of $L$ and $s$ is a situation in $S$, write
+$R(\phi,s)$ if $\phi$ is syntactically correct and represents $s$, and let $R(\phi)$ be shorthand for the claim that $\phi$ syntactically
+correctly represents something in $S$, i.e., $\exists x(x\in S\And R(\phi,x))$. Then if $A$ is a randomly chosen sequence of symbols of $L$,
+we can define the prior probability $Q(s)$ of $s$ as the conditional probability that $A$ syntactically correctly represents $s$ on the supposition
 it syntactically correctly represents something, i.e.,
 $$
     Q(s) = P(R(A,s)\mid R(A)) = \frac{P(R(A,s))}{P(R(A))}.
 $$    
-We can call these $L$-Solomonoff priors.
 
-These priors favor situations that can be can be more briefly represented in $L$ over ones whose representations are long.
+%%revised
+We can call these priors $L$-Solomonoff priors.
+Such priors favor situations that can be can be more briefly represented in $L$ over ones whose representations are long.
 The effect of these priors depends heavily on the choice of language $L$ and how well it can compress some situations over
 others. For instance, in our chess case, if we have no quantifiers, it is easy to see that any two piece arrangements with 
 the same number of pieces will have equal prior probability, because each square's contents have to be separately specified. 
