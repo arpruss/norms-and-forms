@@ -330,51 +330,8 @@ value assigned to practical matters, while agents that have fewer natural enemie
 have a greater epistemic value assigned to theoretical matters. One imagines here that intelligent antelope might be
 properly expected to be less philosophical than intelligent elephants.
 
-\subsection{Interpersonal questions of epistemic value}
-If there is such a thing as epistemic value, the most obviously right thing to do with regard to its possession
-by others is to maximize the expectation of it. Suppose now that you and I have differing prior opinions about the efficacy
-of a drug: you have a credence of $3/4$ that it is efficacious, while I have a credence of $1/2$ that it is efficacious.
-I perform some experiments and find evidence of the drug's efficacy that raises my credence from $1/2$ to $3/4$.
-Suppose I now consider whether to reveal the evidence to you. I know that if I reveal $E$, your own calculations
-(e.g., Bayesian update) will make your credence go from $3/4$ to $7/8$. But I think the best credence all things considered is $3/4$.
-So I withhold the evidence, thereby keeping your credence at the best credence. 
 
-The above argument seems pretty dubious. But we can make it rigorous. Suppose you have a strictly proper 
-scoring rule $(T,F)$. Then
-my expectation of your epistemic utility after revealing the evidence will be:
-$$
-	U_R = (3/4)T(7/8)+(1/4)F(7/8)
-$$
-since by my lights, there is a $3/4$ probability that the drug is efficacious, and your epistemic utility if I
-conceal the evidence will be
-$$
-	U_C = (3/4)T(3/4)+(1/4)F(3/4).
-$$
-It follows immediately from the definition of a strictly proper scoring rule that $U_R < U_C$, and so if I am trying
-to maximize your expected score, I should conceal the evidence.
-
-This seems to be unacceptable paternalism. But suppose that I am nearly certain of a quack remedy's
-efficacy due to my acceptance of a conspiracy theory to suppress evidence about it (think of various
-shenanigans during the pandemic here), and you are a scientist who just found a slight bit of evidence 
-in favor of the drug's efficacy. If we're having a conversation and I mention my conspiracy theory, surely
-you do not have on balance epistemic reason to tell me about your evidence and thereby confirm my conspiracy
-theory. There is thus \textit{some} acceptable minor paternalism---nobody thinks we should tell everyone everything
-we know! And, of course, some paternalism, whether epistemic or moral, is acceptable with respect to one's children.
-
-Where the line is to be drawn between acceptable and unacceptable epistemic paternalism seems to be very
-much a Mersenne question. It is quite implausible to think that there is a clearly privileged place to draw
-the line. cf.??ref:https://philpapers.org/archive/JACWEA.pdf
-
-More generally, the above line of thought shows that our behavior with respect to other people's epistemic
-value follows subtle and complex rules. We shouldn't simply always maximize their expected epistemic value, as that
-doesn't show respect for their autonomy. But obviously some attention needs to be paid to the epistemic value of
-others.
-Whatever the right rule here is, it likely has multiple parameters and an appearance of contingency. 
-Moreover, the observation that epistemic paternalism can be more acceptable with respect to one's children points
-to a species-relativity in the parameters, since it is likely that how one should relate to children is species
-relative (think of a species that has very little parent-child relationship after birth).
-
-\subsection{Connection with other values}
+\subsection{Connection of epistemic values with other values}
 Suppose a scientist is deciding whether to go home to be with family or perform an experiment at the end of a long day, an experiment that 
 cannot be done on another date. 
 The scientist weighs the epistemic goods arising from the experiment against the value of interacting
@@ -546,23 +503,22 @@ $$
     Q(s) = P(R(A,s)\mid R(A)) = \frac{P(R(A,s))}{P(R(A))}.
 $$    
 
-%%revised
 We can call these priors $L$-Solomonoff priors.
-Such priors favor situations that can be can be more briefly represented in $L$ over ones whose representations are long.
-The effect of these priors depends heavily on the choice of language $L$ and how well it can compress some situations over
+Such priors favor situations that can be more briefly represented in $L$ over ones whose representations are long.
+The effect of this choice of priors depends heavily on the choice of language $L$ and how well it can compress some situations over
 others. For instance, in our chess case, if we have no quantifiers, it is easy to see that any two piece arrangements with 
 the same number of pieces will have equal prior probability, because each square's contents have to be separately specified. 
 Thus, if we know that every square contains a pawn, and we have observed the first 63 of these pawns and found them all to be black, the 
 probability that the 64th square will be black is still $1/2$. On the other hand, if quantifiers and identity are allowed into our
 language, then the all-black-pawn situation can be briefly represented by
-\ditem{all-black}{$\forall x(\operatorname{BlackPawn}(x))$}
+\ditem{all-black}{$\forall x\, \operatorname{BlackPawn}(x)$}
 (where the domain is
 squares on the board), while the situation where squares $1,...,63$ have black pawns and square 64 has a white pawn is harder
 to represent. We might, for instance, use a sentence like:
-\ditem{63-black}{$\forall x(\Not (x=64)\rightarrow \operatorname{BlackPawn}(x))\And \operatorname{WhitePawn}(x)$.}
+\ditem{63-black}{$\forall x(\Not (x=64)\rightarrow \operatorname{BlackPawn}(x))\And \operatorname{WhitePawn}(63)$.}
 
-Since the probability of generating a given sequence of symbols decreases exponentially with the number of symbols, \ditem{63-black}
-is much less likely to be randomly generated than \ditem{all-black}, and it is intuitively very likely (though proving this rigorously would
+Since the probability of generating a given sequence of symbols decreases exponentially with the number of symbols, \dref{63-black}
+is much less likely to be randomly generated than \dref{all-black}, and it is intuitively very likely (though proving this rigorously would
 be quite difficult???refs) that in general the probability of generating a sentence representing 64 black pawns is higher than that of 
 generating a sentence representing 63 black pawns followed by one white pawn. We can thus expect that the conditional probability of
 the 64th pawn being black on the first 63 being black to be very high. (Maybe even too high? It is very difficult to get good
@@ -574,15 +530,14 @@ computer, and then we need to choose a representation map between outputs and si
 many possible candidates. And on the more
 descriptive versions, we still need to choose a language, with many decision points as to syntax and vocabulary. It is very unlikely 
 that there is a privileged language. And not
-every will fit with our intuitions about induction. For instance, we can easily create a language, whether algorithmic or descriptive,
+every language will yield priors that fit with our intuitions about induction. For instance, we can easily create a language, whether algorithmic or descriptive,
 where 63 squares of black pawns followed by one square with a white pawn are much more briefly describable than 64 squares with
 black pawns. For instance, on the descriptive side, we might use a $\operatorname{BlitePawn}(x)$ predicate, where something is a blite pawn 
-provided it is a black pawn and on one of the first 63 squares or a white pawn and on the 64th, and an analogous $\operatorname{WhackPawn}(x)$.
+provided it is a black pawn and on one of the first 63 squares or a white pawn and on the 64th, and an analogous $\operatorname{WhackPawn}(x)$, and then we can say $\forall x\, \operatorname{BlitePawn}(x)$.
 
-In the unlikely case that there is a privileged language $L$ such that $L$-Solomonoff priors are rationally required for us,
+In the unlikely case that there is a single language $L$ such that $L$-Solomonoff priors are rationally required for us,
 we will have a vast number of Mersenne questions about the various parameters of the language and its representation relation.
-In the more plausible case that there is a set of languages such that we are required to have $L$-Solomonoff priors for some $L$
-in the set, we will have a vast number of Mersenne questions about the parameters that control the range of languages. All of this
+In the more plausible case that there is a set of admissible languages such that we are required to have $L$-Solomonoff priors for some admissible language, we will have a vast number of Mersenne questions about the parameters that control the range of admissible languages. All of this
 gives rise to a significant degree of appearance of contingency.
 
 Consider, too, the following observation. It is implausible that the languages defining rational priors for us
@@ -598,12 +553,12 @@ The standard way??ref to defend algorithmic measures of complexity from the prob
 is to observe that sufficiently sophisticated languages have translational resources. Thus, one can write a Haskell interpreter
 in Javascript, and so anything that can be expressed in Haskell can be expressed in Javascript by including the code for a Haskell interpreter, 
 and then using a string constant that contains the Haskell code. The result is that the difference in the length of code needed to
-generate a given output in different computer language will typically not be more than an additive constant: if one can
+generate a given output in different computer language will typically be just an additive constant: if one can
 produce the output with Haskell code in $n$ bytes, then one can produce it in approximately\footnote{The approximation is due
-to complications due to having to embed code in a string constant, which may involve various escape characters.} $n+k_{H,J}$ 
-bytes in Javascript, where $k_{H,J}$ is the length of the Haskell interpreter in Javascript. For large enough $n$, the additive constant will be
+to complications due to having to embed code in a string constant, which may involve various escape characters.} $n+k_{J,H}$ 
+bytes in Javascript, where $k_{J,H}$ is the length of the Haskell interpreter in Javascript. For large enough $n$, the additive constant will be
 unimportant. If we are to measure the complexity of a one-hour broadcast-quality video by the length of code needed to compress 
-the  video, the addition of $k_{H,J}$ will likely be negligible: a Haskell interpreter is about half a megabyte, while 
+the  video, the addition of a constant like $k_{J,H}$ will likely be negligible: a Haskell interpreter is about half a megabyte, while 
 an hour of video compressed losslessly can be reasonably expected to be in the gigabytes.
 
 However, two points need to be made in our epistemological context. First, even if two different languages give very similar sets of priors, 
@@ -630,40 +585,15 @@ While the initial symbol-by-symbol method with an end-symbol may seem more elega
 privileged to the point that the priors generated with it are rationally required. But if it's not thus privileged, then the
 range of random choice methods will provide more Mersenne questions. For not every random choice method yields priors that
 are plausible candidates for rational permissibility. There will be random choice methods where the sentence ``Birds are a government-run 
-drones'' is many orders of magnitude more likely than all other sentences taken together, and so a boundary would need to be
-posited between the admissible and inadmissible random choice methods.
+drones'' has a probability $1-(1/10^{100})$ of being generated (with all the other sentences having probabilities adding
+up to $1/10^{100}$), and so a boundary would need to be
+posited between the admissible and inadmissible random choice methods.\footnote{$^*$One might think that there is a 
+privileged way to randomly generate sequences: one just makes each sequence has equal probability, regardless of the
+sentence's length. Since there are countably infinitely many finite sequences, however, this option leads to a countably infinite fair
+lottery which is known to have many paradoxes.??ref A similar difficulty arises if we first choose a positive integer
+as the length, with all positive integers being equally likely, and then make all sequences of that length equally likely.}
 
-On a final note, ne might think that the intuitively most natural way of choosing a linguistic item at random is to make them
-all be equally likely. Unfortunately, this presents serious mathematical and philosophical difficulties. For a language
-based on finite sequences taken from a finite (or countable) alphabet, there are countably infinitely many sentences:
-we can enumerate them $s_1,s_2,s_3,...$ in some arbitrary way. But if each one is equally likely, with probability some
-real number $\alpha$, then we have a problem. In classical probability, we will have to have:
-$$
-    1=P(\{s_1\})+P(\{s_2\})+P(\{s_3\})\dots = \alpha+\alpha+\alpha+\dots.
-$$
-But if $\alpha>0$, then the right-hand-side is infinite, while if $\alpha=0$, it is zero, and in neither case is it $1$.
-There are technical ways of escaping this by departing from classical probability. They all require restricting the 
-additivity axiom of probability that says that if $A_1,A_2,\dots$ are countably many disjoint events then the probability 
-of the union of the events is equal to the sum of the probabilities of the events to the case where there are only finitely
-many events. After that, one either takes $\alpha=0$ or takes $\alpha$ to be a positive infinitesimal---something that is bigger 
-than zero and smaller than any positive real number. 
-
-But whatever one does on the technical side, there will be philosophical
-difficulties. Emblematic of them is this paradox. Suppose you and I play a game where we each randomly pick a sentence with
-all sentences equally likely, and without seeing the other's sentence. When I see my sentence, whatever it turns out to be, I inevitably become nearly sure that your 
-sentence comes after mine in the sequence, because there are only finitely many sentences that come before mine and infinitely
-many that come after. And you come to be convinced of the same thing. This leads to paradoxical decision-theoretic conclusions.
-For instance if we are playing a game where one wins if one has a sentence further down in the sequence, you will then be willing to pay
-me any amount short of the prize to swap sentences with me, no matter what sentence you got. ?????
-
-In any case, the equal probability approach itself does not appear to be a good way to generate induction-friendly priors, 
-because it lacks the preference for shorter descriptions that is central to the functioning of algorithmic or linguistic
-priors. 
-
-Once we abandon, as we should, the equal probability approach to choosing a linguistic item, anything else is a matter 
-of choosing from among infinitely many ways to be biased in favor of shorter expressions. Some of these are mathematically
-more elegant than others, but none is decisively so.
-
+%%revised
 \subsection{Anti-skepticism}
 There are skeptical hypotheses that predict pretty much the same thing as our best non-skeptical theories
 about the world. Indeed, for any reasonable theory $T$ of the world, there is a variety of skeptical hypotheses about
@@ -1100,7 +1030,8 @@ at least some testimony, and to question it without special reason is irrational
 where the Bayesian way of looking at update may not be correct.
 ???fill out
 
-\subsection{Epistemic self- and other-concern}
+\subsection{Social epistemic concerns}
+\subsubsection{Self vs.\ others}
 Suppose it turns out that I have a near-identical twin on a planet just like Earth, all of whose mental life has been exactly 
 the same as mine, with one exception: the first bird I saw today was a bluejay, while the first bird he saw today was a robin. 
 Neither of us is an avid birder, and so this has no significant effect on me. We both learn that next time we fall asleep, we 
@@ -1135,13 +1066,97 @@ less social ones, a weaker such favoring. We are neither asocial nor maximally s
 some kind of an intermediate between favoring individual epistemic goods and favoring social epistemic goods. But that intermediate 
 normative position will raise Mersenne questions as to why it lies where it does. For it is not plausible that there is some 
 metaphysically necessary rule that takes the degree of sociality of a rational agent and spits out the degree to which social epistemic 
-goods should be favority. It is much more plausible to suppose that the degree and manner of preference for social epistemic goods is 
+goods should be favored. It is much more plausible to suppose that the degree and manner of preference for social epistemic goods is 
 a part of the kind norms. 
 
 Nor is it likely to be a single numerical degree of preference per species. Surely the appropriate degree of preference for social epistemic 
 goods depends not just on the species, but also on one's role in society. So we need a ground not just for single human numerical degree of
 preference for social epistemic goods, but a function from social role, and probably area of knowledge, to degrees of preference for
 social epistemic goods.
+
+\subsubsection{Paternalism}
+If there is such a thing as epistemic value, the most obviously right thing to do with regard to its possession
+by others is to maximize the expectation of it. Suppose now that you and I have differing prior opinions about the efficacy
+of a drug: you have a credence of $3/4$ that it is efficacious, while I have a credence of $1/2$ that it is efficacious.
+I perform some experiments and find evidence of the drug's efficacy that raises my credence from $1/2$ to $3/4$.
+Suppose I now consider whether to reveal the evidence to you. I know that if I reveal $E$, your own calculations
+(e.g., Bayesian update) will make your credence go from $3/4$ to $7/8$. But I think the best credence all things considered is $3/4$.
+So I withhold the evidence, thereby keeping your credence at the best credence. 
+
+The above argument seems pretty dubious. But we can make it rigorous. Suppose you have a strictly proper 
+scoring rule $(T,F)$. Then
+my expectation of your epistemic utility after revealing the evidence will be:
+$$
+	U_R = (3/4)T(7/8)+(1/4)F(7/8)
+$$
+since by my lights, there is a $3/4$ probability that the drug is efficacious, and your epistemic utility if I
+conceal the evidence will be
+$$
+	U_C = (3/4)T(3/4)+(1/4)F(3/4).
+$$
+It follows immediately from the definition of a strictly proper scoring rule that $U_R < U_C$, and so if I am trying
+to maximize your expected score, I should conceal the evidence.
+
+This seems to be unacceptable paternalism. But suppose that I am nearly certain of a quack remedy's
+efficacy due to my acceptance of a conspiracy theory to suppress evidence about it (think of various
+shenanigans during the pandemic here), and you are a scientist who just found a slight bit of evidence 
+in favor of the drug's efficacy. If we're having a conversation and I mention my conspiracy theory, surely
+you do not have on balance epistemic reason to tell me about your evidence and thereby confirm my conspiracy
+theory. There is thus \textit{some} acceptable minor paternalism---nobody thinks we should tell everyone everything
+we know! And, of course, some paternalism, whether epistemic or moral, is acceptable with respect to one's children.
+
+Where the line is to be drawn between acceptable and unacceptable epistemic paternalism seems to be very
+much a Mersenne question. It is quite implausible to think that there is a clearly privileged place to draw
+the line. cf.??ref:https://philpapers.org/archive/JACWEA.pdf
+
+More generally, the above line of thought shows that our behavior with respect to other people's epistemic
+value follows subtle and complex rules. We shouldn't simply always maximize their expected epistemic value, as that
+doesn't show respect for their autonomy. But obviously some attention needs to be paid to the epistemic value of
+others.
+Whatever the right rule here is, it likely has multiple parameters and an appearance of contingency. 
+Moreover, the observation that epistemic paternalism can be more acceptable with respect to one's children points
+to a species-relativity in the parameters, since it is likely that how one should relate to children is species
+relative (think of a species that has very little parent-child relationship after birth).
+
+\subsubsection{Being known}
+Suppose a scientist discovers a fact $p$. She then communicates it to twenty more people at a conference,
+and eventually publishes it in a journal where a hundred people read it. And then a Youtuber picks it up and
+a million people hear of it. The most obvious way to think of the social epistemic value here is that there
+is a value $V$ that comes into the world when the scientist discovers $p$. After the conference, the value
+$V$ turns into $21V$, and after the journal readers get to it we have a value of $121V$. Finally, the Youtuber
+multiplies this value by about ten thousand, to yield $1000121V$. 
+
+This seems the wrong story about the value of what one might call ``human knowledge''. It doesn't seem
+right to say that the Youtuber contributed so much more to human knowledge than the scientist. 
+
+An additive account of the value of human knowledge yields an epistemic variant of Parfit's repugnant conclusion
+for utilitarianism??ref. On an additive account, letting a sufficiently large number of people know some trivial
+fact, such as the length of Charles III's left big toe, will swamp the value a major scientific discovery that only a few experts can understand, even if a single person's learning of the scientific discovery swamps the value of a single
+person learning the length of the royal toe.
+
+In our science story, it seems that the big jump in value occurred when $p$ \textit{became known}, which happened 
+either when the scientist discovered it or when she informed others of it. 
+
+What exactly it means for a proposition to \textit{be known} is not immediately clear. 
+First note that when we talk of a proposition being known, we are talking of its being \textit{humanly} known. 
+It is correct to say that it is not known whether
+there is intelligent life in other solar systems, even though if there is, someone knows it---namely the intelligent
+beings in question. And if God exists, then someone knows everything.
+
+The obvious account is that a proposition is known provided that some human knows it. But that seems neither necessary nor sufficient. If the abstract of a random mathematics paper from half a century ago says: ``We give necessary and sufficient conditions for $\phi$'', then I have good reason to conclude that the necessary and sufficient conditions for $\phi$ \textit{are known}, even
+though there is a pretty good chance that nobody has read the paper for decades and nobody who has read it and
+is still alive remembers what the conditions are. Thus, some things that no one knows are nonetheless known. 
+On the other hand, if Alice is dying of thirst on a desert island, it is correct to say that no one knows this
+even if Alice knows it.
+
+Roughly, we might say that something is known provided that the knowledge is generally accessible to humans 
+with appropriate raining. Alice's lonely death is not accessible, but the conditions for $\phi$ are. What exactly counts as ``accessible'' and ``appropriate training'' is rather unclear. Suppose the only copy of the journal with the 
+conditions for $\phi$ is on top of Mount Everest. It is not clear that the conditions are known. Quite likely
+we should say that the being known in this sense is something that comes in degrees. And then there will be a 
+very complicated function from the subject matter and the degree of accessibility to the value of the particular
+instance of being known. This complicated function is very likely to have many free parameters and hence will
+raise Mersenne questions about its grounds. And yet this value of being humanly known is important, as it informs our resource allocation.
+
 
 \subsection{$^*$Imprecision}
 Suppose that a spinner is randomly spun, and it comes to a stop at some angle between $0^\circ$ and $360^\circ$, inclusive,
