@@ -875,6 +875,65 @@ on irrational prejudice, and one attempts to dig oneself out of the resulting he
 are right and wrong ways to proceed, but the likelihood of a clear and elegant principle that solves the problem is
 nearly nil. 
 
+\subsection{Bayesianism versus natural law metaepistemology}
+Bayesian update says that upon learning a new piece of evidence $E$, you should replace all your credences with the 
+ones you get by conditionalizing on $E$. Typically, a Bayesian update gets you closer to truth about some 
+propositions and further from truth about others. For instance, if you pull a coin from your pocket and look at one
+side of it, and see heads, this confirms that the coin has at least one heads side, which is true. But it also 
+confirms the hypothesis that the coin is a rare defective double-heads one, which hypothesis is typically going to 
+be false. More generally, none of the evidence we ever learn logically excludes the existence of fairies, but I 
+assume there are no fairies. Suppose you learn some piece of evidence $E$. Then you trivially get closer to the truth
+about $E$, but you also confirm the conjunctive proposition $F$ that $E$ obtains and there are fairies, by confirming the 
+first conjunct (unless the prior for $F$ was zero or one).\footnote{We have $P(E\mid F)=1$. However, $P(E\mid \Not F)<1$,
+since if we had $P(E\mid \Not F)=1$, then we would have $P(E)=1$, and hence you wouldn't be \textit{learning} $E$, as your
+prior in $E$ would have been $1$. Thus, $P(E\mid F)>P(E\mid\Not F)$ and $E$ raises the credence of $F$ by Bayes' theorem
+given Bayesian update.} 
+
+Whether you are epistemically better off after a Bayesian update depends on a variety of factors, including the relative 
+importance of the propositions that you get closer to the truth on and those that you get further from the truth on. 
+If for some reason the above false proposition $F$ is extremely epistemically important (maybe aliens have announced they will 
+destroy the earth if and only if $F$ is true), getting spurious confirmation of $F$ could well be an overall epistemic harm. 
+Thus, Bayesian update doesn't always get the best results. And typically there is, abstractly speaking, 
+a rule that will get you better results than Bayesian update. Suppose your concern is with propositions $p_1,...,p_n$, and 
+imagine that a stranger comes up to you and tells you to always employ the following update strategy:
+\ditem{update-1}{if you learn that $p_1$ is false, do Bayesian update}
+\ditem{update-2}{if you learn that $p_1$ is true, change your credences to specific numbers $t_1,...,t_n$, respectively.}
+Suppose that the stranger happened, by chance or not, to pick the numbers $t_1,...,t_n$ in such a way that $t_i=0$ if 
+$p_i$ is false and $t_i=1$ if $p_i$ is true. As long as \dref{update-2} does not happen to coincide with Bayesian 
+update (typically it won't), and as long as there is any chance of learning that $p_1$ is true, the stranger's strategy 
+will beat Bayesian update. 
+
+Now, chances are, you won't be able to design a better update strategy than a Bayesian one \textit{for yourself}.
+It is know that your expected epistemic utility, defined using a proper scoring rule and calculated by your 
+own lights, will be maximized by Bayesian update over the space of all update strategies.??ref But the crucial thing to 
+note in this result is the ``by your own lights''. Someone else who has information that is not available to you can 
+sometimes---as in the stranger example---design a better rule for you. 
+
+Imagine now that you are designing an intelligent robot. You have access to more types of information than the robot ever 
+will, and you use your superior knowledge to design a robot with an update rule that beats Bayesian update (with respect to 
+some or maybe even all ways of prioritizing the importance of propositions). The robot, however, is rather smart, 
+and observes that it is finding itself ``naturally'' or ``instinctively'' reasoning in ways that do not match Bayesian update. This makes the 
+robot worry: ``Should I keep on reasoning the way I `naturally' do, or should I reprogram myself for Bayesian update?''
+From your point of view as the robot's designer, you may well hope---and hope for the sake of the robot's doxastic
+flourishing---that the robot will stick to the rule you programmed in, as it is in fact superior with respect to getting
+to the truth (given the right prioritization). In fact, it seems plausible that the robot would be epistemically defective 
+if it switched to Bayesianism, and started engaging in less reliable reasoning.
+
+We are not robots. Whether we are designed by a person more intelligent than ourselves is highly controversial (I will 
+argue in the affirmative in Chapter~\ref{ch:XI}). However, evolution might be metaphorically said to have ``access'' to more 
+information than an individual human does: the selective pressures that made us what we are were responsive to a vast amount
+of data that we individually do not have, and perhaps that our ancestors did not even have in their minds. Some think 
+that with the advent of the large amount of data in modern science, we can do 
+better than our instinctive ways of reasoning, say by adopting Bayesianism as our update rule. For the argument I want 
+to press, I am willing to concede the point.??ref:fast-and-slow But it is not clear that the same would have been true at earlier points in our species' intellectual development. And it \textit{is} clear that the same is not true for all possible species 
+of intelligent animals: there \textit{could} be intelligent animals whose instinctive reasoning would beat Bayesian
+reasoning. 
+
+The mere fact that these intelligent animals' instinctive methods of reasoning would beat Bayesian update does not mean that they would be rational to opt for the instinctive methods. But reflection on these possibilities should make one incline to 
+the hypothesis that Bayesianism does not have a hegemony on rationality. It seems possible to have beings for which some
+other mode of reasoning than Bayesianism is right. Thus, even if Bayesianism is the right epistemology for humans,
+it is not the right meta-epistemology: to reason rightly is not the same thing as to update in a Bayesian way. 
+
 \section{Intellectual limitations}
 Limitations in recognizing logical implications and contradictions are a case where rational norms are plausibly
 species-relative. It is epistemically irrational for one to conclude that it's raining from the fact that it's neither 
@@ -1112,104 +1171,6 @@ very complicated function from the subject matter and the degree of accessibilit
 instance of being known. This complicated function is very likely to have many free parameters and hence will
 raise Mersenne questions about its grounds. And yet this value of being humanly known is important, if only because it informs our resource allocation.
 
-%%revised
-\section{$^*$Imprecision}
-Suppose that a spinner is randomly spun, and it comes to a stop at some angle between $0^\circ$ and $360^\circ$, inclusive,
-though of course $0^\circ$ and $360^\circ$ label the same outcome. To make the logic of the situation a little simpler, 
-let's label that outcome ``$360^\circ$'', and call the spinner angle $X$. Thus $0^\circ < X \le 360^\circ$.
-Independently of the spinner, a fair coin is tossed. If the coin is tails, the spinner is left
-unchanged. If the coin is heads, the spinner is adjusted so that it now points to half of the angle it started with. Call the 
-final angle $Y$. All of the above happens out of your sight.
-
-Note that if the coin lands heads, then we are guaranteed to have the final spinner angle $Y \le 180^\circ$. Thus, if you were
-to learn that $Y>180^\circ$, you would thereby have learned that the coin landed tails. It is a standard result in Bayesian
-epistemology that if something is evidence for a hypothesis, then its negation is evidence against the hypothesis. Hence, if
-you were to learn that $Y \le 180^\circ$, that would be evidence against the tails hypothesis, and hence in favor of the heads
-one. More specifically, the probability of heads given that $Y\le 180^\circ$ will be $2/3$. For there are initially four equally
-likely options given your evidence: 
-\begin{enumerate}
-\item[(i)] heads and $X\le 180^\circ$
-\item[(ii)] heads and $X> 180^\circ$
-\item[(iii)] tails and $X\le 180^\circ$
-\item[(iv)] tails and $X> 180^\circ$.
-\end{enumerate}
-Learning that $Y\le 180^\circ$ rules out (iv), since on tails no adjustment is made and so $X=Y$. However, learning that
-$Y\le 180^\circ$ does not rule out any of the ways of getting any of the options (i)--(iii). Thus, (i)--(iii) remain equally
-likely. Since heads occurs on two of these three options, thus the probability of heads is $2/3$ after learning that $Y\le 180^\circ$.
-
-Suppose, now, that we have a three-step process. At $t_0$, the spin, toss and any adjustment is done out of your sight, but you
-know the process that was followed and will be followed. At $t_1$, you will be informed whether $Y \le 180^\circ$. At $t_2$, you will 
-be informed of the exact value of $Y$.
-
-Imagine that at $t_1$ you learn that indeed $Y \le 180^\circ$ and at $t_2$ you learn that $Y$ is exactly $22.44^\circ$. 
-At $t_0$, your credence in heads was $1/2$. At $t_1$, it went to $2/3$. What about at $t_2$? Well, here is the problem.
-At $t_2$, the total information gained since $t_0$ can be summed up as $Y=22.44^\circ$ (this logically entails the
-information from the $t_1$ stage that $Y\le 180^\circ$). But the information that $Y=22.44^\circ$ is equivalent to:
-\begin{enumerate} 
-\item[(v)] Either tails and $X=22.44^\circ$, or heads and $X=44.88^\circ$.
-\end{enumerate}
-But note that (v) tells you nothing about whether you got heads or tails, in light of the fact that all the spinner angles are
-equally likely, the coin is fair, and the spinner and the coin are independent. Both paired coin-and-spinner outcomes are equally
-likely, and when we learn that exactly one of them happened, they remain equally likely.
-
-In light of the fact that your total information at $t_2$ is that given in $t_0$ plus (v), at $t_2$ your
-probability for heads seems to be $1/2$. 
-
-But now observe that this argument would work no matter what angle you learned $Y$ to have at $t_2$. Thus at $t_1$, you would
-already know for sure that given the additional information you will receive at $t_2$, your final credence in heads will be
-$1/2$. 
-
-Famously, Bas van Fraassen has posited the plausible reflection principle that if a rational agent knows for sure that their future credence
-will be some value, then that should \textit{already} be their credence. This principle needs some qualifications to avoid
-easy counterexamples. The agent needs to know for sure that they are will maintain rationality, and that they will 
-not lose any information.??refs We can suppose that all of these qualifications are met in our case, and given these qualifications,
-the reflection principle is very plausible. Yet our case appears to be a counterexample to the principle.
-
-It is worth noting the pragmatic effect of this failure: you are subject to a Dutch Book, a sequence of bets with a guaranteed
-loss. At $t_1$, you will be willing to accept a wager where you get $\$45$ on heads and pay $\$55$ on tails, since
-$(2/3)\cdot \$45 - (1/3)\cdot \$55 = \$11.67$. But at $t_2$, you will be regretting this wager and expecting an outcome of
-$(1/2)\cdot \$45 - (1/2)\cdot \$55 = \$(-5)$. Given your expectation at $t_2$ of a five dollar loss, you will be willing to pay the 
-bookie four dollars if they offer to let you change your mind. As a result, you have a guaranteed loss of four dollars.  
-Nor is this some kind of a rare situation: there is nothing that special about the case where $Y=22.44^\circ$: any angle
-less than or equal to $180^circ$ has the same property. Thus half of the time that the whole game is played you will end up
-Dutch-Bookable at $t_1$ and $t_2$.
-
-Note that there is a technical problem in the above reasoning. I argued that updating on the information in (v) yields equal probability
-of heads and tails. However, the information in (v) has probability \textit{zero}. To see this, note that for any small positive
-number $\e$, the probability that $X$, when measured in degrees, is between $22.44-\e$ and $22.44+\e$ is $2\e / 360$. Thus the 
-probability that $X$ is \textit{exactly} $22.44^\circ$ is no bigger than $2\e / 360$ for \textit{any} positive real number $\e$.
-But the only way a non-negative number $p$ (and probabilities are non-negative) can be less than or equal to $2\e / 360$ for any positive
-number $\e$ is if $p$ is zero.\footnote{Suppose that $p\ge 0$ and $p\le 2\e/360$ for 
-every $\e>0$. For a \textit{reductio ad absurdum} suppose $p>0$. Then let $\e = p$. This is a positive number, so $p \le 2\e/360 = p/180$.
-But we cannot have $p \le p/180$ for a positive $p$.} Standard Bayesian reasoning updates the probability of a hypothesis $H$ on evience $E$
-to $P(H\mid E)=P(H\And E)/P(E)$. But if $P(E)=0$, then this formula yields $0/0$, which is undefined. 
-
-The literature contains various ways out of the difficulty of updating our information on an event that seems to have zero probability.
-We might say that it's not zero but an infinitesimal, or we might have a mathematical framework like Popper functions that allows
-for such conditionalization, or we might work with probability densities. Whatever we do, a criterion of adequacy on the method will be that we 
-preserve the symmetries in the situation by taking the two disjuncts in (v) to be probabilistically on par, and hence making the 
-update yield equal probabilities for heads and tails.\footnote{There are technical problems with maintaining symmetry in general in contexts with
-infinitesimal probabilities. But the amount of symmetry needed for the above argument---namely, equal probability of $22.44^\circ$ and
-$11.22^\circ$---can indeed be maintained. ??ref} And that will lead to our paradox.
-
-The solution I want to propose instead is this. Stop the search for general ways of updating on zero probability events. Except in special
-cases (more on that soon???), such updates should not be done.  Instead, embrace imprecision. In practice, we never exactly measure the
-position of a spinner. Suppose that instead of measuring the spinner position at $22.44^\circ$ at $t_2$, we measure it to be $22.44\pm 0.01$
-degrees. Let $E$ be the evidence, then, that the spinner finally ended between $22.43$ and $22.45$. Then $P(E)=(1/2)(0.02/360)+(1/2)(0.04/360)$
-(on tails, to get $E$ we need need the spinner to initially land between $22.43$ and $22.45$; on heads, we need it to 
-initially land between $44.86$ and $44.90$). Then by Bayes' theorem:
-$$
-    P(\text{heads} \mid E) = \frac{P(E \mid \text{heads})}{P(E)} P(\text{heads}) = \frac{ (1/2)(0.04/360) }{ (1/2)(0.02/360)+(1/2)(0.04/360) } = 
-	frac23.
-$$    
-
-Now, if we were to measure things will full precision, we would indeed have to update on zero-probability events, and we would sometimes
-end up in a bind. But our rationality, I propose, is not made for full-precision measurements. Our rationality is made for imprecisionand is 
-kind-relative. Beings who made full-precision measurements of real numbered quantities would 
-have to reason differently from how we do. Maybe they would have some other method than conditionalization for dealing with these cases.
-Maybe violating the reflection principle and being Dutch-Booked would be rationally acceptable for them. This all fits very well with 
-our Aristotelian picture. We have our nature and the rationality that our nature requires of us.
-
 \section{\textit{A priori} intuitions}
 We have a large store of what one might call substantive \textit{a priori} intuitions, such as that nothing can cause itself,
 that there is contingency, that nothing is a proper part of one of its proper parts, that a material object couldn't
@@ -1255,27 +1216,29 @@ in them. But it seems there couldn't be any. However, no matter what we say abou
 there is something right about the thought that \textit{we} are not made to reason about such things.
 
 There are many other examples where epistemology seems to break down in radical cases. What should you think if you came to be
-convinced that an evil demon is trying to get you to believe as many falsehoods as possible? Any thought you might have ends
-up undercut. Should your credences in everything be at $1/2$, then? But that is incoherent: for then you have credence $1/2$
+convinced that an evil demon is trying to get you to believe as many falsehoods as possible? Any answer you might have is undercut. Should your credences in everything be at $1/2$, then? But that is incoherent: for then you have credence $1/2$
 that the last die you rolled is $1$, and credence $1/2$ that it was $2$, and credence $1/2$ that it was $3$, and credence $1/2$
 that you never tossed a die, and so on. Perhaps suspension of judgment is something other than assigning probability $1/2$. But 
-if so, should you suspend judgment about everything, including about the norm of fitting your beliefs to you evidence? However,
+if so, should you suspend judgment about everything, including about the norm of fitting your beliefs to your evidence? However,
 if you suspend your judgment about that, then why bother with suspending your judgment about other things, given that you don't 
-think you need to fit your beliefs to your evidence? Or what should you think if you come to be convinced that you are a computer 
-simulated non-player character in a sophisticated video game? What kind of a world should you think you are in? 
+think you need to fit your beliefs to your evidence? Or what should you think if you come to be convinced that you are a  
+simulated non-player character in a sophisticated video game? 
 
-Note now that there is such a thing as realizing that when you were using certain words, you had no concept behind them, and
+Next recall a phenomenon that many of us have sadly experienced, where we realized we were using certain words but had no concept behind them, and
 the words were mere meaningless words. For instance, take a word that we as laypeople defer to experts on the meaning of, such
 as ``gluon''. But now imagine that physicists have been pulling our collective legs about gluons all this time: it was just a 
-made-up word without any meaning behind it. We can imagine discovering that. And words whose meaning we get by deference are not
-the only words like that. The phenomenon of a person who doesn't know what they are talking about is not uncommon. My metaphysics
+made-up word without any meaning behind it. We can imagine discovering that, and even more easily we can imagine
+someone convincing us that this happened. And words whose meaning we get by deference are not
+the only words like that. The phenomenon of a person who doesn't know what they are talking about is not uncommon. My Aristotelian metaphysics
 includes accidents. But I could imagine finding myself in a position where I come to be convinced that I never had a concept of
 an accident---that ``accident'' is a meaningless word. Now imagine a radical hypothesis: I come to be convinced that I have no
 concepts at all. What should I think now? 
 
 There is something plausible about the idea that in certain extreme situations there is no right way for us to think,
 but beings other than us could have moral norms that provide additional specifications---ones that may appear 
-arbitrary to us, say---as what one should think in some of these extreme situations. 
+arbitrary to us, say---as to what one should think in some of these extreme situations. The Aristotelian account
+fits neatly with this, because we do not expect human nature to tell us how to behave in situations far outside
+our natural environment.
 
 \section{Epistemic supererogation}
 In ??backref, we saw that a Natural Law ethic can easily accommodate the concept of supererogation by allowing for a case
@@ -1284,18 +1247,18 @@ a special case of a general phenomenon where one state can constitute greater fl
 is a case of languishing. 
 
 Does this phenomenon appear in epistemology as well? ??refs  Intuitively, it does. Often, when Dr.~Watson fails to see the 
-connections that Sherlock Holmes sees, we cannot say that Watson is epistemically defect---rather, Holmes is, at times, 
-superlatively insightful in weighing the evidence. This distinction, often specific to a particular epistemic area, between
+connections that Sherlock Holmes sees, we cannot say that Watson is epistemically defective---rather, Holmes is, at times, 
+superlatively insightful in weighing the evidence. The distinction between
 insufficient insight, acceptable insight and superb insight is familiar to us, and an Aristotelian metaepistemology simply
-makes it a part of a general phenomenon. The possibility of epistemic supererogation thus provides some support for the 
+makes it a part of a general normative phenomenon. The possibility of epistemic supererogation thus provides some support for the 
 present account.
 
-If the correct epistemology is Bayesian, however, one might think there is no room for supererogation. Either one updates
+If the correct epistemology is Bayesian one might initially think there is no room for supererogation. Either one updates
 correctly on the evidence or one updates incorrectly. There is, no doubt, a gradation among failures of correct update, 
 but there is only way to update correctly.  Thus, it seems, on a Bayesian epistemology, there is no room for supererogation,
 and an Aristotelian's ability to account for epistemic supererogation is no advantage.
 
-This is not correct. There are at least three areas within a reasonable Bayesianism where there is room for supererogation.
+This would be convenient to my argument, but is not quite correct. There are at least three areas within a reasonable Bayesianism where there is room for supererogation.
 First, if Bayesianism is to be at all a candidate for our epistemology, and assuming some version of an ought-implies-can doctrine,
 Bayesianism has to accommodate imprecise probabilities, because we humans are only capable of having  
 probabilities that are both precise and rational in very limited situations such as coin flips. Maybe I could make myself
@@ -1323,14 +1286,15 @@ the priors too low) and excessive credulity (too high). Then someone whose crede
 or slightly below excessive credulity would be rational, but perhaps only barely so. It would be better to have a more balanced
 credence, away from the two boundaries of rationality.
 
-Thus, even the Bayesian should be glad for the possibility of accounting for epistemic supererogation.
+Thus, even a Bayesian should be glad for the possibility of accounting for epistemic supererogation, and
+the Aristotelian can lend a hand here.
 
 \section{Metaepistemology}
 \subsection{Why be epistemically rational?}
 One of the main questions in metaethics for the past century has been why one should bother being moral. The analogous
 question for epistemic rationality has received comparatively little attention??ref:exceptions.
 One reason for the low amount of attention could be that there is an obvious answer: It's good 
-(both instrumentally and not) to have the truth, and following the norms of epistemic rationality 
+(both instrumentally and intrinsically) to have the truth, and following the norms of epistemic rationality 
 helps one get there.
 
 Indeed, there are proposed norms which can be justified in this way. If one measures the utility of a 
@@ -1338,10 +1302,11 @@ doxastic state by a strictly proper scoring rule, then by the agent's own lights
 an algorithm that maximizes epistemic utility.??refs Similarly, it seems reasonable to think that the
 epistemic rationality involved in choosing which evidence to pursue, i.e., which experiments to perform??backref, 
 can be accounted for by such a maximization. And finally the norm that one's credences should be 
-(probabilistically) consistent can be justified by score maximization, because of a famous theorem
+(probabilistically) consistent can be justified by score maximization, because it is a theorem??ref
 that if one's credences are not consistent, there is a set of credences that are guaranteed to yield 
 a better score no matter what the truth turns out to be. If Bayesian update, choice of experiments and consistency
-are all there is to  epistemic rationality, then this kind of reasoning has some hope of answering the question 
+are all there is to  epistemic rationality, then this kind of 
+reasoning initially has some hope of answering the question 
 of why one should bother being epistemically rational, assuming we take it for granted that the good is worth
 having. 
 
@@ -1351,13 +1316,11 @@ seen that expected utility maximization is not the only reasonable position to t
 goods, why should we assume that it is so for epistemic goods?
 
 But more seriously, Bayesian update, consistency and the norms governing choice of experiment do not exhaust the 
-scope of epistemic norms. For a Bayesian should admit there are substantive objective norms constraining 
-rational priors going beyond consistency. It is not rational, for instance, to have a very high
-prior credence for the hypothesis that one is a brain in a vat hooked up to a simulation of precisely the 
-physics of our universe (cf.\ ??backref). And then we need an account of why one should bother to have consistent 
-priors that are rational rather than some others.
+scope of epistemic norms, as I have already argued??ref, especially in the context of requiring substantive
+objective norms constraining rational priors going beyond consistency. 
 
-It won't do to say that the rational priors best conduces to epistemic utility. For they don't. It would 
+It won't do to say that the rational priors best conduce to epistemic utility and that's we should have them. 
+For rational priors do not best conduce to epistemic utility. At various points in the past it would 
 have been irrational for human beings to have a high prior for such hypotheses as that water is made of hydrogen
 and oxygen atoms, that 2020 would be a year of a global pandemic, or that the fine-structure constant is 
 approximately $1/137$. And yet epistemic utility would have been increased by adopting such priors, because 
@@ -1365,13 +1328,14 @@ all these hypotheses are in fact true. The priors that uniquely best conduce to 
 prior of $1$ for every actual truth and a prior of $0$ for every actual falsehood. But such priors would not 
 be rational for human beings. 
 
-An Aristotelian has a story. Although truth is partly constitutive of our cognitive flourishing, so is conformity 
+An Aristotelian has a story here. Although truth is partly constitutive of our cognitive flourishing, so is conformity 
 to the norms of rationality. It is thus non-instrumentally good for us that we reason in accordance with our 
 nature. A human being who thought \textit{a priori} that the fine-structure constant is approximately $1/137$
-would be right, and would flourish to that extent, but would also have crazy priors, which is contrary to 
-cognitive flourishing. Typically, we have more control over whether we follow the norms of epistemic rationality
+would be right, and would flourish to that extent, but would also have a crazy prior, which itself is contrary to 
+cognitive flourishing even if that prior matches reality. Typically, we have more control over whether we follow the norms of epistemic rationality
 than whether we get to the truth, and so from the point of view of pursuit of one's own flourishing it makes
-sense to follow these norms in typical situations.
+sense to follow these norms in typical situations. We should be rational because being rational is constitutive
+of flourishing for us.
 
 That said, one can imagine cases where tradeoffs are reasonable. Suppose a trustworthy but eccentric alien
 offers to inform you of the correct theory of stellar formation in exchange for the very small sacrifice 
@@ -1379,7 +1343,7 @@ of brainwashing yourself into thinking that you have an even number of hairs on 
 coming to a belief about the parity of your hair count is contrary to our cognitive flourishing, but in terms 
 of epistemic utility, knowing the correct theory of stellar formation seems worth it.
 
-That said, there is another possible answer to the ``Why bother?'' question. It could be that to the extent
+There is also another possible answer to the ``Why bother?'' question. It could be that to the extent
 that our cognitive life is under our voluntary control, there are moral requirements that we follow epistemic
 norms. After all, on the account defended here, morality extends throughout the sphere of the voluntary: 
 the moral is defined by the proper functioning of the will. Thus it is possible that one have a deontological
@@ -1391,7 +1355,9 @@ involuntary parts cohere with the norms, just as we may have a \textit{prima fac
 health of our bodies. It does, after all, seem to be a part of the proper function of our will to direct us to 
 both physical and cognitive health.
 
-And we should not take the moral account too far. We can have two people who act equally well morally, but one 
+This answer is also compatible with Aristotelianism: we can account for the moral obligation in the Natural Law
+way discussed in Chapter??backref. But in any case we should not take the moral account of why we should be 
+rational too far. We \textit{can} have two people who act equally well morally, but one 
 of them does cognitively better than the other, due to innate talent, opportunities for cognitive self-improvement,
 and simple luck at getting to the truth. Epistemic value goes beyond moral excellence, if only because it includes 
 the value of epistemic success, much as health goes beyond moral excellence, even though there are \textit{prima 
@@ -1403,16 +1369,16 @@ our cognitive faculties. That answer nicely generalizes to yield an account of e
 of kinds of beings, as long as we can make sense of what cognitive faculties are. 
 
 In the case of morality, a similar functional approach defined morality in terms of the proper function of the will,
-and the will as a system directing behavior in the light of practical good-directed reasons. We might try here try for 
+and the will as a system directing behavior in the light of practical good-directed reasons.??backref We might try now for
 a similar account but this time in terms of reasons directed at epistemic goods, such as correct and informative 
-(whether in the sense of yielding understanding or some other sense) representation of the world.
+(say in the sense of yielding understanding or in terms of scoring rules) representation of the world.
 This approach is more problematic, however, than on the moral side, especially if we are open to a wide range of 
 possible epistemologies for different kinds of rational beings.
 
 First, we could imagine beings that directly contemplate the truth, like Aristotle's gods or Kant's intellectual
 intuiters. It is difficult to identify reasons in such a case, and yet the contemplation appears to be a rational
 activity. And while humans do not normally directly intuit reality, it is possible that we do so in special cases,
-such as Platonic contemplation of the Forms or the Catholic of human flourishing as bound up with a direct beatific
+such as Platonic contemplation of the Forms or the Catholic view of human flourishing as bound up with a direct beatific
 vision of God. 
 
 Second, reliabilist epistemology can involve processes that reliably directly generate beliefs in us rather than 
@@ -1420,9 +1386,9 @@ doing by the intermediary of reasons. And even if reliabilism is not a correct d
 it seems imaginable that there be rational beings of whom it is normatively true.
 
 Third, objective Bayesianism has three places for epistemic normativity: updating on evidence, choosing which 
-experiments to perform, and having rational ur??-priors. The update and experiment-selection are indeed based on 
+experiments to perform, and having rational priors (at least ultimate ones). The update and experiment-selection are indeed based on 
 reasons. However, the priors are not typically attained on the basis of reasons, but appear to be simply innately 
-had by an agent (though in cases where one changes one's priors reasons may be involved). Again, even if objective 
+had by an agent (though in cases where one changes one's priors reasons may be involved---cf.\ ??backref). Again, even if objective 
 Bayesianism is not the right normative theory of humans, it is plausible that it could be the normative theory for 
 a different kind of rational being. Moreover, there are other phenomena that could be governed by rational 
 normativity that are similar to that of priors, such as innate beliefs, or beliefs passed on genetically in 
@@ -1434,10 +1400,10 @@ the normativity of the proper functioning of such a system. However, if we did t
 would go very far down in the animal kingdom: even worms have systems directed at correct representation of 
 reality. To rule worms as not rational, we might want to add an element of self-reflection, where the agent 
 is such that they ought to explicitly embrace the epistemic goods as such, and ensure that their epistemic 
-functioning is correctly aimed at this goods. This last condition would contemplation, reliable
+functioning is correctly aimed at this goods. This last condition would bring contemplation, reliable
 belief formation and prior-generation back into the fold of rationality: we might say that it is precisely 
-when the agent reflectively monitors these processes in their directedness at epistemic goods that the 
-agent is epistemically rational in engaging in them. 
+when the agent reflectively (either synchronically or asynchronically) monitors these processes in their 
+directedness at epistemic goods that the agent is epistemically rational in engaging in them. 
 
 It is worth noting that on this reflective account, the high forms of cognition, such as the 
 Aristotelian gods' direct vision, might well be rational in a somewhat different way from the rationality 
@@ -1445,21 +1411,22 @@ of lower forms of cognition. For the high forms of cognition
 are often seen as essentially correct, neither in need of correction nor repair, and hence the 
 self-monitoring could be limited to realizing that necessarily everything is working correctly. 
 This is akin to the way that morality would work differently for a perfect being that does not need 
-to engage in self-correction, but that knows that it always functions morally correctly. 
+to engage in self-correction, but that knows that it always functions morally correctly---such a being,
+for instance, has no obligations to ever offer apologies for wrongs done. 
 
 \subsection{Grounds of epistemic norms}
-The primary question of metaethics is whether ethically normative claims have truth value, and if so, what grounds their truth value.
+Perhaps the primary question of metaethics is whether ethically normative claims have truth value, and if so, what grounds their truth value.
 The Natural Law answer that I have been defending is that ethically normative claims have truth value grounded in facts about the 
 flourishing of the will, which facts in turn are grounded in our form (??add this!). Analogically, we would expect epistemologically 
 normative facts to have truth value grounded in facts about the flourishing of the intellect, which facts in turn would be grounded
 in our form.
 
-Natural Law metaethics as it stands is compatible with a wide variety of normative ethical theories, though some combinations are
-less appealing philosophically. Thus, while one could suppose that the proper function of the will is to maximize utility, 
+Natural Law metaethics as it stands appears logically consistent with a wide variety of normative ethical theories, though some combinations are
+less appealing philosophically. Thus, while an Aristotelian metaethicist could suppose that the proper function of the will is to maximize utility, 
 normative utilitarianism fits more elegantly with metaethical utilitarianism according to which facts about the right
 and wrong just are facts about utility maximization. 
 
-Similarly, Natural Law metaepistemology fits with a variety of normative epistemological theories. Reflection on ethical cases
+Similarly, Natural Law metaepistemology appears consistent with a variety of normative epistemological theories. Reflection on ethical cases
 shows that flourishing can have internal and external components (e.g., one's friends' well-being is partly constitutive of one's 
 well-being), and so Natural Law metaepistemology is compatible with internalist and externalist norms. It is compatible with 
 full-blown Bayesianism, though just as normative utilitarianism fits more neatly with metaethical utilitarianism, so too those
@@ -1472,15 +1439,16 @@ have had a primary focus on the question of how one should act, the epistemologi
 how we should think, but what knowledge is. One might take this question of the nature of knowledge to be akin to many ethicists' 
 interest in the nature of virtue. In both cases, there is a sense in which the question does not carry normativity on its sleeve,
 in that there are possible answers to the question that do not involve any normative components. Thus, Descartes identified knowledge
-with the clear and distinct, and a naive Aristotelian (though of course not Aristotle himself) might identify virtue with the 
-mathematical center between the humanly possible extremes. Of course, in both cases it is highly plausible that the item is worth
-having, but that does not make the item essentially normative---water is also worth having, but is not essentially normative.
-However, likewise, in both cases more plausible theories of the item have a significant normative component. Thus, the real 
+with clear and distinct thoughts, and a naive Aristotelian (though of course not Aristotle himself) might identify virtue with the 
+mathematical center between the humanly possible extremes. Of course, one might think that clear and distinct
+thoughts or being centered in one's habits is worth
+having, but that does not make the state essentially normative---water is also worth having, but is not essentially normative.
+However, likewise, in both cases more plausible theories of the item do have a significant normative component. Thus, the real 
 Aristotle would identify virtue with a \textit{reasonable} mean, while many have tried for accounts of knowledge where one of the
 components is \textit{justification}. 
 
 Natural Law metaepistemology more easily yields an account of the grounding of more obviously normative concepts such as 
-justification. For instance, a justified inference could be an inference performing which constitutes intellectual flourishing 
+justification than of knowledge. For instance, a justified inference could be an inference performing which constitutes flourishing of the intellect
 (or the intellect \textit{qua} engine of inference). Again, this is compatible with many theories as to what kinds of inferences
 are in fact justified. But it is more difficult to see exactly how to ground knowledge. Nonetheless, the Natural Law metaepistemologist
 can simply say that facts about knowledge are grounded in facts about intellectual flourishing with specifying how the grounding
@@ -1495,9 +1463,10 @@ knowledge provided that this output constitutes intellectual flourishing. Howeve
 intellectually in an accomplishment will include not just the aspects of knowledge acknowledged in the analytic tradition, like true 
 belief and justification, but also \textit{understanding}, structural connections between different things found in the intellect that
 enlightens us about the things that are important. Aquinas famously distinguishes the vice of \textit{curiositas} from the virtue of
-studiousness, and the distinction lies in curiositas' trivial pursuit of mere bits of knowledge while the virtue pursues a holistic
-structured understanding of the world's explanatory conenctions. Thus flourishing with respect to intellectual accomplisment is more
-like what the medievals called \textit{scientia} than what we call knowledge.
+\textit{studiositas}??ref, and the distinction lies in \textit{curiositas}'s trivial pursuit of mere bits of knowledge while the virtue pursues a holistic
+structured understanding of the world's explanatory connections. Thus flourishing with respect to intellectual accomplisment is more
+like what the medievals called \textit{scientia}---a structured intellectual \textit{body} of knowledge---than what 
+contemporary epistemologists simply call knowledge.
 
 So a Natural Law metaepistemology elegantly gives us a theory about the grounding of \textit{scientia} rather than of knowledge. 
 Is this a disadvantage? Or is it a hint that in fact many of the blind alleys of post-Gettier epistemology have been due to the
@@ -1506,8 +1475,8 @@ knowledge?  There is room for significant further exploration here, as well as r
 of knowledge that might end up being grounded in human nature. How such a search might go will depend on controversial questions about
 the role of knowledge in our rational life. 
 
-While my own view suggests we should minimize that role in favor of understanding and credence, 
-someone attracted to knowledge having a significant role might have room to give a normative-functional account of knowledge that
+While my own view suggests we should minimize our focus on the concept of knowledge in favor of understanding, justification, and credence, 
+an Aristotelian attracted to knowledge having a significant role might have room to give a normative-functional account of knowledge that
 has a significant role for human nature. Thus, if one thinks that the knowledge is the norm of assertion, then one might say that
 knowledge is that state which makes assertion non-defective, and the standards of defectiveness of assertion are given by our nature.
 Or one might try to characterize knowledge as whatever it is that needs to be added to beliefs about explanatory relations in order to yield
@@ -1521,67 +1490,10 @@ to provide an account of the types of facts that ground knowledge. We might roug
 (i)~mental facts constituting one's belief and the inferences that led to it; (ii)~the facts (in typical cases extra-mental) making the 
 belief true and entering into the warrant or justification; and, finally, (iii)~facts because of which the first two sets of
 facts count justifying the belief and yielding what additional condition is needed to get out of the Gettier condition. It is only
-the third class of facts that seems to fall under metaepistemology, and it is plausible that facts from that category are normative 
+the third class of facts that seems to fall under metaepistemology, and the Natural Law (meta)epistemologist
+can say that facts from that category are normative 
 facts about the flourishing of the intellect. 
 
-\subsection{Bayesianism versus natural law metaepistemology}
-Bayesian update says that upon learning a new piece of evidence $E$, you should replace all your credences with the 
-ones you get by conditionalizing on $E$. Typically, a Bayesian update gets you closer to truth about some 
-propositions and further from truth about others. For instance, if you pull a coin from your pocket and look at one
-side of it, and see heads, this confirms that the coin has at least one heads side, which is true. But it also 
-confirms the hypothesis that the coin is a rare defective double-heads one, which hypothesis is typically going to 
-be false. More generally, none of the evidence we ever learn logically excludes the existence of fairies, but I 
-assume there are no fairies. Suppose you learn some piece of evidence $E$. Then you trivially get closer to the truth
-about $E$, but you also confirm the conjunctive proposition $F$ that $E$ obtains and there are fairies, by confirming the 
-first conjunct (unless the prior for $F$ was zero or one).\footnote{We have $P(E\mid F)=1$. However, $P(E\mid \Not F)<1$,
-since if we had $P(E\mid \Not F)=1$, then we would have $P(E)=1$, and hence you wouldn't be \textit{learning} $E$, as your
-prior in $E$ would have been $1$. Thus, $P(E\mid F)>P(E\mid\Not F)$ and $E$ raises the credence of $F$ by Bayes' theorem
-given Bayesian update.} 
-
-Whether you are epistemically better off after a Bayesian update depends on a variety of factors, including the relative 
-importance of the propositions that you get closer to the truth on and those that you get further from the truth on. 
-If for some reason the above false proposition $F$ is extremely epistemically important (maybe aliens have announced they will 
-destroy the earth if and only if $F$ is true), getting spurious confirmation of $F$ could well be an overall epistemic harm. 
-Thus, Bayesian update doesn't always get the best results. And typically there is, abstractly speaking, 
-a rule that will get you better results than Bayesian update. Suppose your concern is with propositions $p_1,...,p_n$, and 
-imagine that a stranger comes up to you and tells you to always employ the following update strategy:
-\dref{update-1}{if you learn that $p_1$ is false, do Bayesian update}
-\dref{update-2}{if you learn that $p_1$ is true, change your credences to specific numbers $t_1,...,t_n$, respectively.}
-Suppose that the stranger happened, by chance or not, to pick the numbers $t_1,...,t_n$ in such a way that $t_i=0$ if 
-$p_i$ is false and $t_i=1$ if $p_i$ is true. As long as \dref{update-2} does not happen to coincide with Bayesian 
-update (typically it won't), and as long as there is any chance of learning that $p_1$ is true, the stranger's strategy 
-will beat Bayesian update. 
-
-Now, chances are, you won't be able to design a better update strategy than a Bayesian one \textit{for yourself}.
-It is a famous theorem??ref that your expected epistemic utility, defined using a proper scoring rule and calculated by your 
-own lights, will be maximized by Bayesian update over the space of all update strategies. But the crucial thing to 
-note in this result is the ``by your own lights''. Someone else who has information that is not available to you can 
-sometimes---as in the stranger example---design a better rule for you. 
-
-Imagine now that you are designing an intelligent robot. You have access to more types of information than the robot ever 
-will, and you use your superior knowledge to design a robot with an update rule that beats Bayesian update (with respect to 
-some or maybe even all ways of prioritizing the importance of propositions). The robot, however, is rather smart, 
-and observes that it is finding itself ``naturally'' or ``instinctively'' reasoning in ways that do not match Bayesian update. This makes the 
-robot worry: ``Should I keep on reasoning the way I `naturally' do, or should I reprogram myself for Bayesian update?''
-From your point of view as the robot's designer, you may well hope---and hope for the sake of the robot's doxastic
-flourishing---that the robot will stick to the rule you programmed in, as it is in fact superior with respect to getting
-to the truth (given the right prioritization). In fact, it seems plausible that the robot would be epistemically defective 
-if it switched to Bayesianism, and started engaging in less reliable reasoning.
-
-We are not robots. Whether we are designed by a person more intelligent than ourselves is highly controversial (I will 
-argue in the affirmative in Chapter~\ref{ch:XI}). However, evolution might be metaphorically said to have ``access'' to more 
-information than an individual human does: the selective pressures that made us what we are were responsive to a vast amount
-of data that we individually do not have, and perhaps that our ancestors did not even have in their minds. Some think 
-that with the advent of the large amount of data in modern science, we can do 
-better than our instinctive ways of reasoning, say by adopting Bayesianism as our update rule. For the argument I want 
-to press, I am willing to concede the point.??ref:fast-and-slow But it is not clear that the same would have been true at earlier points in our species' intellectual development. And it \textit{is} clear that the same is not true for all possible species 
-of intelligent animals: there \textit{could} be intelligent animals whose instinctive reasoning would beat Bayesian
-reasoning. 
-
-The mere fact that these intelligent animals' instinctive methods of reasoning would beat Bayesian update does not mean that they would be rational to opt for the instinctive methods. But reflection on these possibilities should make one incline to 
-the hypothesis that Bayesianism does not have a hegemony on rationality. It seems possible to have beings for which some
-other mode of reasoning than Bayesianism is right. Thus, even if Bayesianism is the right epistemology for humans,
-it is not the right meta-epistemology: to reason rightly is not the same thing as to update in a Bayesian way. 
 
 
 %% appendix has been revised
