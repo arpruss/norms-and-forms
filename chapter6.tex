@@ -343,7 +343,8 @@ but if the wood-pulp product's function is to be kindling, then fire activates i
 Furthermore, one can internalize Frankfurt-like cases. Imagine that through science-fictional genetic modification Bob's liver
 comes to behave just like the scanner-and-bomb system. 
 
-\subsection{A neo-Aristotelian solution}
+\subsection{Neo-Aristotelian functionalism}
+\subsubsection{A solution}
 Not having the resources to define function would be a fundamental flaw
 in functionalism. However, defining functions is exactly one of the problems that Aristotelian forms are designed to solve.  We can say that $F$ is the proper function
 of a subsystem in an organism provided that fulfillment of $F$ constitutes the organism's flourishing with respect to that subsystem.
@@ -368,6 +369,7 @@ on how one defines naturalism.  If naturalism is understood to say that
 there are no fundamental normative properties, then of course there is no compatibility.??forwardref? But on a broader naturalism we can adopt neo-Aristotelian normative realism, and thereby solve the most fundamental problem facing functionalism
 in the philosophy of mind.
 
+\subsubsection{The Chinese Room}
 It is worth noting that the same solution helps with a less fundamental but more intuitive difficulty:
 Searle's famous Chinese Room thought experiment??ref.\footnote{Similar points apply to descendants 
 like the Schwitzgebel's conscious country
@@ -387,35 +389,38 @@ indeed be one of the proper functions of a human being---that is a different pro
 are involved in actual brain function. Thus neo-Aristotelian functionalism about mind intuitively correctly predicts that
 mere rule following does not constitute understanding.
 
-%%revised
-\subsection{A spectrum of functionalisms}
-There is a spectrum of functionalisms, depending on the level at which we have the functions. Think here of the analogy of a computer. 
+\subsubsection{A spectrum}
+There is a spectrum of functionalist theories, depending on the level at which we have the functions. Think here of the analogy of a computer. 
 We could suppose that proper function is specified at a fairly low
-level: say, the level of  components like transistors, which are specified by their datasheet---the transistor is designed to 
-function in this range of temperatures, voltages, and currents, saturates at this level, has this current gain, has this 
-transition frequency, etc.---and by having the correct data bits in the memory units. On this picture, for mental function
-it doesn't matter how the components are implemented, say at the level of doped semiconductor materials. Or, at 
-higher level, we could specify the CPU as a whole, rather than its transistors, defining the syntax and semantics of the 
+level: say, the level of  components like transistors, specified by engineers to 
+function in such-and-such ranges of temperatures, voltages, and currents, to saturates at such-and-such a level, 
+and to have such-and-such current gain and transition frequency, etc., and by having the correct data bits in 
+the memory units. On this picture, for mental function
+it doesn't matter how the components are implemented, say at the level of doped semiconductor materials, as long
+as they satisfy the specifications. Or, at 
+higher level, we could specify the processor as a whole, rather than its transistors, defining the syntax and semantics of the 
 machine code that it runs (with or without some abstraction, say with respect to edge cases), and then specifying what machine 
-code and data are loaded. Or at a yet higher level we could specify the details of the algorithms, say in a high level 
-programming language or even pseudo-code, for instance specifying the precise sorting algorithm that is being used for 
-operationalizing preference rankings in an autonomous robot. Or we could abstract from details of the algorithms, and specify 
+code and data are actually loaded. Or, at a yet higher level, we could specify the algorithms, say in a high level 
+programming language or even pseudo-code, for instance giving the precise sorting algorithm that is being used for 
+operationalizing preference rankings in an autonomous robot. Or, even further, we could abstract from details of the algorithms, and specify 
 what the computer accomplishes at a very high level, e.g., simulate $n$-body Newtonian gravitational interaction, or 
-translate spoken Cantonese into written ecclesiastical Latin. A similar hierarchy can be imagined in the case of minds
+translate spoken Cantonese into written ecclesiastical Latin. 
+
+We can imagine a similar hierarchy in the case of minds
 implemented wholly or partly by brains, though we know much less about the details of how high level function is implemented
 by our neurons, so it is easier to illustrate the point with computers.
-
 There is thus an important degree of freedom in functionalist theories of mind with regard to the level at which the 
 mind-constituting functions are specifying. Some levels are more plausible than others. The lower the level of specification,
-the less there will be of multiple realizability. In fact, in the computer analogy, it seems that even the fairly high level
-at which details of algorithm choice are specified is too high. Surely an elephant and a dog could equally exhibit preference-driven
+the less multiple realizability there will be. In fact, in the computer analogy, it seems that even the fairly high level
+at which details of algorithm choice are specified is too low. Surely an elephant and a dog could equally exhibit preference-driven
 agency, with some efficiency differences, if one employs a merge sort and the other a bubble sort in generating its preference 
 ordering. Furthermore, the lower the level of specification, the more Mersenne problems we raise, because the more degrees of 
 freedom we have when we require the specification of detail.
 
-There is thus reason to prefer the highest levels of specification. And Neo-Aristotelianism can rise to that challenge, because 
-forms can specify proper function at an arbitrarily high level of abstraction. 
+There is thus reason to prefer very high levels of specification. And Neo-Aristotelianism can rise to that challenge, because 
+forms can equally well specify proper function at whatever level of abstraction we deem appropriate. 
 
+%%revised
 \section{Integrated Information Theory}
 An up-and-coming alternative to functionalism as a theory of consciousness that has caught the attention of some 
 neuroscientists is Integrated Information Theory (IIT) by Tononi, ??ref. IIT is based on the core insight that some complex causal systems 
@@ -436,12 +441,12 @@ value gets to be conscious.
 IIT has multiple realizability, but significantly less of it than functionalism does. Those isomorphisms 
 between systems $S_1$ and $S_2$ that preserve transition probabilities of states and map physically separate 
 components of each system to physically separate components of the other system will preserve $\Phi$. 
-Functionalism, on the other hand, allowed for functional isomorphisms that changed transition probabilities 
+Functionalism, on the other hand, allows for functional isomorphisms that changed transition probabilities 
 (e.g., replacing a component with a more reliable one), as well as ones where multiple physically separate 
 components got mapped to one, or one physical component got implemented by several physically separate ones. 
 For instance, in a computer simulation of a brain system, an electrical potential in a single nerve may be 
 modeled by a 64-bit floating point number. Each of the 64 bits of the floating point number is stored in a
-separate tiny storage capacitor in a memory chip: thus one component is implemented in 64 physical components.
+separate tiny storage capacitor in a memory chip: thus one brain component is implemented in 64 digital components.
 The simulating system thus allows for decompositions (say, between the even- and odd-numbered bits) that the original
 physical system did not allow for. 
 
@@ -450,7 +455,11 @@ not only have to simulate the functioning of the brain, but we would have to imp
 physical components that have a one-to-one mapping with the physical components of the brain, e.g., neurons mapped to 
 computer chips, nerves to wires, etc.
 
-Thus, IIT avoids some of the difficulties facing functionalism. In particular, while I have argued that any 
+Thus, IIT avoids some of the difficulties facing functionalism, by limiting which functional isomorphisms 
+preserve consciousness facts, just as neo-Aristotelianism does, but by a different mechanism, namely by focusing on
+more details in the physical arrangement of the realizer of the functional system rather than by introducing a 
+non-physical form. For instance, in the Appendix to this
+chapter I argue any 
 finite deterministic system can be mapped to the states of a single particle moving in a straight line, and 
 hence every particle has human-level consciousness on functionalism??backref/forwardref, no such conclusion 
 follows for IIT. For while the different states of a brain can all be encoded into, say, the position of one
@@ -473,7 +482,7 @@ result, a sufficiently and impractically large grid---say, one with something li
 have human-level consciousness, even when the grid is unchangingly fixed at zero. While Tononi embraces such 
 conclusions??ref, they seem highly counterintuitive.
 
-For a much simpler case, imagine a world with two eternally particles, each having an electric charge specifiable
+For a much simpler case, imagine a world with two eternal particles, each having an electric charge specifiable
 as any real number. Suppose, further, that the laws of nature specify that every second, the two particles swap their charges. This system has only one decomposition into two subsystems---the two particles. Each particle contains 
 an infinite amount of information for the prediction of the other particle's subsequent charge, since a real
 number contains infinitely many bits of information (it can be expressed by a sign, a binary integer, a ``binary 
@@ -484,7 +493,9 @@ the god-like infinite consciousness that IIT predicts.
 
 IIT has a pleasing mathematical precision, and a tempered version of multiple realizability. However, it leads to 
 implausible consequences. Perhaps some future IIT-like theory will avoid the extravagancies of functionalist multiple
-realizability while avoiding the implausible consequences of IIT. But at this point we should not a particular 
+realizability while avoiding the implausible consequences of IIT.
+
+We should also note a particular 
 limitation of IIT. As it stands, IIT is a theory of the amount of consciousness in a system. But what we really 
 want in a theory of consciousness is an account of what constitutes particle phenomenal experiences: what makes 
 an entity feel pain, hear a middle C, see red, or experience a sense of awe at the mystery of existence. We can 
@@ -492,20 +503,23 @@ sketch toy functionalist stories about some of these---say, pain being a state t
 and avoidance behavior---but IIT's information-theoretic character does not seem to lend itself well to analysis of 
 phenomenal experience. Moreover, ``information'' in information theory is binary bits, abstracted from their specific 
 meaning. But any reduction of phenomenal experience to information would, plausibly, have to focus on the specific 
-meanings (damage, say). 
+meanings (damage, say). Thus, even if future technical tweaks to IIT might avoid the counterexamples, without a radical
+expansion to take into account data beyond information theory it is unlikely to solve the problem of phenomenal
+experience.
 
-Functionalism, thus, still rules among naturalist theories that allow for significant multiple realizability.
+Functionalism, thus, still rules among naturalist theories that allow for significant multiple realizability,
+and its main problems can be alleviated by adding neo-Aristotelian forms.
 
 \section{Supervaluationism about minds}
 A tempting solution to the problem of the multiplicity of functionalist (or other) theories of mind differing with respect
 to fine details is to treat each theory as a precisification of concepts like \textit{mind} or \textit{pain}, none of which
 is privileged over the others. And,
-if all has gone well, then typical adult humans fall under all the precisifications of ``has a mind'' and in paradigmatic
-cases of being in pain they fall under all the precisifications of ``is in pain''. 
+if all has gone well, then a typical adult human falls under all the precisifications of ``have a mind'' and in paradigmatic cases of being in pain they fall under all the precisifications of ``are in pain''. 
 
-One difficulty with this approach has already been discussed in the ethical?? context??backref, namely that similar problems
+One difficulty with this approach has already been discussed in the ethical context??backref, namely that similar problems
 arise at the meta level: What \textit{range} of, say, standards of reliability yields a functionalist concept that is in fact a 
-precification of our concept of mind? 
+precification of our concept of mind? In other words, moving to supervaluationism only multiplies the Mersenne
+questions.
 
 Furthermore, recall the argument??backref that the centrality and overridingness of ethical norms to our lives makes it 
 deeply implausible to think that there is a plurality of closely related concepts, none of which is privileged over the others.
@@ -513,12 +527,12 @@ But given the deep importance of the mental to ethics, the same concern applies 
 pain to a non-consenting individual with no significant benefit is a conclusive moral reason not to perform the action. 
 But if there are many concepts of pain with none of them privileged, and similarly of consent, then whether one has a
 conclusive moral reason for an action will depend on the choice of precisification as well. Hence, whether one has a 
-conclusive moral reason becomes a verbal question in such cases, and that is not compatible with the force of moral
+conclusive moral reason becomes a merely verbal question in such cases, and that is not compatible with the force of moral
 reasons.
 
-There is also something counterintuitive about the implications of this kind of vagueness about mind. There is some 
+The implications of this kind of vagueness about mind are counterintuitive. There is some 
 plausibility in thinking that there can be vagueness about the exact phenomenal character of a mental 
-state. But vagueness about whether there is a phenomenal character at all seems more problematic. For instance,
+state. But vagueness about whether there is a phenomenal character at all, whether there is \textit{any} consciousness, is more problematic. For instance,
 maybe it can be vaguely true that someone is in severe pain, but in such a case it is definitely true that they are 
 at least experiencing a discomfort. This inference, however, is invalid on the precisification approach to solving 
 the problems with functionalism. Imagine a perfectly reliable computational system $S_0$ which would definitely implement severe pain---a 
@@ -527,29 +541,26 @@ But then imagine a continuum of systems that in the actual world behave just lik
 reliable. At some point at this continuum we simply have completely random behavior that by chance matches that 
 of $S_0$. Somewhere in between it is vague whether the system has the same functions as $S_0$. But we can imagine that 
 everywhere along the continuum it is definitely true that \textit{if} the system is conscious of any discomfort at all, it is 
-conscious of a severe pain. Thus in the vagueness region, it is vague whether the system is experiencing
+conscious of a severe pain. None of the systems implement non-severe discomfort---they either implement nothing
+mental or they implement severe pain. Thus in the vagueness region of the reliability continuum, it is vague whether the system is experiencing
 severe pain, \textit{and} whether it is experiencing even any discomfort. This kind of state of vagueness about whether
 there is severe pain and whether there is discomfort appears impossible.
 
 To make the counterintuitive character of this kind of vagueness clearer, imagine that you start as a conscious human
-that is continually observing the visual situation around you, a field of colorful wildflowers. But then your neural system gradually 
-becomes less and less reliable, but by luck nothing goes wrong---everything actually behaves as if all the reliability were 
-in place. Moreover, all
-your subsystems are always equally reliable or unreliable, I suppose. Eventually, according to functionalism, mental states 
+who is continually observing the visual situation around you, a field of colorful wildflowers. But then your neural system gradually 
+becomes less and less reliable, though by luck nothing goes wrong---everything actually behaves as if all the reliability were 
+in place. Moreover, the reliability of all your different subsystems changes together, with each subsystem being equally reliable at any specific time. Eventually, according to functionalism, mental states 
 stop, and they all stop together, because the level of reliability is the same for all your subsystems. On the vagueness
-solution currently under consideration, at any given time in the process it is definite that you are either mindless or 
-are having normal human perceptions of a field of wildflowers, but it eventually becomes vague which of the two it is.
-We are apt to imagine this process as a one involving fading mental states---the wildflowers get less colorful, your thoughts get 
+solution currently under consideration, at any given time in the process it is definite that you 
+are having normal human perceptions of a field of wildflowers or are lacking mental states, but it eventually becomes vague which of the two it is.
+We are apt to imagine this process as a one involving fading mental states\footnote{Compare Chalmers' fading qualia thought experiment.??ref:https://consc.net/papers/qualia.html}---the wildflowers get less colorful, your thoughts get 
 sluggish---but that's incorrect. It is definitely true that if you are having any mental function at all, you are seeing 
 the wildflowers with all their vibrance and are thinking as well as ever, and hence it is definitely true that the 
 wildflowers are not getting less colorful and your thoughts are not deteriorating. Yet, allegedly, at a vague point 
 it all transitions from full vividness to nothing. We can, of course, imagine a transition from full vividness to nothing
 with no in-between states---a sudden loss of consciousness, as when you receive a massive head injury. But what 
 seems absurd is the idea of a sudden transition from full vividness to nothing with no in-between states that 
-happens at a vague time. 
-
-??ref:fading-qualia?
-
+happens at a vague time.
 Additionally, the kind of vagueness involved here could generate a situation where it is vague whether something is a 
 person, and hence has the kind of dignity or even infinite value??ref that persons are often thought to have, or whether
 it is a mindless thing---with its being definite that it is nothing in between. For suppose it is vague whether
@@ -557,11 +568,10 @@ a certain degree of statistical reliability is enough for proper function, and t
 systems of an entity have that degree of reliability, so that it is definite that if that degree of reliability is sufficient
 for function, the system is a person, and if it is insufficient, the system completely lacks computational function, and hence
 is mindless. One might hold that it is possible to have a system where it is vague whether it has enough mentality to have 
-the value of a person, but our best candidates for imagining such a system are ones that have significant mental functioning,
-but it is vague whether that amount is sufficient for personhood. But the idea that it is definite that it is either a 
-person or mindless, but vague which one, seems highly counterintuitive.
+the value of a person, but our best candidates for imagining such a system are ones that have significant mental functioning while it is vague whether that amount is sufficient for personhood. But the idea that it is definite that it is either a 
+person or completely mindless, but vague which one, seems highly counterintuitive.
 
-
+%%revised
 \section{Substances}
 The functions necessary for human cognition appear to be housed in each of a multiplicity of entities, including the 
 whole human organism, the human organism less hair, the head, the brain, and perhaps just the upper brain. Standard functionalism
