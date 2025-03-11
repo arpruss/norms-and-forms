@@ -29,6 +29,9 @@ def pdflatex():
         os.rename(os.path.join(DIRECTORY, TEMP_FILE + ".pdf"), os.path.join(DIRECTORY, MAIN_FILE + ".pdf"))
         print("processed successfully")
         return True
+    except FileNotFoundError:
+        print("missing file")
+        return False
     except subprocess.CalledProcessError:
         print("error processing!")
         return False

@@ -1,11 +1,8 @@
 \def\mychapter{VII}
 \input{chapterhead}
 \chapter{Language and semantics}\label{ch:semantics}
-%%to be revised
 \section{Communication and norms}
 \subsection{A problem about cooperation}
-??cut:squeaking is better?
-
 There are scenarios, such as the Prisoner's Dilemma or the Tragedy of the Commons??Refs, where it is difficult 
 to see how to rationally secure cooperation between agents. The following should not be one of these. You have
 two agents who will each in a separate booth choose whether to press a red button or a blue button. If they both
@@ -20,7 +17,7 @@ necessary, and then they need to go into their booths and press that button. Nei
 to pressing the other button, and there is no risk in pressing a button should the other defect fail to press
 anything. This is a really easy win-win game. 
 
-But now suppose our two players, Alice and Bob, are perfect expected utility maximizers who break ties with fair coinflips, 
+But now suppose our two players, Alice and Bob, are perfect expected utility maximizers who break ties with fair coin-flips, 
 and the only relevant utilities are the  rewards and penalties of the game. There are no further games that 
 will be played. Nobody outside the game is in any way affected by the results (e.g., nobody will be disappointed 
 if one of them breaks a promise). And because each player gets the same payoff, it won't matter whether Alice and Bob
@@ -34,8 +31,9 @@ utility of doing so is at least as big as that of all the alternatives (these be
 pressing no button). Now the expected utility of pressing the red button is only going to be at least as big as the
 expected utility of pressing neither button if Alice takes it to be significantly more likely that Bob will press red
 the button than that Bob will press the blue button.\footnote{Suppose Alice maximizes only her own utility (if she
-maximizes collective utility, just double all the utilities). Suppose $x>0$ is the reward and $-y<0$ is the penalty with
-$y$  bigger than $x$ by a significant factor. Then the expected utility in pressing the red button will be $\alpha x-\beta y$.
+maximizes collective utility, just double all the utilities, since Bob and Alice both get the same). Suppose $x>0$ is the reward and $-y<0$ is the penalty with
+$y$  bigger than $x$ by a significant factor, while $\alpha$ and $\beta$ are the respective probabilities that Bob will press
+the red button and the blue button. Then the expected utility in pressing the red button will be $\alpha x-\beta y$.
 Alice will only press the button if $\alpha x-\beta y\ge 0$, i.e., if $\alpha/\beta \ge y/x$. Since $y$ is bigger
 than $x$ by a significant factor, this requires $\alpha$ to be bigger than $\beta$ by a significant factor.} 
 
@@ -55,24 +53,31 @@ the other color counts as the ``very opposite''. In this case, if there is joint
 is more reasonable to expect Alice and Bob to press the button other than the one they promised. And now imagine that they are 
 perfect utility maximizers with a value theory that assigns positive value to keeping promises and non-instrumental negative value
 to doing the opposite. In this case, it will be more reasonable to expect Alice and Bob to press the button they promised. But 
-then the in-between case, where Alice and Bob are perfect utility maximizers and assign zero value to promise-keeping and
+then the in-between case, where Alice and Bob are perfect utility maximizers and assign zero non-instrumental value to promise-keeping and
 promise-breaking, should be one where the probabilities of pressing the promised button and pressing the opposite button are
 equal. 
 
-What if we suppose that the solution here is that as a matter of contingent fact people have a preference for promise-keeping over
+We might object that as a matter of contingent fact people have a preference for promise-keeping over
 promise-breaking: we feel bad when we break promises and good when we have fulfilled them. Preferences enter into utilities,
 and so if Alice and Bob have the standard preferences, they will have a bias in favor of promise-keeping, and if each knows the
 other to have the preference, then each can take the other's preference into account, and hence each can expect the other to keep
 the promise. 
 
-First, it is not clear if this solves the problem if we imagine the penalty for mismatched button presses increased so that a preference
-for avoidig the penalty is an order of magnitude stronger than the preference for promise-keeping. In that case, unless Alice and
+But, first, it is not clear if this solves the problem if we imagine the penalty for mismatched button presses increased so that a preference
+for avoiding the penalty is an order of magnitude stronger than the preference for promise-keeping. In that case, unless Alice and
 Bob are going to be very confident in the other's choice, a preference for promise-keeping will not do the job.
 
 Second, and more importantly, if a preference for promise-keeping is needed to solve the problem, we now have an argument that
 some norm encumbent on humans requires such a preference. For if two human beings are stuck in a suboptimal solution in the button-pressing
-game, they are clearly falling short of what humans should be able to achieve. The argument thus shows that there must be norms on human
+game, they are clearly falling short of what humans should be able to achieve---they are not asking as humans should.
+And if having a preference for promise-keeping is the only way out, then humans clearly are defective when they
+lack such a preference. The argument thus shows that there must be norms on human
 beings that go beyond utility maximization, whether collective or individual.
+
+The cooperative behavior in promise-keeping, thus, requires a normativity that goes beyond expected utility
+maximization. Promises are perhaps the most morally-laden of our communicative behaviors, so this is not too
+surprising. But the upshot of this chapter will be that what holds of promises holds of many and likely all
+our other communicative behaviors. 
 
 \subsection{Arresting the regress of meaning}
 Some communicative actions---speech acts or gestures---have their significance assigned through earlier communicative 
@@ -86,10 +91,10 @@ behaviors, in a kind of virtuous significance-conferring circle.??ref If so, how
 of behaviors as the first ur-communicative community action.}
 
 At the same time, there is a contigency here. While it feels natural to us to use an extended index
-finger to indicate the nearest salient object approximately along the ray extending from the knuckle in the direction of
+finger to indicate the nearest salient object approximately along the  extending from the knuckle in the direction of
 the fingertip, it would be possible to have rational beings that use this gesture to indicate the third-nearest salient
-object along the ray extending from the index finger's tip to the knuckle. There is no necessary connection between the
-physical behavior and its significance. We thus have a Mersenne question here: What explains the correlation between
+object along the ray extending in the opposite direction. There is no necessary connection between the
+physical behavior and its significance. We thus have a Mersenne question here: What grounds the correlation between
 physical behavior and significance in ur-communicative actions?
 
 We might try to explain the correlation in terms of the actual contingent behavior of individuals and communities
@@ -108,29 +113,30 @@ find themselves with a desire to squeak in the presence of the predator and to i
 these desires at most generate the very weak kinds of reasons one has to fulfill miscellaneous subrational desires rather 
 than the strong kinds of reasons that one has to warn one's fellows and protect oneself and one's cmmunity. 
 
-There is no difficulty here if Alice is the only rational one, and hence the others will act on instinct. Alice can
+There is no difficulty here if Alice is the only rational one, and hence the others will can be counted on to act instinctually. Alice can
 then rationally squeak to trigger the instinct. Similarly, if Alice acts on instinct and the others are rational, they
-can infer from her instinctive behavior that there is a predator present, as one infers fire from smoke. But when both
-are acting purely rationally, we have a difficulty. Likewise, if Alice thinks there is a fairly high chance that her
-fellows will follow their habit and prepare themselves, or if she knows that her fellows think there is a fairly high 
+can infer from her instinctive behavior that there is a predator present, as one infers fire from smoke. Likewise, if Alice thinks there is a fairly high chance that her
+fellows, though rational, will simply non-rationally follow their habit and prepare themselves (rational beings don't
+always act rationally), or if she knows that her fellows think there is a fairly high 
 chance that Alice would find herself squeaking in the throes of instinct, there is no difficulty. The difficulty shows
-up when we have nothing but rationality at play.
+up precisely when we have nothing but rationality at play.
 
 Perhaps we can solve the problem by positing a non-rational preference for squeaking when seeing a predator and for
 preparing a defense when hearing a squeak? After all, arguably, even a perfectly rational being will act in accordance
 with preferences when other things are equal. 
 
-But the non-rational preference is insufficient here unless it is implausibly strong. For even if one finds oneself
+But much as we saw in the promise case, the non-rational preference is insufficient here unless it is implausibly strong. For even if one finds oneself
 with an urge to squeak in the presence of a predator, the squeak itself endangers one. Because of this, for a rational
 being, the brute preference for squeaking is not sufficient to motivate the squeak. It is only when one thinks the
-squeaking will trigger defensive behavior among one's fellows that it's worth squeaking. Similarly, we may suppose that
-defensive behavior is costly and inconvenient, and is only worth engaging in, not withstanding the non-rational preference,
+squeaking will trigger defensive behavior among one's fellows that it's worth squeaking. Rational beings step back
+from and evaluate the outputs of their preferences. Similarly, we may suppose that
+defensive behavior is costly and inconvenient, and is only worth engaging in, notwithstanding the non-rational preference,
 when there is reason to think there is an actual predator.
 
 Instead of a brute preference, perhaps convenient priors will do. Thus, suppose that members of the community simply find
 themselves with a high prior conditional probability that a member of the community rationally squeaks when presented with a 
 predator and does not squeak when not presented with a predator.\footnote{I am grateful to ?? for the suggestion that
-priors might do the job.} Knowing about that this prior is wide-spread in the community, Alice can squeak in order to 
+priors might do the job.} Knowing this prior is wide-spread in the community, Alice can squeak in order to 
 get her fellows to update their credences in favor of a predator. The priors seem pleasantly self-confirming: if community
 members have the priors, then it will become public that they do so, and the squeaking behavior will match the priors.
 
@@ -143,18 +149,33 @@ member having a certain credential state.  However, when we find out that our co
 matter is simply a brute prior, that tends to undermine the conviction. Suppose that I find myself believing there is vast treasure buried under my house. I search
 for the source of my belief, and find it's just a prior. Absent a story such as that angels put that prior in my head
 to encourage me to dig out the treasure, finding out that this was \textit{just} a prior should undermine the confidence,
-contrary to what subjective Bayesians think. 
+contrary to what subjective Bayesians think. This is why it is unstable to respond to a skeptical hypothesis by simply
+citing a brute low prior for it. 
 
-Couldn't natural selection play the angel, though? There is an adaptive advantage to correlated priors in Alice and Bob 
-that make communication possible, and these priors then end up automatically matching reality. ???
+One might hope that natural selection can help. We have good reason to expect that social animals would evolve
+ur-priors that enable communication. Thus, it seems these priors are not brute: they are coordinated by natural selection.
+However, presumably such evolved priors would concern pre-rational behavior: they would not be priors for 
+conditionals whose antecedent is that Alice or Bob is acting purely rationally and whose consequent is some
+claim about their behavior, which are the relevant conditionals once Alice and Bob are acting purely rationally.
+
+And in any case why should one think there would be any continuity between pre-rational squeaking and rational squeaking?
+Exactly the same considerations as in the promise case arise here. Just as we considered the case of rational
+agents who set a non-instrumental disvalue on promise-keeping, we might consider rational agents who set a
+non-instrumental disvalue on acting like one would pre-rationally. Such agents' sqeaking would be counter-correlated
+with danger. On the other hand, agents who place a non-instrumental value on acting like one would pre-rationally would
+exhibit a positive correlation between squeaking and danger. It is seems that the in-between case where
+no value is attached to acting similarly to pre-rational action would result in no correlation. Thus, for evolved
+agents to function properly, we need them to have a norm by which they should prefer to maintain pre-rational 
+signalling practices to some degree. 
 
 \subsection{Reason-generating mechanisms}
-The transition from non-rational signalling to rational communication is thus difficult to analyze. We need some sort of 
+The transition from non-rational signalling to rational communication is thus difficult. We need some sort of 
 a reason-generation mechanism.
 
 Can we suppose that the reason-generation mechanism here is a necessary one? Perhaps it is a necessary truth that when
 there is a pre-rational behavior that tends to be triggered by circumstances $C$, then that behavior when done rationally
-\textit{signifies} $C$? But there would be multiple Mersenne questions that would be raised by such a necessary truth. First,
+\textit{signifies} $C$? ??refs-to-convention-literature 
+But there would be multiple Mersenne questions that would be raised by such a necessary truth. First,
 we need to select one item $C$ in the causes rather than another---does the squeak signify the predator's, or the
 light in the air between the predator and the observer's eyes, or the immediate cause of the predator's presence? There are
 multiple selection rules, no one of them significantly more natural than the others. Second, what reliability does the 
