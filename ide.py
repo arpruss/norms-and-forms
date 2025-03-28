@@ -8,6 +8,7 @@ import sys
 PDFLATEX = "pdflatex"
 PDF_VIEWER = os.getenv('LOCALAPPDATA')+"/SumatraPDF/SumatraPDF.exe"
 EDITOR = os.getenv('ProgramFiles')+"/notepad++/notepad++.exe"
+EDITOR_FILE = ""
 DIRECTORY = "./"
 MAIN_FILE = "document"
 TEMP_PREFIX = "__watch_temp__"
@@ -71,6 +72,8 @@ class MyHandler(FileSystemEventHandler):
 
 if len(sys.argv)>1:
     DIRECTORY,MAIN_FILE = os.path.split(sys.argv[1])
+if len(sys.argv)>2:
+    EDITOR_FILE = sys.argv[2]
 if len(DIRECTORY)==0:
     DIRECTORY = "./"
 pdf = os.path.join(DIRECTORY,MAIN_FILE+".pdf")
@@ -93,7 +96,7 @@ observer.schedule(handler, DIRECTORY, recursive=True)
 observer.start()
 
 if EDITOR:
-    subprocess.Popen([EDITOR,])
+    subprocess.Popen([EDITOR, EDITOR_FILE] if len(EDITOR_FILE) else [EDITOR,])
 
 if viewerStart:
     viewer()
