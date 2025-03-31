@@ -5,6 +5,8 @@
 \usepackage{amsthm}
 \usepackage{physics}
 %\usepackage{ntheorem}
+\usepackage{chngcntr}
+\counterwithin{figure}{section}
 
 \makeatletter
 % \def\@endtheorem{\endtrivlist\@endpefalse }% OLD
@@ -26,8 +28,8 @@
 \def\Entails{\Rightarrow}
 \def\Cov{\operatorname{Cov}}
 \def\Equiv{\Leftrightarrow}
-\def\Form{operatorname{Form}}
-\def\Informs{operatorname{Informs}}
+\def\Form{\operatorname{Form}}
+\def\Informs{\operatorname{Informs}}
 \def\technical{$\star$}
 \def\vtechnical{$\star\star$}
 \def\power{\wp}

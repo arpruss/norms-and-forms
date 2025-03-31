@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg width="56.392mm" height="53.844mm" version="1.1" viewBox="0 0 56.392 53.844" xmlns="http://www.w3.org/2000/svg">
+ <defs>
+  <marker id="Triangle" overflow="visible" markerHeight="1" markerWidth="1" orient="auto-start-reverse" preserveAspectRatio="xMidYMid" viewBox="0 0 1 1">
+   <path transform="scale(.5)" d="m5.77 0-8.65 5v-10z" fill="context-stroke" fill-rule="evenodd" stroke="context-stroke" stroke-width="1pt"/>
+  </marker>
+ </defs>
+ <g transform="translate(-18.212 -128.35)">
+  <path d="m26.176 176.79v-42.375" marker-end="url(#Triangle)" stroke="#000" stroke-width=".265"/>
+  <path d="m26.176 176.79h40.301" marker-end="url(#Triangle)" stroke="#000" stroke-width=".265"/>
+  <g fill="#000000" stroke-width=".265" text-anchor="middle">
+   <text x="67.374519" y="181.29134" font-family="'Times New Roman'" font-size="4.2333px" text-align="center" xml:space="preserve"><tspan x="67.374519" y="181.29134" font-size="4.2333px" stroke-width=".265">space</tspan></text>
+   <text transform="rotate(-90)" x="-133.438" y="24.238585" font-family="'Times New Roman'" font-size="4.2333px" stroke="#000000" text-align="center" xml:space="preserve"><tspan x="-133.438" y="24.238585" font-size="4.2333px" stroke="none" stroke-width=".265">time</tspan></text>
+   <text x="63.26136" y="162.32526" font-family="Arial" font-size="8.4667px" text-align="center" xml:space="preserve"><tspan x="63.26136" y="162.32526" stroke-width=".265"/></text>
+   <text x="64.972435" y="167.42461" font-family="'Times New Roman'" font-size="4.2333px" text-align="center" xml:space="preserve"><tspan x="64.972435" y="167.42461" font-size="4.2333px" font-style="italic"/></text>
+   <text x="37.181591" y="170.28644" font-family="Arial" font-size="8.4667px" text-align="center" xml:space="preserve"><tspan x="37.181591" y="170.28644" stroke-width=".265"/></text>
+  </g>
+  <path d="m63.944 137.69-34.033 34.033m0-34.033 34.033 34.033" stroke="#000" stroke-linecap="round" stroke-linejoin="bevel" stroke-width=".24548"/>
+  <ellipse cx="46.927" cy="154.71" rx=".51948" ry=".56759"/>
+  <g fill="#000000" font-family="'Times New Roman'">
+   <text x="47.431164" y="142.58348" font-size="4.2333px" stroke-width=".265" text-align="center" text-anchor="middle" xml:space="preserve"><tspan x="47.431164" y="142.58348"><tspan font-style="italic">z</tspan>'s absolute</tspan><tspan x="47.431164" y="147.87514">future</tspan></text>
+   <text x="48.986111" y="155.81287" font-size="5.1404px" stroke-linecap="round" stroke-linejoin="bevel" stroke-width=".1" xml:space="preserve"><tspan x="48.986111" y="155.81287" fill="#000000" font-style="italic" stroke-width=".1">z</tspan></text>
+   <text x="46.915951" y="166.87883" font-size="4.2333px" stroke-width=".265" text-align="center" text-anchor="middle" xml:space="preserve"><tspan x="46.915951" y="166.87883"><tspan font-style="italic">z</tspan>'s absolute</tspan><tspan x="46.915951" y="172.17049">past</tspan></text>
+   <g stroke-linecap="round" stroke-linejoin="bevel">
+    <text x="27.916416" y="148.59906" font-size="5.1404px" stroke-width=".1" xml:space="preserve"><tspan x="27.916416" y="148.59906" stroke-width=".1"/></text>
+    <text x="34.579159" y="154.02544" font-size="3.8971px" stroke-width=".075812" text-anchor="middle" xml:space="preserve"><tspan x="34.579159" y="154.02544" text-align="center">spacelike</tspan><tspan x="34.579159" y="158.89777" text-align="center">to <tspan font-style="italic" stroke-width=".075812" text-align="center" text-anchor="middle">z</tspan></tspan></text>
+    <text x="39.878662" y="164.72734" font-size="5.1404px" stroke-width=".1" xml:space="preserve"><tspan x="39.878662" y="164.72734" stroke-width=".1"/></text>
+    <text x="60.822586" y="154.02544" font-size="3.8971px" stroke-width=".075812" text-anchor="middle" xml:space="preserve"><tspan x="60.822586" y="154.02544" text-align="center">spacelike</tspan><tspan x="60.822586" y="158.89777" text-align="center">to <tspan font-style="italic" stroke-width=".075812" text-align="center" text-anchor="middle">z</tspan></tspan></text>
+   </g>
+  </g>
+  <ellipse cx="62.881" cy="147.52" rx=".51948" ry=".56759"/>
+  <ellipse cx="35.139" cy="173.42" rx=".51948" ry=".56759"/>
+  <path d="m40.107 157.78 29.594-13.336" fill="#fc0" stroke="#000" stroke-dasharray="0.18550301,0.55650902" stroke-linecap="round" stroke-linejoin="bevel" stroke-width=".1855"/>
+  <path d="m49.039 151.35-16.029 25.443" fill="#fc0" stroke="#000" stroke-dasharray="0.252232, 0.756697" stroke-linecap="round" stroke-linejoin="bevel" stroke-width=".13597"/>
+ </g>
+</svg>
