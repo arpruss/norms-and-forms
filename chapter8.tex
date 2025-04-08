@@ -334,29 +334,29 @@ Perhaps our Humean could simply embrace the non-locality of the grounding of our
 of facts about temporally and spatially distant arrangements of matter from our phenomenal states, \textit{pace} the historical Hume.
 But the counterintuitiveness of this is a definite cost for the theory.
 
-%%revised
 \subsection{Indeterministic extensions}
+\subsubsection{Probabilistic BSA}
 BSA was initially formulated for deterministic laws. But what about indeterministic laws, such as that some quantum setup has a
-chance $1/3$ of resulting in outcome $A$---or, for homey simplicity, that a certain indeterministic coin toss has chance $1/2$
+chance $1/3$ of resulting in outcome $A$ or that a certain indeterministic coin toss has chance $1/2$
 of heads? The standard move is to go to a Probabilistic BSA (PBSA). In BSA, we required all the claims of the theory to be true.
 In PBSA, we only require non-probabilistic claims to be true. However, now, in addition to optimizing informativeness and 
 brevity, we also optimize \textit{fit}, where we check how well the outcomes fit probabilitic predictions. A theory which claims 
-there is some large number $N$ of independent fair (i.e., the chances of heads and tails are equal??backref for first use of `fair') 
+there is some large number $N$ of fair (i.e., the chances of heads and tails are equal) and independent  
 coin tosses will tend to better fit worlds where the number of heads is closer to $N/2$ than worlds where the number of heads is 
 further from $N/2$. Thus, we optimize informativeness, fit and brevity over theories whose non-probabilistic content is true.\footnote{If we 
 want a bit more elegance in the formulation, we can drop the requirement that the non-probabilistic content is true and instead
 stipulate that a non-probabilistic statement has good fit when it is true but infinitely bad fit when false, so no theory with false
-non-probabilistic statements will win the crown of being the best system.}
+non-probabilistic statements will win the crown of being the best system.} However, PBSA also has a number of serious.
 
 \subsubsection{Violations of the Principal Principle}\label{sec:principal-principle}
 Let's make the standard distinction between chances and epistemic probabilities. Chances are objective mind-independent probabilities 
-grounded in the laws of nature or causal propensities. Epistemic probabilities, on the other hand, are the probabilities one 
+grounded in the laws of nature or causal propensities. Epistemic probabilities, on the other hand, are the probabilities an epistemic agent 
 has given evidence. 
 
 Van Fraassen's Principal Principle (PP) holds that there is a tight epistemic relationship between chances and epistemic 
 probabilities. Basically, if one's relevant evidence consists in the claim that the chance of some event is $p$, then $p$ should
-also be one's epistemic probability, though there are various technical developments that should not be relevant to my examples.
-I will now offer two examples that show a tension between the PP and PBSA.
+also be one's epistemic probability,??ref though there are various technical developments that should not be relevant to my examples.??refs
+I will now offer two examples that show a tension between PP and PBSA.
 
 For our first example, imagine a world where all the coins have always lain scattered on a large flat surface. There is an 
 extremely large number of these coins. One of them is made of gold and all the others are made of copper. You have observed
@@ -391,7 +391,7 @@ $N$.
 
 Now, the following version of van~Fraassen's Principal Principle is very plausible:
 \ditem{LPP}{If from a law $U$ it can be proved that the chance of $E$ is $p$, then $P(E\mid \Law(U)) = p$,}
-where $\Law(U)$ says that $U$ is a law.
+where $\Law(U)$ says that $U$ is a law and $P(A\mid B)$ is the conditional epistemic probability of $A$ given $B$.
 Here is another very plausible thesis:
 \ditem{INC}{If $E$ and $F$ are logically incompatible and $F$ is logically possible, then $P(E\mid F) = 0$.}
 (The restriction to the case where $F$ is logically possible is to handle the intuition that perhaps $P(F \mid F)=1$
@@ -413,7 +413,7 @@ probabilistic results. In defining the laws, we are maximizing a balance of fit 
 are heads, then a law assiging chance $1/2$ to heads is likely the best balance. But suppose that the frequency of heads isn't $1/2$
 but something very close to $1/2$. Then the law may still be that the chance is $1/2$, because a slight decrease in fit due to having
 a chance not quite matching the exact frequency might be more than offset by the gain brevity if chance $1/2$ is significantly more
-briefly expressible than the actual frequency, say ``$1/2-3\cdot 2^{-254}$''. 
+briefly expressible than the actual frequency, say $1/2-3\cdot 2^{-254}$.
 
 Let's suppose $N$ is very large but easily expressible (e.g., $N=2^{2^{2^{2^{2^2}}}}=2^{2^{65536}}$), and let $\scr W_N$ be 
 the set of worlds with nothing but $N$ tosses where there are no briefly expressible and highly informative patterns other than 
@@ -439,8 +439,8 @@ and yet $\alpha$ is a member of $A_{N,1/2}$ but $\beta$ is not a member of $A_{N
 are \textit{extremely} close to each other, and very close to $1/2$, but $\alpha$ is much more briefly expressible than $\beta$, so that 
 although the fit of a chance $1/2$ law is slightly poorer for worlds with frequency $\alpha$ than for worlds with frequency $\beta$,
 the greater brevity of an expression for $\alpha$ makes a law giving the chance of heads as $\alpha$ have a better balance of fit and
-brevity in a world with frequency $\alpha$ than a law giving the chance as $1/2$, while $1/2$ has a better balance of fit and brevity in 
-a world with frequency $\beta$ than a law giving the chance as $1/2$.
+brevity in a world with frequency $\alpha$ than a law giving the chance as $1/2$, while a law with chance $1/2$ has a better balance of fit and brevity in 
+a world with frequency $\beta$ than a law giving the chance as $\beta$.
 
 I cannot give precise examples here, because
 we do not actually have the measures of fit in hand and estimating the brevity of the shortest expression of some number is often a very
@@ -454,6 +454,8 @@ on $U$.\footnote{For a large number of tosses, the chance of getting a particula
 centered on $1/2$ if the true chance of each independent toss is $1/2$, and hence drops off as $x$ moves away from $1/2$.}
 
 ??refs
+
+%%revised
 
 \subsubsection{$^*$Chance and propositions}
 There is a variety of slightly different accounts of chance that can be given on PBSA. Let ``the mosaic'' refer to the arrangement of
