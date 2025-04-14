@@ -455,8 +455,6 @@ centered on $1/2$ if the true chance of each independent toss is $1/2$, and henc
 
 ??refs
 
-%%revised
-
 \subsubsection{$^*$Chance and propositions}
 There is a variety of slightly different accounts of chance that can be given on PBSA. Let ``the mosaic'' refer to the arrangement of
 properties that are systematized in the best system. Here are a few options, depending on whether one takes conditional or unconditional
@@ -472,11 +470,11 @@ is attempting to define a chance (conditional or not) by a definition that itsel
 There is a complicated way out of this difficulty that modifies the PBSA.
 
 Suppose that we have a language $\scr L$ whose vocabulary can express all the fundamental physical concepts acceptable to 
-the Humean, plus which has one more function symbol, $\Chance(x)$. This new function symbol is uninterpreted, and I stipulate that sentences using that function symbol are 
+the Humean, and has one additional function symbol, $\Chance(x)$. This new function symbol is uninterpreted, and  it is stipulated that sentences using that function symbol are 
 neither true nor false. Let $M$ be some appropriate set of mathematical axioms that include the correct axioms of set theory (perhaps indeed
 they include all truths of set theory) as well as the 
 right axioms of probability formulated using the chance symbol (so these will be axioms of unconditional or conditional probability, depending 
-on whether the chance symbol is unary or binary).  Say that a theory (a set of sentences) $T$ in $\scr L$ is \textit{non-false} provided that 
+on whether the chance symbol is unary or binary).  Say that a set of sentences or ``theory'' $T$ in $\scr L$ is \textit{non-false} provided that 
 no false sentence can be formally proved from $T\cup M$. This is equivalent to saying that all the provable consequences of $T\cup M$ that do 
 not use the chance symbol are true. We can now specify that the best system is the non-false theory $T$ that optimizes brevity, fit and 
 informativeness. 
@@ -484,18 +482,16 @@ informativeness.
 Defining informativeness is difficult, but we might define it by looking at two kinds of information conveyed by the 
 provable consequences of $T$. First, we have sentences that do not make use of the chance symbol. The informativeness
 of that part of the consequences will be measured much as in a non-stochastic BSA. The informativeness of a statement
-of form $\Chance(E)=r$, where $E$ does not make use of the chance symbol, will be null if $r=1/2$, and while if $r>1/2$, it will increase in proportion with both $r-1/2$ 
-and the informativeness of the non-probabilistic claim that $E$ occurs, and if $r<1/2$, it will increase in proportion 
-with $1/2-r$ and the informativeness of the non-probabilistic claim that $E$ does not occur if $r<1/2$. We might for
-simplicity ignore claims using the chance symbol not of the form $\Chance(E)=r$. Of course, we
+of form $\Chance(E)=r$, where $E$ does not make use of the chance symbol, will be null if $r=1/2$, and while if $r>1/2$, it will increase monotonically with both $r$ 
+and the informativeness of the non-probabilistic claim that $E$ occurs, and if $r<1/2$, it will also decrease monotonically with $r$ while increasing monotonically with the informativeness of the non-probabilistic claim that $E$ does not occur. We might for
+simplicity disallow claims using the chance symbol but not of the form $\Chance(E)=r$. And, of course, we
 will have to beware of overlap in information between the chancy and non-chancy sentences, and so on. 
 
 Finally, we measure fit by looking at all the provable consequences of the form $\Chance(E)=r$ where $E$ does not contain another
 instance of the chance symbol, and saying the fit of each is a measure of closeness between $r$ and the numerical truth value of $E$ (falsehood
 being zero and truth being one)---perhaps a measure according to some standard scoring rule.??refs
 
-The details are doubtless very difficult, but that's to be expected.
-
+The details are doubtless very difficult, but that is to be expected.
 Given all this, we get a best system $T$ consisting of sentences some of which fail to express a proposition. Given that laws of nature
 are not linguistic entities in a particular language, and that they are factual, and hence capable of being true, 
 we surely cannot take  a set of uninterpreted sentences like $T$ in $\scr L$ to be a system of laws. 
@@ -509,14 +505,16 @@ to consider the logical consequences of the proposition that $T$ \textit{is} the
 seems that one could have a world with all the laws we have \textit{and} more. But if it is a law that $T$ is the best system, then it seems
 there couldn't be a world with additional laws beyond those in $T$.???}
 
-One technical problem of this approach lies on the probability side. Suppose we are in a world with a fair coin sequentially tossed a large finite 
+One problem of this approach, however, lies on the probability side. Suppose we are in a world with a fair coin sequentially tossed a large finite 
 number $N$ of times so set up that if $T$ is the best system then $T\cup M$ proves a sentence saying that the coin was indeed tossed 
-sequentially $N$ times and proves the $\Chance(H_1)=1/2$, where $H_1$ is the event of the first throw being heads.\footnote{This 
+sequentially $N$ times and proves the sentence ``$\Chance(H_1)=1/2$'', where $H_1$ is the event of the first throw being heads.\footnote{This 
 will require $N$ to be a number that is sufficiently briefly expressible to make it into the best system.} Then $B_T$ will be a law of nature.
 In the notation of Section~\ref{sec:principal-principle}, it will be law that the frequency of heads is a member of the set $A_{1/2,N}$.
 This set contains $1/2$, and contains some frequencies in $F_N$ very close to $1/2$, but also excludes frequencies just as close to
 $1/2$ as some of the included ones, on the grounds of that some of the excluded ones are so briefly expressible (e.g., $1/2+1/2^{256}$
-in a world with $N=2^{256}$) that the brevity cost of the greater fit is worthwhile. This kind of law of nature looks little like the 
+in a world with $N=2^{256}$) that the brevity cost of the greater fit is worthwhile, so that if the frequency
+were one of the excluded ones, its being what it is would be a law. A law of nature that says that the frequence
+lies in the messy set $A_{1/2,N}$ looks little like the 
 kinds of laws scientists posit. We do not have laws of nature allowing and disallowing events based on the brevity of the expressibility 
 of facts about these events.
 
@@ -533,7 +531,7 @@ these tosses.
 From the Humean point of view, the down side of this is that chances are too much like causal propensities, which the
 typical Humean wants to reduce to patterns in the mosaic. After all, if our account of chance is not based on frequencies,
 then it seems that our best option for what it means to say that the chance of heads is $1/2$ is that the immediate
-cause has a propensity of $1/2$ to yield heads.
+cause has a propensity of $1/2$ for heads.
 
 Thus, if we allow chances into the mosaic, we probably should allow causation as well. The resulting BSA has a richer
 mosaic, and is harder to refute by counterexample. The problem that coincidental correlations become rigidified into
@@ -541,12 +539,11 @@ magical laws??backref is less pressing once it is clear that the magical laws ar
 now a part of the mosaic, and hence mere correlations do not yield causation. However, we still have the problem of 
 the plurality of bestnesses. And because we have so significantly enriched the mosaic, the main reason to believe the
 BSA is weakened. For that main reason is ideological parsimony: the elegant fewness of fundamental concepts. Once we 
-have introduced causation and causal propensities, one of the great claims to intellectual power on the BSA side---giving
-an account of causation??---is gone. And since causal facts can be used for explanation, the explanatory difficulties
-for BSA are mitigated, since at least some causal explanations become available.
+have introduced causation and causal propensities, one of the great intellectual assets of BSA---giving
+an account of causation??---is gone. On the other hand, since causal facts can be used for explanation, the explanatory difficulties for BSA are mitigated, since at least some causal explanations become available.
 
-The downside, however, is that at this point we do not have the main motivator for Humean views: an extremely limited
-ideology, and we still have a number of the difficulties.
+Thus, we have lost the parsimony which is the main motivator for Humean views, while retaining some of the 
+difficulties, such as magic (albeit now of a non-causal sort).
 
 \section{Aristotelian laws}
 The most common Aristotelian approach to laws is to ground laws in the essential powers of substances, which in turn are
