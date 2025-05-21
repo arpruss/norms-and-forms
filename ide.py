@@ -27,6 +27,7 @@ def pdflatex():
             os.unlink(os.path.join(DIRECTORY, MAIN_FILE + ".pdf"))
         except:
             pass
+        print("renaming")
         os.rename(os.path.join(DIRECTORY, TEMP_FILE + ".pdf"), os.path.join(DIRECTORY, MAIN_FILE + ".pdf"))
         print("processed successfully")
         return True
@@ -71,7 +72,8 @@ class MyHandler(FileSystemEventHandler):
         self.on_modified(event)
 
 if len(sys.argv)>1:
-    DIRECTORY,MAIN_FILE = os.path.split(sys.argv[1])
+    DIRECTORY,MAIN_FILE = os.path.split(os.path.splitext(sys.argv[1])[0])
+    EDITOR_FILE = MAIN_FILE + ".tex"
 if len(sys.argv)>2:
     EDITOR_FILE = sys.argv[2]
 if len(DIRECTORY)==0:
