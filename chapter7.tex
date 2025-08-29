@@ -5,10 +5,9 @@
 \subsection{Cooperative games}
 There are competitive games, such as the Prisoner's Dilemma or the Tragedy of the Commons??Refs, where it is difficult 
 to see how to rationally secure cooperation between agents. Cooperative games, on the other hand, seem like
-they should be much easier. 
-Say, you have
+they should be much easier. Say, you have
 two agents who will each in a separate booth choose whether to press a red button or a blue button. If they both
-press the same button, they each get a reward, say a chocolate bar. If they press different buttons, they 
+press different buttons, they each get a reward, say a chocolate bar. If they press the same button, they 
 each get a penalty, say a nasty electric shock, with the penalty outweighing the award by a significant factor, so it's better 
 to get neither than to get both. If either player omits to press a button, neither gets anything, and the buttons are so 
 set up that one cannot press both. Moreover, let us suppose, the players are allowed to confer ahead of time. Here is an
@@ -18,77 +17,77 @@ example pay-off matrix:
 \begin{tabular}{ | c | c | c | c | }
 \hline
     & red & blue & nothing \\
-red & 1,1 & -10,-10  & 0,0 \\
-blue & -10,-10 & 1,1 & 0,0 \\
+red & -10,-10 & 1,1  & 0,0 \\
+blue & 1,1 & -10,-10 & 0,0 \\
 nothing & 0,0 & 0,0 & 0,0 \\
 \hline
 \end{tabular}
 \end{center}
 
-Obviously, when conferring ahead of time, they will need to decide which button to press, by rolling a fair die or
+Obviously, when conferring ahead of time, they will need to decide which button each should press, by rolling a fair die or
 flipping a fair coin if
 necessary, and then they need to go into their booths and press that button. Neither has any incentive to defect
-to pressing the other button, and there is no risk in pressing a button should the other fail to press
+to pressing the other button, and there is no cost to pressing a button should the other fail to press
 anything. The game has three Nash equilibria, pairs of strategies such that neither player would gain from
-changing their strategy while the other player's remained fixed: red-red, black-black and nothing-nothing. In 
+changing their strategy while the other player's remained fixed: red-blue, blue-red and nothing-nothing. In 
 the terminology of David Lewis's pioneering study of coordination games??ref, each of these is also a coordination 
-equilibrium, namely a pair of strategies that no player would benefit from any one player's (their own or the other's) change of strategy. While Lewis's primary interest was in the mechanism (e.g., convention) by which we can land
-in a coordination equilibrium, my interest here will be in how we can land in one of the better two equilibria,
-red-red or black-black, instead of falling into a safe scenario where both players avoid risk by pressing no button. 
+equilibrium, namely a pair of strategies such that no player would benefit from any one player's (their own or the other's) change of strategy. While Lewis's primary interest was in the mechanism (e.g., convention) by which we can land
+in \textit{a} coordination equilibrium, my interest here will be in how we can land in one of the better two equilibria,
+red-blue or blue-red, instead of falling into a safe scenario where both players avoid risk by pressing no button. 
 
 Suppose our two players, Alice and Bob, are perfect expected utility maximizers who break ties with fair coin-flips, 
 and the only relevant utilities are the  rewards and penalties of the game. There are no further games that 
 will be played. Nobody outside the game is in any way affected by the results (e.g., nobody will be disappointed 
 if one of them breaks a promise). And because each player gets the same payoff, it won't matter whether Alice and Bob
 maximize collective utility or their own personal utility. Finally, the above information is completely luminous to 
-both players, and hence constitutes shared knoweldge. I claim that at this point the obvious strategy---to decide on a button and then both press it---is no 
+both players, and hence constitutes certain shared knoweldge. I claim that at this point the obvious strategy---to decide on a button and then both press it---is no 
 longer rationally available.
 
-For concreteness, let's suppose that Alice and Bob have agreed to press the red button. They go into their booths. 
+For concreteness, let's suppose that Alice and Bob have agreed to press the red and blue buttons respectively. They go into their booths. 
 What will Alice do? She is a perfect expected  utility maximizer. She will only press the red button if the expected
 utility of doing so is at least as big as that of all the alternatives (these being being pressing the blue button or 
 pressing no button). Now the expected utility of pressing the red button is only going to be at least as big as the
-expected utility of pressing neither button if Alice takes it to be significantly more likely that Bob will press red
-the button than that Bob will press the blue button.\footnote{Suppose Alice maximizes only her own utility (if she
-maximizes collective utility, just double all the utilities, since Bob and Alice both get the same). 
-In context of the payoff matrix above, suppose $\alpha$ and $\beta$ are the respective probabilities that Bob will press
-the red button and the blue button. Then the expected utility in pressing the red button will be $\alpha -10\beta$.
-Alice will ths only press the button if $\alpha \ge 10\beta.} 
+expected utility of pressing neither button if Alice takes it to be significantly more likely that Bob will press blue
+than that Bob will press red. In the case of the above matrix, Alice needs to be at least ten times as confident
+of Bob's pressing blue than of Bob's pressing red.
 
-But why should Alice take it to be significantly more likely that Bob presses the red button than the blue button? 
+But why should Alice take it to be an order of magnitude more likely that Bob presses the blue button than the red button? 
 Ordinary human beings take themselves to be beholden to norms of promise-keeping, and tend to abide by those norms,
-especially when there is no obvious benefit to failing to do so. But Bob is a pure expected utility maximizer. Whatever
+especially when there is no clear benefit to failing to do so. But Bob is an extraordinary human being, a pure expected utility maximizer. Whatever
 normative force he takes promises to have has to be derivable from the norm of expected utility maximization. In ordinary
 contexts, dealing with ordinary human beings, keeping promises certainly does maximize utility, because ordinary human beings
 believe in norms of promise-keeping, punish those who break those norms (if only by castigating or refusing to enter on
 joint projects with promise-breakers), and in any case tend to abide by these norms, unless perhaps it is highly
-profitable not to do so. But Bob is not dealing with an ordinary human being. He is dealing with an expected 
-utility maximizer. 
+profitable not to do so. But Alice and Bob are not dealing with ordinary human beings.
 
-Here is one way to see the difficulty. Imagine that Alice and Bob are perfect utility maximizers with a perverse value theory
+Here is one way to highlight the difficulty. Imagine that Alice and Bob are perfect utility maximizers but Bob has a perverse value theory
 that in addition to common-sensical value assignments to chocolate bars and electric shocks assigns non-instrumental negative value to keeping 
-promises and non-instrumental positive value to doing the very opposite of what one has promised. I will stipulate that pressing the button of 
-the other color counts as the ``very opposite''. In this case, if there is joint knowledge of the perverse value theory, it 
-is more reasonable to expect Alice and Bob to press the button other than the one they promised. And now imagine that they are 
-perfect utility maximizers with a value theory that assigns positive value to keeping promises and non-instrumental negative value
-to doing the opposite. In this case, it will be more reasonable to expect Alice and Bob to press the button they promised. But 
-then the in-between case, where Alice and Bob are perfect utility maximizers and assign zero non-instrumental value to promise-keeping and
-promise-breaking, should be one where the probabilities of pressing the promised button and pressing the opposite button are
-equal. 
+promises and non-instrumental positive value to doing the very opposite of what one has promised (where the opposite
+of pressing the blue button is pressing the red button, rather than just pressing nothing). In this case, if 
+there is shared knowledge of the perverse value theory, it 
+is more reasonable to expect Bob to press the button other than the one he promised. And now imagine instead that he 
+is a perfect utility maximizer with a value theory that assigns positive value to keeping promises and non-instrumental negative value
+to doing the opposite. In this case, it will be more reasonable to expect Bob to press the button he promised. But 
+then the in-between case, where Bob is a perfect utility maximizer and assigns zero non-instrumental value to 
+promise-keeping and promise-breaking, should be one where the probabilities of pressing the promised button and 
+pressing the opposite button are approximately equal. And approximate equality is not good enough in this case---it's
+too dangerous for Alice to press the button.
 
-We might object that as a matter of contingent fact people have a preference for promise-keeping over
+Of course, as a matter of contingent fact people have a preference for promise-keeping over
 promise-breaking: we feel bad when we break promises and good when we have fulfilled them. Preferences enter into utilities,
 and so if Alice and Bob have the standard preferences, they will have a bias in favor of promise-keeping, and if each knows the
 other to have the preference, then each can take the other's preference into account, and hence each can expect the other to keep
 the promise. 
 
-But, first, it is not clear if this solves the problem if we imagine the penalty for mismatched button presses increased so that a preference
-for avoiding the penalty is an order of magnitude stronger than the preference for promise-keeping. In that case, unless Alice and
-Bob are going to be very confident in the other's choice, a preference for promise-keeping will not do the job.
+But, first, this does not solve the problem when the penalty for both pressing the same button is much 
+stronger than the preference for promise-keeping. In that case, unless Alice and
+Bob are \textit{very} confident in the other's choice, a mere preference for promise-keeping will not be
+enough to get them to press the promised button rather than pressing nothing.
 
 Second, and more importantly, if a preference for promise-keeping is needed to solve the problem, we now have an argument that
-some norm encumbent on humans requires such a preference. For if two human beings are stuck in a suboptimal solution in the button-pressing
-game, they are clearly falling short of what humans should be able to achieve---they are not asking as humans should.
+some norm encumbent on humans requires such a preference. For if two human beings are stuck in the suboptimal 
+nothing-nothing solution in the button-pressing
+game, they are clearly falling short of what humans should be able to achieve---they are not acting as humans should.
 And if having a preference for promise-keeping is the only way out, then humans clearly are defective when they
 lack such a preference. The argument thus shows that there must be norms on human
 beings that go beyond utility maximization, whether collective or individual.
@@ -98,11 +97,32 @@ maximization. Promises are perhaps the most morally-laden of our communicative b
 surprising. But the upshot of this chapter will be that what holds of promises holds of many and likely all
 our other communicative behaviors. 
 
+One may object that the button story is particularly unrealistic. The salient features are that payoffs for
+both players are approximately the same, that the penalty for pressing the same button is very high, and 
+that there is no benefit to one person pressing the button and the other doing nothing over neither doing
+anything. These features are what make it particularly challenging to avoid the suboptimal equilibrium of
+neither doing anything. Yet we can imagine such situations, and it is clearly within human rationality
+to be able to resolve them. And if my argument is correct, then it follows that human rationality is more
+than expected utility maximization. 
+
+In any case, let's end this section with a story like our button story that does not involve modern technology. There are
+two feuding families living in different villages. Each family has two guards who separately patrol the
+area around their village. Alice and Bob are your family's guards. One day, they find out that the other
+family's guards are weaker than usual due to having a cold, so that Alice and Bob can each go and beat up 
+either of them. If they end up beating up both of them, this show of force will lead to the other family
+suing for peace, and will end the feud---and the feud is destructive enough that it's worth ending even at
+the cost of injury to two people. If they both beat up the same guard, the other will hear the sound and 
+rush to your undefended village, burn down your family's fields, thereby greatly intensifying the feud. 
+If one of Alice and Bob beats up one guard while the other remains on patrol, your family's fields will be 
+safe, and the feud will be unchanged---the enemy will be intimidated by the attack, but will also 
+be more angry, and these effects will cancel out. It should be possible for Alice and Bob to agree on which
+guard each will attack and to rationally keep to their agreement.
+
 \subsection{Arresting the regress of meaning}
 Some communicative actions---speech acts or gestures---have their significance assigned through earlier communicative 
 actions. Thus, sometimes one coins a word and stipulates its meaning in terms of other words, sometimes one uses gestures
 to introduce a new word, and sometimes one just hopes that use in a rich enough communicative context will clarify the
-meaning. But barring outlandish hypotheses such as that humans got their language from aliens, who got theirs from an
+meaning. But barring outlandish hypotheses such as that humans got their language from an
 infinite regress of angels, we cannot suppose an infinite regress. There must be ur-communicative actions, ones which did not get
 their significance from earlier communicative actions.\footnote{There is a Sellarsian objection to this. Perhaps there are 
 behaviors prior to the advent of rationality that count as having communicative significance in virtue of \textit{later}
@@ -132,7 +152,7 @@ find themselves with a desire to squeak in the presence of the predator and to i
 these desires at most generate the very weak kinds of reasons one has to fulfill miscellaneous subrational desires rather 
 than the strong kinds of reasons that one has to warn one's fellows and protect oneself and one's cmmunity. 
 
-There is no difficulty here if Alice is the only rational one, and hence the others will can be counted on to act instinctually. Alice can
+There is no difficulty here if Alice is the only rational one, and hence the others can be counted on to act instinctually. Alice can
 then rationally squeak to trigger the instinct. Similarly, if Alice acts on instinct and the others are rational, they
 can infer from her instinctive behavior that there is a predator present, as one infers fire from smoke. Likewise, if Alice thinks there is a fairly high chance that her
 fellows, though rational, will simply non-rationally follow their habit and prepare themselves (rational beings don't
@@ -146,7 +166,7 @@ with preferences when other things are equal.
 
 But much as we saw in the promise case, the non-rational preference is insufficient here unless it is implausibly strong. For even if one finds oneself
 with an urge to squeak in the presence of a predator, the squeak itself endangers one. Because of this, for a rational
-being, the brute preference for squeaking is not sufficient to motivate the squeak. It is only when one thinks the
+being, a moderate preference for squeaking is not sufficient to motivate the squeak. It is only when one thinks the
 squeaking will trigger defensive behavior among one's fellows that it's worth squeaking. Rational beings step back
 from and evaluate the outputs of their preferences. Similarly, we may suppose that
 defensive behavior is costly and inconvenient, and is only worth engaging in, notwithstanding the non-rational preference,
@@ -198,7 +218,7 @@ of one's relationship with the person from whom one received it, but one would b
 a frank conversation where one happens to intimate that one wouldn't mind having the heirloom taken away. One may suppose that
 in such cases the communication \textit{is} a surreptitious request---and that, of course, is illegitimate, much as a king's
 exclamation ``Would that someone rid me of this troublesome priest'' is an invitation to murder. But one could also imagine
-a case where the intimation is not a request, but simply a frank statement to a friend, followed by sincere emphasis that one isn't
+a case where the intimation is not a coy request, but simply a frank statement to a friend, followed by sincere emphasis that one isn't
 requesting removal. In that case, removal of the heirloom would be theft, even if welcomed by the owner. Or, for a
 different case, one might have a moral objection to a particular life-saving medical procedure, and hence one's conscience would
 forbid one from requesting it, but nonetheless wish that the procedure were done to one against one's will, say by a medical
@@ -216,13 +236,60 @@ rise to. But how can one grasp these reasons if one has never encountered them b
 a responsiveness to such reasons in our very nature.
 
 \subsection{Schelling focal points}
-The economist Thomas Schelling performed a number of experiments on coordination, in the context of 
+The economist Thomas Schelling??refs performed a number of experiments on coordination, in the context of 
 games where two or more players make independent decisions and if these decisions are appropriately coordinated,
 they both win, while if they are not coordinated, they both lose. In a paradigm example, three players are asked to
 give the letters A, B and C in some order, with all of them winning if everyone gives the same order and all
-of them losing otherwise. Not surprisingly, the majority would write down ``ABC''. 
+of them losing otherwise. Not surprisingly, the majority would write down ``ABC''. We can call a type of behavior
+that is converged on in such a way without prior communication and where we have a shared expectation of such a 
+convergence a ``Schelling focal point'': writing down ``ABC'' is one, but presumably writing down ``BAC'' is not.
 
-%%##??
+Now, suppose Alice and Bob have shared knowledge that in the  past squeaking by members of their kind was associated 
+with danger. Alice sees the danger and needs to communicate this to Bob 
+who knows that she is acting voluntarily as a pure expected utility maximizer. Let's imagine that Alice is now 
+considering what auditory production
+to make with three options easily available to her: squeak, stomp loudly, and maintain silence. We have
+three behavior types going along with these three options: (a) in the presence of danger make the same sound as
+used to be correlated in the community with the presence of danger, or (b) make a different sound in the presence
+of danger when previously some sound was correlated with the danger, or (c) make no sound in the presence of 
+danger where a sound was previously correlated with the danger. Of these three options, we would expect that only
+(a) is a Schelling focal point. Bob would expect Alice to go for the focal point, and so if she squeaks we would
+expect him to interpret her as acting in a way that correlates with danger.
+
+But this solution fails when Alice and Bob have a shared knowledge that they are expected value maximizers
+with no special non-instrumental value attached to going for focal points. The argument should now be familiar
+(see ??backref).
+Suppose that Alice and Bob had shared knowledge of Alice negatively valuing going for focal points. Then we
+would expect that Alice's squeaking would be evidence for Bob that she is \textit{not} in danger. The evidential
+force of this evidence would be expected to decrease the weaker the negative valuation of focal points.
+In the case where Alice's valuation of focal points is positive, her squeak would provide evidence of danger,
+with the strength of evidence co-varying with the degree of her positive valuation. And so we would expect
+that in the case where Alice assigns zero non-instrumental value to going for focal points, there is zero evidence,
+assuming a certainty that she is an expected value maximizer.
+
+Of course, in practice, one may know that someone is an expected value maximizer, but not be sure of it, and in
+the absence of certainty, one might reason that if Alice isn't an expected value maximizer, but one of the
+\textit{hoi polloi} who squeak without engaging in expected utility calculations, then her squeak is 
+evidence of danger, and so as long as there is a small chance that she isn't an expected value maximizer,
+the squeak provides weak evidence of danger. But we already saw that weak evidence is not enough. 
+Suppose the danger in question is a major 
+flood, and the right response to such a flood is evacuation of the village. Maybe the background chance of such a
+flood on any day is one in a hundred thousand, but with Alice's squeak it becomes one in ten thousand. That may
+still not be enough to make a costly evacuation worthwhile. For communication to be as effective as it is for rational
+beings like us, it needs to provide more than weak evidence.
+
+That there are Schelling focal points is plausible. Indeed, the Aristotelian can plausibly say that our
+nature builds in such points, though doubtless often under some general description, like ``When all else is close to
+equal, prefer to put
+things in the order that your community most typically enumerates them in'' rather than a specific
+description like ``ABC'', and provides us with a norm whereby we should have a weak preference for going
+for them. A bit of reflection shows that the points will have seemingly arbitrary parameters specifying how close to
+equal should other things be, how strong should the preference be, how you should define the boundaries of your
+community, and what is the function from the degree of typicality of a behavior in the community to the strength of
+reason to engage in it, and hence we will have a multitude of Mersenne questions. Furthermore, the argument above
+suggests that in some cases, a weak preference for Schelling focal points is not enough to ground communicative
+norms, as a weak preference will not generate sufficiently strong reasons in cases where it is particularly
+dangerous to have a misunderstanding.
 
 \subsection{Communication and norms}
 \subsubsection{Declarative communications}
