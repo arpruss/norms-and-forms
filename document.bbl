@@ -19,6 +19,77 @@
 
 \refsection{0}
   \datalist[entry]{nty/global//global/global}
+    \entry{Aristotle}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=798a01f212a8e620a6940400717a56d9}{%
+           family={Aristotle},
+           familyi={A\bibinitperiod}}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=d2ef488cd398c77c967f437190dabbcd}{%
+           family={Barnes},
+           familyi={B\bibinitperiod},
+           given={Jonathan},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Princeton, NJ}%
+      }
+      \list{publisher}{1}{%
+        {Princeton University Press}%
+      }
+      \strng{namehash}{798a01f212a8e620a6940400717a56d9}
+      \strng{fullhash}{798a01f212a8e620a6940400717a56d9}
+      \strng{bibnamehash}{798a01f212a8e620a6940400717a56d9}
+      \strng{authorbibnamehash}{798a01f212a8e620a6940400717a56d9}
+      \strng{authornamehash}{798a01f212a8e620a6940400717a56d9}
+      \strng{authorfullhash}{798a01f212a8e620a6940400717a56d9}
+      \strng{editorbibnamehash}{d2ef488cd398c77c967f437190dabbcd}
+      \strng{editornamehash}{d2ef488cd398c77c967f437190dabbcd}
+      \strng{editorfullhash}{d2ef488cd398c77c967f437190dabbcd}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Complete Works}
+      \field{year}{1984}
+    \endentry
+    \entry{IsmaelSchafferQHolism}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=b71472010526e859d794fce6144c4183}{%
+           family={Ismael},
+           familyi={I\bibinitperiod},
+           given={Jennan},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d70c627a4e2f95fbe489e72a49ba868f}{%
+           family={Schaffer},
+           familyi={S\bibinitperiod},
+           given={Jonathan},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{f0c1a72286ca1945046d2a6122d311f8}
+      \strng{fullhash}{f0c1a72286ca1945046d2a6122d311f8}
+      \strng{bibnamehash}{f0c1a72286ca1945046d2a6122d311f8}
+      \strng{authorbibnamehash}{f0c1a72286ca1945046d2a6122d311f8}
+      \strng{authornamehash}{f0c1a72286ca1945046d2a6122d311f8}
+      \strng{authorfullhash}{f0c1a72286ca1945046d2a6122d311f8}
+      \field{sortinit}{I}
+      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Synthese}
+      \field{title}{Quantum Holism: Nonseparability as Common Ground}
+      \field{volume}{197}
+      \field{year}{2020}
+      \field{pages}{4131\bibrangedash 4160}
+      \range{pages}{30}
+    \endentry
     \entry{LewisPlurality1986}{book}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=987abb6adca7047e7c1fbaecfa4ef1af}{%
@@ -48,6 +119,36 @@
       \field{labeltitlesource}{title}
       \field{title}{On the Plurality of Worlds}
       \field{year}{1986}
+    \endentry
+    \entry{MacDonaldPC}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=73af2d03c58f77490afe017cd09d395a}{%
+           family={MacDonald},
+           familyi={M\bibinitperiod},
+           given={George},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Leipzig}%
+      }
+      \list{publisher}{1}{%
+        {Tauchnitz}%
+      }
+      \strng{namehash}{73af2d03c58f77490afe017cd09d395a}
+      \strng{fullhash}{73af2d03c58f77490afe017cd09d395a}
+      \strng{bibnamehash}{73af2d03c58f77490afe017cd09d395a}
+      \strng{authorbibnamehash}{73af2d03c58f77490afe017cd09d395a}
+      \strng{authornamehash}{73af2d03c58f77490afe017cd09d395a}
+      \strng{authorfullhash}{73af2d03c58f77490afe017cd09d395a}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{The Princess and Curdie}
+      \field{year}{1883}
     \endentry
     \entry{McInernyET}{book}{}
       \name{author}{1}{}{%
