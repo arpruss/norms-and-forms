@@ -21,15 +21,12 @@
   \datalist[entry]{nty/global//global/global}
     \entry{AquinasPower3}{book}{}
       \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=9e2e9aed0bdbc1478759fff4dee871fc}{%
+        {{un=0,uniquepart=base,hash=e71d00346a622c3afd459b823f48a1bd}{%
            family={Aquinas},
            familyi={A\bibinitperiod},
-           given={Saint},
-           giveni={S\bibinitperiod},
-           givenun=0,
-           suffix={Thomas},
-           suffixi={T\bibinitperiod},
-           suffixun=0}}%
+           given={Thomas},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
       }
       \name{translator}{1}{}{%
         {{hash=b13b972672e864e6fdf9ed1fbecfe220}{%
@@ -46,15 +43,16 @@
       \list{publisher}{1}{%
         {Burns Oates \& Washbourne}%
       }
-      \strng{namehash}{9e2e9aed0bdbc1478759fff4dee871fc}
-      \strng{fullhash}{9e2e9aed0bdbc1478759fff4dee871fc}
-      \strng{bibnamehash}{9e2e9aed0bdbc1478759fff4dee871fc}
-      \strng{authorbibnamehash}{9e2e9aed0bdbc1478759fff4dee871fc}
-      \strng{authornamehash}{9e2e9aed0bdbc1478759fff4dee871fc}
-      \strng{authorfullhash}{9e2e9aed0bdbc1478759fff4dee871fc}
+      \strng{namehash}{e71d00346a622c3afd459b823f48a1bd}
+      \strng{fullhash}{e71d00346a622c3afd459b823f48a1bd}
+      \strng{bibnamehash}{e71d00346a622c3afd459b823f48a1bd}
+      \strng{authorbibnamehash}{e71d00346a622c3afd459b823f48a1bd}
+      \strng{authornamehash}{e71d00346a622c3afd459b823f48a1bd}
+      \strng{authorfullhash}{e71d00346a622c3afd459b823f48a1bd}
       \strng{translatorbibnamehash}{b13b972672e864e6fdf9ed1fbecfe220}
       \strng{translatornamehash}{b13b972672e864e6fdf9ed1fbecfe220}
       \strng{translatorfullhash}{b13b972672e864e6fdf9ed1fbecfe220}
+      \field{extraname}{1}
       \field{sortinit}{A}
       \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
       \field{extradatescope}{labelyear}
@@ -63,6 +61,46 @@
       \field{labeltitlesource}{title}
       \field{title}{On the Power of God: Book 3}
       \field{year}{1932}
+    \endentry
+    \entry{AquinasST}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=e71d00346a622c3afd459b823f48a1bd}{%
+           family={Aquinas},
+           familyi={A\bibinitperiod},
+           given={Thomas},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{translator}{1}{}{%
+        {{hash=b13b972672e864e6fdf9ed1fbecfe220}{%
+           family={English\bibnamedelimb Dominican\bibnamedelima Province},
+           familyi={E\bibinitperiod\bibinitdelim D\bibinitperiod\bibinitdelim P\bibinitperiod},
+           given={Fathers},
+           giveni={F\bibinitperiod},
+           prefix={of\bibnamedelima the},
+           prefixi={o\bibinitperiod\bibinitdelim t\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {London}%
+      }
+      \strng{namehash}{e71d00346a622c3afd459b823f48a1bd}
+      \strng{fullhash}{e71d00346a622c3afd459b823f48a1bd}
+      \strng{bibnamehash}{e71d00346a622c3afd459b823f48a1bd}
+      \strng{authorbibnamehash}{e71d00346a622c3afd459b823f48a1bd}
+      \strng{authornamehash}{e71d00346a622c3afd459b823f48a1bd}
+      \strng{authorfullhash}{e71d00346a622c3afd459b823f48a1bd}
+      \strng{translatorbibnamehash}{b13b972672e864e6fdf9ed1fbecfe220}
+      \strng{translatornamehash}{b13b972672e864e6fdf9ed1fbecfe220}
+      \strng{translatorfullhash}{b13b972672e864e6fdf9ed1fbecfe220}
+      \field{extraname}{2}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Summa Theologica}
+      \field{year}{1920}
     \endentry
     \entry{Aristotle}{book}{}
       \name{author}{1}{}{%
@@ -100,6 +138,40 @@
       \field{labeltitlesource}{title}
       \field{title}{Complete Works}
       \field{year}{1984}
+    \endentry
+    \entry{BuchakRisk}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=2814de4e829739213f8ad6ed178a06fd}{%
+           family={Buchak},
+           familyi={B\bibinitperiod},
+           given={Lara\bibnamedelima Marie},
+           giveni={L\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {eng}%
+      }
+      \list{location}{1}{%
+        {Oxford}%
+      }
+      \list{publisher}{1}{%
+        {Oxford University Press}%
+      }
+      \strng{namehash}{2814de4e829739213f8ad6ed178a06fd}
+      \strng{fullhash}{2814de4e829739213f8ad6ed178a06fd}
+      \strng{bibnamehash}{2814de4e829739213f8ad6ed178a06fd}
+      \strng{authorbibnamehash}{2814de4e829739213f8ad6ed178a06fd}
+      \strng{authornamehash}{2814de4e829739213f8ad6ed178a06fd}
+      \strng{authorfullhash}{2814de4e829739213f8ad6ed178a06fd}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{9780199672165}
+      \field{title}{Risk and rationality}
+      \field{year}{2013}
     \endentry
     \entry{CDHF}{misc}{}
       \name{author}{1}{}{%
