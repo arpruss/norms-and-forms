@@ -105,14 +105,26 @@ of losing ten thousand. I wouldn't. I say that both I and they are reasonable. O
 of losing ten thousand and someone someone who accepts a 10\% chance of winning a thousand dollars at the cost of a 90\% chance
 of losing ten thousand are unreasonable. 
 It is well known that attitudes to risk vary between people, and while there are clearly unreasonable attitudes, it is very plausible
-that there is a broad range of reasonable attitudes~\parencitecf{BuchakRisk}.
+that there is a broad range of reasonable attitudes.
 So, as we vary the probabilities of wins and losses, we move between cases
 where accepting the risk is unreasonable, to cases where both accepting and rejecting are reasonable, to cases where
 rejecting is unreasonable.
 
 This, once again, raises the Mersenne problem of why the transitions between the various evaluative categories fall right where they
-do.  And of course things are more complicated than described above. The rational evaluation function will depend not just
-on the probabilities involved but also on the values of the potential gains and losses. 
+do.  And of course things are more complicated than described above. Plausibly, the rational evaluation function 
+will depend not just on the probabilities involved but also on the values of the potential gains and losses, and
+perhaps even on the \textit{types} of values (lives, money, etc.) that are involved.\footnote{$^*$There are technically two ways of taking risk
+into account in decision theory. The classical approach is to apply a non-affine monotonic non-decreasing 
+transformation function $f$ to the original utility or value $U$ assignment on the epistemic probability space 
+and then simply maximizing expected rescaled 
+utility $E[f(U)]$~\parencite[Section~II]{WilkinsonRisk}.
+On the other hand, \citebyname{Buchak} offers a novel way of calculating expected utilities without rescaling them.
+In the special case where the utility function $U$ is non-negative, this consists in applying a monotonic
+transformation $g$ and replacing $E[U]$ with $\int_0^\infty g(P(U>\lambda)) \, d\lambda$ (in the case where
+$g$ is the identity, this is $E[U]$). In both formulations, there will be clear cases where the 
+transformation function is unreasonable and, if risk aversion is rational, cases where it is reasonable. And one
+can combine the two formulations for an even more complex attitude to risk, by maximizing 
+$\int_0^\infty g(P(f(U)>\lambda)) \, d\lambda$ in the case of a non-negative $f$.}
 
 While in the case of preferential treatment, utilitarianism provided a neat but implausible solution, so too in this case, expected utility
 maximization provides a neat but implausible solution. On expected utility maximization, you are rationally required to
@@ -137,13 +149,13 @@ evaluation function for risk is anything other than messy and arbitrary-looking.
 
 The most plausible objection to my argument against expected utility maximization is to reject the no-upper-bound thesis \dref{2-nobound}.
 Here is one way an argument for such a rejection might go. First, there is a maximum intensity of goods that our brain can handle.
-Second, goods become significantly less valuable as they are repeated, decreasing in such a way that the sum of the values of any 
-goods you could have over an arbitrarily long life has an upper bound.??refs
+Second, goods may become significantly less valuable as they are repeated, decreasing in such a way that the sum of the values of any 
+goods you could have over an arbitrarily long life has an upper bound.
 
-But the repetition thesis is only plausible when boredom and other memory-based phenomena are in play. Suppose you have 
+But the repetition thesis is most plausible when boredom and other memory-based phenomena are in play. Suppose you have 
 lived for a very long time. Then you suffer from partial amnesia: you have
 lost all episodic memory of your past meals and of your past pinpricks. You are offered what you are reliably informed is 
-the most delicious and wholesome dessert every prepared by the best chef on earth, a dessert  which you are told you've eaten some large 
+the most delicious and wholesome dessert ever prepared by the best chef on earth, a dessert  which you are told you've eaten some large 
 number $n$ times in the past, and you may eat the dessert at the cost of a one in ten chance of a small pinprick. It's clearly worth it,
 regardless of what $n$ is. So now suppose this happens to you every day of a very long life. The marginal value of each such 
 dessert (i.e., the amount it contributes to total lifelong utility), absent memories of past desserts, must  be at least one 
@@ -177,7 +189,7 @@ technical assumptions, and so are $Y_1,Y_2,...$, and the $X_i$ represent one set
 the other set of wagers, so that $E[X_i] \ge \delta + E[Y_i]$, then the average revenue from selecting the $X_i$ will
 converge to at least $\delta$ plus the average revenue from selecting the $Y_i$. One set of
 technical assumptions that suffices is that $n^{-1}(E[X_1]+\dots+E[X_n])$ converges to a finite value and 
-$\sum_{n=1}^\infty n^{-2} \Var[X_n]$, where $\Var[X]=E[(X-E[X])^2]$ is the variance of $X$.cf.??ref:Kolmogorov}
+$\sum_{n=1}^\infty n^{-2} \Var[X_n]$, where $\Var[X]=E[(X-E[X])^2]$ is the variance of $X$~\parencite[p.~132]{ChungProbability}.}
 
 But the devil is in the details, and the technical assumptions are not always satisfied. One can construct an infinite
 sequence of wagers where going for the lower expected-value wager of each pair will, with probability one, eventually
@@ -187,7 +199,7 @@ $1/2^n$ chance of winning $2^n$ units of utility. By expected utility maximizati
 $(1/2^n)\cdot (2^n)=1$ units of utility, and at a price of $1/2$ units, it would be worth playing. 
 
 But consider what will almost surely happen if you adopt the policy of following expected utility maximization and playing the game. The sum of the probabilities of winning on the different days is finite: 
-$1/2+1/4+1/8+\dots=1<\infty$. The Borel-Cantelli Lemma??ref then says that almost surely you will win only a finite number of times
+$1/2+1/4+1/8+\dots=1<\infty$. The Borel-Cantelli Lemma~\parencite[Thm.~4.2.1]{ChungProbability} then says that almost surely you will win only a finite number of times
 (``almost sure'' is the technical term probabilists use to describe an event that happens with probability one, such as 
 getting heads at least once if you toss a fair coin infinitely many times).\footnote{We 
 can give an elementary proof of this fact in the case at hand (the proof generalizes to the general case). Let $W_n$ be the event that you will win at least once after day $n$. 
@@ -223,10 +235,15 @@ at winning played.\footnote{It is worth noting that exponential growth is not ne
 there is a chance $p_n$ of winning a prize of $1/p_n$, and that $\sum_{n=1}^\infty p_n < \infty$. While for ease of calculation above
 I let $p_n=1/2^n$, one can have much more moderate shrinkage, such as $p_n=1/n^2$ or even $p_n=1/(n(\log (n+2))^2$.}
 
-??refs:PrussBlog2011,Zhao, 
-Wilkinson??ref:https://philpapers.org/rec/WILRAA-16
+Granted, in more realistic cases of long runs of independent lotteries, we can expect expected utility maximizers
+to do better.\footnote{See, e.g., \citebyname{ZhaoRisk} and critical discussion of this as an argument for
+expected utility maximization in general by \citebyname{WilkinsonRisk}.} 
+However the utilitarian claim isn't just that we should \textit{typically} maximize utility, but that we should 
+always do so.  If we are to typically do so, then we will have a Mersenne question as to the grounds of the 
+distinction between the cases where we should do so and the cases where we should not do so, and it is implausible
+to think any neat formula captures the distinction.
 
-It appears that expected utility maximization is not rationally required. But it is the only clearly non-arbitrary solution
+In any case, it appears that expected utility maximization is not rationally required. But it is the only clearly non-arbitrary solution
 to the problem of deciding under uncertainty. While some of the examples involved prudential rationality, the Kirk example
 was essentially moral. And the prudential rationality examples can all be switched to moral rationality by supposing
 that the victim or beneficiary of the action is someone that one has responsibility for, such as one's child.
@@ -247,8 +264,10 @@ store for ice cream.
 
 In all these cases, we have the Mersenne question of grounding the fact that the switchovers happen where they do.
 Expected utility utilitarians\footnote{As opposed to actual-outcome utilitarians who evaluate actions morally based on the
-actual utilities that would result from an action.??refs} will have a nice answer to this problem. But utilitarianism, as already
-noted??ref, has many highly counterintuitive implications. 
+actual utilities that would result from an action. \citebyname{RailtonConsequentialism} calls this ``objective
+consequentialism'', as opposed to the ``subjective consequentialism'' of which expected utility consequentialism is
+a special case.} will have a nice answer to this problem. But utilitarianism, as already
+noted??backref, has many highly counterintuitive implications. 
 
 \subsection{Orderings between goods}
 Under ordinary circumstances, it would not be reasonable to choose to be a mediocre mathematician rather than a superb musician. 
@@ -272,7 +291,7 @@ social pleasures are better than solitary ones. This seems rather arbitrary. Wha
 In the preferential treatment and moral risk examples, utilitarianism offered a nice solution. But incommensurable goods are a problem for any plausible utilitarianism. Utilitarianism comes in two varieties, depending on whether
 the good is pleasure or the good is satisfaction of desire. As Mill famously noted, it is essential to the plausibility
 of utilitarianism that one be able to make a distinction between lower and higher pleasures, so as to get the common-sense
-conclusion that it is better to be Socrates unsatisfied than to be a satisfied pig.??ref
+conclusion that it is better to be Socrates unsatisfied than to be a satisfied pig~\parencite[Chapter~2]{MillUtilitarianism}.
 
 But once one makes the distinction between lower and higher pleasures, or lower and higher desires, incommensurability
 quickly shows up, since different kinds of pleasures and desires do not simply come in a linear ranking. Let's suppose that you get more 
@@ -311,13 +330,14 @@ more than one person, we will need a way of aggregating value between these subj
 of cases comes up when the number of subjects in existence varies between the options.
 
 Perhaps the most straightforward option is to \textit{add up} utilities across the affected population. This faces
-several problems. The most famous is Parfit's repugnant conclusion??ref. Any finite scenario full of highly
+several problems. The most famous is Parfit's repugnant conclusion~\parencite[p.~388]{ParfitRP}. Any finite scenario full of highly
 fulfilled people can be beat by a scenario with a much larger number of people whose level of fulfillment is
 minimal. Yet it is implausible to think that we should aim at vastly multiplying human population at a 
 minimal level of fulfillment. 
 
 A technical problem here is the following. In decision theory, utilities are normally considered to be defined 
-``up to positive affine invariance''.??ref They can be rescaled and shifted without changing anything. This means that for any positive 
+up to positive affine invariance: they can rescaled and shifted without changing anything. More
+precisely, for any positive 
 number $\alpha$ and any number $\beta$, if we consistently replace every utility $x$ with $\alpha x + \beta$, then 
 we have not changed anything. But if we add utilities across a variable number of individuals, although multiplying all
 utilities by a positive factor $\alpha$ makes no difference to our aggregate decisions, the addition of 
@@ -348,7 +368,7 @@ enjoys a utility greater than that of an average human. One way to this conclusi
 non-human animal is such that we should save its life instead of an average human's. Another way is to reflect on
 the fact that an average human enjoys goods---say, moral or cultural ones---that are qualitatively higher than those
 of any non-human animal. On any averaging view, then, it seems it would be good to allow all non-human animals on 
-earth die out. (Some antinatalists will disagree about the intuitions regarding average human life.??refs)} 
+earth die out. Some anti-natalists may disagree about the intuitions regarding average human life~\parencite{Benatar1997}.} 
 
 Furthermore, averaging only escapes the repugnant conclusion for humans given assumptions about what the rest of reality 
 is like. Suppose that it turns out that humans are outnumbered by non-human persons by a factor of ten, and the overall average
@@ -366,7 +386,7 @@ of human misery, with sufficient increase of population, may be better than maki
 as the average.
 
 The last point vividly illustrates a well-known problem with averaging: what decision is right depends on epistemically
-inaccessible facts about intelligent life outside earth.??ref One can, of course, solve this by restricting the averaging
+inaccessible facts about intelligent life outside earth. One can, of course, solve this by restricting the averaging
 to our own species and hoping that we won't meet aliens. But we can still get
 some version of this repugnant conclusion simply within the human species. We can imagine a situation where three quarters of humans 
 are found in a repressive nuclear state, on average have an utterly miserable flourishing level of $-100$, and there is no way for those of us outside
@@ -402,18 +422,18 @@ It is possible that some simple function without free parameters can be used to 
 avoids paradoxes. But it seems unlikely. Intuitively, we have some sort of diminishing returns as we increase the number of
 people with a minimal level of happiness, but the diminishment is not the simple ``one over the population count'' multiplier of
 the averaging solution. It seems very plausible that an aggregation function that does not generate some repugnant conclusion will
-be rather complex and will have multiple free parameters. And then we can ask what grounds these parameters' having the values they
-do. ??refs
+be rather complex and will have multiple free parameters---or even infinitely many, as when having to choose a 
+concave transformation function as in \posscite{Ng1989} Theory X$'$. And then we can ask what grounds these parameters' having the values they do. 
 
 
 The above assumed, for ease of modeling, that we could reduce the utility enjoyed by each individual to a number. For reasons 
-discussed in Section??ref, this is itself unlikely. Our flourishing seems to consist of a number of incommensurable goods such 
+discussed in Section??backref, this is itself unlikely. Our flourishing seems to consist of a number of incommensurable goods such 
 as friendship, understanding, play, etc. Moreover, even if we reduce flourishing to pleasure or desire satisfaction, it is 
 likely that we have incommensurable pleasures and incommensurable desires. All this greatly complicates any aggregation procedure,
 multiplying the number of its free parameters. 
 
 Finally, even simple aggregation of pleasure or desire-satisfaction over a lifetime raises analogues of the 
-repugnant conclusion.??ref Replacing eighty years of a deeply fulfilled life by a million of barely positive
+repugnant conclusion. Replacing eighty years of a deeply fulfilled life by a million of barely positive
 utility does not seem appropriate. Averaging, on the other hand, is also wrong: my life would not improve by
 being reduced to its best day. 
 
@@ -427,7 +447,7 @@ Consider these two cases, where all the people other than the dictator are assum
     five others.}
     
 Assume there are no further relevant consequences.  Deontologists tend to have the intuition that redirecting 
-the trolley is permissible but obeying the dictator's orders is murder??refs, while consequentialists assume 
+the trolley is permissible but obeying the dictator's orders is murder, while consequentialists assume 
 that both are permissible, and indeed obligatory. Let us assume that deontologists are right.
 
 The usual explanation of the difference is that in \textsc{Trolley} one merely foresees, without intending, the 
