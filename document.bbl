@@ -19,6 +19,32 @@
 
 \refsection{0}
   \datalist[entry]{nty/global//global/global}
+    \entry{AllenGeometry}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=6bbd26249b4538ab366770a209c768c0}{%
+           family={Allen},
+           familyi={A\bibinitperiod},
+           given={Colin},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{6bbd26249b4538ab366770a209c768c0}
+      \strng{fullhash}{6bbd26249b4538ab366770a209c768c0}
+      \strng{bibnamehash}{6bbd26249b4538ab366770a209c768c0}
+      \strng{authorbibnamehash}{6bbd26249b4538ab366770a209c768c0}
+      \strng{authornamehash}{6bbd26249b4538ab366770a209c768c0}
+      \strng{authorfullhash}{6bbd26249b4538ab366770a209c768c0}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{labeldatesource}{nodate}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{American Philosophical Quarterly}
+      \field{title}{The Geometry of Partial Understanding}
+      \field{volume}{50}
+      \field{pages}{249\bibrangedash 262}
+      \range{pages}{14}
+    \endentry
     \entry{AquinasPower3}{book}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=e71d00346a622c3afd459b823f48a1bd}{%
@@ -340,6 +366,236 @@
       \field{pages}{90\bibrangedash 108}
       \range{pages}{19}
     \endentry
+    \entry{DelaneyCloseness}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=96dbaaf80aad438e640b483eb4094702}{%
+           family={Delaney},
+           familyi={D\bibinitperiod},
+           given={Neil\bibnamedelima Francis},
+           giveni={N\bibinitperiod\bibinitdelim F\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{96dbaaf80aad438e640b483eb4094702}
+      \strng{fullhash}{96dbaaf80aad438e640b483eb4094702}
+      \strng{bibnamehash}{96dbaaf80aad438e640b483eb4094702}
+      \strng{authorbibnamehash}{96dbaaf80aad438e640b483eb4094702}
+      \strng{authornamehash}{96dbaaf80aad438e640b483eb4094702}
+      \strng{authorfullhash}{96dbaaf80aad438e640b483eb4094702}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Philosophical Studies}
+      \field{title}{Two Cheers for ``Closeness'': Terror, Targeting and Double Effect}
+      \field{volume}{137}
+      \field{year}{2008}
+      \field{pages}{335\bibrangedash 367}
+      \range{pages}{33}
+    \endentry
+    \entry{DurhamDissertation}{thesis}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=37cc5921d383124b01517c1c1e591007}{%
+           family={Durham},
+           familyi={D\bibinitperiod},
+           given={Levi},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {Baylor University}%
+      }
+      \strng{namehash}{37cc5921d383124b01517c1c1e591007}
+      \strng{fullhash}{37cc5921d383124b01517c1c1e591007}
+      \strng{bibnamehash}{37cc5921d383124b01517c1c1e591007}
+      \strng{authorbibnamehash}{37cc5921d383124b01517c1c1e591007}
+      \strng{authornamehash}{37cc5921d383124b01517c1c1e591007}
+      \strng{authorfullhash}{37cc5921d383124b01517c1c1e591007}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Consent: Metaphysical and Epistemological Foundations}
+      \field{type}{phdthesis}
+      \field{year}{2024}
+    \endentry
+    \entry{EvansGodMoral}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=60d48943d4b372a99e59b6f366f63d4d}{%
+           family={Evans},
+           familyi={E\bibinitperiod},
+           given={C.\bibnamedelimi Stephen},
+           giveni={C\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Oxford}%
+      }
+      \list{publisher}{1}{%
+        {Oxford University Press}%
+      }
+      \strng{namehash}{60d48943d4b372a99e59b6f366f63d4d}
+      \strng{fullhash}{60d48943d4b372a99e59b6f366f63d4d}
+      \strng{bibnamehash}{60d48943d4b372a99e59b6f366f63d4d}
+      \strng{authorbibnamehash}{60d48943d4b372a99e59b6f366f63d4d}
+      \strng{authornamehash}{60d48943d4b372a99e59b6f366f63d4d}
+      \strng{authorfullhash}{60d48943d4b372a99e59b6f366f63d4d}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{God and Moral Obligation}
+      \field{year}{2013}
+    \endentry
+    \entry{FootAbortion}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=2ed4917fd602d73204dbb040fab4ceaa}{%
+           family={Foot},
+           familyi={F\bibinitperiod},
+           given={Philippa},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{2ed4917fd602d73204dbb040fab4ceaa}
+      \strng{fullhash}{2ed4917fd602d73204dbb040fab4ceaa}
+      \strng{bibnamehash}{2ed4917fd602d73204dbb040fab4ceaa}
+      \strng{authorbibnamehash}{2ed4917fd602d73204dbb040fab4ceaa}
+      \strng{authornamehash}{2ed4917fd602d73204dbb040fab4ceaa}
+      \strng{authorfullhash}{2ed4917fd602d73204dbb040fab4ceaa}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Oxford Review}
+      \field{title}{The Problem of Abortion and the Doctrine of the Double Effect}
+      \field{volume}{5}
+      \field{year}{1967}
+      \field{pages}{5\bibrangedash 15}
+      \range{pages}{11}
+    \endentry
+    \entry{Gilbert2006}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=9d7322a84f0f9b0b90e0e094b8c4ccdd}{%
+           family={Gilbert},
+           familyi={G\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {New York}%
+      }
+      \list{publisher}{1}{%
+        {OUP}%
+      }
+      \strng{namehash}{9d7322a84f0f9b0b90e0e094b8c4ccdd}
+      \strng{fullhash}{9d7322a84f0f9b0b90e0e094b8c4ccdd}
+      \strng{bibnamehash}{9d7322a84f0f9b0b90e0e094b8c4ccdd}
+      \strng{authorbibnamehash}{9d7322a84f0f9b0b90e0e094b8c4ccdd}
+      \strng{authornamehash}{9d7322a84f0f9b0b90e0e094b8c4ccdd}
+      \strng{authorfullhash}{9d7322a84f0f9b0b90e0e094b8c4ccdd}
+      \field{extraname}{1}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{A Theory of Political Obligation: Membership, Commitment, and the Bonds of Society}
+      \field{year}{2006}
+    \endentry
+    \entry{Gilbert1987}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=9d7322a84f0f9b0b90e0e094b8c4ccdd}{%
+           family={Gilbert},
+           familyi={G\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{9d7322a84f0f9b0b90e0e094b8c4ccdd}
+      \strng{fullhash}{9d7322a84f0f9b0b90e0e094b8c4ccdd}
+      \strng{bibnamehash}{9d7322a84f0f9b0b90e0e094b8c4ccdd}
+      \strng{authorbibnamehash}{9d7322a84f0f9b0b90e0e094b8c4ccdd}
+      \strng{authornamehash}{9d7322a84f0f9b0b90e0e094b8c4ccdd}
+      \strng{authorfullhash}{9d7322a84f0f9b0b90e0e094b8c4ccdd}
+      \field{extraname}{2}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Synthese}
+      \field{title}{Modelling Collective Belief}
+      \field{volume}{73}
+      \field{year}{1987}
+      \field{pages}{185\bibrangedash 204}
+      \range{pages}{20}
+    \endentry
+    \entry{Hakli2006}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=dc13e43e3787a599dbbc15c202a04cd6}{%
+           family={Hakli},
+           familyi={H\bibinitperiod},
+           given={Raul},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{dc13e43e3787a599dbbc15c202a04cd6}
+      \strng{fullhash}{dc13e43e3787a599dbbc15c202a04cd6}
+      \strng{bibnamehash}{dc13e43e3787a599dbbc15c202a04cd6}
+      \strng{authorbibnamehash}{dc13e43e3787a599dbbc15c202a04cd6}
+      \strng{authornamehash}{dc13e43e3787a599dbbc15c202a04cd6}
+      \strng{authorfullhash}{dc13e43e3787a599dbbc15c202a04cd6}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Cognitive Systems Research}
+      \field{title}{Group beliefs and the distinction between belief and acceptance}
+      \field{volume}{7}
+      \field{year}{2006}
+      \field{pages}{286\bibrangedash 297}
+      \range{pages}{12}
+    \endentry
+    \entry{HawthorneMoralVagueness}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=737ff8a3a0971e88a58492b317eb1d27}{%
+           family={Hawthorne},
+           familyi={H\bibinitperiod},
+           given={John},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{737ff8a3a0971e88a58492b317eb1d27}
+      \strng{fullhash}{737ff8a3a0971e88a58492b317eb1d27}
+      \strng{bibnamehash}{737ff8a3a0971e88a58492b317eb1d27}
+      \strng{authorbibnamehash}{737ff8a3a0971e88a58492b317eb1d27}
+      \strng{authornamehash}{737ff8a3a0971e88a58492b317eb1d27}
+      \strng{authorfullhash}{737ff8a3a0971e88a58492b317eb1d27}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Ethics and Social Philosophy}
+      \field{title}{Moral Vagueness and Epistemicism}
+      \field{volume}{23}
+      \field{year}{2022}
+      \field{pages}{214\bibrangedash 247}
+      \range{pages}{34}
+    \endentry
     \entry{Hume1779}{book}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=8fd91102ac431dcdcc4641419cdfb8f0}{%
@@ -366,6 +622,34 @@
       \field{labeltitlesource}{title}
       \field{title}{Dialogues Concerning Natural Religion}
       \field{year}{1779}
+    \endentry
+    \entry{Hurka2004}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=19e6ea012d81f3d45ca6df2fd544132f}{%
+           family={Hurka},
+           familyi={H\bibinitperiod},
+           given={Thomas},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{19e6ea012d81f3d45ca6df2fd544132f}
+      \strng{fullhash}{19e6ea012d81f3d45ca6df2fd544132f}
+      \strng{bibnamehash}{19e6ea012d81f3d45ca6df2fd544132f}
+      \strng{authorbibnamehash}{19e6ea012d81f3d45ca6df2fd544132f}
+      \strng{authornamehash}{19e6ea012d81f3d45ca6df2fd544132f}
+      \strng{authorfullhash}{19e6ea012d81f3d45ca6df2fd544132f}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Philosophy and Public Affairs}
+      \field{title}{Proportionality in the morality of war}
+      \field{volume}{33}
+      \field{year}{2004}
+      \field{pages}{34\bibrangedash 66}
+      \range{pages}{33}
     \endentry
     \entry{IsmaelSchafferQHolism}{article}{}
       \name{author}{2}{}{%
@@ -399,6 +683,122 @@
       \field{volume}{197}
       \field{year}{2020}
       \field{pages}{4131\bibrangedash 4160}
+      \range{pages}{30}
+    \endentry
+    \entry{MargalitWalzer}{article}{}
+      \field{sortinit}{I}
+      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labeltitlesource}{title}
+      \field{day}{14}
+      \field{journaltitle}{New York Review of Books}
+      \field{month}{5}
+      \field{title}{Israel: Civilians and Combatants}
+      \field{volume}{56}
+      \field{year}{2009}
+      \field{dateera}{ce}
+      \field{pages}{21\bibrangedash 22}
+      \range{pages}{2}
+    \endentry
+    \entry{KahaneDebunk}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=2ca5c3aa16ec2eddb20d92e69431a02e}{%
+           family={Kahane},
+           familyi={K\bibinitperiod},
+           given={Guy},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{2ca5c3aa16ec2eddb20d92e69431a02e}
+      \strng{fullhash}{2ca5c3aa16ec2eddb20d92e69431a02e}
+      \strng{bibnamehash}{2ca5c3aa16ec2eddb20d92e69431a02e}
+      \strng{authorbibnamehash}{2ca5c3aa16ec2eddb20d92e69431a02e}
+      \strng{authornamehash}{2ca5c3aa16ec2eddb20d92e69431a02e}
+      \strng{authorfullhash}{2ca5c3aa16ec2eddb20d92e69431a02e}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Nous}
+      \field{title}{Evolutionary Debunking Arguments}
+      \field{volume}{45}
+      \field{year}{2011}
+      \field{pages}{103\bibrangedash 125}
+      \range{pages}{23}
+    \endentry
+    \entry{KasherYadlinAssassination}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=c5dc6f8f22abce69d6a0723edbeb8e54}{%
+           family={Kasher},
+           familyi={K\bibinitperiod},
+           given={Asa},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=bdaa6785bd60e49d26ff2be341926dd2}{%
+           family={Yadlin},
+           familyi={Y\bibinitperiod},
+           given={Amos},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{4e2f0e90550d4b803c7a1e0d88a878aa}
+      \strng{fullhash}{4e2f0e90550d4b803c7a1e0d88a878aa}
+      \strng{bibnamehash}{4e2f0e90550d4b803c7a1e0d88a878aa}
+      \strng{authorbibnamehash}{4e2f0e90550d4b803c7a1e0d88a878aa}
+      \strng{authornamehash}{4e2f0e90550d4b803c7a1e0d88a878aa}
+      \strng{authorfullhash}{4e2f0e90550d4b803c7a1e0d88a878aa}
+      \field{extraname}{1}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradate}{1}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{SAIS Review of International Affairs}
+      \field{title}{Assassination and Preventive Killing}
+      \field{volume}{25}
+      \field{year}{2005}
+      \field{pages}{41\bibrangedash 57}
+      \range{pages}{17}
+    \endentry
+    \entry{KasherYadlinMilitary}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=c5dc6f8f22abce69d6a0723edbeb8e54}{%
+           family={Kasher},
+           familyi={K\bibinitperiod},
+           given={Asa},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=bdaa6785bd60e49d26ff2be341926dd2}{%
+           family={Yadlin},
+           familyi={Y\bibinitperiod},
+           given={Amos},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{4e2f0e90550d4b803c7a1e0d88a878aa}
+      \strng{fullhash}{4e2f0e90550d4b803c7a1e0d88a878aa}
+      \strng{bibnamehash}{4e2f0e90550d4b803c7a1e0d88a878aa}
+      \strng{authorbibnamehash}{4e2f0e90550d4b803c7a1e0d88a878aa}
+      \strng{authornamehash}{4e2f0e90550d4b803c7a1e0d88a878aa}
+      \strng{authorfullhash}{4e2f0e90550d4b803c7a1e0d88a878aa}
+      \field{extraname}{2}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradate}{2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Military Ethics}
+      \field{title}{Military Ethics of Fighting Terror: An Israeli Perspective†}
+      \field{volume}{4}
+      \field{year}{2005}
+      \field{pages}{3\bibrangedash 32}
       \range{pages}{30}
     \endentry
     \entry{Kietzmann2019}{incollection}{}
@@ -476,6 +876,64 @@
       \field{pages}{1\bibrangedash 11}
       \range{pages}{11}
     \endentry
+    \entry{KripkeNamNec1980}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=1f34c77464ac64ac30f15ddd94d368a6}{%
+           family={Kripke},
+           familyi={K\bibinitperiod},
+           given={Saul},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Cambridge, MA}%
+      }
+      \list{publisher}{1}{%
+        {Harvard University Press}%
+      }
+      \strng{namehash}{1f34c77464ac64ac30f15ddd94d368a6}
+      \strng{fullhash}{1f34c77464ac64ac30f15ddd94d368a6}
+      \strng{bibnamehash}{1f34c77464ac64ac30f15ddd94d368a6}
+      \strng{authorbibnamehash}{1f34c77464ac64ac30f15ddd94d368a6}
+      \strng{authornamehash}{1f34c77464ac64ac30f15ddd94d368a6}
+      \strng{authorfullhash}{1f34c77464ac64ac30f15ddd94d368a6}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Naming and Necessity}
+      \field{year}{1980}
+    \endentry
+    \entry{Lackey2020}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=d6b2740b42ad26052ce3ae0d188a5437}{%
+           family={Lackey},
+           familyi={L\bibinitperiod},
+           given={Jennifer},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{d6b2740b42ad26052ce3ae0d188a5437}
+      \strng{fullhash}{d6b2740b42ad26052ce3ae0d188a5437}
+      \strng{bibnamehash}{d6b2740b42ad26052ce3ae0d188a5437}
+      \strng{authorbibnamehash}{d6b2740b42ad26052ce3ae0d188a5437}
+      \strng{authornamehash}{d6b2740b42ad26052ce3ae0d188a5437}
+      \strng{authorfullhash}{d6b2740b42ad26052ce3ae0d188a5437}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Aristotelian Society Supplementary Volume}
+      \field{title}{Group Belief: Lessons from Lies and Bullshit}
+      \field{volume}{94}
+      \field{year}{2020}
+      \field{pages}{185\bibrangedash 208}
+      \range{pages}{24}
+    \endentry
     \entry{LewisPlurality1986}{book}{}
       \name{author}{1}{}{%
         {{un=1,uniquepart=given,hash=987abb6adca7047e7c1fbaecfa4ef1af}{%
@@ -542,6 +1000,37 @@
       \field{title}{A Fortunate Universe: Life in a Finely Tuned Cosmos}
       \field{year}{2017}
     \endentry
+    \entry{LiaoCloseness}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=02691e08e93042b448a5947eea10abac}{%
+           family={Liao},
+           familyi={L\bibinitperiod},
+           given={S.\bibnamedelimi Matthew},
+           giveni={S\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{02691e08e93042b448a5947eea10abac}
+      \strng{fullhash}{02691e08e93042b448a5947eea10abac}
+      \strng{bibnamehash}{02691e08e93042b448a5947eea10abac}
+      \strng{authorbibnamehash}{02691e08e93042b448a5947eea10abac}
+      \strng{authornamehash}{02691e08e93042b448a5947eea10abac}
+      \strng{authorfullhash}{02691e08e93042b448a5947eea10abac}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Criminal Law and Philosophy}
+      \field{title}{The Closeness Problem and the Doctrine of Double Effect: A Way Forward}
+      \field{volume}{10}
+      \field{year}{2016}
+      \field{pages}{849\bibrangedash 863}
+      \range{pages}{15}
+    \endentry
     \entry{MacDonaldPC}{book}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=73af2d03c58f77490afe017cd09d395a}{%
@@ -571,6 +1060,86 @@
       \field{labeltitlesource}{title}
       \field{title}{The Princess and Curdie}
       \field{year}{1883}
+    \endentry
+    \entry{MacIntyreDivineCommand}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=a03b13f0e7e445453545fdc9549992ba}{%
+           family={MacIntyre},
+           familyi={M\bibinitperiod},
+           given={Alasdair},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{a03b13f0e7e445453545fdc9549992ba}
+      \strng{fullhash}{a03b13f0e7e445453545fdc9549992ba}
+      \strng{bibnamehash}{a03b13f0e7e445453545fdc9549992ba}
+      \strng{authorbibnamehash}{a03b13f0e7e445453545fdc9549992ba}
+      \strng{authornamehash}{a03b13f0e7e445453545fdc9549992ba}
+      \strng{authorfullhash}{a03b13f0e7e445453545fdc9549992ba}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Faith and Philosophy}
+      \field{title}{Which God Ought We to Obey and Why?}
+      \field{volume}{3}
+      \field{year}{1986}
+      \field{pages}{359\bibrangedash 371}
+      \range{pages}{13}
+    \endentry
+    \entry{MaglioDissertation}{thesis}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=fd5971c7d0298f3958ac194bc55c4c28}{%
+           family={Maglio},
+           familyi={M\bibinitperiod},
+           given={Kelsey},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{fd5971c7d0298f3958ac194bc55c4c28}
+      \strng{fullhash}{fd5971c7d0298f3958ac194bc55c4c28}
+      \strng{bibnamehash}{fd5971c7d0298f3958ac194bc55c4c28}
+      \strng{authorbibnamehash}{fd5971c7d0298f3958ac194bc55c4c28}
+      \strng{authornamehash}{fd5971c7d0298f3958ac194bc55c4c28}
+      \strng{authorfullhash}{fd5971c7d0298f3958ac194bc55c4c28}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Work in Progress}
+      \field{year}{2025}
+    \endentry
+    \entry{McCombe2017}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=305460c04e508afa1b5a2b57b7b207b2}{%
+           family={McCombe},
+           familyi={M\bibinitperiod},
+           given={Charles\bibnamedelima Anderson},
+           giveni={C\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{305460c04e508afa1b5a2b57b7b207b2}
+      \strng{fullhash}{305460c04e508afa1b5a2b57b7b207b2}
+      \strng{bibnamehash}{305460c04e508afa1b5a2b57b7b207b2}
+      \strng{authorbibnamehash}{305460c04e508afa1b5a2b57b7b207b2}
+      \strng{authornamehash}{305460c04e508afa1b5a2b57b7b207b2}
+      \strng{authorfullhash}{305460c04e508afa1b5a2b57b7b207b2}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Queen Mary Law Journal}
+      \field{title}{Non-Fatal Offences against the Person: Complexities, Difficulties and Reform}
+      \field{volume}{8}
+      \field{year}{2017}
+      \field{pages}{71\bibrangedash 82}
+      \range{pages}{12}
     \endentry
     \entry{McInernyET}{book}{}
       \name{author}{1}{}{%
@@ -602,6 +1171,34 @@
       \field{edition}{Revised}
       \field{title}{Ethica Thomistica: The Moral Philosophy of Thomas Aquinas}
       \field{year}{1997}
+    \endentry
+    \entry{McMahanInBello}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=ec99772391937a4f4d46f537564dee4e}{%
+           family={McMahan},
+           familyi={M\bibinitperiod},
+           given={Jeff},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{ec99772391937a4f4d46f537564dee4e}
+      \strng{fullhash}{ec99772391937a4f4d46f537564dee4e}
+      \strng{bibnamehash}{ec99772391937a4f4d46f537564dee4e}
+      \strng{authorbibnamehash}{ec99772391937a4f4d46f537564dee4e}
+      \strng{authornamehash}{ec99772391937a4f4d46f537564dee4e}
+      \strng{authorfullhash}{ec99772391937a4f4d46f537564dee4e}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Philosophy & Public Affairs}
+      \field{title}{The Just Distribution of Harm Between Combatants and Noncombatants}
+      \field{volume}{38}
+      \field{year}{2010}
+      \field{pages}{342\bibrangedash 379}
+      \range{pages}{38}
     \endentry
     \entry{MersenneImpiety}{book}{}
       \name{author}{1}{}{%
@@ -692,21 +1289,45 @@
       \field{issn}{0266-2671, 1474-0028}
       \field{journaltitle}{Economics and Philosophy}
       \field{month}{10}
-      \field{number}{2}
       \field{title}{What Should We Do About Future Generations?: Impossibility of Parfit’s Theory X}
       \field{volume}{5}
       \field{year}{1989}
       \field{pages}{235\bibrangedash 253}
       \range{pages}{19}
-      \verb{doi}
-      \verb 10.1017/S0266267100002406
-      \endverb
-      \verb{urlraw}
-      \verb https://www.cambridge.org/core/product/identifier/S0266267100002406/type/journal_article
-      \endverb
-      \verb{url}
-      \verb https://www.cambridge.org/core/product/identifier/S0266267100002406/type/journal_article
-      \endverb
+    \endentry
+    \entry{OBKoons}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=ddd365adf3d570914378becb071cbab8}{%
+           family={O’Brien},
+           familyi={O\bibinitperiod},
+           given={Matthew\bibnamedelima B.},
+           giveni={M\bibinitperiod\bibinitdelim B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=df67383e5f81e5cc7a9f630a00674bae}{%
+           family={Koons},
+           familyi={K\bibinitperiod},
+           given={Robert\bibnamedelima C.},
+           giveni={R\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{d6813d75e3b600616e5b87ebe640e7a2}
+      \strng{fullhash}{d6813d75e3b600616e5b87ebe640e7a2}
+      \strng{bibnamehash}{d6813d75e3b600616e5b87ebe640e7a2}
+      \strng{authorbibnamehash}{d6813d75e3b600616e5b87ebe640e7a2}
+      \strng{authornamehash}{d6813d75e3b600616e5b87ebe640e7a2}
+      \strng{authorfullhash}{d6813d75e3b600616e5b87ebe640e7a2}
+      \field{sortinit}{O}
+      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{American Catholic Philosophical Quarterly}
+      \field{title}{Objects of Intention: A Hylomorphic Critique of the New Natural Law Theory}
+      \field{volume}{86}
+      \field{year}{2012}
+      \field{pages}{655\bibrangedash 703}
+      \range{pages}{49}
     \endentry
     \entry{Oliner1988}{book}{}
       \name{author}{1}{}{%
@@ -737,6 +1358,40 @@
       \field{labeltitlesource}{title}
       \field{title}{The Altruistic Personality: Rescuers of Jews in Nazi Europe}
       \field{year}{1988}
+    \endentry
+    \entry{PlantingaWarrant}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=a16d3a9df3138b52eabc36e563ab1197}{%
+           family={Plantinga},
+           familyi={P\bibinitperiod},
+           given={Alvin},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Oxford University PressNew York}%
+      }
+      \strng{namehash}{a16d3a9df3138b52eabc36e563ab1197}
+      \strng{fullhash}{a16d3a9df3138b52eabc36e563ab1197}
+      \strng{bibnamehash}{a16d3a9df3138b52eabc36e563ab1197}
+      \strng{authorbibnamehash}{a16d3a9df3138b52eabc36e563ab1197}
+      \strng{authornamehash}{a16d3a9df3138b52eabc36e563ab1197}
+      \strng{authorfullhash}{a16d3a9df3138b52eabc36e563ab1197}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{1}
+      \field{title}{Warrant and Proper Function}
+      \field{year}{1993}
+      \verb{urlraw}
+      \verb https://academic.oup.com/book/3187
+      \endverb
+      \verb{url}
+      \verb https://academic.oup.com/book/3187
+      \endverb
     \endentry
     \entry{PrussAbortion}{incollection}{}
       \name{author}{1}{}{%
@@ -781,6 +1436,40 @@
       \field{pages}{19\bibrangedash 42}
       \range{pages}{24}
     \endentry
+    \entry{PrussInfinity}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=e8ab824cdc070a044693034d511bdeb7}{%
+           family={Pruss},
+           familyi={P\bibinitperiod},
+           given={Alexander\bibnamedelima R.},
+           giveni={A\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {English}%
+      }
+      \list{location}{1}{%
+        {Oxford}%
+      }
+      \list{publisher}{1}{%
+        {Oxford University Press}%
+      }
+      \strng{namehash}{e8ab824cdc070a044693034d511bdeb7}
+      \strng{fullhash}{e8ab824cdc070a044693034d511bdeb7}
+      \strng{bibnamehash}{e8ab824cdc070a044693034d511bdeb7}
+      \strng{authorbibnamehash}{e8ab824cdc070a044693034d511bdeb7}
+      \strng{authornamehash}{e8ab824cdc070a044693034d511bdeb7}
+      \strng{authorfullhash}{e8ab824cdc070a044693034d511bdeb7}
+      \field{extraname}{2}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Infinity, Causation, and Paradox}
+      \field{year}{2018}
+    \endentry
     \entry{PrussPSR}{book}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=e8ab824cdc070a044693034d511bdeb7}{%
@@ -799,7 +1488,7 @@
       \strng{authorbibnamehash}{e8ab824cdc070a044693034d511bdeb7}
       \strng{authornamehash}{e8ab824cdc070a044693034d511bdeb7}
       \strng{authorfullhash}{e8ab824cdc070a044693034d511bdeb7}
-      \field{extraname}{2}
+      \field{extraname}{3}
       \field{sortinit}{P}
       \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
       \field{extradatescope}{labelyear}
@@ -808,6 +1497,34 @@
       \field{labeltitlesource}{title}
       \field{title}{The Principle of Sufficient Reason: A Reassessment}
       \field{year}{2006}
+    \endentry
+    \entry{Quinton1976}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=8ec1a47ad50a36db4682f8791b417029}{%
+           family={Quinton},
+           familyi={Q\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{8ec1a47ad50a36db4682f8791b417029}
+      \strng{fullhash}{8ec1a47ad50a36db4682f8791b417029}
+      \strng{bibnamehash}{8ec1a47ad50a36db4682f8791b417029}
+      \strng{authorbibnamehash}{8ec1a47ad50a36db4682f8791b417029}
+      \strng{authornamehash}{8ec1a47ad50a36db4682f8791b417029}
+      \strng{authorfullhash}{8ec1a47ad50a36db4682f8791b417029}
+      \field{sortinit}{Q}
+      \field{sortinithash}{ce69a400a872ddd02ee7fdb3b38c6abd}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Proceedings of the Aristotelian Society}
+      \field{title}{Social objects}
+      \field{volume}{76}
+      \field{year}{1976}
+      \field{pages}{1\bibrangedash 27}
+      \range{pages}{27}
     \endentry
     \entry{RailtonConsequentialism}{article}{}
       \name{author}{1}{}{%
@@ -836,6 +1553,39 @@
       \field{year}{1984}
       \field{pages}{134\bibrangedash 171}
       \range{pages}{38}
+    \endentry
+    \entry{RawlsJustice}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=789e307f6a6f6a453ff0ca10f85cea17}{%
+           family={Rawls},
+           familyi={R\bibinitperiod},
+           given={John},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Cambridge, MA}%
+      }
+      \list{publisher}{1}{%
+        {Harvard University Press}%
+      }
+      \strng{namehash}{789e307f6a6f6a453ff0ca10f85cea17}
+      \strng{fullhash}{789e307f6a6f6a453ff0ca10f85cea17}
+      \strng{bibnamehash}{789e307f6a6f6a453ff0ca10f85cea17}
+      \strng{authorbibnamehash}{789e307f6a6f6a453ff0ca10f85cea17}
+      \strng{authornamehash}{789e307f6a6f6a453ff0ca10f85cea17}
+      \strng{authorfullhash}{789e307f6a6f6a453ff0ca10f85cea17}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{revised}
+      \field{title}{A Theory of Justice}
+      \field{year}{1999}
+      \field{pages}{65\bibrangedash 73}
+      \range{pages}{9}
     \endentry
     \entry{ParfitRP}{book}{}
       \list{location}{1}{%
@@ -882,6 +1632,36 @@
       \field{title}{G. W. Leibniz's Monadology: An Edition for Students}
       \field{year}{1999}
     \endentry
+    \entry{deRidder2022}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=17b3400ae7fb4e8b0e8ea62c19eb13fd}{%
+           family={Ridder},
+           familyi={R\bibinitperiod},
+           given={Jeroen},
+           giveni={J\bibinitperiod},
+           givenun=0,
+           prefix={de},
+           prefixi={d\bibinitperiod},
+           prefixun=0}}%
+      }
+      \strng{namehash}{17b3400ae7fb4e8b0e8ea62c19eb13fd}
+      \strng{fullhash}{17b3400ae7fb4e8b0e8ea62c19eb13fd}
+      \strng{bibnamehash}{17b3400ae7fb4e8b0e8ea62c19eb13fd}
+      \strng{authorbibnamehash}{17b3400ae7fb4e8b0e8ea62c19eb13fd}
+      \strng{authornamehash}{17b3400ae7fb4e8b0e8ea62c19eb13fd}
+      \strng{authorfullhash}{17b3400ae7fb4e8b0e8ea62c19eb13fd}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Synthese}
+      \field{title}{Group belief reconceived}
+      \field{year}{2022}
+      \field{pages}{143}
+      \range{pages}{1}
+    \endentry
     \entry{Sahi1994}{article}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=5697c5fe795925cad73ef77fead72822}{%
@@ -909,6 +1689,68 @@
       \field{year}{1994}
       \field{pages}{7\bibrangedash 20}
       \range{pages}{14}
+    \endentry
+    \entry{SiderWriting}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=7657a050a546951f7834c6884b659d3e}{%
+           family={Sider},
+           familyi={S\bibinitperiod},
+           given={Theodore},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Oxford}%
+      }
+      \list{publisher}{1}{%
+        {OUP}%
+      }
+      \strng{namehash}{7657a050a546951f7834c6884b659d3e}
+      \strng{fullhash}{7657a050a546951f7834c6884b659d3e}
+      \strng{bibnamehash}{7657a050a546951f7834c6884b659d3e}
+      \strng{authorbibnamehash}{7657a050a546951f7834c6884b659d3e}
+      \strng{authornamehash}{7657a050a546951f7834c6884b659d3e}
+      \strng{authorfullhash}{7657a050a546951f7834c6884b659d3e}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Writing the Book of the World}
+      \field{year}{2011}
+    \endentry
+    \entry{SolovayCanBe}{incollection}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=0e263a7ea9edc4401e6ac469aa2aaf82}{%
+           family={Solovay},
+           familyi={S\bibinitperiod},
+           given={R.\bibnamedelimi M.},
+           giveni={R\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Amsterdam}%
+      }
+      \list{publisher}{1}{%
+        {North-Holland}%
+      }
+      \strng{namehash}{0e263a7ea9edc4401e6ac469aa2aaf82}
+      \strng{fullhash}{0e263a7ea9edc4401e6ac469aa2aaf82}
+      \strng{bibnamehash}{0e263a7ea9edc4401e6ac469aa2aaf82}
+      \strng{authorbibnamehash}{0e263a7ea9edc4401e6ac469aa2aaf82}
+      \strng{authornamehash}{0e263a7ea9edc4401e6ac469aa2aaf82}
+      \strng{authorfullhash}{0e263a7ea9edc4401e6ac469aa2aaf82}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{$2^{\aleph_0}$ can be anything it ought to be}
+      \field{year}{1972}
+      \field{pages}{435}
+      \range{pages}{1}
     \endentry
     \entry{MMV2001}{article}{}
       \name{author}{2}{}{%
@@ -944,6 +1786,32 @@
       \field{pages}{1027\bibrangedash 1038}
       \range{pages}{12}
     \endentry
+    \entry{Tuomela1992}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=148487d3b3caddff5303096148338d57}{%
+           family={Tuomela},
+           familyi={T\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{148487d3b3caddff5303096148338d57}
+      \strng{fullhash}{148487d3b3caddff5303096148338d57}
+      \strng{bibnamehash}{148487d3b3caddff5303096148338d57}
+      \strng{authorbibnamehash}{148487d3b3caddff5303096148338d57}
+      \strng{authornamehash}{148487d3b3caddff5303096148338d57}
+      \strng{authorfullhash}{148487d3b3caddff5303096148338d57}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{labeldatesource}{nodate}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Synthese}
+      \field{title}{Group Beliefs}
+      \field{volume}{91}
+      \field{pages}{285\bibrangedash 318}
+      \range{pages}{34}
+    \endentry
     \entry{WarrenAbortion}{article}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=34a2efc9d964b5387a9781c6a1bef44c}{%
@@ -971,6 +1839,34 @@
       \field{year}{1973}
       \field{pages}{43\bibrangedash 61}
       \range{pages}{19}
+    \endentry
+    \entry{WielenbergDebunk}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=3f5372d4ceadcb918028a19a45cd3a8d}{%
+           family={Wielenberg},
+           familyi={W\bibinitperiod},
+           given={Erik\bibnamedelima J.},
+           giveni={E\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{3f5372d4ceadcb918028a19a45cd3a8d}
+      \strng{fullhash}{3f5372d4ceadcb918028a19a45cd3a8d}
+      \strng{bibnamehash}{3f5372d4ceadcb918028a19a45cd3a8d}
+      \strng{authorbibnamehash}{3f5372d4ceadcb918028a19a45cd3a8d}
+      \strng{authornamehash}{3f5372d4ceadcb918028a19a45cd3a8d}
+      \strng{authorfullhash}{3f5372d4ceadcb918028a19a45cd3a8d}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Ethics}
+      \field{title}{On the Evolutionary Debunking of Morality}
+      \field{volume}{120}
+      \field{year}{2010}
+      \field{pages}{441\bibrangedash 464}
+      \range{pages}{24}
     \endentry
     \entry{WilkinsonRisk}{article}{}
       \name{author}{1}{}{%
@@ -1002,15 +1898,36 @@
       \field{year}{2023}
       \field{pages}{625\bibrangedash 647}
       \range{pages}{23}
-      \verb{doi}
-      \verb 10.1093/pq/pqac056
-      \endverb
-      \verb{urlraw}
-      \verb https://academic.oup.com/pq/article/73/2/625/6726658
-      \endverb
-      \verb{url}
-      \verb https://academic.oup.com/pq/article/73/2/625/6726658
-      \endverb
+    \endentry
+    \entry{WilliamsonVagueness}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=3c5a6d2d74c469ca17ec2d2e79d66431}{%
+           family={Williamson},
+           familyi={W\bibinitperiod},
+           given={Timothy},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {London}%
+      }
+      \list{publisher}{1}{%
+        {Routledge}%
+      }
+      \strng{namehash}{3c5a6d2d74c469ca17ec2d2e79d66431}
+      \strng{fullhash}{3c5a6d2d74c469ca17ec2d2e79d66431}
+      \strng{bibnamehash}{3c5a6d2d74c469ca17ec2d2e79d66431}
+      \strng{authorbibnamehash}{3c5a6d2d74c469ca17ec2d2e79d66431}
+      \strng{authornamehash}{3c5a6d2d74c469ca17ec2d2e79d66431}
+      \strng{authorfullhash}{3c5a6d2d74c469ca17ec2d2e79d66431}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Vagueness}
+      \field{year}{1996}
     \endentry
     \entry{ZhaoRisk}{article}{}
       \name{author}{1}{}{%
@@ -1044,6 +1961,9 @@
       \range{pages}{18}
     \endentry
   \enddatalist
+  \missing{Aloyo}
+  \missing{Durham}
+  \missing{[}
 \endrefsection
 \endinput
 
