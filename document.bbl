@@ -36,14 +36,40 @@
       \strng{authorfullhash}{6bbd26249b4538ab366770a209c768c0}
       \field{sortinit}{A}
       \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
-      \field{labeldatesource}{nodate}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{American Philosophical Quarterly}
       \field{title}{The Geometry of Partial Understanding}
       \field{volume}{50}
+      \field{year}{2013}
       \field{pages}{249\bibrangedash 262}
       \range{pages}{14}
+    \endentry
+    \entry{AloyoChance}{incollection}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=a1b0f54e8969aaacc104d4f74061ff17}{%
+           family={Aloyo},
+           familyi={A\bibinitperiod},
+           given={Eamon},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{a1b0f54e8969aaacc104d4f74061ff17}
+      \strng{fullhash}{a1b0f54e8969aaacc104d4f74061ff17}
+      \strng{bibnamehash}{a1b0f54e8969aaacc104d4f74061ff17}
+      \strng{authorbibnamehash}{a1b0f54e8969aaacc104d4f74061ff17}
+      \strng{authornamehash}{a1b0f54e8969aaacc104d4f74061ff17}
+      \strng{authorfullhash}{a1b0f54e8969aaacc104d4f74061ff17}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{A Reasonable Chance of Success and the (Low) Probability of Meeting All Just War Theory Precepts}
+      \field{year}{2026}
     \endentry
     \entry{AquinasPower3}{book}{}
       \name{author}{1}{}{%
@@ -1193,7 +1219,7 @@
       \field{labeldatesource}{}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{Philosophy & Public Affairs}
+      \field{journaltitle}{Philosophy and Public Affairs}
       \field{title}{The Just Distribution of Harm Between Combatants and Noncombatants}
       \field{volume}{38}
       \field{year}{2010}
@@ -1690,6 +1716,34 @@
       \field{pages}{7\bibrangedash 20}
       \range{pages}{14}
     \endentry
+    \entry{SchoenfieldVagueness}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=96f10e951dcfbf3c3223e7eeb1fe9eea}{%
+           family={Schoenfield},
+           familyi={S\bibinitperiod},
+           given={Miriam},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{96f10e951dcfbf3c3223e7eeb1fe9eea}
+      \strng{fullhash}{96f10e951dcfbf3c3223e7eeb1fe9eea}
+      \strng{bibnamehash}{96f10e951dcfbf3c3223e7eeb1fe9eea}
+      \strng{authorbibnamehash}{96f10e951dcfbf3c3223e7eeb1fe9eea}
+      \strng{authornamehash}{96f10e951dcfbf3c3223e7eeb1fe9eea}
+      \strng{authorfullhash}{96f10e951dcfbf3c3223e7eeb1fe9eea}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Ethics}
+      \field{title}{Moral Vagueness Is Ontic Vagueness}
+      \field{volume}{126}
+      \field{year}{2016}
+      \field{pages}{257\bibrangedash 282}
+      \range{pages}{26}
+    \endentry
     \entry{SiderWriting}{book}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=7657a050a546951f7834c6884b659d3e}{%
@@ -1751,6 +1805,36 @@
       \field{year}{1972}
       \field{pages}{435}
       \range{pages}{1}
+    \endentry
+    \entry{SwinburneGod}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=d2683ab3030a13018c9822d410ac7c26}{%
+           family={Swinburne},
+           familyi={S\bibinitperiod},
+           given={Richard},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Oxford}%
+      }
+      \list{publisher}{1}{%
+        {Oxford University Press}%
+      }
+      \strng{namehash}{d2683ab3030a13018c9822d410ac7c26}
+      \strng{fullhash}{d2683ab3030a13018c9822d410ac7c26}
+      \strng{bibnamehash}{d2683ab3030a13018c9822d410ac7c26}
+      \strng{authorbibnamehash}{d2683ab3030a13018c9822d410ac7c26}
+      \strng{authornamehash}{d2683ab3030a13018c9822d410ac7c26}
+      \strng{authorfullhash}{d2683ab3030a13018c9822d410ac7c26}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Is There a God?}
+      \field{year}{1996}
     \endentry
     \entry{MMV2001}{article}{}
       \name{author}{2}{}{%
@@ -1961,9 +2045,6 @@
       \range{pages}{18}
     \endentry
   \enddatalist
-  \missing{Aloyo}
-  \missing{Durham}
-  \missing{[}
 \endrefsection
 \endinput
 
