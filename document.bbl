@@ -191,6 +191,34 @@
       \field{title}{Complete Works}
       \field{year}{1984}
     \endentry
+    \entry{BarnesOntic}{article}{}
+      \name{author}{1}{}{%
+        {{un=1,uniquepart=given,hash=bfc26705b4cc1ed9f45e89aa6a9b7b40}{%
+           family={Barnes},
+           familyi={B\bibinitperiod},
+           given={Elizabeth},
+           giveni={E\bibinitperiod},
+           givenun=1}}%
+      }
+      \strng{namehash}{bfc26705b4cc1ed9f45e89aa6a9b7b40}
+      \strng{fullhash}{bfc26705b4cc1ed9f45e89aa6a9b7b40}
+      \strng{bibnamehash}{bfc26705b4cc1ed9f45e89aa6a9b7b40}
+      \strng{authorbibnamehash}{bfc26705b4cc1ed9f45e89aa6a9b7b40}
+      \strng{authornamehash}{bfc26705b4cc1ed9f45e89aa6a9b7b40}
+      \strng{authorfullhash}{bfc26705b4cc1ed9f45e89aa6a9b7b40}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Nous}
+      \field{title}{Ontic Vagueness: A Guide for the Perplexed}
+      \field{volume}{44}
+      \field{year}{2010}
+      \field{pages}{601\bibrangedash 627}
+      \range{pages}{27}
+    \endentry
     \entry{Benatar1997}{article}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=de2a579f246ca7fdfe56849a4449f85e}{%
@@ -249,7 +277,6 @@
       \field{labeldatesource}{}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{isbn}{9780199672165}
       \field{title}{Risk and rationality}
       \field{year}{2013}
     \endentry
@@ -311,9 +338,6 @@
            giveni={K\bibinitperiod\bibinitdelim L\bibinitperiod},
            givenun=0}}%
       }
-      \list{language}{1}{%
-        {en}%
-      }
       \list{location}{1}{%
         {San Diego}%
       }
@@ -333,7 +357,6 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{edition}{3}
-      \field{isbn}{9780121741518}
       \field{title}{A Course in Probability Theory}
       \field{year}{2001}
     \endentry
@@ -998,12 +1021,12 @@
            given={Geraint\bibnamedelima F.},
            giveni={G\bibinitperiod\bibinitdelim F\bibinitperiod},
            givenun=1}}%
-        {{un=0,uniquepart=base,hash=eac96ecaa1fef6ed01e3a0a27256d729}{%
+        {{un=1,uniquepart=given,hash=eac96ecaa1fef6ed01e3a0a27256d729}{%
            family={Barnes},
            familyi={B\bibinitperiod},
            given={Luke\bibnamedelima A.},
            giveni={L\bibinitperiod\bibinitdelim A\bibinitperiod},
-           givenun=0}}%
+           givenun=1}}%
       }
       \list{location}{1}{%
         {Cambridge}%
@@ -1034,9 +1057,6 @@
            given={S.\bibnamedelimi Matthew},
            giveni={S\bibinitperiod\bibinitdelim M\bibinitperiod},
            givenun=0}}%
-      }
-      \list{language}{1}{%
-        {en}%
       }
       \strng{namehash}{02691e08e93042b448a5947eea10abac}
       \strng{fullhash}{02691e08e93042b448a5947eea10abac}
@@ -1297,9 +1317,6 @@
            giveni={Y\bibinithyphendelim K\bibinitperiod},
            givenun=0}}%
       }
-      \list{language}{1}{%
-        {en}%
-      }
       \strng{namehash}{fda72f32c330ce2d0ad732ce99299407}
       \strng{fullhash}{fda72f32c330ce2d0ad732ce99299407}
       \strng{bibnamehash}{fda72f32c330ce2d0ad732ce99299407}
@@ -1312,7 +1329,6 @@
       \field{labeldatesource}{}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{issn}{0266-2671, 1474-0028}
       \field{journaltitle}{Economics and Philosophy}
       \field{month}{10}
       \field{title}{What Should We Do About Future Generations?: Impossibility of Parfit’s Theory X}
@@ -1961,9 +1977,6 @@
            giveni={H\bibinitperiod},
            givenun=0}}%
       }
-      \list{language}{1}{%
-        {en}%
-      }
       \strng{namehash}{7f6864081d7cce71a347145577b25b08}
       \strng{fullhash}{7f6864081d7cce71a347145577b25b08}
       \strng{bibnamehash}{7f6864081d7cce71a347145577b25b08}
@@ -2021,9 +2034,6 @@
            given={Michael},
            giveni={M\bibinitperiod},
            givenun=0}}%
-      }
-      \list{language}{1}{%
-        {en}%
       }
       \strng{namehash}{e3c526483e7af0be2669d18b0cc06f06}
       \strng{fullhash}{e3c526483e7af0be2669d18b0cc06f06}
