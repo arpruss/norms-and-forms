@@ -396,6 +396,34 @@
       \field{pages}{20130175}
       \range{pages}{1}
     \endentry
+    \entry{Carlsmith}{thesis}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=740b4c51e4b66cde5327f35f471a555e}{%
+           family={Carlsmith},
+           familyi={C\bibinitperiod},
+           given={Joseph},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {Oxford University}%
+      }
+      \strng{namehash}{740b4c51e4b66cde5327f35f471a555e}
+      \strng{fullhash}{740b4c51e4b66cde5327f35f471a555e}
+      \strng{bibnamehash}{740b4c51e4b66cde5327f35f471a555e}
+      \strng{authorbibnamehash}{740b4c51e4b66cde5327f35f471a555e}
+      \strng{authornamehash}{740b4c51e4b66cde5327f35f471a555e}
+      \strng{authorfullhash}{740b4c51e4b66cde5327f35f471a555e}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{A Stranger Priority? Topics at the Outer Reaches of Effective Altruism}
+      \field{type}{phdthesis}
+      \field{year}{2022}
+    \endentry
     \entry{ChungProbability}{book}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=1e7091c4baf9ddfb854e70699ada72d8}{%
@@ -2480,6 +2508,43 @@
       \field{pages}{625\bibrangedash 647}
       \range{pages}{23}
     \endentry
+    \entry{OckhamBoehner}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=2f0cd836508dfe983848b5b0d2fe9eaa}{%
+           family={{William of Ockham}},
+           familyi={W\bibinitperiod}}}%
+      }
+      \name{translator}{1}{}{%
+        {{hash=612b4f09253abde07964e11dfa2af649}{%
+           family={Boehner},
+           familyi={B\bibinitperiod},
+           given={Philotheus},
+           giveni={P\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Indianapolis}%
+      }
+      \list{publisher}{1}{%
+        {Bobbs-Merrill}%
+      }
+      \strng{namehash}{2f0cd836508dfe983848b5b0d2fe9eaa}
+      \strng{fullhash}{2f0cd836508dfe983848b5b0d2fe9eaa}
+      \strng{bibnamehash}{2f0cd836508dfe983848b5b0d2fe9eaa}
+      \strng{authorbibnamehash}{2f0cd836508dfe983848b5b0d2fe9eaa}
+      \strng{authornamehash}{2f0cd836508dfe983848b5b0d2fe9eaa}
+      \strng{authorfullhash}{2f0cd836508dfe983848b5b0d2fe9eaa}
+      \strng{translatorbibnamehash}{612b4f09253abde07964e11dfa2af649}
+      \strng{translatornamehash}{612b4f09253abde07964e11dfa2af649}
+      \strng{translatorfullhash}{612b4f09253abde07964e11dfa2af649}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Philosophical Writings}
+      \field{year}{1977}
+    \endentry
     \entry{WilliamsPCM}{incollection}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=586a36802c9d24af7c79da4f790cb6c1}{%
@@ -2569,7 +2634,6 @@
       \range{pages}{18}
     \endentry
   \enddatalist
-  \missing{[}
 \endrefsection
 \endinput
 
