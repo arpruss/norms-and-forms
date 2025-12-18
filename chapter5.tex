@@ -50,7 +50,7 @@ non-arbitrary to say that it is \textit{the} logic we should reason with.\footno
 and modality, things become less clear.}
 
 Further, observe that logics of induction can be divided into two categories: those with parameters (say, 
-parameters controlling the speed of inductive inference--??refs) and those without. 
+parameters controlling the speed of inductive inference) and those without. 
 A logic of induction with parameters raises immediate Mersenne problems about what grounds the fact about which 
 parameters, or ranges of parameters, are in fact rationally correct. 
 A parameter-free logic of induction, however, is not likely to do justice to the fact that different ways of balancing
@@ -59,9 +59,9 @@ to the intuition that the balancing should be different in different species of 
 
 \section{Goodman's new riddle of induction}
 All the emeralds we've observed are green, and it's reasonable to infer that all emeralds are green.
-But Goodman's famous riddle notes that all the emeralds we've observed are also grue, but it's not reasonable infer 
-that all emeralds are grue. Here, an emerald is grue if it is observed before the year 2100 and green, or if it is 
-blue and not observed before 2100. According to Goodman, the predicate ``is green'' is \textit{projectible}, i.e., amenable to 
+But \posscite{GoodmanFFF} famous riddle notes that all the emeralds we've observed are also grue, but it's not reasonable infer 
+that all emeralds are grue. Let's say an emerald is grue if it is observed before the year 2100 and green, or if it is 
+blue and not observed before 2100. According to Goodman (with year modified), the predicate ``is green'' is \textit{projectible}, i.e., amenable to 
 inductive inference, while the predicate ``is grue'' is not. But how do the two differ?
 
 As Goodman notes, the fact that ``grue'' is defined in terms of ``green'' and ``blue'' does not help answer the
@@ -81,7 +81,7 @@ Planck times since the beginning of the universe?). Where the boundary between n
 counts as too gerrymandered for projectibility---is an excellent Mersenne question.
 
 There is a very plausible way to measure the degree of gerrymandering of a predicate. We take a language the content of 
-whose symbols are terms for perfectly natural concepts, ones corresponding to fundamental joints in reality??ref:Lewis,
+whose symbols are terms for perfectly natural concepts, ones corresponding to fundamental joints in reality~\parencite{LewisNewWork},
 and we look for the shortest possible formula logically equivalent to the predicate, and say that the predicate is 
 gerrymandered in proportion to the length of this formula. Now, to account for ``is grue'' in terms of fundamental
 terms, we need an account of greenness, an account of blueness and, worst of all, an account of observation, so
@@ -134,7 +134,8 @@ For a relative projectibility relation defined in terms of linguistic complexity
 each a fit subject for a Mersenne question: a threshold, a comparison function, and a grammar for the basic language.
 
 But in fact we probably should not think of a binary projectible / non-projectible distinction, whether
-relational or absolute. As Goodman himself observed??ref-in-https://www.jstor.org/stable/pdf/686416.pdf, what we have instead is a range of predicates that are more or less projectible. We have ``is green'' and
+relational or absolute. As \citeasnounwithpages{GoodmanFFF}{p.~106} himself observed, what we 
+have instead is a range of predicates that are more or less projectible. We have ``is green'' and
 ``is grue''. But we can also say that $x$ is grue$^*$ provided that $x$ is green and observed by a French speaker before 2100 or by a 
 non-speaker of French before 2107, or never observed, and ``grue$^*$'' will be less projectible than ``is grue''. On the basis of our observations, the
 probability that all emeralds is green is very high, and the probability that they are all grue or grue$^*$ is very low. But
@@ -157,7 +158,11 @@ of a falsehood, the worse off you are.
 
 But what exactly is the dependence of value on the degree of certainty? Fix some hypothesis $H$ and let $T(p)$ be the epistemic value of 
 having degree of belief or credence $p$ (where $0\le p\le 1$) in $H$ if $H$ is in fact true and let $F(p)$ be the value of credence
-$p$ in $H$ if $H$ is in fact false. The pair $T$ and $F$ is called an accuracy scoring rule in the literature.??ref 
+$p$ in $H$ if $H$ is in fact false. The pair $T$ and $F$ is called an accuracy scoring rule.\footnote{The literature
+tends to focus more on inaccuracy scoring rules, which are cost or penalty functions~\parencite{PreddEtAl}. 
+An inaccuracy scoring rule is the negative of an accuracy scoring rule and \textit{vice versa}, so one can freely
+go back and further between the two options. Since plausibly the good is more fundamental than the bad, it makes sense
+to take accuracy scoring rules as more fundamental, however.}
 
 We can put some plausible constraints on $T$ and $F$. First, $T(p)$ cannot decrease if $p$ increases,
 and $F(p)$ cannot increase if $p$ decreases.\footnote{We might more strongly specify that $T(p)$ always strictly increases with $p$, and $T(p)$
@@ -204,13 +209,14 @@ likely be turn out to be irrelevant to $H$, but there is a small chance that it 
 $H$ or its negation. For each experiment, the scientist can use their present credence assignments to estimate the
 probabilities of the various epistemic outcomes, and can then estimate expected epistemic values of the outcomes.
 
-It is well-known??ref that if the scoring rule is strictly proper, for each experiment that has potential relevance 
+\citeasnoun{GreavesAndWallace} have proved that if the scoring rule is strictly proper, for each experiment that has potential relevance 
 to $H$, the expected epistemic value of performing the experiment is
 higher than the expected epistemic value of the \textit{status quo}. Thus if the experiments are cost-free, it is
 always worth performing more experiments, as long as the appropriate scoring rule is strictly proper,
 and it does not matter which strictly proper scoring rule we choose. But if in addition to deciding whether to perform
 another experiment, the decision to be made is \textit{which} experiment to perform, then the choice of scoring rule
-will indeed be important, with different strictly proper scoring rules yielding different decisions.??ref:fill-in
+will indeed be important, with different strictly proper scoring rules yielding different 
+decisions (see Section~\ref{sec:pathological} and the Appendix to this chapter for an example).
 
 There are a number of mathematically elegant strictly proper scoring rules, such as the Brier quadratic score, the spherical score 
 and the logarithmic score. Of these, the logarithmic score is the only that is a serious candidate for being \textit{the} correct
@@ -243,7 +249,7 @@ allows one to have extremely inconsistent credences and still do well. If I assi
 guaranteed to max out the logarithmic score no matter what. Thus one of the least rational credence assignments results in the best
 possible score.
 
-\subsubsection{Two approaches}
+\subsubsection{Two approaches}\label{sec:pathological}
 We now have two different approaches to the Mersenne questions about epistemic value and scoring rules. First, we could suppose that there
 is such a thing as \textit{the} One True Score. Since only the logarithmic score seems significantly mathematically privileged over all
 the other scores, and the logarithmic score is not the One True Score, there will be a significant appearance of contingency about the
