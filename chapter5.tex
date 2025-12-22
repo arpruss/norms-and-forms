@@ -220,7 +220,7 @@ decisions (see Section~\ref{sec:pathological} and the Appendix to this chapter f
 
 There are a number of mathematically elegant strictly proper scoring rules, such as the Brier quadratic score, the spherical score 
 and the logarithmic score. Of these, the logarithmic score is the only that is a serious candidate for being \textit{the} correct
-scoring rule, in the light of information-theoretic and other arguments (??ref:phil of sci paper). In our setting where we are
+scoring rule, in the light of information-theoretic and other arguments~\cite{McCutcheonLog}. In our setting where we are
 evaluating the value of a credence in a single proposition $H$, the logarithmic score is $T(r) = \log r$ and $F(r) = \log (1-r)$. 
 However, there are also reasons to doubt that the logarithmic score is the One True Score. 
 
@@ -306,7 +306,7 @@ gaining credence $0.9991$ as to whether $H$ is true to a certainty of gaining th
 This is not rational. 
 
 Now, in the above example, our scoring rule while proper, symmetric and finite, was neither continuous nor strictly proper. 
-However, we will show in the Appendix??ref that there is a sequence of continuous, strictly proper, finite and symmetric
+However, we will show in the Appendix of this chapter that there is a sequence of continuous, strictly proper, finite and symmetric
 scoring rules $T_n$ and $F_n$ such that $T_0(x)=\lim_{n\to\infty} T_n(x)$ and $F_0(x)=\lim_{n\to\infty} F_n(x)$ for all $x$.
 If $n$ is large enough, then the pair $T_n$ and $F_n$ will require exactly the same decision from our scientist as 
 $T$ and $F$ did, since the expected values of the expected $(T_n,F_n)$-scores of the two courses of action will converge
@@ -378,9 +378,9 @@ as a model of the kind of answers we can hope for in a well-developed theory.
 
 On Bayesianism, as was already the case for  scoring rules, the main interest is not in beliefs as such but in the agent's credences, which come in degrees. 
 I will assume the most familiar model where credences are quantified by probabilities ranging from $0$ to $1$. Other models include qualitative probabilities where instead of a specific value being assigned one has fundamental
-comparisons between probabilities, interval-valued probabilities where instead of a specific numerical
-probability, a range of numerical probabilities are assigned, and accounts on which conditional probabilities
-are fundamental.??refs Most of the issues raised will apply 
+comparisons between probabilities~\parencite{KLST}, interval-valued probabilities where a range of numerical probabilities is instead of a specific numerical
+probability~\parencite{Kyburg1961,Whitcomb2005}, and accounts on which conditional probabilities
+are fundamental~\parencite{Hajek2003}. Most of the issues raised will apply 
 \textit{mutatis mutandis} to the other models.
 
 On our model, if a perfectly rational agent assigns credence $C(p)$ to a proposition $p$, then these credences will 
@@ -419,7 +419,7 @@ is completely ruled out. Thus, we have overwhelming confirmation of
 the all-black probability, and hence an even more overwhelming probability of the hypothesis that the next raven will be black.
 
 Other ways of dividing the probabilities between the hypotheses yield other results. Carnap's $c^*$ inductive
-logic??ref, for instance, had a division
+logic~\parencite{CarnapLFP2}, for instance, had a division
 that worked as follows. For each number $n$ between zero and a million we have the hypothesis $H_n$ that there are exactly 
 $n$ black ravens, and Carnap proposed that the million-and-one such hypotheses should have equal probability, and then 
 each hypothesis $H_n$ is divided into equally likely subhypotheses specifying all the subhypotheses that make there be $n$
@@ -445,7 +445,7 @@ that $1/2^{1000}$ is. Reasonable priors, thus, yield a speed of induction somewh
 
 The Carnapian $c^*$ measure has a kind of elegance and naturalness, but it makes induction too slow.
 We can gerrymander a formula for the priors which will fit with our intuitions of how fast induction should work.
-Carnap himself eventually explored continua of methods of induction??ref which varied in speed of induction.
+\citeasnoun{CarnapContinuum} himself eventually explored continua of methods of induction which varied in speed of induction.
 But then we have parameters that govern the priors. If a specific assignment of priors were rationally
 required of us, then we would have the Mersenne question of why it is these and not some other very similar priors that are required. And if there is a range of priors rationally permitted to us, then we would have Mersenne questions about the boundaries of
 this range. And there would be such boundaries, because $c^*$ is too slow, so some measures must be excluded.
@@ -1235,10 +1235,10 @@ and you are rewarded for getting it right and penalized for getting it wrong, th
 for having a six, everyone will guess that they don't have six, and all but finitely many people will be penalized,
 which is surely not the right result.
 
-In ??ref, I argued that a good solution to epistemological paradoxes like this is to reject the metaphysical possibility
+In \citeasnoun{PrussInfinity} I argued that a good solution to epistemological paradoxes like this is to reject the metaphysical possibility
 of an event depending causally on infinitely many events, in the way that the angel's accouncement depends on the infinite
 number of die rolls. But there is another possible solution: we can deny that our epistemic norms extend to far-fetched
-situations, just as in ??ref it was suggested that our ethical norms do not apply to far-fetched situations. Whether this is 
+situations, just as in ??backref it was suggested that our ethical norms do not apply to far-fetched situations. Whether this is 
 a completely satisfactory resolution to the paradox is not clear. For there is some plausibility in thinking that if 
 predicaments like the above were metaphysically possible, there could be rational beings who could reason
 in them. But it seems there couldn't be any. However, no matter what we say about the metaphysical possibility of such beings,
@@ -1344,8 +1344,8 @@ rationality does not always involve maximizing utility---risk needs to be taken 
 seen that expected utility maximization is not the only reasonable position to take with respect to prudential
 goods, why should we assume that it is so for epistemic goods?
 
-But more seriously, Bayesian update, consistency and the norms governing choice of experiment do not exhaust the 
-scope of epistemic norms, as I have already argued??ref, especially in the context of requiring substantive
+But more seriously, as already seen in ??backref, Bayesian update, consistency and the norms governing choice of experiment do not exhaust the 
+scope of epistemic norms, especially in the context of requiring substantive
 objective norms constraining rational priors going beyond consistency. 
 
 It won't do to say that the rational priors best conduce to epistemic utility and that's we should have them. 
@@ -1492,7 +1492,7 @@ knowledge provided that this output constitutes intellectual flourishing. Howeve
 intellectually in an accomplishment will include not just the aspects of knowledge acknowledged in the analytic tradition, like true 
 belief and justification, but also \textit{understanding}, structural connections between different things found in the intellect that
 enlightens us about the things that are important. Aquinas famously distinguishes the vice of \textit{curiositas} from the virtue of
-\textit{studiositas}??ref, and the distinction lies in \textit{curiositas}'s trivial pursuit of mere bits of knowledge while the virtue pursues a holistic
+\textit{studiositas}~\parencite[II-II, 166--167]{AquinasST}, and the distinction lies in \textit{curiositas}'s trivial pursuit of mere bits of knowledge while the virtue pursues a holistic
 structured understanding of the world's explanatory connections. Thus flourishing with respect to intellectual accomplisment is more
 like what the medievals called \textit{scientia}---a structured intellectual \textit{body} of knowledge---than what 
 contemporary epistemologists simply call knowledge.
