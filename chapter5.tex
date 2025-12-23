@@ -584,15 +584,30 @@ Let us now consider some non-subjective responses.
 \subsection{Indifference}
 An intuitive way to solve the problem of priors is to place a constraint on one's priors that 
 epistemically equivalent situations get equal credences. This is essentially a version of the 
-principle of indifference: For each side of a perfect die, the proposition that the die will land 
+Principle of Indifference: For each side of a perfect die, the proposition that the die will land 
 with that side up is epistemically equivalent, so our prior credences should be indifferent between
 the sides. Assuming that the logical features of the situation necessitate that exactly one of the six 
 sides eventuates, the finite additivity of probabilities ensures that each side has probability $1/6$.
 
-There are many well-known problems with this approach. Some of these are technical??refs, but I will
-focus here on two non-technical ones.
+There are many well-known problems with this approach. Some of these are technical. A classic
+example is Bertrand's Paradox: What is the probability that a random chord drawn in a circle will
+be shorter than the side of an equilateral triangle inscribed in the circle? There is more than one
+way of applying the the principel of indifference, yielding different results~\parencite{Shackel2007}.
+Or consider the Hausdorff Paradox: Given the Axiom of Choice, if $S'$ is the surface of a sphere $S$ with a
+certain countably infinite set removed, then there are three disjoint subsets $A$, $B$ and $C$ whose
+union is $S$ such that the four sets $A$, $B$, $C$ and $B\cup C$ (the union of $B$ and $C$) are all 
+congruent---i.e., each of the four sets can be rotated around the center of the sphere to give any of
+the others~\parencite{Hausdorff}. Since $A$, $B$ and $C$ are congruent, Indifference tells us 
+that $z$ is equally likely to be in $A$ as in $B$ and $C$. It follows that $z$ is twice as likely 
+to be in $B\cup C$ as in $A$.  But likewise $A$ and $B\cup C$ are congruent, so
+Indifference tells us that $z$ is equally likely to be in $A$ as in $B\cup C$, a contradiction.\footnote{$^*$If
+$P(U)$ is the probability that $z$ is in $U$, then $2P(A)=P(A)+P(A)=P(B)+P(C)=P(B\cup C)$ by the first Indifference argumentand since $B$ and $C$ are disjoint, while $P(A)=P(B\cup C)$ by the second argument. The only way both
+equations can be true is if $P(A)=2P(A)$, i.e., $P(A)=0$. But then $P(S')=P(A\cup B\cup C)=3P(A)=0$. However,
+since $S'$ omits countably infinitely many points of $S$, and the probability of a random point landing in a 
+countably infinite set is zero or infinitesimal, $P(S')$ is either one or one minus an infinitesimal, so we
+cannot have $P(A)=0$.}
 
-First, in many cases it is
+But there are also two non-technical problems. First, in many cases it is
 difficult to see how we should carve up the space of possibilities into equivalent options. Should we,
 for instance, divide grand metaphysical views  into naturalism and non-naturalism, with the two getting
 equal probability $1/2$, or should we have a finer-grained division into naturalism, anti-naturalism
