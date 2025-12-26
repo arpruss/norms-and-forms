@@ -669,7 +669,8 @@ $$
     Q(s) = P(R(A,s)\mid R(A)) = \frac{P(R(A,s))}{P(R(A))}.
 $$    
 
-We can call these priors $L$-Solomonoff priors.
+We can call these priors $L$-Solomonoff priors~(\citeauthor{PrussRegularityForward, \citeyear{PrussRegularityForward};
+cf.\ \citeauthor{Solomonoff78}, \citeyear{Solomonoff78}).
 Such priors favor situations that can be more briefly represented in $L$ over ones whose representations are long.
 The effect of this choice of priors depends heavily on the choice of language $L$ and how well it can compress some situations over
 others. For instance, in our chess case, if we have no quantifiers, it is easy to see that any two piece arrangements with 
@@ -715,7 +716,7 @@ the norms for rational priors for them are formulated in terms of $L$-Solomonoff
 that humans can understand, but this does not seem a particularly plausible thesis. It seems more likely that for those
 beings, the algorithmic rational priors would be different than for us. 
 
-The standard way??ref to defend algorithmic measures of complexity from the problems presented by a plurality of languages
+The standard way to defend algorithmic measures of complexity from the problems presented by a plurality of languages
 is to observe that sufficiently sophisticated languages have translational resources. Thus, one can write a Haskell interpreter
 in Javascript, and so anything that can be expressed in Haskell can be expressed in Javascript by including the code for a Haskell interpreter, 
 and then using a string constant that contains the Haskell code. The result is that the difference in the length of code needed to
@@ -756,11 +757,11 @@ up to $1/10^{100}$), and so a boundary would need to be
 posited between the admissible and inadmissible random choice methods.\footnote{$^*$One might think that there is a 
 privileged way to randomly generate sequences: one just makes each sequence has equal probability, regardless of the
 sentence's length. Since there are countably infinitely many finite sequences, however, this option leads to a countably infinite fair
-lottery which is known to have many paradoxes.??ref A similar difficulty arises if we first choose a positive integer
+lottery which is known to have many paradoxes~\parencite[Chapter~4]{PrussInfinity}. A similar difficulty arises if we first choose a positive integer
 as the length, with all positive integers being equally likely, and then make all sequences of that length equally likely.}
 
 \subsection{Basic probabilities, norms and explanationism}
-Recently, Climenhaga??ref:\url{https://link.springer.com/article/10.1007/s11098-019-01367-0?utm_source=toc} introduced the 
+Recently, \citeasnoun{ClimenhagaBasic} introduced the 
 very helpful notion 
 of \textit{basic} epistemic probabilities, which determine other epistemic probabilities. For instance, the 
 algorithmic approach tends to take unconditional probabilities as the basic ones, and then conditional ones are 
@@ -830,7 +831,7 @@ to $P(H\mid E)$, which is equal to $P(H\And E)/P(E)$ if $P(E)>0$. No other chang
 of course modulo the above-discussed issues about the choice of the priors $P(H)$ and $P(H\mid E)$.
 
 But as is the case for many other formally simple philosophical theories, this is too
-simple.??refs Consider several cases. 
+simple. Consider several cases. 
 
 \nitem{Pill}{A trustworthy oracle offers you a pill which will shift your credences closer to truth and does not introduce 
 any incoherence.}
@@ -864,9 +865,11 @@ This suggests that we will need to quantify epistemic value, much as we did in S
 something like this: You are epistemically required (respectively, permitted) to opt for a pragmatically costless change of 
 credence when doing so increases (does not decrease) expected epistemic value. If we quantify epistemic value in terms of
 strictly proper scoring rules, a delightful result of this move is that we do not need to handle the ordinary case of 
-Bayesian update any differently. For it can be proved that in the kinds of cases where one simply receives
+Bayesian update any differently. For as we noted, \citeasnoun{GreavesAndWallace} proved that in the kinds of cases where one simply receives
 evidence and sets one's credences according to it, conditionalization is the unique best policy for maximizing expected
-epistemic value.??ref:(Also Isaacs and Russell??) 
+epistemic value as measured by a strictly proper scoring rule.\footnote{Cf.~\citeasnoun{IsaacsRussellUpdating} 
+discuss how maximizing such epistemic value also helps in cases where you are unreliable in fulfilling your
+epistemic plans.}
 
 However, as we also saw in Section??backref, the choice of a scoring rule or measure of epistemic value involves infinitely
 many free parameters, and at the same time not every scoring rule that satisfies the formal constraints is rationally
@@ -926,8 +929,8 @@ update (typically it won't), and as long as there is any chance of learning that
 will beat Bayesian update. 
 
 Now, chances are, you won't be able to design a better update strategy than a Bayesian one \textit{for yourself}.
-It is know that your expected epistemic utility, defined using a proper scoring rule and calculated by your 
-own lights, will be maximized by Bayesian update over the space of all update strategies.??ref But the crucial thing to 
+As already noted more than once, your expected epistemic utility, defined using a proper scoring rule and calculated by your 
+own lights, will be maximized by Bayesian update over the space of all update strategies~\parencite{GreavesWallace}. But the crucial thing to 
 note in this result is the ``by your own lights''. Someone else who has information that is not available to you can 
 sometimes---as in the stranger example---design a better rule for you. 
 
