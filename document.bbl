@@ -19,6 +19,34 @@
 
 \refsection{0}
   \datalist[entry]{nty/global//global/global}
+    \entry{Agar1993}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=ba1a79855e3085d0d4d98e21779e257c}{%
+           family={Agar},
+           familyi={A\bibinitperiod},
+           given={Nicholas},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{ba1a79855e3085d0d4d98e21779e257c}
+      \strng{fullhash}{ba1a79855e3085d0d4d98e21779e257c}
+      \strng{bibnamehash}{ba1a79855e3085d0d4d98e21779e257c}
+      \strng{authorbibnamehash}{ba1a79855e3085d0d4d98e21779e257c}
+      \strng{authornamehash}{ba1a79855e3085d0d4d98e21779e257c}
+      \strng{authorfullhash}{ba1a79855e3085d0d4d98e21779e257c}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Australasian Journal of Philosophy}
+      \field{title}{What Do Frogs Really Believe?}
+      \field{volume}{71}
+      \field{year}{1993}
+      \field{pages}{1\bibrangedash 12}
+      \range{pages}{12}
+    \endentry
     \entry{AllenGeometry}{article}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=6bbd26249b4538ab366770a209c768c0}{%
@@ -249,6 +277,21 @@
       \field{pages}{601\bibrangedash 627}
       \range{pages}{27}
     \endentry
+    \entry{JeffreyGood}{book}{}
+      \list{location}{1}{%
+        {Oxford}%
+      }
+      \list{publisher}{1}{%
+        {OUP}%
+      }
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labeltitlesource}{title}
+      \field{title}{Being and Becoming Good: On the Diversity of Human Goodness and Virtue}
+      \field{year}{forthcoming}
+    \endentry
     \entry{Benatar1997}{article}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=de2a579f246ca7fdfe56849a4449f85e}{%
@@ -276,6 +319,74 @@
       \field{year}{1997}
       \field{pages}{345\bibrangedash 355}
       \range{pages}{11}
+    \endentry
+    \entry{BertelsSnakes}{article}{}
+      \name{author}{7}{}{%
+        {{un=0,uniquepart=base,hash=546a99b50381fa41f1d0862dce660839}{%
+           family={Bertels},
+           familyi={B\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5728acd0cf661777230b5550144fd7c2}{%
+           family={Bourguignon},
+           familyi={B\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9e555dcea03d2b374519032afe19e5aa}{%
+           family={Heering},
+           familyi={H\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod},
+           givenun=0,
+           prefix={de},
+           prefixi={d\bibinitperiod},
+           prefixun=0}}%
+        {{un=0,uniquepart=base,hash=1301872c05cd3645427c80344526eaf5}{%
+           family={Chetail},
+           familyi={C\bibinitperiod},
+           given={F.},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e576146873854a161888cd7403d7f5a1}{%
+           family={De\bibnamedelima Tiège},
+           familyi={D\bibinitperiod\bibinitdelim T\bibinitperiod},
+           given={X.},
+           giveni={X\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4ed2d5202d678dbee5943d7f61864a3d}{%
+           family={Cleeremans},
+           familyi={C\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8a526109f4074c87e602c406d6b900d0}{%
+           family={Destrebecqz},
+           familyi={D\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{ca93bc74fccdf073858d760c44bf5471}
+      \strng{fullhash}{19c1b45f95ee0a26331f4f2c4384d305}
+      \strng{bibnamehash}{ca93bc74fccdf073858d760c44bf5471}
+      \strng{authorbibnamehash}{ca93bc74fccdf073858d760c44bf5471}
+      \strng{authornamehash}{ca93bc74fccdf073858d760c44bf5471}
+      \strng{authorfullhash}{19c1b45f95ee0a26331f4f2c4384d305}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Scientific Reports}
+      \field{number}{1}
+      \field{title}{Snakes elicit specific neural responses in the human infant brain}
+      \field{volume}{10}
+      \field{year}{2020}
+      \field{pages}{7443}
+      \range{pages}{1}
     \endentry
     \entry{BoolosJeffrey1995}{book}{}
       \name{author}{2}{}{%
@@ -313,6 +424,34 @@
       \field{edition}{3}
       \field{title}{Computability and Logic}
       \field{year}{1995}
+    \endentry
+    \entry{BourseHealth}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=113d7293970e1f738b387d7843f8c38c}{%
+           family={Bourse},
+           familyi={B\bibinitperiod},
+           given={Christopher},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{113d7293970e1f738b387d7843f8c38c}
+      \strng{fullhash}{113d7293970e1f738b387d7843f8c38c}
+      \strng{bibnamehash}{113d7293970e1f738b387d7843f8c38c}
+      \strng{authorbibnamehash}{113d7293970e1f738b387d7843f8c38c}
+      \strng{authornamehash}{113d7293970e1f738b387d7843f8c38c}
+      \strng{authorfullhash}{113d7293970e1f738b387d7843f8c38c}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Philosophy of Science}
+      \field{title}{Health as a Theoretical Concept}
+      \field{volume}{44}
+      \field{year}{1977}
+      \field{pages}{542\bibrangedash 573}
+      \range{pages}{32}
     \endentry
     \entry{BuchakRisk}{book}{}
       \name{author}{1}{}{%
@@ -424,6 +563,69 @@
       \field{type}{phdthesis}
       \field{year}{2022}
     \endentry
+    \entry{CarnapLFP2}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=c5ed2240ebfb4eddd8f8bd6489868578}{%
+           family={Carnap},
+           familyi={C\bibinitperiod},
+           given={Rudolph},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Chicago}%
+      }
+      \list{publisher}{1}{%
+        {University Press}%
+      }
+      \strng{namehash}{c5ed2240ebfb4eddd8f8bd6489868578}
+      \strng{fullhash}{c5ed2240ebfb4eddd8f8bd6489868578}
+      \strng{bibnamehash}{c5ed2240ebfb4eddd8f8bd6489868578}
+      \strng{authorbibnamehash}{c5ed2240ebfb4eddd8f8bd6489868578}
+      \strng{authornamehash}{c5ed2240ebfb4eddd8f8bd6489868578}
+      \strng{authorfullhash}{c5ed2240ebfb4eddd8f8bd6489868578}
+      \field{extraname}{1}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{2}
+      \field{title}{Logical Foundations of Probability}
+      \field{year}{1962}
+    \endentry
+    \entry{CarnapContinuum}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=c5ed2240ebfb4eddd8f8bd6489868578}{%
+           family={Carnap},
+           familyi={C\bibinitperiod},
+           given={Rudolph},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Chicago}%
+      }
+      \list{publisher}{1}{%
+        {University Press}%
+      }
+      \strng{namehash}{c5ed2240ebfb4eddd8f8bd6489868578}
+      \strng{fullhash}{c5ed2240ebfb4eddd8f8bd6489868578}
+      \strng{bibnamehash}{c5ed2240ebfb4eddd8f8bd6489868578}
+      \strng{authorbibnamehash}{c5ed2240ebfb4eddd8f8bd6489868578}
+      \strng{authornamehash}{c5ed2240ebfb4eddd8f8bd6489868578}
+      \strng{authorfullhash}{c5ed2240ebfb4eddd8f8bd6489868578}
+      \field{extraname}{2}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{The Continuum of Inductive Methods}
+      \field{year}{1952}
+    \endentry
     \entry{ChungProbability}{book}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=1e7091c4baf9ddfb854e70699ada72d8}{%
@@ -454,6 +656,34 @@
       \field{edition}{3}
       \field{title}{A Course in Probability Theory}
       \field{year}{2001}
+    \endentry
+    \entry{ClimenhagaBasic}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=90cbdf8171d6c6b0e3293e21660bb799}{%
+           family={Climenhaga},
+           familyi={C\bibinitperiod},
+           given={Nevin},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{90cbdf8171d6c6b0e3293e21660bb799}
+      \strng{fullhash}{90cbdf8171d6c6b0e3293e21660bb799}
+      \strng{bibnamehash}{90cbdf8171d6c6b0e3293e21660bb799}
+      \strng{authorbibnamehash}{90cbdf8171d6c6b0e3293e21660bb799}
+      \strng{authornamehash}{90cbdf8171d6c6b0e3293e21660bb799}
+      \strng{authorfullhash}{90cbdf8171d6c6b0e3293e21660bb799}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Philosophical Studies}
+      \field{title}{The structure of epistemic probabilities}
+      \field{volume}{177}
+      \field{year}{2020}
+      \field{pages}{3213\bibrangedash 3242}
+      \range{pages}{30}
     \endentry
     \entry{ColgroveZygotes}{article}{}
       \name{author}{1}{}{%
@@ -516,9 +746,83 @@
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
       \field{labeltitlesource}{title}
-      \field{shorthand}{U.S.~Const.}
       \field{title}{Constitution of the United States}
       \field{year}{1787}
+    \endentry
+    \entry{CurlinTollefsen}{book}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=aa12b2e2489591dcda7602bcf5875194}{%
+           family={Curlin},
+           familyi={C\bibinitperiod},
+           given={Farr},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7ff6cff5842d6ebce7ee38db5e4e79eb}{%
+           family={Tollefsen},
+           familyi={T\bibinitperiod},
+           given={Christopher},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {South Bend, IN}%
+      }
+      \list{publisher}{1}{%
+        {University of Notre Dame Press}%
+      }
+      \strng{namehash}{0d251a09190c06afd4ce4af598ebde8d}
+      \strng{fullhash}{0d251a09190c06afd4ce4af598ebde8d}
+      \strng{bibnamehash}{0d251a09190c06afd4ce4af598ebde8d}
+      \strng{authorbibnamehash}{0d251a09190c06afd4ce4af598ebde8d}
+      \strng{authornamehash}{0d251a09190c06afd4ce4af598ebde8d}
+      \strng{authorfullhash}{0d251a09190c06afd4ce4af598ebde8d}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{The Way of Medicine: Ethics and the Healing Profession}
+      \field{year}{2021}
+    \endentry
+    \entry{KLST}{book}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=0bb1769ec32492b9a2ead006d70c44ea}{%
+           family={D.\bibnamedelimi H.\bibnamedelimi Krantz},
+           familyi={D\bibinitperiod\bibinitdelim H\bibinitperiod\bibinitdelim K\bibinitperiod},
+           given={P.\bibnamedelimi Suppes},
+           giveni={P\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0,
+           suffix={R.\bibnamedelimi D.\bibnamedelimi Luce},
+           suffixi={R\bibinitperiod\bibinitdelim D\bibinitperiod\bibinitdelim L\bibinitperiod},
+           suffixun=0}}%
+        {{un=0,uniquepart=base,hash=2953c4897a028a50b25a633fedc17550}{%
+           family={Tversky},
+           familyi={T\bibinitperiod},
+           given={B.},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {San Diego}%
+      }
+      \list{publisher}{1}{%
+        {Academic Press}%
+      }
+      \strng{namehash}{a1069a93f95cbabfdc6038213e7445be}
+      \strng{fullhash}{a1069a93f95cbabfdc6038213e7445be}
+      \strng{bibnamehash}{a1069a93f95cbabfdc6038213e7445be}
+      \strng{authorbibnamehash}{a1069a93f95cbabfdc6038213e7445be}
+      \strng{authornamehash}{a1069a93f95cbabfdc6038213e7445be}
+      \strng{authorfullhash}{a1069a93f95cbabfdc6038213e7445be}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Foundations of Measurement: Volume I: Additive and Polynomial Representations}
+      \field{year}{1971}
     \endentry
     \entry{DavidsonEssays}{book}{}
       \name{author}{1}{}{%
@@ -618,6 +922,66 @@
       \field{edition}{3}
       \field{title}{Meditations on First Philosophy}
       \field{year}{1993}
+    \endentry
+    \entry{Doyle1927}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=e1355953a81d68f10125da450be1fd78}{%
+           family={Doyle},
+           familyi={D\bibinitperiod},
+           given={Arthur\bibnamedelima Conan},
+           giveni={A\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Garden City, NY}%
+      }
+      \list{publisher}{1}{%
+        {Doubleday}%
+      }
+      \strng{namehash}{e1355953a81d68f10125da450be1fd78}
+      \strng{fullhash}{e1355953a81d68f10125da450be1fd78}
+      \strng{bibnamehash}{e1355953a81d68f10125da450be1fd78}
+      \strng{authorbibnamehash}{e1355953a81d68f10125da450be1fd78}
+      \strng{authornamehash}{e1355953a81d68f10125da450be1fd78}
+      \strng{authorfullhash}{e1355953a81d68f10125da450be1fd78}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{The Complete Sherlock Holmes}
+      \field{year}{1927}
+    \endentry
+    \entry{Dretske1995}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=061140beddbd6131da826d7f24a08828}{%
+           family={Dretske},
+           familyi={D\bibinitperiod},
+           given={Fred},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Cambridge, MA}%
+      }
+      \list{publisher}{1}{%
+        {MIT Press}%
+      }
+      \strng{namehash}{061140beddbd6131da826d7f24a08828}
+      \strng{fullhash}{061140beddbd6131da826d7f24a08828}
+      \strng{bibnamehash}{061140beddbd6131da826d7f24a08828}
+      \strng{authorbibnamehash}{061140beddbd6131da826d7f24a08828}
+      \strng{authornamehash}{061140beddbd6131da826d7f24a08828}
+      \strng{authorfullhash}{061140beddbd6131da826d7f24a08828}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Naturalizing the Mind}
+      \field{year}{1995}
     \endentry
     \entry{DurhamDissertation}{thesis}{}
       \name{author}{1}{}{%
@@ -732,6 +1096,39 @@
       \field{year}{1967}
       \field{pages}{5\bibrangedash 15}
       \range{pages}{11}
+    \endentry
+    \entry{FrancisSports}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=9c071a3cb7c9925c482e6d04d4715130}{%
+           family={Francis},
+           familyi={F\bibinitperiod},
+           given={Leslie},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{9c071a3cb7c9925c482e6d04d4715130}
+      \strng{fullhash}{9c071a3cb7c9925c482e6d04d4715130}
+      \strng{bibnamehash}{9c071a3cb7c9925c482e6d04d4715130}
+      \strng{authorbibnamehash}{9c071a3cb7c9925c482e6d04d4715130}
+      \strng{authornamehash}{9c071a3cb7c9925c482e6d04d4715130}
+      \strng{authorfullhash}{9c071a3cb7c9925c482e6d04d4715130}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Utah Law Faculty Scholarship}
+      \field{title}{Title IX: An Incomplete Effort to Achieve Equality in Sports}
+      \field{year}{2016}
+      \field{pages}{92}
+      \range{pages}{1}
+      \verb{urlraw}
+      \verb https://dc.law.utah.edu/scholarship/92/
+      \endverb
+      \verb{url}
+      \verb https://dc.law.utah.edu/scholarship/92/
+      \endverb
     \endentry
     \entry{AEH2004}{article}{}
       \name{author}{1}{}{%
@@ -852,6 +1249,102 @@
       \field{pages}{185\bibrangedash 204}
       \range{pages}{20}
     \endentry
+    \entry{GoodmanFFF}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=69de5a1450433cb926b8b88d275347b0}{%
+           family={Goodman},
+           familyi={G\bibinitperiod},
+           given={Nelson},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {New York}%
+      }
+      \list{publisher}{1}{%
+        {Bobbs Merrill}%
+      }
+      \strng{namehash}{69de5a1450433cb926b8b88d275347b0}
+      \strng{fullhash}{69de5a1450433cb926b8b88d275347b0}
+      \strng{bibnamehash}{69de5a1450433cb926b8b88d275347b0}
+      \strng{authorbibnamehash}{69de5a1450433cb926b8b88d275347b0}
+      \strng{authornamehash}{69de5a1450433cb926b8b88d275347b0}
+      \strng{authorfullhash}{69de5a1450433cb926b8b88d275347b0}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{2}
+      \field{title}{Fact, fiction, and forecast}
+      \field{year}{1965}
+    \endentry
+    \entry{GrantSimplicity}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=484dcb7c39ab62c22011d5103063f81c}{%
+           family={Grant},
+           familyi={G\bibinitperiod},
+           given={W.\bibnamedelimi Matthews},
+           giveni={W\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {The Society of Christian Philosophers}%
+      }
+      \strng{namehash}{484dcb7c39ab62c22011d5103063f81c}
+      \strng{fullhash}{484dcb7c39ab62c22011d5103063f81c}
+      \strng{bibnamehash}{484dcb7c39ab62c22011d5103063f81c}
+      \strng{authorbibnamehash}{484dcb7c39ab62c22011d5103063f81c}
+      \strng{authornamehash}{484dcb7c39ab62c22011d5103063f81c}
+      \strng{authorfullhash}{484dcb7c39ab62c22011d5103063f81c}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Faith and Philosophy}
+      \field{title}{Divine Simplicity, Contingent Truths, and Extrinsic Models of Divine Knowing}
+      \field{volume}{29}
+      \field{year}{2012}
+      \field{pages}{254\bibrangedash 274}
+      \range{pages}{21}
+    \endentry
+    \entry{GreavesWallace}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=fe05409f2beb0c218490352375c8aaab}{%
+           family={Greaves},
+           familyi={G\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d4955fe2b05ea271dc491a827ba2bc94}{%
+           family={Wallace},
+           familyi={W\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{525b52a94b80613db6608a628d7634ab}
+      \strng{fullhash}{525b52a94b80613db6608a628d7634ab}
+      \strng{bibnamehash}{525b52a94b80613db6608a628d7634ab}
+      \strng{authorbibnamehash}{525b52a94b80613db6608a628d7634ab}
+      \strng{authornamehash}{525b52a94b80613db6608a628d7634ab}
+      \strng{authorfullhash}{525b52a94b80613db6608a628d7634ab}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Mind}
+      \field{title}{Justifying Conditionalization: Conditionalization Maximizes Expected Epistemic Utility}
+      \field{volume}{115}
+      \field{year}{2006}
+      \field{pages}{607\bibrangedash 632}
+      \range{pages}{26}
+    \endentry
     \entry{Hakli2006}{article}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=dc13e43e3787a599dbbc15c202a04cd6}{%
@@ -880,6 +1373,74 @@
       \field{pages}{286\bibrangedash 297}
       \range{pages}{12}
     \endentry
+    \entry{HassallColorblindness}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=1d4406b867378b36ca239e3e89110edc}{%
+           family={Hassall},
+           familyi={H\bibinitperiod},
+           given={Mark\bibnamedelima M.},
+           giveni={M\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=38688482ae332a7bcbcfa12c4eeffc8e}{%
+           family={Barnard},
+           familyi={B\bibinitperiod},
+           given={Alun\bibnamedelima R.},
+           giveni={A\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a99ee3b057585dc452bf3edf23100e5a}{%
+           family={MacLaren},
+           familyi={M\bibinitperiod},
+           given={Robert\bibnamedelima E.},
+           giveni={R\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{9450b29f8b38aec99f5386afbc08537a}
+      \strng{fullhash}{9450b29f8b38aec99f5386afbc08537a}
+      \strng{bibnamehash}{9450b29f8b38aec99f5386afbc08537a}
+      \strng{authorbibnamehash}{9450b29f8b38aec99f5386afbc08537a}
+      \strng{authornamehash}{9450b29f8b38aec99f5386afbc08537a}
+      \strng{authorfullhash}{9450b29f8b38aec99f5386afbc08537a}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{12}
+      \field{title}{Gene Therapy for Color Blindness}
+      \field{volume}{90}
+      \field{year}{2017}
+      \field{pages}{543\bibrangedash 551}
+      \range{pages}{9}
+    \endentry
+    \entry{Hausdorff}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=de0d523b6080ad0054982ec3e11e6641}{%
+           family={Hausdorff},
+           familyi={H\bibinitperiod},
+           given={F},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{de0d523b6080ad0054982ec3e11e6641}
+      \strng{fullhash}{de0d523b6080ad0054982ec3e11e6641}
+      \strng{bibnamehash}{de0d523b6080ad0054982ec3e11e6641}
+      \strng{authorbibnamehash}{de0d523b6080ad0054982ec3e11e6641}
+      \strng{authornamehash}{de0d523b6080ad0054982ec3e11e6641}
+      \strng{authorfullhash}{de0d523b6080ad0054982ec3e11e6641}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Mathematische Annalen}
+      \field{title}{Bemerkung über den Inhalt von Punktmengen}
+      \field{volume}{75}
+      \field{year}{1914}
+      \field{pages}{428\bibrangedash 433}
+      \range{pages}{6}
+    \endentry
     \entry{HawthorneMoralVagueness}{article}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=737ff8a3a0971e88a58492b317eb1d27}{%
@@ -907,6 +1468,34 @@
       \field{year}{2022}
       \field{pages}{214\bibrangedash 247}
       \range{pages}{34}
+    \endentry
+    \entry{HedbergSuper}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=34e45ed21c04a00e73409e995b4a48ea}{%
+           family={Hedberg},
+           familyi={H\bibinitperiod},
+           given={Trevor},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{34e45ed21c04a00e73409e995b4a48ea}
+      \strng{fullhash}{34e45ed21c04a00e73409e995b4a48ea}
+      \strng{bibnamehash}{34e45ed21c04a00e73409e995b4a48ea}
+      \strng{authorbibnamehash}{34e45ed21c04a00e73409e995b4a48ea}
+      \strng{authornamehash}{34e45ed21c04a00e73409e995b4a48ea}
+      \strng{authorfullhash}{34e45ed21c04a00e73409e995b4a48ea}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Synthese}
+      \field{title}{Epistemic supererogation and its implications}
+      \field{volume}{191}
+      \field{year}{2014}
+      \field{pages}{3621\bibrangedash 3637}
+      \range{pages}{17}
     \endentry
     \entry{Hume1779}{book}{}
       \name{author}{1}{}{%
@@ -963,6 +1552,39 @@
       \field{pages}{34\bibrangedash 66}
       \range{pages}{33}
     \endentry
+    \entry{IsaacsRussellUpdating}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=b20bd8e5b0359a46ae9c3e956a4d19df}{%
+           family={Isaacs},
+           familyi={I\bibinitperiod},
+           given={Yoaav},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=fe4343a5f49a9925f7071ef9fac30f48}{%
+           family={Russell},
+           familyi={R\bibinitperiod},
+           given={Jeffrey\bibnamedelima Sanford},
+           giveni={J\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{995a7c4ba54803c395d8eb6160ebfa9b}
+      \strng{fullhash}{995a7c4ba54803c395d8eb6160ebfa9b}
+      \strng{bibnamehash}{995a7c4ba54803c395d8eb6160ebfa9b}
+      \strng{authorbibnamehash}{995a7c4ba54803c395d8eb6160ebfa9b}
+      \strng{authornamehash}{995a7c4ba54803c395d8eb6160ebfa9b}
+      \strng{authorfullhash}{995a7c4ba54803c395d8eb6160ebfa9b}
+      \field{sortinit}{I}
+      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Noûs}
+      \field{title}{Updating without evidence}
+      \field{year}{2023}
+      \field{pages}{576\bibrangedash 599}
+      \range{pages}{24}
+    \endentry
     \entry{IsmaelSchafferQHolism}{article}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=b71472010526e859d794fce6144c4183}{%
@@ -1013,6 +1635,51 @@
       \field{pages}{21\bibrangedash 22}
       \range{pages}{2}
     \endentry
+    \entry{JacksonPaternalism}{incollection}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=5534b78d30f4ce6b5d7bcae849e9bccf}{%
+           family={Jackson},
+           familyi={J\bibinitperiod},
+           given={Elizabeth},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{2}{}{%
+        {{hash=80ee1ec9f8cf0b6f21d9da5251dbd1ca}{%
+           family={Matheson},
+           familyi={M\bibinitperiod},
+           given={Jonathan},
+           giveni={J\bibinitperiod}}}%
+        {{hash=e8491421a5954b70b21b6f1d3324e8c6}{%
+           family={Lougheed},
+           familyi={L\bibinitperiod},
+           given={Kirk},
+           giveni={K\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Routledge}%
+      }
+      \strng{namehash}{5534b78d30f4ce6b5d7bcae849e9bccf}
+      \strng{fullhash}{5534b78d30f4ce6b5d7bcae849e9bccf}
+      \strng{bibnamehash}{5534b78d30f4ce6b5d7bcae849e9bccf}
+      \strng{authorbibnamehash}{5534b78d30f4ce6b5d7bcae849e9bccf}
+      \strng{authornamehash}{5534b78d30f4ce6b5d7bcae849e9bccf}
+      \strng{authorfullhash}{5534b78d30f4ce6b5d7bcae849e9bccf}
+      \strng{editorbibnamehash}{5f7f03623020bbcb2fdfa10772f848fd}
+      \strng{editornamehash}{5f7f03623020bbcb2fdfa10772f848fd}
+      \strng{editorfullhash}{5f7f03623020bbcb2fdfa10772f848fd}
+      \field{sortinit}{J}
+      \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Epistemic Autonomy}
+      \field{title}{What's Epistemic About Epistemic Paternalism?}
+      \field{year}{2021}
+      \field{pages}{132\bibrangedash 150}
+      \range{pages}{19}
+    \endentry
     \entry{KahaneDebunk}{article}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=2ca5c3aa16ec2eddb20d92e69431a02e}{%
@@ -1040,6 +1707,125 @@
       \field{year}{2011}
       \field{pages}{103\bibrangedash 125}
       \range{pages}{23}
+    \endentry
+    \entry{Kahneman}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=d0dcea81f8587e7d56bb5dbe34a39d6c}{%
+           family={Kahneman},
+           familyi={K\bibinitperiod},
+           given={Daniel},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {New York}%
+      }
+      \list{publisher}{2}{%
+        {Farrar, Straus}%
+        {Giroux}%
+      }
+      \strng{namehash}{d0dcea81f8587e7d56bb5dbe34a39d6c}
+      \strng{fullhash}{d0dcea81f8587e7d56bb5dbe34a39d6c}
+      \strng{bibnamehash}{d0dcea81f8587e7d56bb5dbe34a39d6c}
+      \strng{authorbibnamehash}{d0dcea81f8587e7d56bb5dbe34a39d6c}
+      \strng{authornamehash}{d0dcea81f8587e7d56bb5dbe34a39d6c}
+      \strng{authorfullhash}{d0dcea81f8587e7d56bb5dbe34a39d6c}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Thinking, fast and slow}
+      \field{year}{2011}
+    \endentry
+    \entry{TwentyYears}{article}{}
+      \name{author}{11}{}{%
+        {{un=0,uniquepart=base,hash=277f6787c2c4dda570796e15296da437}{%
+           family={Karney},
+           familyi={K\bibinitperiod},
+           given={Benjamin\bibnamedelima R.},
+           giveni={B\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=880281b1ce7ba19ac9ec44d54e1420fe}{%
+           family={Zaber},
+           familyi={Z\bibinitperiod},
+           given={Melanie\bibnamedelima A.},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=12f4339a40a0d414c65770b426c41e06}{%
+           family={Smith},
+           familyi={S\bibinitperiod},
+           given={Molly\bibnamedelima G.},
+           giveni={M\bibinitperiod\bibinitdelim G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=37ccfb090526e9d6653817af85b30fdd}{%
+           family={Mann},
+           familyi={M\bibinitperiod},
+           given={Samuel\bibnamedelima J.},
+           giveni={S\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=cfbf3bfbc6774c92fc3be614c238968d}{%
+           family={AlFakhri},
+           familyi={A\bibinitperiod},
+           given={Marwa},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=720c5bc0f32af8e6776225f73ed62108}{%
+           family={Coe},
+           familyi={C\bibinitperiod},
+           given={Jessie},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0375af8d6dbd470fb6974e125e3c2c9e}{%
+           family={Ryan},
+           familyi={R\bibinitperiod},
+           given={Jamie\bibnamedelima L.},
+           giveni={J\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5347400141dc9e21be73739daf7e2f84}{%
+           family={Gadwah-Meaden},
+           familyi={G\bibinithyphendelim M\bibinitperiod},
+           given={Catria},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=71957206b822a0f4a6bdb5ef70195405}{%
+           family={Mallory},
+           familyi={M\bibinitperiod},
+           given={Christy},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ae21e7cd7f903ea011087b4a9333d338}{%
+           family={Sears},
+           familyi={S\bibinitperiod},
+           given={Brad},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=99457f195160387bfba868ab34d8684a}{%
+           family={Garber},
+           familyi={G\bibinitperiod},
+           given={Chandra},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{ee3d9cc18f6f60fab62469991e70501e}
+      \strng{fullhash}{60eaa14355c7e050f1ba0e902034c6d0}
+      \strng{bibnamehash}{ee3d9cc18f6f60fab62469991e70501e}
+      \strng{authorbibnamehash}{ee3d9cc18f6f60fab62469991e70501e}
+      \strng{authornamehash}{ee3d9cc18f6f60fab62469991e70501e}
+      \strng{authorfullhash}{60eaa14355c7e050f1ba0e902034c6d0}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Rand Health Quarterly}
+      \field{title}{Twenty Years of Legal Marriage for Same-Sex Couples in the United States: Evidence Review and New Analyse}
+      \field{volume}{11}
+      \field{year}{2024}
+      \field{pages}{1}
+      \range{pages}{1}
     \endentry
     \entry{KasherYadlinAssassination}{article}{}
       \name{author}{2}{}{%
@@ -1188,6 +1974,54 @@
       \field{pages}{1\bibrangedash 11}
       \range{pages}{11}
     \endentry
+    \entry{KoonsPruss}{incollection}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=df67383e5f81e5cc7a9f630a00674bae}{%
+           family={Koons},
+           familyi={K\bibinitperiod},
+           given={Robert\bibnamedelima C.},
+           giveni={R\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e8ab824cdc070a044693034d511bdeb7}{%
+           family={Pruss},
+           familyi={P\bibinitperiod},
+           given={Alexander\bibnamedelima R.},
+           giveni={A\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=9d639807f70ce4fb7e5cd2156c7ea1a0}{%
+           family={Jacobs},
+           familyi={J\bibinitperiod},
+           given={Jonathan\bibnamedelima D.},
+           giveni={J\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Oxford}%
+      }
+      \list{publisher}{1}{%
+        {OUP}%
+      }
+      \strng{namehash}{1cbd3d45f9f27fdc62214145eba629df}
+      \strng{fullhash}{1cbd3d45f9f27fdc62214145eba629df}
+      \strng{bibnamehash}{1cbd3d45f9f27fdc62214145eba629df}
+      \strng{authorbibnamehash}{1cbd3d45f9f27fdc62214145eba629df}
+      \strng{authornamehash}{1cbd3d45f9f27fdc62214145eba629df}
+      \strng{authorfullhash}{1cbd3d45f9f27fdc62214145eba629df}
+      \strng{editorbibnamehash}{9d639807f70ce4fb7e5cd2156c7ea1a0}
+      \strng{editornamehash}{9d639807f70ce4fb7e5cd2156c7ea1a0}
+      \strng{editorfullhash}{9d639807f70ce4fb7e5cd2156c7ea1a0}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Must functionalists be Aristotelians?}
+      \field{year}{2017}
+      \field{pages}{194\bibrangedash 204}
+      \range{pages}{11}
+    \endentry
     \entry{KripkeNamNec1980}{book}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=1f34c77464ac64ac30f15ddd94d368a6}{%
@@ -1218,6 +2052,36 @@
       \field{title}{Naming and Necessity}
       \field{year}{1980}
     \endentry
+    \entry{Kyburg1961}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=c50ea983192269e8998413d5fb058479}{%
+           family={Kyburg},
+           familyi={K\bibinitperiod},
+           given={H.\bibnamedelimi E.},
+           giveni={H\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Middletown, CT}%
+      }
+      \list{publisher}{1}{%
+        {Wesleyan University Press}%
+      }
+      \strng{namehash}{c50ea983192269e8998413d5fb058479}
+      \strng{fullhash}{c50ea983192269e8998413d5fb058479}
+      \strng{bibnamehash}{c50ea983192269e8998413d5fb058479}
+      \strng{authorbibnamehash}{c50ea983192269e8998413d5fb058479}
+      \strng{authornamehash}{c50ea983192269e8998413d5fb058479}
+      \strng{authorfullhash}{c50ea983192269e8998413d5fb058479}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Probability and the Logic of Rational Belief}
+      \field{year}{1961}
+    \endentry
     \entry{Lackey2020}{article}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=d6b2740b42ad26052ce3ae0d188a5437}{%
@@ -1245,6 +2109,34 @@
       \field{year}{2020}
       \field{pages}{185\bibrangedash 208}
       \range{pages}{24}
+    \endentry
+    \entry{LennoxHealth}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=602238cbcbc93aba492ef8e79dd1de91}{%
+           family={Lennox},
+           familyi={L\bibinitperiod},
+           given={James\bibnamedelima G.},
+           giveni={J\bibinitperiod\bibinitdelim G\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{602238cbcbc93aba492ef8e79dd1de91}
+      \strng{fullhash}{602238cbcbc93aba492ef8e79dd1de91}
+      \strng{bibnamehash}{602238cbcbc93aba492ef8e79dd1de91}
+      \strng{authorbibnamehash}{602238cbcbc93aba492ef8e79dd1de91}
+      \strng{authornamehash}{602238cbcbc93aba492ef8e79dd1de91}
+      \strng{authorfullhash}{602238cbcbc93aba492ef8e79dd1de91}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Medicine and Philosophy}
+      \field{title}{Health as an Objective Value}
+      \field{volume}{20}
+      \field{year}{1995}
+      \field{pages}{499\bibrangedash 511}
+      \range{pages}{13}
     \endentry
     \entry{LewisNewWork}{article}{}
       \name{author}{1}{}{%
@@ -1452,6 +2344,40 @@
       \field{title}{Work in Progress}
       \field{year}{2025}
     \endentry
+    \entry{MalaterreChartier}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=626faa4f586687574ab39d8fef269c4a}{%
+           family={Malaterre},
+           familyi={M\bibinitperiod},
+           given={Christophe},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=406eaac9a044d5eca2b5b6e2b4545fb6}{%
+           family={Chartier},
+           familyi={C\bibinitperiod},
+           given={Jean-François},
+           giveni={J\bibinithyphendelim F\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{c0ab0c07137888e9221da986e7b65043}
+      \strng{fullhash}{c0ab0c07137888e9221da986e7b65043}
+      \strng{bibnamehash}{c0ab0c07137888e9221da986e7b65043}
+      \strng{authorbibnamehash}{c0ab0c07137888e9221da986e7b65043}
+      \strng{authornamehash}{c0ab0c07137888e9221da986e7b65043}
+      \strng{authorfullhash}{c0ab0c07137888e9221da986e7b65043}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Synthese}
+      \field{title}{Beyond categorical definitions of life: a data-driven approach to assessing lifeness}
+      \field{volume}{198}
+      \field{year}{2021}
+      \field{pages}{4543\bibrangedash 4572}
+      \range{pages}{30}
+    \endentry
     \entry{McCombe2017}{article}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=305460c04e508afa1b5a2b57b7b207b2}{%
@@ -1479,6 +2405,32 @@
       \field{year}{2017}
       \field{pages}{71\bibrangedash 82}
       \range{pages}{12}
+    \endentry
+    \entry{McCutcheonLog}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=584382077e4f373b4832769092600404}{%
+           family={McCutcheon},
+           familyi={M\bibinitperiod},
+           given={Randall\bibnamedelima G},
+           giveni={R\bibinitperiod\bibinitdelim G\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{584382077e4f373b4832769092600404}
+      \strng{fullhash}{584382077e4f373b4832769092600404}
+      \strng{bibnamehash}{584382077e4f373b4832769092600404}
+      \strng{authorbibnamehash}{584382077e4f373b4832769092600404}
+      \strng{authornamehash}{584382077e4f373b4832769092600404}
+      \strng{authorfullhash}{584382077e4f373b4832769092600404}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labeldatesource}{nodate}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Philosophy of Science}
+      \field{title}{In favor of logarithmic scoring}
+      \field{volume}{86}
+      \field{pages}{286\bibrangedash 303}
+      \range{pages}{18}
     \endentry
     \entry{McInernyET}{book}{}
       \name{author}{1}{}{%
@@ -1601,6 +2553,94 @@
       \field{title}{Utilitarianism}
       \field{year}{1879}
     \endentry
+    \entry{Millikan1984}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=da83224e8ca3be79c7adf7299777011a}{%
+           family={Millikan},
+           familyi={M\bibinitperiod},
+           given={Ruth\bibnamedelima Garrett},
+           giveni={R\bibinitperiod\bibinitdelim G\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Cambridge, MA}%
+      }
+      \list{publisher}{1}{%
+        {MIT Press}%
+      }
+      \strng{namehash}{da83224e8ca3be79c7adf7299777011a}
+      \strng{fullhash}{da83224e8ca3be79c7adf7299777011a}
+      \strng{bibnamehash}{da83224e8ca3be79c7adf7299777011a}
+      \strng{authorbibnamehash}{da83224e8ca3be79c7adf7299777011a}
+      \strng{authornamehash}{da83224e8ca3be79c7adf7299777011a}
+      \strng{authorfullhash}{da83224e8ca3be79c7adf7299777011a}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Language, Thought, and Other Biological Categories}
+      \field{year}{1984}
+    \endentry
+    \entry{Neander1995}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=9ae85e1a3bc96de90f02b0df2279e665}{%
+           family={Neander},
+           familyi={N\bibinitperiod},
+           given={Karen},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{9ae85e1a3bc96de90f02b0df2279e665}
+      \strng{fullhash}{9ae85e1a3bc96de90f02b0df2279e665}
+      \strng{bibnamehash}{9ae85e1a3bc96de90f02b0df2279e665}
+      \strng{authorbibnamehash}{9ae85e1a3bc96de90f02b0df2279e665}
+      \strng{authornamehash}{9ae85e1a3bc96de90f02b0df2279e665}
+      \strng{authorfullhash}{9ae85e1a3bc96de90f02b0df2279e665}
+      \field{extraname}{1}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Philosophical Studies}
+      \field{title}{Misrepresenting and Malfunctioning}
+      \field{volume}{79}
+      \field{year}{1995}
+      \field{pages}{109\bibrangedash 41}
+      \range{pages}{33}
+    \endentry
+    \entry{Neander1991}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=9ae85e1a3bc96de90f02b0df2279e665}{%
+           family={Neander},
+           familyi={N\bibinitperiod},
+           given={Karen},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{9ae85e1a3bc96de90f02b0df2279e665}
+      \strng{fullhash}{9ae85e1a3bc96de90f02b0df2279e665}
+      \strng{bibnamehash}{9ae85e1a3bc96de90f02b0df2279e665}
+      \strng{authorbibnamehash}{9ae85e1a3bc96de90f02b0df2279e665}
+      \strng{authornamehash}{9ae85e1a3bc96de90f02b0df2279e665}
+      \strng{authorfullhash}{9ae85e1a3bc96de90f02b0df2279e665}
+      \field{extraname}{2}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Australasian Journal of Philosophy}
+      \field{title}{The Teleological Notion of `Function'}
+      \field{volume}{69}
+      \field{year}{1991}
+      \field{pages}{454\bibrangedash 468}
+      \range{pages}{15}
+    \endentry
     \entry{Ng1989}{article}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=fda72f32c330ce2d0ad732ce99299407}{%
@@ -1629,6 +2669,32 @@
       \field{year}{1989}
       \field{pages}{235\bibrangedash 253}
       \range{pages}{19}
+    \endentry
+    \entry{NielsenDom}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=3b32fb3a134f406f7b5107358d27befe}{%
+           family={Nielsen},
+           familyi={N\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{3b32fb3a134f406f7b5107358d27befe}
+      \strng{fullhash}{3b32fb3a134f406f7b5107358d27befe}
+      \strng{bibnamehash}{3b32fb3a134f406f7b5107358d27befe}
+      \strng{authorbibnamehash}{3b32fb3a134f406f7b5107358d27befe}
+      \strng{authornamehash}{3b32fb3a134f406f7b5107358d27befe}
+      \strng{authorfullhash}{3b32fb3a134f406f7b5107358d27befe}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{journaltitle}{Philosophy of Science}
+      \field{volume}{89}
+      \field{year}{2022}
+      \field{pages}{621\bibrangedash 630}
+      \range{pages}{10}
     \endentry
     \entry{OBKoons}{article}{}
       \name{author}{2}{}{%
@@ -1664,6 +2730,34 @@
       \field{pages}{655\bibrangedash 703}
       \range{pages}{49}
     \endentry
+    \entry{ODonoghueMicrochimerism}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=5fab775dd498646a1399c41edef31a52}{%
+           family={O’Donoghue},
+           familyi={O\bibinitperiod},
+           given={Keelin},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{5fab775dd498646a1399c41edef31a52}
+      \strng{fullhash}{5fab775dd498646a1399c41edef31a52}
+      \strng{bibnamehash}{5fab775dd498646a1399c41edef31a52}
+      \strng{authorbibnamehash}{5fab775dd498646a1399c41edef31a52}
+      \strng{authornamehash}{5fab775dd498646a1399c41edef31a52}
+      \strng{authorfullhash}{5fab775dd498646a1399c41edef31a52}
+      \field{sortinit}{O}
+      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Obstetric Medicine}
+      \field{title}{Fetal microchimerism and maternal health during and after pregnancy}
+      \field{volume}{1}
+      \field{year}{2008}
+      \field{pages}{56\bibrangedash 64}
+      \range{pages}{9}
+    \endentry
     \entry{Oliner1988}{book}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=4a58ad17c3e175057c96696f10231c33}{%
@@ -1694,6 +2788,63 @@
       \field{title}{The Altruistic Personality: Rescuers of Jews in Nazi Europe}
       \field{year}{1988}
     \endentry
+    \entry{Papineau1993}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=16fc84611d1bb5cb2b4f34d438da20de}{%
+           family={Papineau},
+           familyi={P\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Oxford}%
+      }
+      \list{publisher}{1}{%
+        {OUP}%
+      }
+      \strng{namehash}{16fc84611d1bb5cb2b4f34d438da20de}
+      \strng{fullhash}{16fc84611d1bb5cb2b4f34d438da20de}
+      \strng{bibnamehash}{16fc84611d1bb5cb2b4f34d438da20de}
+      \strng{authorbibnamehash}{16fc84611d1bb5cb2b4f34d438da20de}
+      \strng{authornamehash}{16fc84611d1bb5cb2b4f34d438da20de}
+      \strng{authorfullhash}{16fc84611d1bb5cb2b4f34d438da20de}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{labeldatesource}{nodate}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Philosophical Naturalism}
+      \field{volume}{1993}
+    \endentry
+    \entry{PettigrewNew}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=398bfd31f121dcaac0807e35cca44797}{%
+           family={Pettigrew},
+           familyi={P\bibinitperiod},
+           given={Richard},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{398bfd31f121dcaac0807e35cca44797}
+      \strng{fullhash}{398bfd31f121dcaac0807e35cca44797}
+      \strng{bibnamehash}{398bfd31f121dcaac0807e35cca44797}
+      \strng{authorbibnamehash}{398bfd31f121dcaac0807e35cca44797}
+      \strng{authornamehash}{398bfd31f121dcaac0807e35cca44797}
+      \strng{authorfullhash}{398bfd31f121dcaac0807e35cca44797}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Philosophy of Science}
+      \field{title}{Accuracy-First Epistemology Without the Additivity Axiom}
+      \field{volume}{89}
+      \field{year}{2021}
+      \field{pages}{128\bibrangedash 151}
+      \range{pages}{24}
+    \endentry
     \entry{PlantingaWarrant}{book}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=a16d3a9df3138b52eabc36e563ab1197}{%
@@ -1718,7 +2869,6 @@
       \field{labeldatesource}{}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{edition}{1}
       \field{title}{Warrant and Proper Function}
       \field{year}{1993}
       \verb{urlraw}
@@ -1770,6 +2920,94 @@
       \field{title}{Collected Dialogues of Plato, Including the Letters}
       \field{year}{1963}
     \endentry
+    \entry{PreddEtAl}{article}{}
+      \name{author}{6}{}{%
+        {{un=0,uniquepart=base,hash=0932a006d3b797a277671fa98ffd8886}{%
+           family={Predd},
+           familyi={P\bibinitperiod},
+           given={Joel\bibnamedelima B.},
+           giveni={J\bibinitperiod\bibinitdelim B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d9f165650b1bea0ab5b74a7911223c2f}{%
+           family={Seiringer},
+           familyi={S\bibinitperiod},
+           given={Robert},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=298133a6b79dcce8ef5f6cb15b60f119}{%
+           family={Lieb},
+           familyi={L\bibinitperiod},
+           given={Elliott\bibnamedelima H.},
+           giveni={E\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c4172f6b6abebd7188781c0881a81c04}{%
+           family={Osherson},
+           familyi={O\bibinitperiod},
+           given={Daniel\bibnamedelima N.},
+           giveni={D\bibinitperiod\bibinitdelim N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=de7b0e512fcdd087f5750837f7c7cb9f}{%
+           family={Poor},
+           familyi={P\bibinitperiod},
+           given={H.\bibnamedelimi Vincent},
+           giveni={H\bibinitperiod\bibinitdelim V\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=892bf9b5d863438a1ff4c6432192f974}{%
+           family={Kulkarni},
+           familyi={K\bibinitperiod},
+           given={Sanjeev\bibnamedelima R.},
+           giveni={S\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{c29ab15df5e6b4869ae4416c2582bc41}
+      \strng{fullhash}{3b5cfdc720e153e31cd1484b3ba214e4}
+      \strng{bibnamehash}{c29ab15df5e6b4869ae4416c2582bc41}
+      \strng{authorbibnamehash}{c29ab15df5e6b4869ae4416c2582bc41}
+      \strng{authornamehash}{c29ab15df5e6b4869ae4416c2582bc41}
+      \strng{authorfullhash}{3b5cfdc720e153e31cd1484b3ba214e4}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Transactions on Information Theory}
+      \field{title}{Probabilistic Coherence and Proper Scoring Rules}
+      \field{volume}{55}
+      \field{year}{2009}
+      \field{pages}{4786\bibrangedash 4792}
+      \range{pages}{7}
+    \endentry
+    \entry{PrussRegularityForward}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=e8ab824cdc070a044693034d511bdeb7}{%
+           family={Pruss},
+           familyi={P\bibinitperiod},
+           given={Alexander\bibnamedelima R.},
+           giveni={A\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{e8ab824cdc070a044693034d511bdeb7}
+      \strng{fullhash}{e8ab824cdc070a044693034d511bdeb7}
+      \strng{bibnamehash}{e8ab824cdc070a044693034d511bdeb7}
+      \strng{authorbibnamehash}{e8ab824cdc070a044693034d511bdeb7}
+      \strng{authornamehash}{e8ab824cdc070a044693034d511bdeb7}
+      \strng{authorfullhash}{e8ab824cdc070a044693034d511bdeb7}
+      \field{extraname}{1}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradate}{1}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Synthese}
+      \field{title}{A classical way forward for the regularity and normalization problems}
+      \field{volume}{199}
+      \field{year}{2021}
+      \field{pages}{11769\bibrangedash 11792}
+      \range{pages}{24}
+    \endentry
     \entry{PrussAbortion}{incollection}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=e8ab824cdc070a044693034d511bdeb7}{%
@@ -1801,7 +3039,7 @@
       \strng{editorbibnamehash}{deab2a4bcc690ebeebc14cbec0194cb3}
       \strng{editornamehash}{deab2a4bcc690ebeebc14cbec0194cb3}
       \strng{editorfullhash}{deab2a4bcc690ebeebc14cbec0194cb3}
-      \field{extraname}{1}
+      \field{extraname}{2}
       \field{sortinit}{P}
       \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
       \field{extradatescope}{labelyear}
@@ -1837,7 +3075,7 @@
       \strng{authorbibnamehash}{e8ab824cdc070a044693034d511bdeb7}
       \strng{authornamehash}{e8ab824cdc070a044693034d511bdeb7}
       \strng{authorfullhash}{e8ab824cdc070a044693034d511bdeb7}
-      \field{extraname}{2}
+      \field{extraname}{3}
       \field{sortinit}{P}
       \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
       \field{extradatescope}{labelyear}
@@ -1846,6 +3084,67 @@
       \field{labeltitlesource}{title}
       \field{title}{Infinity, Causation, and Paradox}
       \field{year}{2018}
+    \endentry
+    \entry{PrussCont}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=e8ab824cdc070a044693034d511bdeb7}{%
+           family={Pruss},
+           familyi={P\bibinitperiod},
+           given={Alexander\bibnamedelima R.},
+           giveni={A\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{e8ab824cdc070a044693034d511bdeb7}
+      \strng{fullhash}{e8ab824cdc070a044693034d511bdeb7}
+      \strng{bibnamehash}{e8ab824cdc070a044693034d511bdeb7}
+      \strng{authorbibnamehash}{e8ab824cdc070a044693034d511bdeb7}
+      \strng{authornamehash}{e8ab824cdc070a044693034d511bdeb7}
+      \strng{authorfullhash}{e8ab824cdc070a044693034d511bdeb7}
+      \field{extraname}{4}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Review of Symbolic Logic}
+      \field{title}{Necessary and sufficient conditions for domination results for proper scoring rules}
+      \field{volume}{17}
+      \field{year}{2024}
+      \field{pages}{132\bibrangedash 143}
+      \range{pages}{12}
+    \endentry
+    \entry{PrussDom}{author}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=e8ab824cdc070a044693034d511bdeb7}{%
+           family={Pruss},
+           familyi={P\bibinitperiod},
+           given={Alexander\bibnamedelima R.},
+           giveni={A\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{e8ab824cdc070a044693034d511bdeb7}
+      \strng{fullhash}{e8ab824cdc070a044693034d511bdeb7}
+      \strng{bibnamehash}{e8ab824cdc070a044693034d511bdeb7}
+      \strng{authorbibnamehash}{e8ab824cdc070a044693034d511bdeb7}
+      \strng{authornamehash}{e8ab824cdc070a044693034d511bdeb7}
+      \strng{authorfullhash}{e8ab824cdc070a044693034d511bdeb7}
+      \field{extraname}{5}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradate}{2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Proper scoring rules and domination}
+      \field{year}{2021}
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/2102.02260
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/2102.02260
+      \endverb
     \endentry
     \entry{PrussPSR}{book}{}
       \name{author}{1}{}{%
@@ -1865,7 +3164,7 @@
       \strng{authorbibnamehash}{e8ab824cdc070a044693034d511bdeb7}
       \strng{authornamehash}{e8ab824cdc070a044693034d511bdeb7}
       \strng{authorfullhash}{e8ab824cdc070a044693034d511bdeb7}
-      \field{extraname}{3}
+      \field{extraname}{6}
       \field{sortinit}{P}
       \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
       \field{extradatescope}{labelyear}
@@ -2095,6 +3394,38 @@
       \field{pages}{257\bibrangedash 282}
       \range{pages}{26}
     \endentry
+    \entry{Shackel2007}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=ea498a74a53677991716e7d3d24d4cc4}{%
+           family={Shackel},
+           familyi={S\bibinitperiod},
+           given={Nicholas},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {University of Chicago Press}%
+      }
+      \strng{namehash}{ea498a74a53677991716e7d3d24d4cc4}
+      \strng{fullhash}{ea498a74a53677991716e7d3d24d4cc4}
+      \strng{bibnamehash}{ea498a74a53677991716e7d3d24d4cc4}
+      \strng{authorbibnamehash}{ea498a74a53677991716e7d3d24d4cc4}
+      \strng{authornamehash}{ea498a74a53677991716e7d3d24d4cc4}
+      \strng{authorfullhash}{ea498a74a53677991716e7d3d24d4cc4}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Philosophy of Science}
+      \field{number}{2}
+      \field{title}{Bertrand?s Paradox and the Principle of Indifference}
+      \field{volume}{74}
+      \field{year}{2007}
+      \field{pages}{150\bibrangedash 175}
+      \range{pages}{26}
+    \endentry
     \entry{ShaferLandau}{book}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=928d44c14aa80ef0250dc427ac5db061}{%
@@ -2185,6 +3516,34 @@
       \field{title}{The Moral Problem}
       \field{year}{1994}
     \endentry
+    \entry{Solomonoff78}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=9a5f3ec7bd594d69ba729eb2a5f11e72}{%
+           family={Solomonoff},
+           familyi={S\bibinitperiod},
+           given={R.\bibnamedelimi J.},
+           giveni={R\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{9a5f3ec7bd594d69ba729eb2a5f11e72}
+      \strng{fullhash}{9a5f3ec7bd594d69ba729eb2a5f11e72}
+      \strng{bibnamehash}{9a5f3ec7bd594d69ba729eb2a5f11e72}
+      \strng{authorbibnamehash}{9a5f3ec7bd594d69ba729eb2a5f11e72}
+      \strng{authornamehash}{9a5f3ec7bd594d69ba729eb2a5f11e72}
+      \strng{authorfullhash}{9a5f3ec7bd594d69ba729eb2a5f11e72}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Transactions on Information Theory}
+      \field{title}{Complexity-based induction systems: Comparisons and convergence theorems}
+      \field{volume}{24}
+      \field{year}{1978}
+      \field{pages}{422\bibrangedash 432}
+      \range{pages}{11}
+    \endentry
     \entry{SolovayCanBe}{incollection}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=0e263a7ea9edc4401e6ac469aa2aaf82}{%
@@ -2216,6 +3575,36 @@
       \field{year}{1972}
       \field{pages}{435}
       \range{pages}{1}
+    \endentry
+    \entry{Sterelny1990}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=2f5e06d86425da6582c8c5bbaced4d6b}{%
+           family={Sterelny},
+           familyi={S\bibinitperiod},
+           given={Kim},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Oxford}%
+      }
+      \list{publisher}{1}{%
+        {Blackwell}%
+      }
+      \strng{namehash}{2f5e06d86425da6582c8c5bbaced4d6b}
+      \strng{fullhash}{2f5e06d86425da6582c8c5bbaced4d6b}
+      \strng{bibnamehash}{2f5e06d86425da6582c8c5bbaced4d6b}
+      \strng{authorbibnamehash}{2f5e06d86425da6582c8c5bbaced4d6b}
+      \strng{authornamehash}{2f5e06d86425da6582c8c5bbaced4d6b}
+      \strng{authorfullhash}{2f5e06d86425da6582c8c5bbaced4d6b}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{The Representational Theory of Mind}
+      \field{year}{1990}
     \endentry
     \entry{SwinburneGod}{book}{}
       \name{author}{1}{}{%
@@ -2346,6 +3735,36 @@
       \field{pages}{198\bibrangedash 216}
       \range{pages}{19}
     \endentry
+    \entry{VonnegutHB}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=a96aa24182797b99fae7ca16cf2c5109}{%
+           family={Vonnegut},
+           familyi={V\bibinitperiod},
+           given={Kurt},
+           giveni={K\bibinitperiod},
+           givenun=0,
+           suffix={Jr.},
+           suffixi={J\bibinitperiod},
+           suffixun=0}}%
+      }
+      \strng{namehash}{a96aa24182797b99fae7ca16cf2c5109}
+      \strng{fullhash}{a96aa24182797b99fae7ca16cf2c5109}
+      \strng{bibnamehash}{a96aa24182797b99fae7ca16cf2c5109}
+      \strng{authorbibnamehash}{a96aa24182797b99fae7ca16cf2c5109}
+      \strng{authornamehash}{a96aa24182797b99fae7ca16cf2c5109}
+      \strng{authorfullhash}{a96aa24182797b99fae7ca16cf2c5109}
+      \field{sortinit}{V}
+      \field{sortinithash}{afb52128e5b4dc4b843768c0113d673b}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Magazine of Fantasy and Science Fiction}
+      \field{number}{4}
+      \field{title}{Harrison Bergeron}
+      \field{volume}{21}
+      \field{year}{1961}
+    \endentry
     \entry{WarrenAbortion}{article}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=34a2efc9d964b5387a9781c6a1bef44c}{%
@@ -2373,6 +3792,75 @@
       \field{year}{1973}
       \field{pages}{43\bibrangedash 61}
       \range{pages}{19}
+    \endentry
+    \entry{WaszakTwins}{article}{}
+      \name{author}{8}{}{%
+        {{un=0,uniquepart=base,hash=c92b2c6991845477283a0a642493117f}{%
+           family={Waszak},
+           familyi={W\bibinitperiod},
+           given={Małgorzata},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=695d1afa16079b407523699c5e16c2e1}{%
+           family={Cieślik},
+           familyi={C\bibinitperiod},
+           given={Krystyna},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=14c952c39c2c28260fb1d6a7fb4c8d57}{%
+           family={Wielgus},
+           familyi={W\bibinitperiod},
+           given={Karolina},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=fdcc2cee5be1fbaccc30b0dd897792b2}{%
+           family={Słomski},
+           familyi={S\bibinitperiod},
+           given={Ryszard},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=31a7f0bbae10fdb518e39a3c0d3d5b0e}{%
+           family={Szalata},
+           familyi={S\bibinitperiod},
+           given={Marlena},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6af98c89061254ec1d8ab251c04a659c}{%
+           family={Skrzypczak-Zielińska},
+           familyi={S\bibinithyphendelim Z\bibinitperiod},
+           given={Marzena},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ea5fa08d91c13390bbe1de47da0a5b1f}{%
+           family={Kempiak},
+           familyi={K\bibinitperiod},
+           given={Joanna},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=25dbbb2bff8b58696ffd20185a74e071}{%
+           family={Bręborowicz},
+           familyi={B\bibinitperiod},
+           given={Grzegorz},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{0e4f92f54e5eb8eec4dbc26c806f29c4}
+      \strng{fullhash}{4c8f959fbb9598c57a123873d84d5e51}
+      \strng{bibnamehash}{0e4f92f54e5eb8eec4dbc26c806f29c4}
+      \strng{authorbibnamehash}{0e4f92f54e5eb8eec4dbc26c806f29c4}
+      \strng{authornamehash}{0e4f92f54e5eb8eec4dbc26c806f29c4}
+      \strng{authorfullhash}{4c8f959fbb9598c57a123873d84d5e51}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Microchimerism in twins}
+      \field{volume}{9}
+      \field{year}{2013}
+      \field{pages}{1102\bibrangedash 1106}
+      \range{pages}{5}
     \endentry
     \entry{Weatherson2014}{article}{}
       \name{author}{1}{}{%
@@ -2451,6 +3939,47 @@
       \field{year}{2022}
       \field{pages}{14658}
       \range{pages}{1}
+    \endentry
+    \entry{HajekCond}{article}{}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Synthese}
+      \field{title}{What conditional probability could not be}
+      \field{volume}{137}
+      \field{year}{2003}
+      \field{pages}{273\bibrangedash 323}
+      \range{pages}{51}
+    \endentry
+    \entry{Whitcomb2005}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=2123438f3770717df8e6dd4a498fbaa0}{%
+           family={Whitcomb},
+           familyi={W\bibinitperiod},
+           given={Kathleen\bibnamedelima M.},
+           giveni={K\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{2123438f3770717df8e6dd4a498fbaa0}
+      \strng{fullhash}{2123438f3770717df8e6dd4a498fbaa0}
+      \strng{bibnamehash}{2123438f3770717df8e6dd4a498fbaa0}
+      \strng{authorbibnamehash}{2123438f3770717df8e6dd4a498fbaa0}
+      \strng{authornamehash}{2123438f3770717df8e6dd4a498fbaa0}
+      \strng{authorfullhash}{2123438f3770717df8e6dd4a498fbaa0}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Theory and Decision}
+      \field{title}{Quasi-Bayesian analysis using imprecise probability assessements and the Generalized Bayes' Rule}
+      \field{volume}{58}
+      \field{year}{2005}
+      \field{pages}{209\bibrangedash 238}
+      \range{pages}{30}
     \endentry
     \entry{WielenbergDebunk}{article}{}
       \name{author}{1}{}{%
@@ -2575,6 +4104,37 @@
       \field{pages}{1\bibrangedash 19}
       \range{pages}{19}
     \endentry
+    \entry{WilliamsonKn}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=3c5a6d2d74c469ca17ec2d2e79d66431}{%
+           family={Williamson},
+           familyi={W\bibinitperiod},
+           given={Timothy},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Oxford}%
+      }
+      \list{publisher}{1}{%
+        {Oxford University Press}%
+      }
+      \strng{namehash}{3c5a6d2d74c469ca17ec2d2e79d66431}
+      \strng{fullhash}{3c5a6d2d74c469ca17ec2d2e79d66431}
+      \strng{bibnamehash}{3c5a6d2d74c469ca17ec2d2e79d66431}
+      \strng{authorbibnamehash}{3c5a6d2d74c469ca17ec2d2e79d66431}
+      \strng{authornamehash}{3c5a6d2d74c469ca17ec2d2e79d66431}
+      \strng{authorfullhash}{3c5a6d2d74c469ca17ec2d2e79d66431}
+      \field{extraname}{1}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Knowledge and its limits}
+      \field{year}{2000}
+    \endentry
     \entry{WilliamsonVagueness}{book}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=3c5a6d2d74c469ca17ec2d2e79d66431}{%
@@ -2596,6 +4156,7 @@
       \strng{authorbibnamehash}{3c5a6d2d74c469ca17ec2d2e79d66431}
       \strng{authornamehash}{3c5a6d2d74c469ca17ec2d2e79d66431}
       \strng{authorfullhash}{3c5a6d2d74c469ca17ec2d2e79d66431}
+      \field{extraname}{2}
       \field{sortinit}{W}
       \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
       \field{extradatescope}{labelyear}
@@ -2604,6 +4165,34 @@
       \field{labeltitlesource}{title}
       \field{title}{Vagueness}
       \field{year}{1996}
+    \endentry
+    \entry{Wright1973}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=cfac11f5bb0be550de9a1e84e420c398}{%
+           family={Wright},
+           familyi={W\bibinitperiod},
+           given={Larry},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{cfac11f5bb0be550de9a1e84e420c398}
+      \strng{fullhash}{cfac11f5bb0be550de9a1e84e420c398}
+      \strng{bibnamehash}{cfac11f5bb0be550de9a1e84e420c398}
+      \strng{authorbibnamehash}{cfac11f5bb0be550de9a1e84e420c398}
+      \strng{authornamehash}{cfac11f5bb0be550de9a1e84e420c398}
+      \strng{authorfullhash}{cfac11f5bb0be550de9a1e84e420c398}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Philosophical Review}
+      \field{title}{Functions}
+      \field{volume}{82}
+      \field{year}{1973}
+      \field{pages}{139\bibrangedash 168}
+      \range{pages}{30}
     \endentry
     \entry{ZhaoRisk}{article}{}
       \name{author}{1}{}{%
