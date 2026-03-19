@@ -20,15 +20,19 @@ viewerStart = False
 def viewer():
     subprocess.Popen([PDF_VIEWER, DIRECTORY+MAIN_FILE+".pdf"])
 
-def pdflatex():
+def pdflatex(noRename=False):
     try:
-        subprocess.run([PDFLATEX, "-interaction=" + MODE, "-jobname=" + TEMP_FILE, "-output-directory=" +DIRECTORY, MAIN_FILE])
-        try:
-            os.unlink(os.path.join(DIRECTORY, MAIN_FILE + ".pdf"))
-        except:
-            pass
-        print("renaming")
-        os.rename(os.path.join(DIRECTORY, TEMP_FILE + ".pdf"), os.path.join(DIRECTORY, MAIN_FILE + ".pdf"))
+        subprocess.run([PDFLATEX, "-interaction=" + MODE, "-jobname=" + (MAIN_FILE if noRename else TEMP_FILE), "-output-directory=" +DIRECTORY, MAIN_FILE])
+        if not noRename:
+            try:
+                os.unlink(os.path.join(DIRECTORY, MAIN_FILE + ".pdf"))
+            except Exception as e:
+                print(e)
+            print("renaming")
+            try:
+                os.rename(os.path.join(DIRECTORY, TEMP_FILE + ".pdf"), os.path.join(DIRECTORY, MAIN_FILE + ".pdf"))
+            except:
+                pdflatex(noRename=True)
         print("processed successfully")
         return True
     except FileNotFoundError:
