@@ -4,6 +4,8 @@ import os
 import time
 import subprocess
 import sys
+import atexit
+import glob
 
 PDFLATEX = "pdflatex"
 PDF_VIEWER = os.getenv('LOCALAPPDATA')+"/SumatraPDF/SumatraPDF.exe"
@@ -74,6 +76,15 @@ class MyHandler(FileSystemEventHandler):
                 
     def on_created(self,event):
         self.on_modified(event)
+        
+def deleter():
+    base = os.path.splitext(TEMP_FILE)[0]
+    for ext in ('.aux', '.bcf', '.log', '.run.xml', '.toc'):
+        try:
+            os.unlink(base + ext)
+            print("Deleted "+(base+ext))
+        except:
+            pass
 
 if len(sys.argv)>1:
     DIRECTORY,MAIN_FILE = os.path.split(os.path.splitext(sys.argv[1])[0])
@@ -106,6 +117,8 @@ if EDITOR:
 
 if viewerStart:
     viewer()
+
+atexit.register(deleter)
 
 print("Press CTRL-c to terminate")
 
