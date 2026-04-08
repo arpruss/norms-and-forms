@@ -936,6 +936,60 @@ stochastic structure of the world.
 %\subsection{Global aesthetic-like features}\footnote{I am grateful to Nicholas Breiner for drawing my attention, in the context of
 %justice, to this form of explanation of moral features.}
 
+\section{Bayesian priors}
+Suppose we adopt a version of the Aristotelian account of Bayesian priors, on which we should adopt 
+priors within specific ranges, priors that enable us to engage in scientific reasoning about the world.??backref
+In particular, we should adopt priors that are not negligibly low for simpler hypotheses about how the universe 
+functions. 
+
+We might at this point raise a skeptical worry: What reason do we have to think these priors lead us to 
+truth? But this skeptical worry can be answered. Let's take a toy example. Suppose we ought to assign 
+the non-negligible ur-prior $0.000001$ for the Newtonian hypothesis $H$ that there is a constant $G$ such that 
+the force of gravity is 
+always $Gm_1m_2/r^2$ in the direction from the first mass to the second. We now ask: What reason do we
+have to think that assigning $0.000001$  is apt to help us in the search for truth? Here is the answer: The expected 
+epistemic utility of assigning $0.000001$  to $H$ is higher than that of assigning any other value.
+
+One might respond: How do I know that this is the optimal epistemic utility? But now the answer is both 
+mathematical and trivial. Recall that the epistemic utility for
+$H$ is measured by a strictly proper scoring rule $(T,F)$, where $T(q)$ is the utility of having credence 
+$q$ in $H$ when $H$ is true and $F(q)$ is the utility of having credence $q$ in $H$ when $H$ is false.??backref
+What is the expected epistemic utility? Well, reasoning properly (i.e., according to my nature), I will have
+credence $0.000001$  in $H$ and $0.999999$ in the negation of $H$. Thus, the expected
+epistemic utility is:
+$$
+	0.000001 \cdot T(q) + 0.999999\cdot F(q).
+$$
+So what credence $q$ should I have to maximize this? The answer follows from the very definition of a 
+strictly proper scoring rule??backref: I should have credence $q=0.000001$, since that is what maximizes
+the above formula.
+
+This feels like a cheat. When deciding what the best credence for $H$ is, I calculated the expected
+epistemic utility using $0.000001$ as the probability that $H$ is true, and concluded, unsurprisingly, 
+that the answer is $0.000001$. But that is right and proper. For on our objective Bayesianism, it is
+\textit{right} to have credence $0.000001$ for $H$, and hence $0.000001$ is indeed the right weight for 
+$T(q)$ and $0.999999$ is the right weight for $F(q)$ in calculating expected epistemic utilities.
+Recall that the question was what \textit{reason} we have to think that assigning $0.000001$
+to $H$ is truth-apt. Spelled out more fully, the answer is this: $0.000001$ is the best credence according
+to an expected epistemic utility calculation done on the basis of the credence that I 
+\textit{should} adopt for $H$. This sounds circular, but is not. The circle is broken by the 
+``should'', which has a non-circular ground in human nature on our Aristotelian meta-epistemology.
+My human nature is the reason why I should do the expected epistemic utility calculation using
+$0.000001$ and $0.999999$ as my weights when evaluating truth-aptness, and it just turns out that this
+yields the credence $0.000001$ as the most truth-apt.
+
+But there is good reason why this feels like a suspicious bit of reasoning. For there is a nearby 
+question, not of justification but of explanation. Granted, we should adopt $0.000001$, and when we 
+rightly do that, we conclude that it's truth-apt to do so. But \textit{why} is it in fact the case
+that the intelligent beings on Earth have a nature which enjoins on them an ur-prior for $H$ 
+that tends to lead to truth? What explains the harmony between the credences their nature requires
+and the actual facts of the universe around them? If we are rational and adopt the required
+ur-priors, the above trivial argument will tell us that we ought to believe in the harmony between
+the credential requirements of our nature and the universe. But that we ought to believe in this
+harmony does not explain why this harmony obtains. Why is it that the intelligent beings on Earth
+have a nature which requires them to have the non-negligible ur-prior $0.000001$ for $H$ rather than, say,
+the (to us crazy) $10^{-100}$ or $1-10^{-100}$? 
+
 \section{Complexity and explanation}\label{sec:hierarchy}
 \subsection{A problem}
 The scientific revolution came about from a conviction that we should try to find expressions for the laws
