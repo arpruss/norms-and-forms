@@ -962,7 +962,22 @@ $$
 $$
 So what credence $q$ should I have to maximize this? The answer follows from the very definition of a 
 strictly proper scoring rule??backref: I should have credence $q=0.000001$, since that is what maximizes
-the above formula.
+the above formula.\footnote{$^*$One might object that since we are looking at
+the adoption of ur-priors, perhaps what we should do is consider our expectation for \textit{future} epistemic 
+utility after additional data comes in. A toy model for this is as follows. Suppose that my current prior for
+$H$ is $P(H)$, and I am considering the value of having prior $Q(H)$. I expect expect that in the future I will 
+gather additional information. This can be modeled as a partition $I_1,...,I_n$ of our probability space
+into $n$ events, where I will find out in the future which event $I_i$ of the partition is actual. I will then
+update my credence for $H$ from $P(H)$ to $P(H\mid I_i)$, and what I am interested in is the epistemic score
+\textit{after} that update. So now I ask: By my current lights, which are modeled by a prior probability
+function $P$, might it not be that some other prior probability function $Q$ will have a better expectation
+for what my future score will be after updating on the observed event of the partition? If my scoring rule
+is proper, the answer is negative. The reason is that the Greaves and Wallace theorem~\parencite{GreavesWallace}
+tells us that given a proper scoring rule, an optimal strategy to adopt by one's current, $P$-based, lights for 
+the future is to update one's credence by conditionalization on the observed event in the partition. In particular,
+this strategy must be no worse than the alternate strategy where instead of updating $P$ to $P(\cdot \mid I_i)$, I 
+update $P$ to $Q(\cdot \mid I_i)$. But the expected score of the alternate strategy is precisely the expected
+score I will have for ordinary Bayesian update if I just switch my credences now from $P$ to $Q$.}
 
 This feels like a cheat. When deciding what the best credence for $H$ is, I calculated the expected
 epistemic utility using $0.000001$ as the probability that $H$ is true, and concluded, unsurprisingly, 
