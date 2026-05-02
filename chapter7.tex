@@ -3,7 +3,7 @@
 \chapter{Language and semantics}\label{ch:semantics}
 \section{Communication, norms and illocutionary force}
 \subsection{Cooperative games}
-There are competitive games, such as the Prisoner's Dilemma or the Tragedy of the Commons??refs, where it is difficult 
+There are competitive games, such as the Prisoner's Dilemma or the Tragedy of the Commons~\parencite{Hardin}, where it is difficult 
 to see how to rationally secure cooperation between agents. Cooperative games, on the other hand, seem like
 they should be much easier. Say, you have
 two agents who will each in a separate booth choose whether to press a red button or a blue button. If they both
@@ -823,8 +823,6 @@ And while I have argued that the intuitions supporting first-level vagueness are
 supporting second-level vagueness, there does not seem to be as significant a distinction between the support for
 second- and third-level vagueness. Thus the benefit from allowing second-level vagueness does not seem that great.
 
-??ref:https://johnmacfarlane.net/fuzzy-epistemicism.pdf
-
 \section{Neo-Aristotelian metaphysics}
 The neo-Aristotelian metaphysics allows us to have a completely sharp world with our language being completely sharp, with there being
 definite facts of the matter about significant and insignificant
@@ -875,14 +873,14 @@ actual human beings as linguists do.
 
 \section{Norms of assertion}
 Under what conditions may we assert a proposition $p$? The literature contains a number of answers, of which the main 
-three are that you (respecively) believe, justifiably believe, or know $p$.??ref\footnote{There may also be some edge cases where none 
+three are that you (respectively) believe~\parencite{Bach2008}, justifiably believe~\parencite{Kvanvig2009}, or know~\parencite{WilliamsonKn} $p$.\footnote{There may also be some edge cases where none 
 of these seem right. For instance, suppose that you are temporarily deafened after an accident and you do not even know whether 
 you still have the power of speech. You turn to a friend and try to say: ``At least I can still speak!'', and gauge from 
 their reaction whether what you said was true. In that case, you don't believe or know that what you are saying is true, but 
 if you do succeed in speaking, it \textit{is} guaranteed to be true, so you are not being dishonest. Handling such cases in 
 an account of the norm of assertion is difficult. It is tempting to modify suggested norms to say that you believe, 
 justifiably believe or know the conditional that if you succeed in asserting $p$ to your audience, then $p$ is true. But it is 
-not clear that in ordinary assertions you need to have any beliefs about such complex conditionals.??ref:Pruss These complications
+not clear that in ordinary assertions you need to have any beliefs about such complex conditionals~\parencite{PrussLying}. These complications
 would only serve to strengthen my case for the presence of Mersenne problems, and so I will simplify the discussion by ignoring them.}
 
 To a Bayesian who thinks that belief and justification always come in degrees, all three norms come with an implicit or 
@@ -951,13 +949,13 @@ entities with their operations. One may initially conclude from \dref{number-tru
 reference to \textit{the} natural numbers and their operations in our language or thought, and then we will have a puzzle as 
 to how we manage to pick out the natural numbers from among the infinity of mathematical objects.
 
-But that's too quick. We learn from Benacerraf??ref that the concept of \textit{the} natural numbers is dubious. Set theorists
+But that's too quick. We learn from \citeasnoun{BenacerrafIdentification} that the concept of \textit{the} natural numbers is dubious. Set theorists
 frequently identify the sequence $0,1,2,...$ of natural numbers with the sequence of sets $\varnothing, \{\varnothing\},
 \{\varnothing, \{\varnothing\}\},...$ (i.e., identify $0$ with the empty set, and then identify each number with the 
 set of its predecessors). It is implausible to think that this strange set-theoretic construction captures 
 \textit{the} natural numbers, but it does capture a structure that for all practical purposes behaves (with appropriately
 defined operations) like them. But other sequences could be used equally well. For instance, we might 
-go for the sequence of sets $\varnothing, \{\varnothing\}, \{\{\varnothing\}\},...$. Or, following Frege??ref, we might 
+go for the sequence of sets $\varnothing, \{\varnothing\}, \{\{\varnothing\}\},...$. Or, following Frege, we might 
 identify a number $n$ with the class of all sets with $n$ elements. 
 
 Suppose we take the lesson from this to be that there is no such thing as \textit{the} natural numbers. There will still be 
@@ -994,13 +992,13 @@ Suppose now that we restrict \dref{number-truth} to arithmetical statements that
 Can we now characterize natural numbers in a finite first-order way that is sufficient to yield the truth values of these 
 (translations of) provability statements? Again, the answer is negative, but the issue is more complicated. Consider some 
 set $A$ of first-order recursively specifiable consistent axioms including enough axioms of arithmetic. Let $G$ be a Rosser-tweaked
-G\"odel sentence for these axioms, chosen so that $G$ is a $\Sigma_1$ sentence, i.e., has only one unbounded quantifier, 
-which quantifier is existential??refs. Thus, $G$ is of the form $\exists n F(n)$, where all the quantifiers in $F(n)$ are 
+G\"odel sentence~\parencite[44]{Batzoglou} for these axioms, chosen so that $G$ is a $\Sigma_1$ sentence, i.e., has only one unbounded quantifier, 
+which quantifier is existential. Thus, $G$ is of the form $\exists n F(n)$, where all the quantifiers in $F(n)$ are 
 bounded, i.e., of the form $\exists m (m<t \And ...)$ or $\forall m(m<t \rightarrow ...)$ (where $t$ is a polynomial
 in the free variables). We can now construct a Turing
 machine $M_G$ which iterates through all the natural numbers $n$, and halts as soon as it gets to $F(n)$. Thus, this Turing machine
 halts if and only if $G$ is true. But a statement that a specific Turing machine $M$ halts can be translated into a statement
-that a certain formula $\phi_M$ of first-order logic is valid, i.e., is provable from a tautology.??ref Putting all this together,
+that a certain formula $\phi_M$ of first-order logic is valid, i.e., is provable from a tautology~\parencitecf{Turing}. Putting all this together,
 and assuming our collection of axioms includes enough arithmetic to make the argument go, we will be able to prove from the 
 axioms in question that $\phi_M$ can be proved from one's favorite tautology if and only if $G$. Since $G$ is neither 
 provable nor disprovable from $A$, we thus have a provability statement that is neither provable nor disprovable
@@ -1016,10 +1014,10 @@ provability statements---i.e., all of $\Sigma_1$).
 
 The Aristotelian solution is not the only one, of course. We might have a Platonic solution on which, \textit{pace} Benacerraf,
 there really is a privileged collection of \textit{the} naturals in the Platonic heaven, distinguished from alternatives by 
-something like greater ``naturalness'' in the Lewisian sense (??ref). Or we might accept causal finitism??ref,
-which builds the concept of the finite---and hence of a natural number---into the metaphysics underlying causation.(??ref) 
+something like greater ``naturalness'' in the Lewisian sense~\parencite{LewisNewWork}. Or we might accept causal finitism~\parencite{PrussInfinity},
+which builds the concept of the finite---and hence of a natural number---into the metaphysics underlying causation. 
 Or we might simply suppose a ``magical'' theory of reference on which there is a special relation between the human 
-mind and a certain collection of mathematical entities.cf.??refs And some think that moving to second-order logic solves the
+mind and a certain collection of mathematical entities~\parencitecf{PutnamRTH}. And some think that moving to second-order logic solves the
 difficulty.
 
 Nonetheless, the present Aristotelian solution still has a certain attractiveness. Unlike the magical theory of reference, we do not need 
@@ -1034,7 +1032,7 @@ the axiom.
 The second-order logic solution deserves some more discussion. In a second-order logic, we allow
 for quantification over predicates in addition to quantification over individuals. Arithmetic 
 appropriately formulated within second-order logic then has a unique model on the standard 
-semantics.??ref This seems to solve all our problems at little cost beyond allowing second-order
+semantics~\parencite[ch.~4]{Enderton}. This seems to solve all our problems at little cost beyond allowing second-order
 quantification which one might think we have good intuitive reason to allow anyway.
 
 However, it does not. The standard semantics for second order logic interprets quantification 
@@ -1042,8 +1040,13 @@ over predicates in terms of quantification over all sets. But this requires a fi
 for the semantics. The same problem that we faced with how our thought and language picked out the 
 ``true natural numbers'' returns as the problem of how our thought and language picks out the true sets,
 the ones that provide the standard interpretation of the second-order logic. If, on the other hand, we 
-allow for non-standard semantics for second-order quantifiers, the Henkin semantics??ref, then we lose 
-the unique characterization of the natural numbers, and our old problem is unsolved. 
+allow for non-standard semantics for second-order quantifiers, the Henkin semantics, where we do not 
+interpret second-order quantifiers in terms of subsets, then we lose 
+the unique characterization of the natural numbers, and our old problem is unsolved.\footnote{$^*$There is
+an internal categoricity result in Henkin models which generalizes the standard-model categoricity
+result by showing that the isomorphism of arithmetic across all models within a fixed Henkin 
+model~\parencite{InternalCat}, but that does not seem to solve 
+the problem of picking out the true arithmetic.}
 
 \section{Conclusions}
 A neo-Aristotelian metaphysical picture of us as having a human nature grounding a large number of complex
