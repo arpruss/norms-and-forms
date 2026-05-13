@@ -79,7 +79,7 @@ class MyHandler(FileSystemEventHandler):
         
 def deleter():
     base = os.path.splitext(TEMP_FILE)[0]
-    for ext in ('.aux', '.bcf', '.log', '.run.xml', '.toc'):
+    for ext in ('.aux', '.bcf', '.log', '.run.xml', '.toc', '.nav', '.out', '.snm'):
         try:
             os.unlink(base + ext)
             print("Deleted "+(base+ext))

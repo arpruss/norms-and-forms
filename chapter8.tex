@@ -9,7 +9,7 @@ regularities of the behavior of objects in nature, and causation is then grounde
 we have laws in virtue of metaphysical components of reality that affect or constrain the behavior of objects. 
 In this section, I will argue that pushiness is the right view. 
 
-The most prominent Humean account of laws is David Lewis's Best System Analysis (BSA).??ref The non-probabilistic version says that laws are the 
+The most prominent Humean account of laws is \posscite{LewisCounterfactuals} Best System Analysis (BSA). The non-probabilistic version says that laws are the 
 logical consequences of the ``best system''. The systems in question are collections of true sentences all of whose terms
 are ``perfectly natural'', in the sense of cutting reality perfectly at the joints. Thus, a system can contain the statement ``All electrons have charge'', but cannot contain
 the statement ``All kittens are cute'' because
@@ -23,14 +23,15 @@ I am sitting now, since the energy claim tells us (a little) about each of the v
 over all of time, while the claim about my sitting tells us only about what is happening in a small region of spacetime. 
 
 Modern Humeans then tend to define causation in terms of laws. For instance, the Lewisian approach is to define laws
-in terms of counterfactuals, and counterfactuals in terms of similarity of worlds, with similarity of laws prioritized.??ref
-The resulting account has pleasing ideological parsimony: both laws and causation reduce to the arrangement of matter.
+in terms of counterfactuals, and counterfactuals in terms of similarity of worlds, with similarity of laws prioritized~\parencite{LewisArrow1979,LewisCounterfactuals}.
+The resulting account has pleasing ideological parsimony: both laws and causation reduce to the arrangement of matter,
+an arrangement called ``the mosaic''.
 
 We now observe some serious problems with BSA.
 
 \subsection{Problems with explanation}\label{sec:law-explanation}
 The most discussed problem with BSA is explanatory circularity. To introduce the problem, let us begin with an explanatory 
-problem independent of BSA. The old Deductive Nomological (DN) model of explanation??refs in the philosophy of science had it
+problem independent of BSA. The old Deductive Nomological (DN) model of explanation in the philosophy of science\footnote{For a historical discussion, see \citeasnoun{SalmonFourDecades}.} had it
 that scientific explanations are deductively valid arguments for the particular fact to be explained, at least one of whose premises 
 is a law. For instance:
 \ditem{DN1}{All massive objects attract gravitationally.}
@@ -38,11 +39,13 @@ is a law. For instance:
 \ditem{DN3}{So, the Sun attracts gravitationally.}
 
 Of course, it was soon seen that having this form is not necessary for explanation---statistical explanations do not fit the
-deductive schema.??ref It was also seen that having this form is not sufficient for explanation, as one needs somehow to account
+deductive schema, and cases where the explanandum is not even probable given the explanans are particularly 
+problematic, with the classic case being a patient's having untreated syphilis explaining why the patient got paresis,
+even though paresis is not a typical outcome of untreated syphilis~\parencite[p.~49]{SalmonFourDecades}. It was also seen that having this form is not sufficient for explanation, as one needs somehow to account
 for the explanatory direction between the particular facts stated in the premises and the particular fact in the conclusion.
 A famous example here is how the laws of nature together with the length of a flagpole's shadow yield a deductive argument
 for the position of the Sun in the sky, but obviously the position of the Sun in the sky is explanatorily prior to the length of
-the shadow.??ref
+the shadow~\parencite[p.~47]{SalmonFourDecades}.
 
 But even the seemingly innocent example \dref{DN1}--\dref{DN3} has a crucial problem, which suggests that
 explanations of the DN sort rarely if ever work. For consider that \dref{DN1} is a universal generalization, and a universal
@@ -55,19 +58,37 @@ attraction. But loops in explanatory priority are implausible.
 The most common kind of response to these kinds of arguments is that explanatory loops are permissible when the explanation in the
 two directions is of a fundamentally different sort. For instance, in the above case, the Sun's gravitational attraction is 
 \textit{nomically} or maybe \textit{causally} explained by \dref{DN1} and \dref{DN2}, while providing a partial \textit{grounding} 
-explanation of \dref{DN1}.??refs Nonetheless, it is not clear that it matters for the anti-loop intuition that the two directions of an 
+explanation of \dref{DN1}~\parencite{LoewerLawsTime}. Nonetheless, it is not clear that it matters for the anti-loop intuition that the two directions of an 
 explanatory loop are of the same kind. It is the circularity of explanation that seems to be the problem, regardless
 of the types of explanation.
 
-Furthermore, suppose you light a match in the kitchen. Then the friction applied to the match explains why something is burning in 
+For suppose you light a match in the kitchen. Then the friction applied to the match explains why something is burning in 
 your house. But notice that this explanation consists of a chain of two explanations. The friction applied to the match in your 
 kitchen \textit{causes} or \textit{nomically explains} (in conjunction with some appropriate laws) the match to be on fire in your kitchen, and the match's being on fire in your kitchen \textit{grounds} the 
 fact that something is burning in your house (particular cases ground existential generalizations). The causal/nomic and grounding explanations
 combine into a generic explanation that is neither just a causal/nomic explanation nor just a grounding explanation, but is nonetheless an 
 explanation. This shows that there is a generic concept of explanation which goes beyond particular types of explanation, like 
-causal, nomic or grounding. And an explanatory loop with respect to generic explanation seems problematic.
+causal, nomic or grounding. And an explanatory loop with respect to generic explanation is problematic.
 
-Thus, even paradigmatic cases of DN explanations can be troubling even without Humean assumptions. However, there is a plausible explanation for the initial intuitive 
+Or consider the following plausible transitivity principle:
+\ditem{wlange}{If $D$ partially grounds $E$, and $E$ partially scientifically explains 
+$F$, then $D$ partially explains $F$.\footnote{\citeasnoun{LangeGrounding} gives a version of this principle with the
+stronger conclusion that $D$ partially \textit{scientifically} explains $F$. This stronger conclusion may not be 
+justified, however. For the partial ground of a scientific explanandum could itself be something outside the domain
+of science. For instance, many theists will hold that the existence of any creature is partly grounded in God's
+activity---indeed, people talk of God as ``the Ground of Being''. But now consider the scientific explanation of 
+birds in terms of the prior existence of dinosaurs from which they evolved. On the theistic story, the prior existence
+of dinosaurs is partly grounded in God's activity, and it is reasonable to conclude that therefore the existence of
+birds is partly explained by God's activity---but not that it is partly \textit{scientifically} so explained.
+Even apart from theism, there is likely a layer of fundamental philosophical ontology---say, objects having 
+tropes---that grounds the explanans in a typical scientific explanation, and yet it seems wrong to invoke the 
+objects of philosophical ontology in scientific explanation. (Interestingly, our weaker version of the 
+transitivity principle does not suffice for the anti-Humean argument for which Lange designed his principle,
+unless one additionally posits the transitivity of partial grounding.)}} But now the sun's gravitational attraction partly
+grounds \dref{DN1}, which partly scientifically explains the attraction on the DN model, making the sun's
+gravitational attraction be partly self-explanatory by \dref{wlange}.
+
+We have thus seen that paradigmatic cases of DN explanations can be troubling even without Humean assumptions. However, there is a plausible explanation for the initial intuitive 
 appeal of DN explanations like \dref{DN1}--\dref{DN3}. When we offer scientific explanations in terms of a generalization that is a 
 law of nature, we are implicitly invoking the fact that the generalization is a \textit{law}, rather than
 merely depending on the generalization being \textit{true}.
