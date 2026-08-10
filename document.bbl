@@ -3141,6 +3141,32 @@
       \field{pages}{51\bibrangedash 76}
       \range{pages}{26}
     \endentry
+    \entry{HowardFetishism}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=c1b1f72a19aa370fbacd1f2a28a13738}{%
+           family={Howard},
+           familyi={H\bibinitperiod},
+           given={Nathan\bibnamedelima Robert},
+           giveni={N\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{c1b1f72a19aa370fbacd1f2a28a13738}
+      \strng{fullhash}{c1b1f72a19aa370fbacd1f2a28a13738}
+      \strng{bibnamehash}{c1b1f72a19aa370fbacd1f2a28a13738}
+      \strng{authorbibnamehash}{c1b1f72a19aa370fbacd1f2a28a13738}
+      \strng{authornamehash}{c1b1f72a19aa370fbacd1f2a28a13738}
+      \strng{authorfullhash}{c1b1f72a19aa370fbacd1f2a28a13738}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Ethics and Social Philosophy}
+      \field{title}{Moral Fetishism and a Third Desire for What's Right}
+      \field{volume}{20}
+      \field{year}{2021}
+    \endentry
     \entry{HJ}{book}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=6465960b7a58b8c6c880f14ff897bd3d}{%
@@ -3178,6 +3204,47 @@
       \field{title}{Introduction to Set Theory}
       \field{year}{1999}
     \endentry
+    \entry{HumeMorals}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=8fd91102ac431dcdcc4641419cdfb8f0}{%
+           family={Hume},
+           familyi={H\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=e3b58a37a81ebeee8390fc2317d039e3}{%
+           family={Beauchamp},
+           familyi={B\bibinitperiod},
+           given={Tom\bibnamedelima L.},
+           giveni={T\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {New York}%
+      }
+      \list{publisher}{1}{%
+        {Oxford University Press UK}%
+      }
+      \strng{namehash}{8fd91102ac431dcdcc4641419cdfb8f0}
+      \strng{fullhash}{8fd91102ac431dcdcc4641419cdfb8f0}
+      \strng{bibnamehash}{8fd91102ac431dcdcc4641419cdfb8f0}
+      \strng{authorbibnamehash}{8fd91102ac431dcdcc4641419cdfb8f0}
+      \strng{authornamehash}{8fd91102ac431dcdcc4641419cdfb8f0}
+      \strng{authorfullhash}{8fd91102ac431dcdcc4641419cdfb8f0}
+      \strng{editorbibnamehash}{e3b58a37a81ebeee8390fc2317d039e3}
+      \strng{editornamehash}{e3b58a37a81ebeee8390fc2317d039e3}
+      \strng{editorfullhash}{e3b58a37a81ebeee8390fc2317d039e3}
+      \field{extraname}{1}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{An Enquiry Concerning the Principles of Morals}
+      \field{year}{1998}
+    \endentry
     \entry{Hume1779}{book}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=8fd91102ac431dcdcc4641419cdfb8f0}{%
@@ -3196,6 +3263,7 @@
       \strng{authorbibnamehash}{8fd91102ac431dcdcc4641419cdfb8f0}
       \strng{authornamehash}{8fd91102ac431dcdcc4641419cdfb8f0}
       \strng{authorfullhash}{8fd91102ac431dcdcc4641419cdfb8f0}
+      \field{extraname}{2}
       \field{sortinit}{H}
       \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
       \field{extradatescope}{labelyear}
@@ -6504,7 +6572,7 @@
       \field{pages}{19\bibrangedash 42}
       \range{pages}{24}
     \endentry
-    \entry{PrussCont}{article}{}
+    \entry{PrussInfinities}{unpublished}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=e8ab824cdc070a044693034d511bdeb7}{%
            family={Pruss},
@@ -6520,6 +6588,31 @@
       \strng{authornamehash}{e8ab824cdc070a044693034d511bdeb7}
       \strng{authorfullhash}{e8ab824cdc070a044693034d511bdeb7}
       \field{extraname}{7}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Might All Infinities Be The Same Size?}
+      \field{year}{2017}
+    \endentry
+    \entry{PrussCont}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=e8ab824cdc070a044693034d511bdeb7}{%
+           family={Pruss},
+           familyi={P\bibinitperiod},
+           given={Alexander\bibnamedelima R.},
+           giveni={A\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{e8ab824cdc070a044693034d511bdeb7}
+      \strng{fullhash}{e8ab824cdc070a044693034d511bdeb7}
+      \strng{bibnamehash}{e8ab824cdc070a044693034d511bdeb7}
+      \strng{authorbibnamehash}{e8ab824cdc070a044693034d511bdeb7}
+      \strng{authornamehash}{e8ab824cdc070a044693034d511bdeb7}
+      \strng{authorfullhash}{e8ab824cdc070a044693034d511bdeb7}
+      \field{extraname}{8}
       \field{sortinit}{P}
       \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
       \field{extradatescope}{labelyear}
@@ -6548,7 +6641,7 @@
       \strng{authorbibnamehash}{e8ab824cdc070a044693034d511bdeb7}
       \strng{authornamehash}{e8ab824cdc070a044693034d511bdeb7}
       \strng{authorfullhash}{e8ab824cdc070a044693034d511bdeb7}
-      \field{extraname}{8}
+      \field{extraname}{9}
       \field{sortinit}{P}
       \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
       \field{extradatescope}{labelyear}
@@ -6577,7 +6670,7 @@
       \strng{authorbibnamehash}{e8ab824cdc070a044693034d511bdeb7}
       \strng{authornamehash}{e8ab824cdc070a044693034d511bdeb7}
       \strng{authorfullhash}{e8ab824cdc070a044693034d511bdeb7}
-      \field{extraname}{9}
+      \field{extraname}{10}
       \field{sortinit}{P}
       \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
       \field{extradatescope}{labelyear}
@@ -6606,7 +6699,7 @@
       \strng{authorbibnamehash}{e8ab824cdc070a044693034d511bdeb7}
       \strng{authornamehash}{e8ab824cdc070a044693034d511bdeb7}
       \strng{authorfullhash}{e8ab824cdc070a044693034d511bdeb7}
-      \field{extraname}{10}
+      \field{extraname}{11}
       \field{sortinit}{P}
       \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
       \field{extradate}{3}
@@ -6641,7 +6734,7 @@
       \strng{authorbibnamehash}{e8ab824cdc070a044693034d511bdeb7}
       \strng{authornamehash}{e8ab824cdc070a044693034d511bdeb7}
       \strng{authorfullhash}{e8ab824cdc070a044693034d511bdeb7}
-      \field{extraname}{11}
+      \field{extraname}{12}
       \field{sortinit}{P}
       \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
       \field{extradate}{2}
@@ -6684,7 +6777,7 @@
       \strng{editorbibnamehash}{8e6938e32695e9856b8a862383db9223}
       \strng{editornamehash}{8e6938e32695e9856b8a862383db9223}
       \strng{editorfullhash}{8e6938e32695e9856b8a862383db9223}
-      \field{extraname}{12}
+      \field{extraname}{13}
       \field{sortinit}{P}
       \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
       \field{extradatescope}{labelyear}
@@ -6715,7 +6808,7 @@
       \strng{authorbibnamehash}{e8ab824cdc070a044693034d511bdeb7}
       \strng{authornamehash}{e8ab824cdc070a044693034d511bdeb7}
       \strng{authorfullhash}{e8ab824cdc070a044693034d511bdeb7}
-      \field{extraname}{13}
+      \field{extraname}{14}
       \field{sortinit}{P}
       \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
       \field{extradatescope}{labelyear}
@@ -6744,7 +6837,7 @@
       \strng{authorbibnamehash}{e8ab824cdc070a044693034d511bdeb7}
       \strng{authornamehash}{e8ab824cdc070a044693034d511bdeb7}
       \strng{authorfullhash}{e8ab824cdc070a044693034d511bdeb7}
-      \field{extraname}{14}
+      \field{extraname}{15}
       \field{sortinit}{P}
       \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
       \field{extradatescope}{labelyear}
@@ -6773,7 +6866,7 @@
       \strng{authorbibnamehash}{e8ab824cdc070a044693034d511bdeb7}
       \strng{authornamehash}{e8ab824cdc070a044693034d511bdeb7}
       \strng{authorfullhash}{e8ab824cdc070a044693034d511bdeb7}
-      \field{extraname}{15}
+      \field{extraname}{16}
       \field{sortinit}{P}
       \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
       \field{extradatescope}{labelyear}
@@ -6802,7 +6895,7 @@
       \strng{authorbibnamehash}{e8ab824cdc070a044693034d511bdeb7}
       \strng{authornamehash}{e8ab824cdc070a044693034d511bdeb7}
       \strng{authorfullhash}{e8ab824cdc070a044693034d511bdeb7}
-      \field{extraname}{16}
+      \field{extraname}{17}
       \field{sortinit}{P}
       \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
       \field{extradatescope}{labelyear}
