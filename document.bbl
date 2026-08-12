@@ -2543,6 +2543,49 @@
       \field{pages}{5\bibrangedash 20}
       \range{pages}{16}
     \endentry
+    \entry{FriedmanZetetic}{incollection}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=7cbc05a37535463724c63ee26df47a93}{%
+           family={Friedman},
+           familyi={F\bibinitperiod},
+           given={Jane},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{2}{}{%
+        {{hash=ecee47b216679d09c18a530e7754ae95}{%
+           family={Reed},
+           familyi={R\bibinitperiod},
+           given={Baron},
+           giveni={B\bibinitperiod}}}%
+        {{hash=8a042a47f5e2c86496e96c7ee0d88750}{%
+           family={Flowerree},
+           familyi={F\bibinitperiod},
+           given={A.\bibnamedelimi K.},
+           giveni={A\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Routledge}%
+      }
+      \strng{namehash}{7cbc05a37535463724c63ee26df47a93}
+      \strng{fullhash}{7cbc05a37535463724c63ee26df47a93}
+      \strng{bibnamehash}{7cbc05a37535463724c63ee26df47a93}
+      \strng{authorbibnamehash}{7cbc05a37535463724c63ee26df47a93}
+      \strng{authornamehash}{7cbc05a37535463724c63ee26df47a93}
+      \strng{authorfullhash}{7cbc05a37535463724c63ee26df47a93}
+      \strng{editorbibnamehash}{8ef7e6b463581b0d7441576b361230ec}
+      \strng{editornamehash}{8ef7e6b463581b0d7441576b361230ec}
+      \strng{editorfullhash}{8ef7e6b463581b0d7441576b361230ec}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Towards an Expansive Epistemology: Norms, Action, and the Social Sphere}
+      \field{title}{Zetetic Epistemology}
+      \field{year}{forthcoming}
+    \endentry
     \entry{GRW}{article}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=1a1ab210cb6cb882c8178eb7817798af}{%
