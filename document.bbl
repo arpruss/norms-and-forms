@@ -2686,6 +2686,36 @@
       \field{pages}{185\bibrangedash 204}
       \range{pages}{20}
     \endentry
+    \entry{Goldman1986}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=c8745453d72d44c5cbc51ca6de7b6e44}{%
+           family={Goldman},
+           familyi={G\bibinitperiod},
+           given={Alvin\bibnamedelima I.},
+           giveni={A\bibinitperiod\bibinitdelim I\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Cambridge}%
+      }
+      \list{publisher}{1}{%
+        {Harvard University Press}%
+      }
+      \strng{namehash}{c8745453d72d44c5cbc51ca6de7b6e44}
+      \strng{fullhash}{c8745453d72d44c5cbc51ca6de7b6e44}
+      \strng{bibnamehash}{c8745453d72d44c5cbc51ca6de7b6e44}
+      \strng{authorbibnamehash}{c8745453d72d44c5cbc51ca6de7b6e44}
+      \strng{authornamehash}{c8745453d72d44c5cbc51ca6de7b6e44}
+      \strng{authorfullhash}{c8745453d72d44c5cbc51ca6de7b6e44}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Epistemology and Cognition}
+      \field{year}{1986}
+    \endentry
     \entry{GoodmanFFF}{book}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=69de5a1450433cb926b8b88d275347b0}{%
@@ -4168,6 +4198,34 @@
       \field{year}{2017}
       \field{pages}{194\bibrangedash 204}
       \range{pages}{11}
+    \endentry
+    \entry{Kornblith1993}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=b27b6feed456f455d1f5c5051b411484}{%
+           family={Kornblith},
+           familyi={K\bibinitperiod},
+           given={Hilary},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{b27b6feed456f455d1f5c5051b411484}
+      \strng{fullhash}{b27b6feed456f455d1f5c5051b411484}
+      \strng{bibnamehash}{b27b6feed456f455d1f5c5051b411484}
+      \strng{authorbibnamehash}{b27b6feed456f455d1f5c5051b411484}
+      \strng{authornamehash}{b27b6feed456f455d1f5c5051b411484}
+      \strng{authorfullhash}{b27b6feed456f455d1f5c5051b411484}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Synthese}
+      \field{title}{Epistemic Normativity}
+      \field{volume}{94}
+      \field{year}{1993}
+      \field{pages}{357\bibrangedash 376}
+      \range{pages}{20}
     \endentry
     \entry{Koslicki2008}{book}{}
       \name{author}{1}{}{%
@@ -7076,6 +7134,53 @@
       \field{title}{Representation and Reality}
       \field{year}{1988}
     \endentry
+    \entry{Quine1986}{incollection}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=e2271b8f16479bdadb15f88642d8ea91}{%
+           family={Quine},
+           familyi={Q\bibinitperiod},
+           given={W.\bibnamedelimi V.\bibnamedelimi O.},
+           giveni={W\bibinitperiod\bibinitdelim V\bibinitperiod\bibinitdelim O\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{2}{}{%
+        {{hash=4b6bfb25d6716bb249d017b27c2508a6}{%
+           family={Hahn},
+           familyi={H\bibinitperiod},
+           given={L.\bibnamedelimi E.},
+           giveni={L\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=e8792d6df2e3a79a2e244eec1cf043c7}{%
+           family={Schilpp},
+           familyi={S\bibinitperiod},
+           given={P.\bibnamedelimi A.},
+           giveni={P\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Chicago}%
+      }
+      \list{publisher}{1}{%
+        {Open Court}%
+      }
+      \strng{namehash}{e2271b8f16479bdadb15f88642d8ea91}
+      \strng{fullhash}{e2271b8f16479bdadb15f88642d8ea91}
+      \strng{bibnamehash}{e2271b8f16479bdadb15f88642d8ea91}
+      \strng{authorbibnamehash}{e2271b8f16479bdadb15f88642d8ea91}
+      \strng{authornamehash}{e2271b8f16479bdadb15f88642d8ea91}
+      \strng{authorfullhash}{e2271b8f16479bdadb15f88642d8ea91}
+      \strng{editorbibnamehash}{18ed732ffac73ace295156958303212e}
+      \strng{editornamehash}{18ed732ffac73ace295156958303212e}
+      \strng{editorfullhash}{18ed732ffac73ace295156958303212e}
+      \field{extraname}{1}
+      \field{sortinit}{Q}
+      \field{sortinithash}{ce69a400a872ddd02ee7fdb3b38c6abd}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{2}
+      \field{title}{Reply to Morton White}
+      \field{year}{1986}
+    \endentry
     \entry{QuineWO}{book}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=e2271b8f16479bdadb15f88642d8ea91}{%
@@ -7097,6 +7202,7 @@
       \strng{authorbibnamehash}{e2271b8f16479bdadb15f88642d8ea91}
       \strng{authornamehash}{e2271b8f16479bdadb15f88642d8ea91}
       \strng{authorfullhash}{e2271b8f16479bdadb15f88642d8ea91}
+      \field{extraname}{2}
       \field{sortinit}{Q}
       \field{sortinithash}{ce69a400a872ddd02ee7fdb3b38c6abd}
       \field{extradatescope}{labelyear}
@@ -8151,6 +8257,37 @@
       \field{pages}{435}
       \range{pages}{1}
     \endentry
+    \entry{SosaVirtue}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=93ccfe488a5fbcc8d3e35ca30e844673}{%
+           family={Sosa},
+           familyi={S\bibinitperiod},
+           given={Ernest},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Oxford}%
+      }
+      \list{publisher}{1}{%
+        {Oxford University Press}%
+      }
+      \strng{namehash}{93ccfe488a5fbcc8d3e35ca30e844673}
+      \strng{fullhash}{93ccfe488a5fbcc8d3e35ca30e844673}
+      \strng{bibnamehash}{93ccfe488a5fbcc8d3e35ca30e844673}
+      \strng{authorbibnamehash}{93ccfe488a5fbcc8d3e35ca30e844673}
+      \strng{authornamehash}{93ccfe488a5fbcc8d3e35ca30e844673}
+      \strng{authorfullhash}{93ccfe488a5fbcc8d3e35ca30e844673}
+      \field{extraname}{1}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{A Virtue Epistemology: Apt Belief and Reflective Knowledge, Volume I}
+      \field{year}{2009}
+    \endentry
     \entry{SosaSafety}{article}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=93ccfe488a5fbcc8d3e35ca30e844673}{%
@@ -8166,6 +8303,7 @@
       \strng{authorbibnamehash}{93ccfe488a5fbcc8d3e35ca30e844673}
       \strng{authornamehash}{93ccfe488a5fbcc8d3e35ca30e844673}
       \strng{authorfullhash}{93ccfe488a5fbcc8d3e35ca30e844673}
+      \field{extraname}{2}
       \field{sortinit}{S}
       \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
       \field{extradatescope}{labelyear}
