@@ -295,7 +295,8 @@ If $T$ and $F$ satisfy this inequality for all $p$ and $p'$, we say that the pai
 And if by the lights of the assignment of $p$ to $H$, that assignment has better expectation than any other, i.e., if the
 inequality above is strict whenever $p\ne p'$, we say that the rule is \textit{strictly proper}.
 
-Propriety mutually constrains the choice of $T$ and $F$. Given any non-decreasing function $T$, there is a
+Propriety mutually constrains the choice of $T$ and $F$. Given any non-decreasing function $T$ which is finite at
+$1$, there is a
 function $F$ that is unique up to an additive constant such that the parir $T$ and $F$ is a proper scoring rule, and conversely given
 any non-increasing function $F$, there is a $T$ unique up to an additive constant such that $T$ and $F$ is a proper scoring rule (see Appendix~A).
 Hence, once we have one of the two functions, the other is almost determined. However, at the same time, this result shows what
@@ -1693,11 +1694,12 @@ $$
 	F(x) = -\frac{xT(x)}{1-x}+\int_{1/2}^x \frac{T(u)}{(1-u)^2} \, du,
 $$
 for $x<1$. If $T$ is continuous at $1$, let $F(1)=\lim_{x\to 1-} F(x)$, and otherwise
-let $F(1)=-\infty$. Then the limit is defined if $T$ is continuous at $1$, and in any case $(T,F)$ is proper.
+let $F(1)=-\infty$. Then the limit is defined if $T$ is continuous at $1$, and in any case the pair $(T,F)$ is proper.
 \end{lem}
 
 \begin{proof}
-First consider the case where $T(x)$ is an indicator function of $A\subseteq [0,1]$, where $1_A(x)$ is $1$ if
+First consider the case where $T(x)$ is an indicator function of $A\subseteq [0,1]$, i.e., the function 
+ $1_A(x)$ which is $1$ if
 $x\in A$ and $0$ if $x\notin A$. For monotonicity, we must have $A=[a,1]$ or $A=(a,1]$. Let:
 $$
 	G_A(x) = -\frac{xT(x)}{1-x}+\int_0^x \frac{T(u)}{(1-u)^2} \, du
@@ -1711,34 +1713,38 @@ $$
 \end{aligned}
 $$		 
 Thus $G_A(x) = -(a/(1-a))\cdot 1_A(x)$ for $x<1$. If $A=\{ 1 \}$, then $F_A$ is discontinuous at $1$,
-and let $G_A(1)=-\infty$. Otherwise, $F_A$ is continuous at $1$, and let $-G_A(1)=(a/(1-a))\cdot 1_A(1)$, 
-with the convention that this is everywhere $0$ if $A=\varnothing$. It is easy to check that 
+and let $G_A(1)=-\infty$. Otherwise, $F_A$ is continuous at $1$, and let
+$$
+    G_A(1)=-\frac{a}{1-a}\cdot 1_A(1),
+$$
+with the convention that this is everywhere $0$ if $A=\varnothing$. It is easy to check that the pair
 $(1_A,G_A)$ is proper.
 
 Now let $T_A = -1_A$ where $A$ is of the form $[0,a]$ and $[0,a)$. Let:
 $$
-	F_A(x) = -\frac{xT(x)}{1-x}+\int_{1/2}^x \frac{T(u)}{(1-u)^2} \, du
+	F_A(x) = -\frac{xT_A(x)}{1-x}+\int_{1/2}^x \frac{T_A(u)}{(1-u)^2} \, du
 $$
 for $x<1$, and $F_A(1)=-\infty$ if $A=[0,1)$ while otherwise $F_A(1)=0$.
 Note that $T_A$ differs by a constant from $1_{A^c}$ and $F_A$ by a constant from $G_{A^c}$. Thus
 $(T_A,F_A)$ is also proper.
 
-Now given any non-decreasing $T(x)$ bounded below, without loss of generality assume $T$ is non-positive
+Now given any non-decreasing $T(x)$ bounded above (which follows from its being non-decreasing and finite
+at $1$), without loss of generality assume $T$ is non-positive
 (subtract a constant if necessary). Let $A_t=\{ x : T(x) \le t \}$. Then $A_t$ is of the form 
 $[0,a]$ or $[0,a)$ and:
 \begin{equation}\label{eq:Tint}
-	T(x) = \int_{-\infty}^0 T_{A_t} \, dt.
+	T(x) = \int_{-\infty}^0 T_{A_t}(x) \, dt.
 \end{equation}
 Let $F$ be as in the statement of the Lemma. Then for $x<1$ we have:
 \begin{equation}\label{eq:Fint}
 \begin{aligned}
 	F(x) &= -\frac{xT(x)}{1-x}+\int_{1/2}^x \frac{T(u)}{(1-u)^2} \, du \\
-		 &= -\frac{x}{1-x}\int_{-\infty}^0 T_{A_t} \, dt + \int_{1/2}^x \int_{-\infty}^0 \frac{T_{A_t}}{(1-u)^2} \, dt\, du \\
-		 &= \int_{-\infty}^0 \left(-\frac{xT_{A_t}}{1-x}  + \int_{1/2}^x \frac{T_{A_t}}{(1-u)^2} \, du \right) \, dt\\
+		 &= -\frac{x}{1-x}\int_{-\infty}^0 T_{A_t}(x) \, dt + \int_{1/2}^x \int_{-\infty}^0 \frac{T_{A_t}(x)}{(1-u)^2} \, dt\, du \\
+		 &= \int_{-\infty}^0 \left(-\frac{xT_{A_t}(x)}{1-x}  + \int_{1/2}^x \frac{T_{A_t}(x)}{(1-u)^2} \, du \right) \, dt\\
 		 &= \int_{-\infty}^0 F_{A_t}(x) \, dt,
 \end{aligned}		 
 \end{equation}
-where the order of integration was swapped by Tonelli's theorem as $T\le 0$. By propriety of
+where the order of integration was swapped by Tonelli's theorem as $T_{A_t}\le 0$. By propriety of
 $(T_{A_t},F_{A_t})$ we have:
 $$
 	p T_{A_t}(p) + (1-p) F_{A_t}(p) \ge 
