@@ -119,8 +119,8 @@ cases of Chapter~\ref{ch:ethics}, this raises the Mersenne question: What ground
 evidence required for an inductive inference and the maximum amount at which suspending judgment is still rational? 
 Of course, the ``minimum'' and ``maximum'' may may depend on the subject matter, on higher-order evidence such as about 
 how well previous inductive generalizations have fared, and even on pragmatic factors. But that added complexity does
-nothing to make the Mersenne question easier to answer. And, as we discussed in ??backref, invoking vagueness does not
-solve the problem, but multiplies the complexity even further.
+nothing to make the Mersenne question easier to answer. And, as we discussed in Section~\ref{ch:ethics}.\ref{sec:two-step-vagueness}, invoking vagueness does not
+solve the problem, and if anything multiplies the complexity even further.
 
 And, of course, my contention will be that conformity to the human form is what grounds the answers for us. The
 rational way to reason is the way that conforms to our form's specification of the proper functioning of our intellect.
@@ -317,7 +317,7 @@ always worth performing more experiments, as long as the appropriate scoring rul
 and it does not matter which strictly proper scoring rule we choose. But if in addition to deciding whether to perform
 another experiment, the decision to be made is \textit{which} experiment to perform, then the choice of scoring rule
 will indeed be important, with different strictly proper scoring rules yielding different 
-decisions (see Section~\ref{sec:pathological} and the Appendix to this chapter for an example).
+decisions (see Section~\ref{sec:pathological} and Appendix~B to this chapter for an example).
 
 There are a number of mathematically elegant strictly proper scoring rules, such as the Brier quadratic score, the spherical score 
 and the logarithmic score. Of these, the logarithmic score is the only that is a serious candidate for being \textit{the} correct
@@ -1682,10 +1682,86 @@ the third class of facts that seems to fall under metaepistemology, and the Natu
 can say that facts from that category are normative 
 facts about the flourishing of the intellect. 
 
+\section{Appendix A: $^*$Generating scoring rules}
+The following lemma is closely related to the \citeasnoun{Schervish} integral representation, but does not
+appear to be in the literature.
 
+\begin{lem}\label{lem:T2F}
+Let $T$ be any monotonic non-decreasing function on $[0,1]$ that is finite except perhaps at $0$. 
+Let
+$$
+	F(x) = -\frac{xT(x)}{1-x}+\int_{1/2}^x \frac{T(u)}{(1-u)^2} \, du,
+$$
+for $x<1$. If $T$ is continuous at $1$, let $F(1)=\lim_{x\to 1-} F(x)$, and otherwise
+let $F(1)=-\infty$. Then the limit is defined if $T$ is continuous at $1$, and in any case $(T,F)$ is proper.
+\end{lem}
 
-%% appendix has been revised
-\section*{Appendix: $^*$Our pathological scoring rule}
+\begin{proof}
+First consider the case where $T(x)$ is an indicator function of $A\subseteq [0,1]$, where $1_A(x)$ is $1$ if
+$x\in A$ and $0$ if $x\notin A$. For monotonicity, we must have $A=[a,1]$ or $A=(a,1]$. Let:
+$$
+	G_A(x) = -\frac{xT(x)}{1-x}+\int_0^x \frac{T(u)}{(1-u)^2} \, du
+$$
+for $x<1$. For $x \in (0,1)-A$ we then have $F_A(x)=0$. For $x \in A\cap (0,1)$, we have $x\ge a$ and:
+$$
+\begin{aligned}
+	G_A(x) &= -\frac{x}{1-x}+\int_a^x (1-u)^{-2} \,du \\
+		 &= -\frac{x}{1-x}+\frac{1}{1-x}-\frac{1}{1-a} \\
+		 &= -\frac{a}{1-a}.
+\end{aligned}
+$$		 
+Thus $G_A(x) = -(a/(1-a))\cdot 1_A(x)$ for $x<1$. If $A=\{ 1 \}$, then $F_A$ is discontinuous at $1$,
+and let $G_A(1)=-\infty$. Otherwise, $F_A$ is continuous at $1$, and let $-G_A(1)=(a/(1-a))\cdot 1_A(1)$, 
+with the convention that this is everywhere $0$ if $A=\varnothing$. It is easy to check that 
+$(1_A,G_A)$ is proper.
+
+Now let $T_A = -1_A$ where $A$ is of the form $[0,a]$ and $[0,a)$. Let:
+$$
+	F_A(x) = -\frac{xT(x)}{1-x}+\int_{1/2}^x \frac{T(u)}{(1-u)^2} \, du
+$$
+for $x<1$, and $F_A(1)=-\infty$ if $A=[0,1)$ while otherwise $F_A(1)=0$.
+Note that $T_A$ differs by a constant from $1_{A^c}$ and $F_A$ by a constant from $G_{A^c}$. Thus
+$(T_A,F_A)$ is also proper.
+
+Now given any non-decreasing $T(x)$ bounded below, without loss of generality assume $T$ is non-positive
+(subtract a constant if necessary). Let $A_t=\{ x : T(x) \le t \}$. Then $A_t$ is of the form 
+$[0,a]$ or $[0,a)$ and:
+\begin{equation}\label{eq:Tint}
+	T(x) = \int_{-\infty}^0 T_{A_t} \, dt.
+\end{equation}
+Let $F$ be as in the statement of the Lemma. Then for $x<1$ we have:
+\begin{equation}\label{eq:Fint}
+\begin{aligned}
+	F(x) &= -\frac{xT(x)}{1-x}+\int_{1/2}^x \frac{T(u)}{(1-u)^2} \, du \\
+		 &= -\frac{x}{1-x}\int_{-\infty}^0 T_{A_t} \, dt + \int_{1/2}^x \int_{-\infty}^0 \frac{T_{A_t}}{(1-u)^2} \, dt\, du \\
+		 &= \int_{-\infty}^0 \left(-\frac{xT_{A_t}}{1-x}  + \int_{1/2}^x \frac{T_{A_t}}{(1-u)^2} \, du \right) \, dt\\
+		 &= \int_{-\infty}^0 F_{A_t}(x) \, dt,
+\end{aligned}		 
+\end{equation}
+where the order of integration was swapped by Tonelli's theorem as $T\le 0$. By propriety of
+$(T_{A_t},F_{A_t})$ we have:
+$$
+	p T_{A_t}(p) + (1-p) F_{A_t}(p) \ge 
+	p T_{A_t}(x) + (1-p) F_{A_t}(x),
+$$
+for $p,x<1$, 
+and integrating from $-\infty$ to $0$ with respect to $t$, by \eqref{eq:Tint} and \eqref{eq:Fint} we get
+\begin{equation}\label{eq:propriety}
+	p T(p) + (1-p) F(p) \ge 
+	p T(x) + (1-p) F(x).
+\end{equation}
+
+Note that $F_{A_t}$ differs by a constant from $G_{A_t^c}$ on $[0,1)$, and hence is non-increasing on $[0,1)$.
+By \eqref{eq:Fint} this is also true of $F$, so it has a limit at $1$. Define $F_A$ to be that limit if
+$T$ is continuous at $1$ and to be $-\infty$ otherwise. In the case where $T$ is continuous at $1$, we get
+\eqref{eq:propriety} for $p=1$ and $x<1$ by taking the limit as $p\to 1-$, and for $p<1$ and $x=1$ by
+taking the limit as $x\to 1-$. The case of $p=x=1$ is trivial. What remains is the case where $T$ is
+not continuous at $1$ and either $p=1$ or $x=1$. If $p=1$, then \eqref{eq:propriety} follows
+from the monotonicity of $T$, and if $p<1$ but $x=1$, then \eqref{eq:propriety} is trivial when
+$F(1)=-\infty$.
+\end{proof}
+
+\section*{Appendix B: $^*$A pathological scoring rule}
 Recall our pathological scoring rule given by:
 $$
 	T_0(x) = \begin{cases} 1000 &\text{if }x\ge 0.999\\
