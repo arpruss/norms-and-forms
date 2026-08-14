@@ -4698,6 +4698,34 @@
       \field{title}{Value and Existence}
       \field{year}{1979}
     \endentry
+    \entry{LewensUnder}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=1647446aa5d6306a80a4089f7b8c7bf6}{%
+           family={Lewens},
+           familyi={L\bibinitperiod},
+           given={Tim},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{1647446aa5d6306a80a4089f7b8c7bf6}
+      \strng{fullhash}{1647446aa5d6306a80a4089f7b8c7bf6}
+      \strng{bibnamehash}{1647446aa5d6306a80a4089f7b8c7bf6}
+      \strng{authorbibnamehash}{1647446aa5d6306a80a4089f7b8c7bf6}
+      \strng{authornamehash}{1647446aa5d6306a80a4089f7b8c7bf6}
+      \strng{authorfullhash}{1647446aa5d6306a80a4089f7b8c7bf6}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Philosophical Quarterly}
+      \field{title}{Species Natures: A Critique of Neo-Aristotelian Ethics}
+      \field{volume}{70}
+      \field{year}{2020}
+      \field{pages}{480\bibrangedash 501}
+      \range{pages}{22}
+    \endentry
     \entry{Lewinsohn2024}{article}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=cc29b7e1bde26b7596ee3034dee47084}{%
@@ -5075,6 +5103,43 @@
       \field{year}{2016}
       \field{pages}{849\bibrangedash 863}
       \range{pages}{15}
+    \endentry
+    \entry{LockhartLott}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=7c3d38387c80a7a1d7080fa998d8313b}{%
+           family={Lockhart},
+           familyi={L\bibinitperiod},
+           given={Jennifer\bibnamedelima Ryan},
+           giveni={J\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=490a6a4732efde1d71fe411874b6081b}{%
+           family={Lott},
+           familyi={L\bibinitperiod},
+           given={Micah},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{1b1ab5f629fb9b7048a0c669d6578541}
+      \strng{fullhash}{1b1ab5f629fb9b7048a0c669d6578541}
+      \strng{bibnamehash}{1b1ab5f629fb9b7048a0c669d6578541}
+      \strng{authorbibnamehash}{1b1ab5f629fb9b7048a0c669d6578541}
+      \strng{authornamehash}{1b1ab5f629fb9b7048a0c669d6578541}
+      \strng{authorfullhash}{1b1ab5f629fb9b7048a0c669d6578541}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Synthese}
+      \field{title}{Are Life Forms Real? Aristotelian Naturalism and Biological Science}
+      \field{volume}{203}
+      \field{year}{2024}
+      \field{pages}{1\bibrangedash 33}
+      \range{pages}{33}
+      \verb{doi}
+      \verb 10.1007/s11229-023-04459-x
+      \endverb
     \endentry
     \entry{LoewerLawsTime}{article}{}
       \name{author}{1}{}{%
