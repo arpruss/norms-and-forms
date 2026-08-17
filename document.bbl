@@ -427,6 +427,49 @@
       \field{title}{Nicomachean Ethics}
       \field{year}{1926}
     \endentry
+    \entry{AristotlePhys14}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=798a01f212a8e620a6940400717a56d9}{%
+           family={Aristotle},
+           familyi={A\bibinitperiod}}}%
+      }
+      \name{translator}{2}{}{%
+        {{hash=4777ba269fde4ea0526ff057345e4085}{%
+           family={Wicksteed},
+           familyi={W\bibinitperiod},
+           given={P.\bibnamedelimi H.},
+           giveni={P\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=6db3a2434d88f6db3cef04fc0807932e}{%
+           family={Cornford},
+           familyi={C\bibinitperiod},
+           given={F.\bibnamedelimi M.},
+           giveni={F\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Cambridge, MA}%
+      }
+      \list{publisher}{1}{%
+        {Harvard University Press}%
+      }
+      \strng{namehash}{798a01f212a8e620a6940400717a56d9}
+      \strng{fullhash}{798a01f212a8e620a6940400717a56d9}
+      \strng{bibnamehash}{798a01f212a8e620a6940400717a56d9}
+      \strng{authorbibnamehash}{798a01f212a8e620a6940400717a56d9}
+      \strng{authornamehash}{798a01f212a8e620a6940400717a56d9}
+      \strng{authorfullhash}{798a01f212a8e620a6940400717a56d9}
+      \strng{translatorbibnamehash}{9742ebd8d43330728a2d306f1a721baf}
+      \strng{translatornamehash}{9742ebd8d43330728a2d306f1a721baf}
+      \strng{translatorfullhash}{9742ebd8d43330728a2d306f1a721baf}
+      \field{extraname}{4}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Physics: Books 1--4}
+      \field{year}{1957}
+    \endentry
     \entry{ArmstrongWorld}{book}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=9c343a8ae4fbfd75fa0c282992319435}{%
@@ -6293,6 +6336,35 @@
       \field{pages}{128\bibrangedash 151}
       \range{pages}{24}
     \endentry
+    \entry{PlantingaBasic}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=a16d3a9df3138b52eabc36e563ab1197}{%
+           family={Plantinga},
+           familyi={P\bibinitperiod},
+           given={Alvin},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{a16d3a9df3138b52eabc36e563ab1197}
+      \strng{fullhash}{a16d3a9df3138b52eabc36e563ab1197}
+      \strng{bibnamehash}{a16d3a9df3138b52eabc36e563ab1197}
+      \strng{authorbibnamehash}{a16d3a9df3138b52eabc36e563ab1197}
+      \strng{authornamehash}{a16d3a9df3138b52eabc36e563ab1197}
+      \strng{authorfullhash}{a16d3a9df3138b52eabc36e563ab1197}
+      \field{extraname}{1}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Noûs}
+      \field{title}{Is Belief in God Properly Basic?}
+      \field{volume}{15}
+      \field{year}{1981}
+      \field{pages}{41\bibrangedash 51}
+      \range{pages}{11}
+    \endentry
     \entry{PlantingaWarrant}{book}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=a16d3a9df3138b52eabc36e563ab1197}{%
@@ -6311,6 +6383,7 @@
       \strng{authorbibnamehash}{a16d3a9df3138b52eabc36e563ab1197}
       \strng{authornamehash}{a16d3a9df3138b52eabc36e563ab1197}
       \strng{authorfullhash}{a16d3a9df3138b52eabc36e563ab1197}
+      \field{extraname}{2}
       \field{sortinit}{P}
       \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
       \field{extradatescope}{labelyear}

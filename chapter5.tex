@@ -135,7 +135,7 @@ punish falsehood more or may reward truth more, either in general or in specific
 an oversensitivity to danger is not a problem. Thus the Aristotelian 
 species-relative answer to the Mersenne questions is particularly appealing.
 
-\section{Logics of induction}
+\section{Logics of induction}\label{sec:Carnap}
 Attempts have been made to give precise answers to questions about the reasonableness of inductive 
 inferences using a rigorously formulated logics of induction, most famously by \citeauthor{CarnapLFP2} (\citeyear{CarnapLFP2}, \citeyear{CarnapContinuum}). Let us suppose, first, that some such
 logic, call it $L_{12}$, does indeed embody the correct answers. Nonetheless, we will have a Mersenne question
@@ -251,9 +251,9 @@ pogative-charge-hypothesis can be given in terms of the relationship between the
 we will need a function from predicates to degrees of projectibility, and the choice of that function will have infinitely
 many degrees of freedom.
 
-\section{Epistemic value}
+\section{Epistemic value}\label{sec:epistemic-value}
 \subsection{Epistemic value on its own}
-\subsubsection{Scoring rules}
+\subsubsection{Scoring rules}\label{sec:scoring-rules}
 Plausibly, the more sure you are of a truth, the better off epistemically you are, and similarly the more sure you are
 of a falsehood, the worse off you are. 
 
@@ -366,7 +366,7 @@ However, it is important to note that while there may be room for rational peopl
 think that there are rational constraints on epistemic preferences that go beyond formal conditions such as strict propriety, continuity
 or symmetry---where the last is the condition that $T(p)=F(1-p)$. 
 
-Let $T_0(x)=1000$ if $x\ge 0.999$, $T_0(x)=-1000000$ if $x \le 0.001$, and $T_0(x)=0$ otherwise. Let $F_0(x)=T_0(1-x)$.
+Let $T_0(x)=1000$ if $x\ge 0.999$, $T_0(x)=-999000$ if $x \le 0.001$, and $T_0(x)=0$ otherwise. Let $F_0(x)=T_0(1-x)$.
 Then the pair $T_0$ and $F_0$ is a symmetric and proper scoring rule (see Appendix~B).
 
 Consider now a scientist who adopts this scoring rule for some hypothesis $H$ of minor importance about some chemicals in 
@@ -394,10 +394,10 @@ of zero by both $T_0$ and $F_0$.
 On the lottery option, however, conditionally on getting a winning ticket, it is equally likely given the 
 scientist's priors that the machine will return a verdict for or against $H$, which will result in a credence 
 of $0.9991$ or $0.0009$, respectively, and in either case there will be a $0.0009$
-chance that the verdict is erroneous. Since $F_0(0.0009)=T_0(0.9991)=1000$ and $T_0(0.0009)=F_0(0.9991)=-1000000$, it follows 
+chance that the verdict is erroneous. Since $F_0(0.0009)=T_0(0.9991)=1000$ and $T_0(0.0009)=F_0(0.9991)=-999000$, it follows 
 that the expected epistemic value, conditionally on winning the lottery, will be:
 $$
-    \frac{0.9991 \cdot 1000+0.0009\cdot (-1000000)}2+\frac{0.9991 \cdot 1000+0.0009\cdot (-1000000)}2 = 99.1 > 0.
+    \frac{0.9991 \cdot 1000+0.0009\cdot (-999000)}2+\frac{0.9991 \cdot 1000+0.0009\cdot (-999000)}2 = 100 > 0.
 $$
 And if we multiply this by the $1/1000000$ chance of winning the lottery, we still have something positive, so
 the expected epistemic value of playing the lottery with the plan of using machine $B$ is positive, while that of
@@ -476,7 +476,7 @@ imagine beings slightly different from us for whom a different comparison is app
 to be more contemplative or more practical. And we have the familiar Mersenne question about why it is that 
 for us the weighing goes as it does, rather than in some other way.
 
-\section{Bayesianism}
+\section{Bayesianism}\label{sec:Bayesianism}
 \subsection{Introduction}
 Bayesianism is the best developed picture of what a precise and rigorous account of epistemic rationality would be like.
 It is thus worth looking carefully at what kind of answers the Bayesian could give to the questions we have been asking
@@ -578,10 +578,11 @@ constitutes the agent as a human being and hence as an agent. But like in extern
 internal facts are not directly available to the agent's consciousness. They can be teased out by generous application of
 Aristotelian optimistic methodology to our intuitions and to the patterns of inference exhibited by the movements 
 between evidence and posteriors among those agents whom our intuitions hold up as exemplars of rationality
-(as in the maxim that as for priors, ``by their posteriors ye shall know them''). Again, as in the ethical case??backref,
+(as in the maxim that as for priors, ``by their posteriors ye shall know them''). Again, as in the ethical 
+case (Section~\ref{ch:meta}.\ref{sec:ethics-internalism}),
 this lets us have \textit{something} of internalism, while yet preserving some of the advantages of externalism.
 
-\subsection{Anti-skepticism}
+\subsection{Anti-skepticism}\label{sec:skepticism}
 There are skeptical hypotheses that predict the same observations as our best non-skeptical theories
 about the world. Indeed, for any reasonable theory $T$ of the world, there is a variety of skeptical hypotheses about
 how the world merely looks as if $T$, say due to an evil demon, or us being in a simulation, or random quantum 
@@ -731,7 +732,7 @@ equal probability $1/2$, or should we have a finer-grained division into natural
 probability $1/3$? Or should we have a longer list, with dualism being split into Platonism, monotheism,
 polytheism, etc., but naturalism left as one item, now of rather low prior probability? 
 
-Second, as we basically already saw in ??backref, if we are not careful, we will undercut induction.
+Second, if we are not very careful, we will completely undercut induction.
 If every assignment of black and white coloration to a set of ravens has equal probability, then until
 they have observed \textit{all} the ravens, the Bayesian's credence that all the ravens are black will
 be no more than $1/2$.\footnote{Specifically, if there are $N$ ravens in total, and $n$ have been observed 
@@ -739,7 +740,7 @@ to be black, there are $2^{N-n}$ sequences of raven coloration compatible with t
 one of which has all the ravens black, the probability that they are all black will be $1/2^{N-n}$, which
 is less than $1/2$ if $n<N$.} Now, perhaps we should not consider every sequence of ravens on par with 
 every other one. But now the question of which sequences are on par with which does not seem to have any
-canonical answer. As we discussed in ??backref, Carnap thought that lumping together sequences 
+canonical answer. As we discussed in Section~\ref{sec:Carnap}, Carnap thought that lumping together sequences 
 according to the \textit{frequency} of blackness was the way to go. But if not all sequences are on par,
 why should we think all \textit{sequences} are on par? Intuitively having exactly one out of $N$ being black 
 is equivalent to having exactly one out of $N$ being white, but why should either of these be equivalent 
@@ -929,7 +930,7 @@ The option of basic unconditional probabilities raises Mersenne questions. As fo
 an \textit{a priori} certain fundamental explanatory theory, there is perhaps only one candidate for such a 
 theory in the philosophical literature: theism, either as supported by classical deductive arguments from
 premises that are themselves certain (such as one's own existence, and various metaphysical principles), or 
-supported as a basic belief required of all human beings by their nature.??cf.Plantinga 
+supported as a basic belief required of all human beings by their nature~\parencitecf{PlantingaBasic}.
 
 Such an \textit{a 
 priori} theism is worth considering, but it raises its own difficulties for the explanationist project. For 
@@ -938,7 +939,7 @@ it does not seem theologically plausible to think that God is bound by precise p
 an \textit{a priori} theism, we would have Mersenne questions about priors for conditional probabilities about
 what God would do if God existed.
 
-\subsection{Non-Bayesian update}
+\subsection{Non-Bayesian update}\label{sec:change-priors}
 We have thus seen that our Aristotelian metaepistemology provides a grounding for priors that seems superior to main
 Bayesian alternatives on offer. But there is at least one more area where Aristotelianism does better. 
 Bayesianism is committed to updating by conditionalization being the only permissible way to update credences. 
@@ -977,7 +978,7 @@ closer to truth and a $0.1$ chance of moving you slightly away from truth. It se
 that the pill moves your credences in important propositions closer to truth at the expense of moving your credences in some
 unimportant propositions further from the truth.
 
-This suggests that we will need to quantify epistemic value, much as we did in Section??backref, and then say
+This suggests that we will need to quantify epistemic value, much as we did in Section~\ref{sec:scoring-rules}, and then say
 something like this: You are epistemically required (respectively, permitted) to opt for a pragmatically costless change of 
 credence when doing so increases (does not decrease) expected epistemic value. If we quantify epistemic value in terms of
 strictly proper scoring rules, a delightful result of this move is that we do not need to handle the ordinary case of 
@@ -987,8 +988,8 @@ epistemic value as measured by a strictly proper scoring rule.\footnote{Cf.~\cit
 discuss how maximizing such epistemic value also helps in cases where you are unreliable in fulfilling your
 epistemic plans.}
 
-However, as we also saw in Section??backref, the choice of a scoring rule or measure of epistemic value involves infinitely
-many free parameters, and at the same time not every scoring rule that satisfies the formal constraints is rationally
+However, the choice of a scoring rule or measure of epistemic value involves infinitely
+many free parameters (cf.\ Section~\ref{sec:scoring-rules} and Lemma~\ref{lem:T2F} in Appendix~A), and at the same time not every scoring rule that satisfies the formal constraints is rationally
 plausible. In our present context of evaluating non-conditionalizing updates the point is particularly clear. For when
 evaluating credence-changing pills, we need to take into account the \textit{importance} of the affected credences, and
 that is not a formal criterion. 
@@ -1006,7 +1007,7 @@ too messy and too complex for any sort of an expected epistemic utility calculat
 
 Yet the fact that a situation is messy does not get us off the hook. There will still
 be a distinction between right and wrong ways to proceed, even if the rule cannot be formalized. We have here something very
-similar to the kinds of messy everyday ethics cases that are grist for the situationist's mill.??backref 
+similar to the kinds of messy everyday ethics cases that are grist for the situationist's mill (cf.\ Chapter~\ref{ch:ethics}).
 It is unlikely that the answer is given by any elegant principle without the kinds of parameters that raise Mersenne
 questions, but at the same time there \textit{is} an answer, and we expect there to be something to ground it.
 
@@ -1078,8 +1079,8 @@ it is not the right meta-epistemology: to reason rightly is not the same thing a
 
 \section{The knowledge-first alternative}
 Suppose that knowledge is a highly natural informationally complex universal with very complex necessary 
-truths associated with it, much like obligation and love were suggested to be in the Platonic approach 
-in ??backref. Some of the Mersenne questions above can be given answers in terms of knowledge, on this
+truths associated with it, much like obligation and love are suggested to be in Platonic approaches 
+in Section~\ref{ch:ethics}.\ref{sec:complex-universals}. Some of the Mersenne questions above can be given answers in terms of knowledge, on this
 knowledge-first account~\parencitecf{WilliamsonKn}. Thus,
 maybe it is reasonable to believe that all ravens are black when one has observed enough ravens to gain
 knowledge.\footnote{Knowledge-first as an alternative to the Aristotelian account was suggested to 
@@ -1088,13 +1089,14 @@ the right priors are ones such that relying on them leads to knowledge when ever
 right (though one might be reasonably suspicious whether one can make this condition precise).
 
 Essentially the same objections, however, can be given to the knowledge-first solution here as to the
-ethical Platonist approach in terms of informationally complex universals.??backref We do not
+ethical Platonist approach in terms of informationally complex universals (cf.\ Section~\ref{ch:ethics}.\ref{sec:complex-universals}). We do not
 have an adequate knowledge-first solution to the problem of the appearance of contingency in the norms.
 Moreover, there are a number of epistemological phenomena that are unlikely to be account for with the
 binary relation of knowledge between an agent and a proposition. For instance, it is typically better to 
 have a justified higher credence in a truth, even if this does not change whether one has knowledge,
 for instance because one already had enough evidence for knowledge, and there will be apparently arbitrary
-parameters in the mapping from the credence to the value, perhaps of the sort discussed earlier.??backref
+parameters in the mapping from credence to value, perhaps of the sort discussed in the context of scoring
+rules (Section~\ref{sec:scoring-rules}, above).
 It does not seem likely that such a function from credence to value can be accounted for in terms of 
 knowledge.
 
@@ -1171,7 +1173,7 @@ Experiments in machine learning suggest that for certain kinds of problems it is
 and hence have priors that embody some substantive information. Pre-training presumably comes with a sacrifice of flexibility.
 Thus whether pre-training is useful depends on the subject area and the kinds of situations the system will face. And
 of course the content of any pre-training is highly contingent. It would be surprising if our evolutionary process did not 
-involve any pre-training. Our discussion of skepticism in ??backref implies that it is normal for us to have certain substantive 
+involve any pre-training. Our discussion of skepticism in Section~\ref{sec:skepticism} implies that it is normal for us to have certain substantive 
 priors, and that not to have them would be abnormal. Some empirical evidence for this is given by infants' neural responses to
 snake pictures~\parencite{BertelsSnakes}. But what those priors should be is surely highly 
 species-dependent: we would not expect alien babies evolved for an environment without any snakelike objects to naturally
@@ -1376,7 +1378,7 @@ which is surely not the right result.
 In \citeasnoun{PrussInfinity} I argued that a good solution to epistemological paradoxes like this is to reject the metaphysical possibility
 of an event depending causally on infinitely many events, in the way that the angel's accouncement depends on the infinite
 number of die rolls. But there is another possible solution: we can deny that our epistemic norms extend to far-fetched
-situations, just as in ??backref it was suggested that our ethical norms do not apply to far-fetched situations. Whether this is 
+situations, just as in Section~\ref{ch:meta}.\ref{sec:outlandish1} it was suggested that our ethical norms do not apply to far-fetched situations. Whether this is 
 a completely satisfactory resolution to the paradox is not clear. For there is some plausibility in thinking that if 
 predicaments like the above were metaphysically possible, there could be rational beings who could reason
 in them. But it seems there couldn't be any. However, no matter what we say about the metaphysical possibility of such beings,
@@ -1408,7 +1410,7 @@ fits neatly with this, because we do not expect human nature to tell us how to b
 our natural environment.
 
 \section{Epistemic supererogation}
-In ??backref, we saw that a Natural Law ethic can easily accommodate the concept of supererogation by allowing for a case
+In Section~\ref{ch:meta}.\ref{sec:superero}, we saw that a Natural Law ethic can easily accommodate the concept of supererogation by allowing for a case
 where one flourishes more in willing to $\phi$ than in willing to $\psi$, but nonetheless willing to $\psi$ would not be a case of languishing. This was
 a special case of a general phenomenon where one state can constitute greater flourishing than another, even though neither
 is a case of languishing. 
@@ -1483,7 +1485,7 @@ helps one get there.
 Indeed, there are proposed norms which can be justified in this way. As noted a number of times, if one measures the utility of a 
 doxastic state by a strictly proper scoring rule, then by the agent's own lights Bayesian update is 
 an algorithm that maximizes epistemic utility. Similarly, it seems reasonable to think that the
-epistemic rationality involved in choosing which evidence to pursue, i.e., which experiments to perform??backref, 
+epistemic rationality involved in choosing which evidence to pursue, i.e., which experiments to perform, 
 can be accounted for by such a maximization. And finally the norm that one's credences should be 
 (probabilistically) consistent can be justified by score maximization, because it is a theorem
 that if one's credences are not consistent, there is a set of credences that are guaranteed to yield 
@@ -1499,12 +1501,12 @@ reasoning initially has some hope of answering the question
 of why one should bother being epistemically rational, assuming we take it for granted that the good is worth
 having. 
 
-But this hope may not be borne out. As argued in ??backref, there is good reason to think that prudential 
+But this hope may not be borne out. As argued in Section~\ref{ch:ethics}.\ref{sec:risk}, there is good reason to think that prudential 
 rationality does not always involve maximizing utility---risk needs to be taken into account. Once we have
 seen that expected utility maximization is not the only reasonable position to take with respect to prudential
 goods, why should we assume that it is so for epistemic goods?
 
-But more seriously, as already seen in ??backref, Bayesian update, consistency and the norms governing choice of experiment do not exhaust the 
+But more seriously, as already seen in Section~\ref{sec:Bayesianism}, Bayesian update, consistency and the norms governing choice of experiment do not exhaust the 
 scope of epistemic norms, especially in the context of requiring substantive
 objective norms constraining rational priors going beyond consistency. 
 
@@ -1545,7 +1547,7 @@ health of our bodies. It does, after all, seem to be a part of the proper functi
 both physical and cognitive health.
 
 This answer is also compatible with Aristotelianism: we can account for the moral obligation in the Natural Law
-way discussed in Chapter??backref. But in any case we should not take the moral account of why we should be 
+way discussed in Chapter~\ref{ch:meta}. But in any case we should not take the moral account of why we should be 
 rational too far. We \textit{can} have two people who act equally well morally, but one 
 of them does cognitively better than the other, due to innate talent, opportunities for cognitive self-improvement,
 and simple luck at getting to the truth. Epistemic value goes beyond moral excellence, if only because it includes 
@@ -1558,7 +1560,7 @@ our cognitive faculties. That answer nicely generalizes to yield an account of e
 of kinds of beings, as long as we can make sense of what cognitive faculties are. 
 
 In the case of morality, a similar functional approach defined morality in terms of the proper function of the will,
-and the will as a system directing behavior in the light of practical good-directed reasons.??backref We might try now for
+and the will as a system directing behavior in the light of practical good-directed reasons (Section~\ref{ch:meta}.\ref{sec:moral-functionalism}). We might try now for
 a similar account but this time in terms of reasons directed at epistemic goods, such as correct and informative 
 (say in the sense of yielding understanding or in terms of scoring rules) representation of the world.
 This approach is more problematic, however, than on the moral side, especially if we are open to a wide range of 
@@ -1577,7 +1579,7 @@ it seems imaginable that there be rational beings of whom it is normatively true
 Third, objective Bayesianism has three places for epistemic normativity: updating on evidence, choosing which 
 experiments to perform, and having rational priors (at least ultimate ones). The update and experiment-selection are indeed based on 
 reasons. However, the priors are not typically attained on the basis of reasons, but appear to be simply innately 
-had by an agent (though in cases where one changes one's priors reasons may be involved---cf.\ ??backref). Again, even if objective 
+had by an agent (though in cases where one changes one's priors reasons may be involved---cf.\ Section~\ref{sec:change-priors}). Again, even if objective 
 Bayesianism is not the right normative theory of humans, it is plausible that it could be the normative theory for 
 a different kind of rational being. Moreover, there are other phenomena that could be governed by rational 
 normativity that are similar to that of priors, such as innate beliefs, or beliefs passed on genetically in 
@@ -1606,7 +1608,7 @@ for instance, has no obligations to ever offer apologies for wrongs done.
 \subsection{Grounds of epistemic norms}
 Perhaps the primary question of metaethics is whether ethically normative claims have truth value, and if so, what grounds their truth value.
 The Natural Law answer that I have been defending is that ethically normative claims have truth value grounded in facts about the 
-flourishing of the will, which facts in turn are grounded in our form (??add this!). Analogically, we would expect epistemologically 
+flourishing of the will, which facts in turn are grounded in our form. Analogically, we would expect epistemologically 
 normative facts to have truth value grounded in facts about the flourishing of the intellect, which facts in turn would be grounded
 in our form.
 
@@ -1771,7 +1773,7 @@ $F(1)=-\infty$.
 Recall our pathological scoring rule given by:
 $$
 	T_0(x) = \begin{cases} 1000 &\text{if }x\ge 0.999\\
-						-1000000 &\text{if }x\le 0.001\\
+						-999000 &\text{if }x\le 0.001\\
 						0 &\text{otherwise}.
 						\end{cases}
 $$
@@ -1780,7 +1782,7 @@ $$
 	F_0(1-x).
 $$
 
-In ??backref, I claimed that this rule was proper and that it can be written as a limit of
+In Section~\ref{sec:pathological}, I claimed that this rule was proper and that it can be written as a limit of
 symmetric, strictly proper, finite and continuous scoring rules. It is easy to see that if it
 can be written as such a limit, then it \textit{is} proper, so we only need to show it can be
 written as such a limit.
@@ -1790,7 +1792,10 @@ strictly proper scoring rules by letting $t_n(x)=t(x)-(1-x)^2/n$ and $f_n(x)=f(x
 by the functions $-(1-x)^2$ and $-x^2$ is strictly proper, and the sum of a proper and a strictly proper scoring rules is
 strictly proper. 
 
-Thus, all we need to show is that is that we can approximate $(T_0,F_0)$ with symmetric, finite, continuous and proper scoring rules.
+Given a function $T$ satisfying the conditions of Lemma~\ref{lem:T2F}, write $T^\dag$ for the function $F$
+specified by Lemma~\ref{lem:T2F}. It is straightforward to verify\footnote{I verified ths with Mathematica software.} that $F_0=T_0^\dag$, and hence by the Lemma, the pair $(T_0,F_0)$ is proper.
+
+All we now need to show is that is that we can approximate $(T_0,F_0)$ with symmetric, finite, continuous and proper scoring rules.
 Furthermore, we can drop the symmetry requirement. For write $f^*(x)=f(1-x)$. Then $(t,f)$ is a proper scoring rule if and
 only if $(f^*,t^*)$ is a proper scoring rule. Now if $T_0(x)=\lim_{n\to\infty} t_n(x)$ for all $x$ and $F_0(x)=\lim_{n\to\infty} f_n(x)$, then
 $$
@@ -1803,21 +1808,17 @@ $$
 But $T_0=F^*_0$ and $F_0=T_0^*$, so the left-hand sides are just $T_0(x)$ and $F_0(x)$, respectively. Moreover, $((t_n+f_n^*)/2,(f_n+t_n^*)/2)$  
 will be a continuous symmetric finite proper scoring rule if $(t_n,f_n)$ is a continuous finite proper scoring rule.
 
-Fix $\e>0$. Let $\phi_\e$ be a continuous non-negative finite function that is zero except on the set $U_\e=(0.001,0.001+\e]\cup [0.999-\e,0.999)$, 
-and is such that $\int_{0.999-\e}^{0.999} (1-u) \phi_\e(u)\, du = 1000$ and $\int_{0.001}^{0.001+\e} u \phi_\e(u) \, du = 1000000$. 
-Define 
-$$
-    T_n(x) = \int_{1/2}^x \, (1-u)\phi_{1/n}(u) \, du
-$$
-and 
-$$
-    F_n(x) = \int_{1/2}^x \, u \phi_{1/n}(u) \, du.
-$$
-By ??SchervishThm4.2, $(T_n,F_n)$ is proper. It is clearly continuous and finite. It is, further, easy to calculate that 
-$T_n(x)$ and $F_n(x)$ equal $T(x)$ and $F(x)$ except perhaps on $U_{1/n}$.??check For any $x$ in $[0,1]$, there is an $N$
-such that $x$ is not in $U_{1/n}$ for any $n\ge N$. It follows that $T_0(x)=T_n(x)$ and $F_0(x)=F_n(x)$ if $n\ge N$, and we have
-the limiting condition we wanted.
+Let $T_n$ be the (unique) continuous piecewise-linear function that (a)~is linear on each of the closed intervals $[0,0.001]$, $[0.001,0.001+1/n]$, $[0.001+1/n,0.999-1/n]$, $[0.999-1/n,0.999]$ and $[0.999,1]$, and (b)~agrees with
+$T_0$ on $[0,0.001]$, $[0.001+1/n,0.999-1/n]$ and $[0.999,1]$. This function is monotone non-increasing, bounded 
+in absolute value by $999000$, and converges pointwise to $T$ everywhere on $[0,1]$ as $n\to\infty$.
 
+For $n>0$, let $F_n=T_n^\dag$ so that $(T_n,F_n)$ is proper. Note 
+that $F_n$ is continuous as $T_n$ is. We also have $F_0=T_0^\dag$.
+The bounded convergence theorem then shows that 
+\begin{equation}\label{eq:limFn}
+\lim_{n\to\infty} F_n(x) = F_0(x)
+\end{equation}
+for $x\le 0.999$. But since $T_n$ agrees with $T_0$ for $x>0.999$, \eqref{eq:limFn} is true for all $x$.
 \chaptertail 
 
 
