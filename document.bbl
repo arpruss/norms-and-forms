@@ -3661,12 +3661,12 @@
     \endentry
     \entry{JacksonPaternalism}{incollection}{}
       \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=5534b78d30f4ce6b5d7bcae849e9bccf}{%
+        {{un=1,uniquepart=given,hash=5534b78d30f4ce6b5d7bcae849e9bccf}{%
            family={Jackson},
            familyi={J\bibinitperiod},
            given={Elizabeth},
            giveni={E\bibinitperiod},
-           givenun=0}}%
+           givenun=1}}%
       }
       \name{editor}{2}{}{%
         {{hash=80ee1ec9f8cf0b6f21d9da5251dbd1ca}{%
@@ -3703,6 +3703,34 @@
       \field{year}{2021}
       \field{pages}{132\bibrangedash 150}
       \range{pages}{19}
+    \endentry
+    \entry{JacksonQualia}{article}{}
+      \name{author}{1}{}{%
+        {{un=1,uniquepart=given,hash=83b16710350827d7ca89d4dcd07f2e82}{%
+           family={Jackson},
+           familyi={J\bibinitperiod},
+           given={Frank},
+           giveni={F\bibinitperiod},
+           givenun=1}}%
+      }
+      \strng{namehash}{83b16710350827d7ca89d4dcd07f2e82}
+      \strng{fullhash}{83b16710350827d7ca89d4dcd07f2e82}
+      \strng{bibnamehash}{83b16710350827d7ca89d4dcd07f2e82}
+      \strng{authorbibnamehash}{83b16710350827d7ca89d4dcd07f2e82}
+      \strng{authornamehash}{83b16710350827d7ca89d4dcd07f2e82}
+      \strng{authorfullhash}{83b16710350827d7ca89d4dcd07f2e82}
+      \field{sortinit}{J}
+      \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Philosophical Quarterly}
+      \field{title}{Epiphenomenal Qualia}
+      \field{volume}{32}
+      \field{year}{1982}
+      \field{pages}{127\bibrangedash 136}
+      \range{pages}{10}
     \endentry
     \entry{JeffreyWard}{article}{}
       \name{author}{2}{}{%
