@@ -8499,6 +8499,34 @@
       \field{pages}{435}
       \range{pages}{1}
     \endentry
+    \entry{SorensenVagueness}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=f736c8b6642f306a402a14442e5ab13e}{%
+           family={Sorensen},
+           familyi={S\bibinitperiod},
+           given={Roy\bibnamedelima A.},
+           giveni={R\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{f736c8b6642f306a402a14442e5ab13e}
+      \strng{fullhash}{f736c8b6642f306a402a14442e5ab13e}
+      \strng{bibnamehash}{f736c8b6642f306a402a14442e5ab13e}
+      \strng{authorbibnamehash}{f736c8b6642f306a402a14442e5ab13e}
+      \strng{authornamehash}{f736c8b6642f306a402a14442e5ab13e}
+      \strng{authorfullhash}{f736c8b6642f306a402a14442e5ab13e}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Synthese}
+      \field{title}{Vagueness, Measurement, and Blurriness}
+      \field{volume}{75}
+      \field{year}{1988}
+      \field{pages}{45\bibrangedash 82}
+      \range{pages}{38}
+    \endentry
     \entry{SosaVirtue}{book}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=93ccfe488a5fbcc8d3e35ca30e844673}{%
