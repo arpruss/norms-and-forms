@@ -4612,6 +4612,52 @@
       \field{pages}{216\bibrangedash 222}
       \range{pages}{7}
     \endentry
+    \entry{LeeGeorge}{book}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=bb1afdc67fb9dc955ab0b9d37c9410aa}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={Patrick},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4a52b9398a2bddcb6fd4fc709515b2f7}{%
+           family={George},
+           familyi={G\bibinitperiod},
+           given={Robert\bibnamedelima P.},
+           giveni={R\bibinitperiod\bibinitdelim P\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=4a52b9398a2bddcb6fd4fc709515b2f7}{%
+           family={George},
+           familyi={G\bibinitperiod},
+           given={Robert\bibnamedelima P.},
+           giveni={R\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {New York}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge University Press}%
+      }
+      \strng{namehash}{6b3b2e356c98f64cdfa220e8f1d49ce0}
+      \strng{fullhash}{6b3b2e356c98f64cdfa220e8f1d49ce0}
+      \strng{bibnamehash}{6b3b2e356c98f64cdfa220e8f1d49ce0}
+      \strng{authorbibnamehash}{6b3b2e356c98f64cdfa220e8f1d49ce0}
+      \strng{authornamehash}{6b3b2e356c98f64cdfa220e8f1d49ce0}
+      \strng{authorfullhash}{6b3b2e356c98f64cdfa220e8f1d49ce0}
+      \strng{editorbibnamehash}{4a52b9398a2bddcb6fd4fc709515b2f7}
+      \strng{editornamehash}{4a52b9398a2bddcb6fd4fc709515b2f7}
+      \strng{editorfullhash}{4a52b9398a2bddcb6fd4fc709515b2f7}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Body-Self Dualism in Contemporary Ethics and Politics}
+      \field{year}{2007}
+    \endentry
     \entry{LeibnizAG}{book}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=66d34e9c5cdb74c859f781112c4b8598}{%
